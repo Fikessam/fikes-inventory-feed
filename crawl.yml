@@ -1,0 +1,47 @@
+name: Crawl Inventory & Deploy Feed
+
+on:
+  schedule:
+    # Run every day at 6 AM and 6 PM Central (11:00 and 23:00 UTC)
+    - cron: "0 11,23 * * *"
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  crawl-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install Chromium system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+            libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 \
+            libxfixes3 libxrandr2 libgbm1 libasound2t64 \
+            libpango-1.0-0 libcairo2 libgtk-3-0
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Run crawler
+        run: node scraper.js
+
+      - name: Commit & push feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/feed.xml docs/inventory.json
+          git diff --staged --quiet || git commit -m "chore: update inventory feed [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push

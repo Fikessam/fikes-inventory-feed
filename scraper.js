@@ -399,11 +399,14 @@ async function scrapeVdp(browser, url) {
       }
 
       // ---- Images ----
-      // Capture any image whose src contains the VIN (covers the GM CDN
-      // pattern vini.gm.com/realimages/{VIN}/{hash}.jpeg) PLUS known
-      // non-GM CDNs used for used/trade-in vehicles (e.g. Saabs etc. served
-      // from vehicle-images.carscommerce.inc), since not every used vehicle
-      // is on GM's CDN.
+      // VIN-in-URL is the ONLY matching signal. This is deliberate: a
+      // hostname-only fallback (matching any image on the page from a
+      // known CDN, e.g. vini.gm.com/realimages) was tested and confirmed
+      // to pull in unrelated vehicles' photos whenever a same-CDN "Similar
+      // Vehicles" widget was present on the page and this vehicle had no
+      // real photos of its own — exactly the contamination bug this
+      // replaced. A vehicle with no VIN-matched images now correctly
+      // returns an empty array rather than risk showing the wrong car.
       const rawImgSrcs = Array.from(document.querySelectorAll('img'))
         .map((img) => {
           const raw =
@@ -423,13 +426,7 @@ async function scrapeVdp(browser, url) {
       const allImgUrls = Array.from(new Set([...rawImgSrcs, ...srcsetUrls]));
       const vinUpper = (vinArg || '').toUpperCase();
 
-      const images = allImgUrls.filter((src) => {
-        const upper = src.toUpperCase();
-        if (vinUpper && upper.includes(vinUpper)) return true;
-        if (/vini\.gm\.com\/realimages/i.test(src)) return true;
-        if (/vehicle-images\.carscommerce\.inc/i.test(src)) return true;
-        return false;
-      });
+      const images = allImgUrls.filter((src) => vinUpper && src.toUpperCase().includes(vinUpper));
 
       return {
         rawTitle,
@@ -447,6 +444,10 @@ async function scrapeVdp(browser, url) {
       } catch (err) {
         console.warn(`  Failed to write spec debug for ${vin}: ${err.message}`);
       }
+    }
+
+    if (data.images.length === 0) {
+      console.log(`  WARNING: 0 VIN-matched images found for VIN ${vin} — will be excluded from feed.xml`);
     }
 
     const { year, make, model, trim } = parseTitle(data.rawTitle);
@@ -566,7 +567,18 @@ ${additionalImages.map((img) => `    <g:additional_image_link>${escapeXml(img)}<
 function writeOutputs(vehicles) {
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
+  const noImageVehicles = vehicles.filter((v) => !v.images || v.images.length === 0);
+  if (noImageVehicles.length > 0) {
+    console.log(
+      `${noImageVehicles.length} vehicle(s) have 0 images and will be EXCLUDED from feed.xml ` +
+        '(still present in inventory.json for visibility): ' +
+        noImageVehicles.map((v) => v.vin).join(', ')
+    );
+  }
+
   // ---- inventory.json ----
+  // Keeps every scraped vehicle, including zero-image ones, so nothing is
+  // silently lost — this is the full audit trail.
   const jsonOut = {
     generated_at: new Date().toISOString(),
     pixel_id: PIXEL_ID,
@@ -574,18 +586,28 @@ function writeOutputs(vehicles) {
     total_vehicles: vehicles.length,
     new_count: vehicles.filter((v) => v.condition === 'new').length,
     used_count: vehicles.filter((v) => v.condition === 'used').length,
+    no_image_count: noImageVehicles.length,
+    no_image_vins: noImageVehicles.map((v) => v.vin),
     vehicles,
   };
   fs.writeFileSync(path.join(OUTPUT_DIR, 'inventory.json'), JSON.stringify(jsonOut, null, 2));
 
   // ---- feed.xml ----
-  const items = vehicles.map(vehicleToFeedItem).join('\n');
+  // Meta requires at least one valid image per catalog item — a zero-image
+  // item would fail feed validation anyway, so exclude those vehicles here
+  // rather than submitting a known-bad item. They're still fully visible
+  // in inventory.json above for follow-up (e.g. asking the dealership for
+  // real photos on these specific VINs).
+  const feedVehicles = vehicles.filter((v) => v.images && v.images.length > 0);
+  const items = feedVehicles.map(vehicleToFeedItem).join('\n');
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <!-- Fikes Vehicles -- Meta Commerce Manager automotive inventory feed -->
 <!-- Pixel ID ${PIXEL_ID} is associated with this catalog in Commerce -->
 <!-- Manager > Settings > Event Sources (Meta does not read pixel binding -->
 <!-- from the feed file itself); included below as <g:pixel_id> for -->
 <!-- reference/record-keeping only. -->
+<!-- ${noImageVehicles.length} vehicle(s) excluded from this feed for having -->
+<!-- 0 real images (see inventory.json no_image_vins for the list). -->
 <rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
 <channel>
   <title>Fikes Vehicles</title>
@@ -599,10 +621,9 @@ ${items}
   fs.writeFileSync(path.join(OUTPUT_DIR, 'feed.xml'), xml);
 
   console.log(
-    `Wrote ${vehicles.length} vehicles -> ${path.join(OUTPUT_DIR, 'inventory.json')} and ${path.join(
-      OUTPUT_DIR,
-      'feed.xml'
-    )}`
+    `Wrote ${vehicles.length} vehicles -> ${path.join(OUTPUT_DIR, 'inventory.json')} ` +
+      `and ${feedVehicles.length} vehicles -> ${path.join(OUTPUT_DIR, 'feed.xml')} ` +
+      `(${noImageVehicles.length} excluded from feed for 0 images)`
   );
 }
 

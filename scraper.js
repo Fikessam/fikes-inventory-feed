@@ -34,7 +34,15 @@
  *
  * OUTPUT:
  *   docs/inventory.json — raw structured vehicle data
- *   docs/feed.xml        — Meta Commerce Manager automotive XML feed
+ *   docs/feed.xml        — Meta Commerce Manager Vehicles catalog feed,
+ *                          using the <listings><listing> schema (NOT the
+ *                          generic <rss><channel><item> Google-base product
+ *                          feed format — that schema is silently rejected
+ *                          by Commerce Manager for this catalog type with
+ *                          "File format isn't supported"). See the comment
+ *                          above vehicleToFeedItem() for the full schema
+ *                          reference, confirmed against Meta's own
+ *                          downloaded XML template and live test uploads.
  * --------------------------------------------------------------------------
  */
 
@@ -522,47 +530,115 @@ function buildDescription(v) {
   return bits.length ? bits.join(', ') : v.title;
 }
 
+// ----------------------------------------------------------------------------
+// body_style normalization
+// ----------------------------------------------------------------------------
+// Meta's Vehicles catalog schema requires body_style on every listing AND
+// only accepts a fixed enum of values — raw dealership text like "Sport
+// Utility Vehicle" or "Crew Cab Pickup" is rejected outright as an
+// "Unsupported value", and a missing body_style is rejected as "Required
+// value missing". Confirmed via live Commerce Manager test uploads on
+// 2026-06-20: SEDAN, SUV, VAN, and PICKUP are valid. No other values have
+// been tested yet — if a vehicle doesn't match any pattern below, it falls
+// back to SUV (logged so it's visible, not silently guessed) rather than
+// emitting an untested enum value that could fail the whole item. If a
+// fundamentally different vehicle type joins inventory (e.g. a true coupe
+// or convertible trade-in), test the candidate value with a 1-vehicle
+// manual upload in Commerce Manager BEFORE adding it here.
+const SUV_MODEL_HINTS = [
+  'equinox', 'trailblazer', 'trax', 'traverse', 'suburban', 'tahoe', 'blazer',
+  'xt4', 'xt5', '4runner', 'rav4', 'rogue', 'santa fe', 'cr-v', 'venza', 'glb', 'x3',
+];
+const PICKUP_MODEL_HINTS = ['silverado', 'sierra', 'f-150', 'tacoma', 'colorado'];
+const VAN_MODEL_HINTS = ['sprinter', 'express', 'savana'];
+
+function normalizeBodyStyle(v) {
+  const raw = (v.body_style || '').toLowerCase();
+  const model = (v.model || '').toLowerCase();
+  const title = (v.title || '').toLowerCase();
+
+  if (/sedan/.test(raw)) return 'SEDAN';
+  if (/(sport utility|suv|activity vehicle)/.test(raw)) return 'SUV';
+  if (/(cargo van|van)/.test(raw)) return 'VAN';
+  if (/(pickup|cab)/.test(raw)) return 'PICKUP';
+
+  if (VAN_MODEL_HINTS.some((m) => model.includes(m))) return 'VAN';
+  if (PICKUP_MODEL_HINTS.some((m) => model.includes(m))) return 'PICKUP';
+  if (SUV_MODEL_HINTS.some((m) => model.includes(m))) return 'SUV';
+
+  if (/sedan/.test(title)) return 'SEDAN';
+  if (/suv/.test(title)) return 'SUV';
+  if (/(crew cab|pickup|truck)/.test(title)) return 'PICKUP';
+  if (/van/.test(title)) return 'VAN';
+
+  console.warn(
+    `  No body_style match for VIN ${v.vin} (model="${v.model}", raw body_style="${v.body_style}") — defaulting to SUV`
+  );
+  return 'SUV';
+}
+
+// ----------------------------------------------------------------------------
+// Feed item — Meta Vehicles catalog "listings/listing" schema
+// ----------------------------------------------------------------------------
+// IMPORTANT: this is NOT the generic Google-base RSS product feed format
+// (<rss><channel><item> with g:-prefixed tags). That format is what every
+// non-automotive Commerce Manager catalog uses, and it's what this file
+// used to emit — but Meta's Vehicles-type catalog (the one this dealership
+// catalog actually is) silently rejects it at the WHOLE-FILE level with
+// "File format isn't supported", because the root structure itself isn't
+// recognized as a valid vehicle listings file, no matter how clean the XML
+// inside it is.
+//
+// Confirmed correct schema (verified against Meta's own downloaded XML
+// template for a Vehicles catalog, AND against live Commerce Manager test
+// uploads on 2026-06-20):
+//   - root element: <listings>, each vehicle: <listing> (NOT <rss>/<item>)
+//   - NO g: namespace, NO g: prefix on any tag
+//   - vehicle page URL field is <url>, NOT <link>
+//   - <address format="simple"><component name="addr1">...</component>...
+//     NOT <address><addr1>...</addr1>...
+//   - <mileage><unit>.../<value>... NOT <mileage><g:value>/<g:unit>
+//   - each image is its own <image><url>...</url></image> block, NOT flat
+//     image_link / additional_image_link tags
 function vehicleToFeedItem(v) {
   const price = v.price != null ? `${Number(v.price).toFixed(2)} USD` : '';
   const images = v.images || [];
-  const primaryImage = images[0] || '';
-  const additionalImages = images.slice(1, 10);
+  const bodyStyle = normalizeBodyStyle(v);
 
-  return `  <item>
-    <g:id>${escapeXml(v.vin)}</g:id>
-    <g:vehicle_id>${escapeXml(v.vin)}</g:vehicle_id>
-    <g:title>${escapeXml(v.title)}</g:title>
-    <g:description>${escapeXml(buildDescription(v))}</g:description>
-    <g:link>${escapeXml(v.url)}</g:link>
-    <g:image_link>${escapeXml(primaryImage)}</g:image_link>
-${additionalImages.map((img) => `    <g:additional_image_link>${escapeXml(img)}</g:additional_image_link>`).join('\n')}
-    <g:condition>${v.condition === 'new' ? 'new' : 'used'}</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>${price}</g:price>
-    <g:make>${escapeXml(v.make)}</g:make>
-    <g:model>${escapeXml(v.model)}</g:model>
-    <g:year>${escapeXml(v.year)}</g:year>
-    <g:vin>${escapeXml(v.vin)}</g:vin>
-    <g:mileage>
-      <g:value>${v.mileage != null ? v.mileage : 0}</g:value>
-      <g:unit>MI</g:unit>
-    </g:mileage>
-    <g:transmission>${escapeXml(v.transmission)}</g:transmission>
-    <g:drivetrain>${escapeXml(v.drivetrain)}</g:drivetrain>
-    <g:fuel_type>${escapeXml(v.fuel_type)}</g:fuel_type>
-    <g:exterior_color>${escapeXml(v.exterior_color)}</g:exterior_color>
-    <g:interior_color>${escapeXml(v.interior_color)}</g:interior_color>
-    <g:body_style>${escapeXml(v.body_style)}</g:body_style>
-    <g:vehicle_type>car_truck</g:vehicle_type>
-    <g:state_of_vehicle>${v.condition === 'new' ? 'NEW' : 'USED'}</g:state_of_vehicle>
-    <g:address>
-      <g:addr1>${escapeXml(DEALER_ADDRESS.street)}</g:addr1>
-      <g:city>${escapeXml(DEALER_ADDRESS.city)}</g:city>
-      <g:region>${escapeXml(DEALER_ADDRESS.state)}</g:region>
-      <g:postal_code>${escapeXml(DEALER_ADDRESS.zip)}</g:postal_code>
-      <g:country>${escapeXml(DEALER_ADDRESS.country)}</g:country>
-    </g:address>
-  </item>`;
+  const imageBlocks = images
+    .map((img) => `    <image>\n      <url>${escapeXml(img)}</url>\n    </image>`)
+    .join('\n');
+
+  return `  <listing>
+    <vehicle_id>${escapeXml(v.vin)}</vehicle_id>
+    <description>${escapeXml(buildDescription(v))}</description>
+    <url>${escapeXml(v.url)}</url>
+    <title>${escapeXml(v.title)}</title>
+    <body_style>${bodyStyle}</body_style>
+    <price>${price}</price>
+    <address format="simple">
+      <component name="addr1">${escapeXml(DEALER_ADDRESS.street)}</component>
+      <component name="city">${escapeXml(DEALER_ADDRESS.city)}</component>
+      <component name="region">${escapeXml(DEALER_ADDRESS.state)}</component>
+      <component name="postal_code">${escapeXml(DEALER_ADDRESS.zip)}</component>
+      <component name="country">${escapeXml(DEALER_ADDRESS.country)}</component>
+    </address>
+    <make>${escapeXml(v.make)}</make>
+    <model>${escapeXml(v.model)}</model>
+    <year>${escapeXml(v.year)}</year>
+    <vin>${escapeXml(v.vin)}</vin>
+    <state_of_vehicle>${v.condition === 'new' ? 'NEW' : 'USED'}</state_of_vehicle>
+    <mileage>
+      <unit>MI</unit>
+      <value>${v.mileage != null ? v.mileage : 0}</value>
+    </mileage>
+    <transmission>${escapeXml(v.transmission)}</transmission>
+    <drivetrain>${escapeXml(v.drivetrain)}</drivetrain>
+    <exterior_color>${escapeXml(v.exterior_color)}</exterior_color>
+    <interior_color>${escapeXml(v.interior_color)}</interior_color>
+    <vehicle_type>car_truck</vehicle_type>
+${imageBlocks}
+  </listing>`;
 }
 
 function writeOutputs(vehicles) {
@@ -601,23 +677,23 @@ function writeOutputs(vehicles) {
   // real photos on these specific VINs).
   const feedVehicles = vehicles.filter((v) => v.images && v.images.length > 0);
   const items = feedVehicles.map(vehicleToFeedItem).join('\n');
+  // Root structure is <listings><listing>...</listing></listings> — this is
+  // Meta's Vehicles catalog schema, confirmed against their own downloaded
+  // template and against live Commerce Manager test uploads on 2026-06-20.
+  // It is NOT <rss><channel><item>; see the comment above vehicleToFeedItem
+  // for the full explanation. Pixel association lives in Commerce Manager
+  // (Catalog > Settings > Event Sources), not in the feed file itself, so
+  // pixel_id is documented here only as a comment, not emitted as a tag.
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <!-- Fikes Vehicles — Meta Commerce Manager automotive inventory feed -->
-<!-- Pixel ID ${PIXEL_ID} is associated with this catalog in Commerce -->
-<!-- Manager > Settings > Event Sources (Meta does not read pixel binding -->
-<!-- from the feed file itself); included below as <g:pixel_id> for -->
-<!-- reference/record-keeping only. -->
+<!-- Pixel ID ${PIXEL_ID} is associated with this catalog via Commerce -->
+<!-- Manager > Settings > Event Sources, not via this feed file. -->
 <!-- ${noImageVehicles.length} vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
-<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
-<channel>
+<listings>
   <title>Fikes Vehicles</title>
-  <link>${BASE_URL}</link>
-  <description>Fikes Chevrolet live vehicle inventory feed for Facebook/Instagram Commerce Manager</description>
-  <g:pixel_id>${PIXEL_ID}</g:pixel_id>
 ${items}
-</channel>
-</rss>
+</listings>
 `;
   fs.writeFileSync(path.join(OUTPUT_DIR, 'feed.xml'), xml);
 
@@ -661,6 +737,24 @@ function validateFeedXml(feedPath) {
   if (offenders.length > 0) {
     throw new Error(
       `feed.xml has ${offenders.length} XML comment(s) containing an illegal "--" sequence: ${offenders.join(' | ')}`
+    );
+  }
+
+  // Explicit guard for the root-schema regression that caused this issue in
+  // the first place: an <rss>/<item> (generic product feed) root is
+  // syntactically valid XML but is the WRONG schema for a Vehicles catalog
+  // and gets silently rejected by Commerce Manager as "File format isn't
+  // supported" — a failure mode the two checks above can't catch, since the
+  // file is perfectly well-formed XML. Fail loudly here instead.
+  const stripped = xml
+    .replace(/<\?xml[\s\S]*?\?>/, '')
+    .replace(/<!--[\s\S]*?-->/g, '')
+    .trim();
+  if (!/^<listings[\s>]/.test(stripped)) {
+    throw new Error(
+      'feed.xml root element is not <listings> — this is required for Meta\'s Vehicles catalog schema. ' +
+        'If you see <rss> here, the feed has regressed to the generic product-feed format, which Commerce ' +
+        'Manager rejects entirely for this catalog type.'
     );
   }
 
@@ -749,4 +843,8 @@ module.exports = {
   parseTitle,
   isVdpUrl,
   parseSitemapVdpUrls,
+  normalizeBodyStyle,
+  vehicleToFeedItem,
+  writeOutputs,
+  validateFeedXml,
 };

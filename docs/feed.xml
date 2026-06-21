@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Fikes Vehicles — Meta Commerce Manager automotive inventory feed -->
+<!-- Fikes Vehicles -- Meta Commerce Manager automotive inventory feed -->
 <!-- Pixel ID 911722818604064 is associated with this catalog in Commerce -->
 <!-- Manager > Settings > Event Sources (Meta does not read pixel binding -->
 <!-- from the feed file itself); included below as <g:pixel_id> for -->
 <!-- reference/record-keeping only. -->
+<!-- 8 vehicle(s) excluded from this feed for having -->
+<!-- 0 real images (see inventory.json no_image_vins for the list). -->
 <rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
 <channel>
   <title>Fikes Vehicles</title>
@@ -157,7 +159,7 @@
     <g:additional_image_link>https://vini.gm.com/realimages/1GYFZCR49KF177972/f8cb78a.jpeg</g:additional_image_link>
     <g:condition>used</g:condition>
     <g:availability>in stock</g:availability>
-    <g:price>19195.00 USD</g:price>
+    <g:price>18995.00 USD</g:price>
     <g:make>Cadillac</g:make>
     <g:model>XT4</g:model>
     <g:year>2019</g:year>
@@ -200,7 +202,7 @@
     <g:additional_image_link>https://vini.gm.com/realimages/3GNAXHEG4PL152680/42af9de.jpeg</g:additional_image_link>
     <g:condition>used</g:condition>
     <g:availability>in stock</g:availability>
-    <g:price>18395.00 USD</g:price>
+    <g:price>18995.00 USD</g:price>
     <g:make>Chevrolet</g:make>
     <g:model>Equinox</g:model>
     <g:year>2023</g:year>
@@ -742,42 +744,6 @@
     </g:address>
   </item>
   <item>
-    <g:id>3GCUKCEDXTG314473</g:id>
-    <g:vehicle_id>3GCUKCEDXTG314473</g:vehicle_id>
-    <g:title>New 2026 Chevrolet Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab</g:title>
-    <g:description>White Sands exterior, Jet Black, Cloth seat trim interior, Automatic, 5.3L EcoTec3 V8 engine</g:description>
-    <g:link>https://www.fikeschevy.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukcedxtg314473/</g:link>
-    <g:image_link>https://vini.gm.com/realimages/3GCUKCED7TG374954/57c44b8.jpeg</g:image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/1GCPKWEK4TZ357851/c3bb140.jpeg</g:additional_image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/2GCUKDED5T1193589/b056468.jpeg</g:additional_image_link>
-    <g:condition>new</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>50420.00 USD</g:price>
-    <g:make>Chevrolet</g:make>
-    <g:model>Silverado 1500</g:model>
-    <g:year>2026</g:year>
-    <g:vin>3GCUKCEDXTG314473</g:vin>
-    <g:mileage>
-      <g:value>0</g:value>
-      <g:unit>MI</g:unit>
-    </g:mileage>
-    <g:transmission>Automatic</g:transmission>
-    <g:drivetrain>Four Wheel Drive</g:drivetrain>
-    <g:fuel_type></g:fuel_type>
-    <g:exterior_color>White Sands</g:exterior_color>
-    <g:interior_color>Jet Black, Cloth seat trim</g:interior_color>
-    <g:body_style></g:body_style>
-    <g:vehicle_type>car_truck</g:vehicle_type>
-    <g:state_of_vehicle>NEW</g:state_of_vehicle>
-    <g:address>
-      <g:addr1>771 Military St N</g:addr1>
-      <g:city>Hamilton</g:city>
-      <g:region>AL</g:region>
-      <g:postal_code>35570</g:postal_code>
-      <g:country>US</g:country>
-    </g:address>
-  </item>
-  <item>
     <g:id>1GNERGKS4TJ325274</g:id>
     <g:vehicle_id>1GNERGKS4TJ325274</g:vehicle_id>
     <g:title>New 2026 Chevrolet Traverse LT Front Wheel Drive SUV</g:title>
@@ -1053,7 +1019,7 @@
     <g:additional_image_link>https://vini.gm.com/realimages/3GNAXFEV5NS120942/d62208a.jpeg</g:additional_image_link>
     <g:condition>used</g:condition>
     <g:availability>in stock</g:availability>
-    <g:price>18395.00 USD</g:price>
+    <g:price>18595.00 USD</g:price>
     <g:make>Chevrolet</g:make>
     <g:model>Equinox</g:model>
     <g:year>2022</g:year>
@@ -1225,7 +1191,7 @@
     <g:additional_image_link>https://vini.gm.com/realimages/2GNAXHEV1J6314937/b161be7.jpeg</g:additional_image_link>
     <g:condition>used</g:condition>
     <g:availability>in stock</g:availability>
-    <g:price>15995.00 USD</g:price>
+    <g:price>13995.00 USD</g:price>
     <g:make>Chevrolet</g:make>
     <g:model>Equinox</g:model>
     <g:year>2018</g:year>
@@ -1896,42 +1862,6 @@
     </g:address>
   </item>
   <item>
-    <g:id>3GNAXHEG7TL516259</g:id>
-    <g:vehicle_id>3GNAXHEG7TL516259</g:vehicle_id>
-    <g:title>New 2026 Chevrolet Equinox LT Front Wheel Drive SUV</g:title>
-    <g:description>Sterling Gray Metallic exterior, Artemis Gray, Evotex seat trim interior, Automatic, 1.5L Turbo 4-cylinder engine</g:description>
-    <g:link>https://www.fikeschevy.com/inventory/new-2026-chevrolet-equinox-lt-front-wheel-drive-suv-3gnaxheg7tl516259/</g:link>
-    <g:image_link>https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg</g:image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/3GNAXHEG2TL479282/7e83f41.jpeg</g:additional_image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/3GNAXHEG0TL492533/39dfad8.jpeg</g:additional_image_link>
-    <g:condition>new</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>34425.00 USD</g:price>
-    <g:make>Chevrolet</g:make>
-    <g:model>Equinox</g:model>
-    <g:year>2026</g:year>
-    <g:vin>3GNAXHEG7TL516259</g:vin>
-    <g:mileage>
-      <g:value>0</g:value>
-      <g:unit>MI</g:unit>
-    </g:mileage>
-    <g:transmission>Automatic</g:transmission>
-    <g:drivetrain>Front Wheel Drive</g:drivetrain>
-    <g:fuel_type></g:fuel_type>
-    <g:exterior_color>Sterling Gray Metallic</g:exterior_color>
-    <g:interior_color>Artemis Gray, Evotex seat trim</g:interior_color>
-    <g:body_style></g:body_style>
-    <g:vehicle_type>car_truck</g:vehicle_type>
-    <g:state_of_vehicle>NEW</g:state_of_vehicle>
-    <g:address>
-      <g:addr1>771 Military St N</g:addr1>
-      <g:city>Hamilton</g:city>
-      <g:region>AL</g:region>
-      <g:postal_code>35570</g:postal_code>
-      <g:country>US</g:country>
-    </g:address>
-  </item>
-  <item>
     <g:id>4T3ZA3BB2EU082398</g:id>
     <g:vehicle_id>4T3ZA3BB2EU082398</g:vehicle_id>
     <g:title>Pre-Owned 2014 Toyota Venza 4dr Wgn I4 FWD XLE (Natl) FWD Wagon 4 Dr.</g:title>
@@ -2035,7 +1965,7 @@
     <g:additional_image_link>https://vini.gm.com/realimages/1GTUUGEL2TZ157210/f723adf.jpeg</g:additional_image_link>
     <g:condition>used</g:condition>
     <g:availability>in stock</g:availability>
-    <g:price>65495.00 USD</g:price>
+    <g:price>63495.00 USD</g:price>
     <g:make>GMC</g:make>
     <g:model>Sierra 1500</g:model>
     <g:year>2026</g:year>
@@ -2121,7 +2051,7 @@
     <g:additional_image_link>https://vini.gm.com/realimages/1GNSKNKD1RR184381/677afbf.jpeg</g:additional_image_link>
     <g:condition>used</g:condition>
     <g:availability>in stock</g:availability>
-    <g:price>49995.00 USD</g:price>
+    <g:price>48995.00 USD</g:price>
     <g:make>Chevrolet</g:make>
     <g:model>Tahoe</g:model>
     <g:year>2024</g:year>
@@ -2138,114 +2068,6 @@
     <g:body_style>Sport Utility Vehicle</g:body_style>
     <g:vehicle_type>car_truck</g:vehicle_type>
     <g:state_of_vehicle>USED</g:state_of_vehicle>
-    <g:address>
-      <g:addr1>771 Military St N</g:addr1>
-      <g:city>Hamilton</g:city>
-      <g:region>AL</g:region>
-      <g:postal_code>35570</g:postal_code>
-      <g:country>US</g:country>
-    </g:address>
-  </item>
-  <item>
-    <g:id>KL77LHEP1TC203313</g:id>
-    <g:vehicle_id>KL77LHEP1TC203313</g:vehicle_id>
-    <g:title>New 2026 Chevrolet Trax LT Front Wheel Drive SUV</g:title>
-    <g:description>Apex Red exterior, Jet Black with Yellow accents, Cloth/Evotex seat trim interior, Automatic, ECOTEC 1.2L Turbo engine</g:description>
-    <g:link>https://www.fikeschevy.com/inventory/new-2026-chevrolet-trax-lt-front-wheel-drive-suv-kl77lhep1tc203313/</g:link>
-    <g:image_link>https://vini.gm.com/realimages/KL77LFEP6TC157949/7e6440b.jpeg</g:image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/KL77LFEP9TC168346/01682b1.jpeg</g:additional_image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg</g:additional_image_link>
-    <g:condition>new</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>26425.00 USD</g:price>
-    <g:make>Chevrolet</g:make>
-    <g:model>Trax</g:model>
-    <g:year>2026</g:year>
-    <g:vin>KL77LHEP1TC203313</g:vin>
-    <g:mileage>
-      <g:value>0</g:value>
-      <g:unit>MI</g:unit>
-    </g:mileage>
-    <g:transmission>Automatic</g:transmission>
-    <g:drivetrain>Front Wheel Drive</g:drivetrain>
-    <g:fuel_type></g:fuel_type>
-    <g:exterior_color>Apex Red</g:exterior_color>
-    <g:interior_color>Jet Black with Yellow accents, Cloth/Evotex seat trim</g:interior_color>
-    <g:body_style></g:body_style>
-    <g:vehicle_type>car_truck</g:vehicle_type>
-    <g:state_of_vehicle>NEW</g:state_of_vehicle>
-    <g:address>
-      <g:addr1>771 Military St N</g:addr1>
-      <g:city>Hamilton</g:city>
-      <g:region>AL</g:region>
-      <g:postal_code>35570</g:postal_code>
-      <g:country>US</g:country>
-    </g:address>
-  </item>
-  <item>
-    <g:id>1GNS5NKD4TR377381</g:id>
-    <g:vehicle_id>1GNS5NKD4TR377381</g:vehicle_id>
-    <g:title>New 2026 Chevrolet Tahoe LT Rear Wheel Drive SUV</g:title>
-    <g:description>Sterling Gray Metallic exterior, Gideon/Very Dark Atmosphere, Leather-Appointed seating surfaces interior, Automatic, 5.3L V8 engine</g:description>
-    <g:link>https://www.fikeschevy.com/inventory/new-2026-chevrolet-tahoe-lt-rear-wheel-drive-suv-1gns5nkd4tr377381/</g:link>
-    <g:image_link>https://vini.gm.com/realimages/1GNS6CKD7TR306421/bbfeb52.jpeg</g:image_link>
-    <g:additional_image_link>https://vehicle-images.carscommerce.inc/1584-110005974/W1W8ND6Y4ST198001/thumbnails/large/040251473fe65c56d0f1fcc6377e4310.webp</g:additional_image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg</g:additional_image_link>
-    <g:condition>new</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>70180.00 USD</g:price>
-    <g:make>Chevrolet</g:make>
-    <g:model>Tahoe</g:model>
-    <g:year>2026</g:year>
-    <g:vin>1GNS5NKD4TR377381</g:vin>
-    <g:mileage>
-      <g:value>0</g:value>
-      <g:unit>MI</g:unit>
-    </g:mileage>
-    <g:transmission>Automatic</g:transmission>
-    <g:drivetrain>Rear Wheel Drive</g:drivetrain>
-    <g:fuel_type></g:fuel_type>
-    <g:exterior_color>Sterling Gray Metallic</g:exterior_color>
-    <g:interior_color>Gideon/Very Dark Atmosphere, Leather-Appointed seating surfaces</g:interior_color>
-    <g:body_style></g:body_style>
-    <g:vehicle_type>car_truck</g:vehicle_type>
-    <g:state_of_vehicle>NEW</g:state_of_vehicle>
-    <g:address>
-      <g:addr1>771 Military St N</g:addr1>
-      <g:city>Hamilton</g:city>
-      <g:region>AL</g:region>
-      <g:postal_code>35570</g:postal_code>
-      <g:country>US</g:country>
-    </g:address>
-  </item>
-  <item>
-    <g:id>1GNERGKS8TJ372632</g:id>
-    <g:vehicle_id>1GNERGKS8TJ372632</g:vehicle_id>
-    <g:title>New 2026 Chevrolet Traverse LT Front Wheel Drive SUV</g:title>
-    <g:description>Mosaic Black Metallic exterior, LT Jet Black, Evotex seat trim interior, Automatic, 2.5L Turbo engine</g:description>
-    <g:link>https://www.fikeschevy.com/inventory/new-2026-chevrolet-traverse-lt-front-wheel-drive-suv-1gnergks8tj372632/</g:link>
-    <g:image_link>https://vini.gm.com/realimages/1GNERGKS4TJ325274/d6ec3e3.jpeg</g:image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/1GNERGKS5TJ325784/392826c.jpeg</g:additional_image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/3GNAXKEGXTL495128/4f39afb.jpeg</g:additional_image_link>
-    <g:condition>new</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>46120.00 USD</g:price>
-    <g:make>Chevrolet</g:make>
-    <g:model>Traverse</g:model>
-    <g:year>2026</g:year>
-    <g:vin>1GNERGKS8TJ372632</g:vin>
-    <g:mileage>
-      <g:value>0</g:value>
-      <g:unit>MI</g:unit>
-    </g:mileage>
-    <g:transmission>Automatic</g:transmission>
-    <g:drivetrain>Front Wheel Drive</g:drivetrain>
-    <g:fuel_type></g:fuel_type>
-    <g:exterior_color>Mosaic Black Metallic</g:exterior_color>
-    <g:interior_color>LT Jet Black, Evotex seat trim</g:interior_color>
-    <g:body_style></g:body_style>
-    <g:vehicle_type>car_truck</g:vehicle_type>
-    <g:state_of_vehicle>NEW</g:state_of_vehicle>
     <g:address>
       <g:addr1>771 Military St N</g:addr1>
       <g:city>Hamilton</g:city>
@@ -2315,7 +2137,7 @@
     <g:additional_image_link>https://vini.gm.com/realimages/1GYKNERS5KZ155275/1f16506.jpeg</g:additional_image_link>
     <g:condition>used</g:condition>
     <g:availability>in stock</g:availability>
-    <g:price>22995.00 USD</g:price>
+    <g:price>20995.00 USD</g:price>
     <g:make>Cadillac</g:make>
     <g:model>XT5</g:model>
     <g:year>2019</g:year>
@@ -2387,11 +2209,18 @@
     <g:id>2T3H1RFV2SC335705</g:id>
     <g:vehicle_id>2T3H1RFV2SC335705</g:vehicle_id>
     <g:title>Pre-Owned 2025 Toyota RAV4 LE FWD (Natl) FWD Utility Body</g:title>
-    <g:description>17,305 miles, Not Specified exterior, Front Bucket Seats -inc: 6-way adjustable driver&apos;s seat and 4-way adjustable front passenger seat interior, 2.5L DOHC 4-Cylinder w/Dual VVT-i</g:description>
+    <g:description>17,305 miles, Not Specified exterior, Beige interior, 8 Speed Automatic, 2.5L DOHC 4-Cylinder w/Dual VVT-i</g:description>
     <g:link>https://www.fikeschevy.com/inventory/used-2025-toyota-rav4-le-fwd-natl-fwd-utility-body-2t3h1rfv2sc335705/</g:link>
-    <g:image_link>https://vehicle-images.carscommerce.inc/927e-110005974/JTEBU5JR8K5627344/thumbnails/large/5629271b088ee91105fac692ca958856.webp</g:image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg</g:additional_image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg</g:additional_image_link>
+    <g:image_link>https://vehicle-images.carscommerce.inc/d093-110005974/2T3H1RFV2SC335705/thumbnails/large/e7311ec6b1d383b37b95b6eb502bb23d.webp</g:image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/d093-110005974/2T3H1RFV2SC335705/e7311ec6b1d383b37b95b6eb502bb23d.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/8d8b-110005974/2T3H1RFV2SC335705/32d39fc48b9fc2dad75974ab792645fa.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/834b-110005974/2T3H1RFV2SC335705/8278aa5b3e8f561b814fdfba64d943ef.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/c92d-110005974/2T3H1RFV2SC335705/117f67889db6a637aab59606d316a6ae.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/3853-110005974/2T3H1RFV2SC335705/a7d5b7f0ae307674c7acdb274da83b3e.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/92a1-110005974/2T3H1RFV2SC335705/1155386d95c7da9bbccd483611134639.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/557c-110005974/2T3H1RFV2SC335705/f50260fabc6efeeaa95509c7710572ec.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/c069-110005974/2T3H1RFV2SC335705/ac9dfd49ccf4e8815d9f7f4d92a9bff2.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/bb68-110005974/2T3H1RFV2SC335705/10ac756006a3778e3fbb1e3dc96b0d0c.webp</g:additional_image_link>
     <g:condition>used</g:condition>
     <g:availability>in stock</g:availability>
     <g:price>33990.00 USD</g:price>
@@ -2403,11 +2232,11 @@
       <g:value>17305</g:value>
       <g:unit>MI</g:unit>
     </g:mileage>
-    <g:transmission></g:transmission>
+    <g:transmission>8 Speed Automatic</g:transmission>
     <g:drivetrain>FWD</g:drivetrain>
     <g:fuel_type></g:fuel_type>
     <g:exterior_color>Not Specified</g:exterior_color>
-    <g:interior_color>Front Bucket Seats -inc: 6-way adjustable driver&apos;s seat and 4-way adjustable front passenger seat</g:interior_color>
+    <g:interior_color>Beige</g:interior_color>
     <g:body_style>Sport Utility</g:body_style>
     <g:vehicle_type>car_truck</g:vehicle_type>
     <g:state_of_vehicle>USED</g:state_of_vehicle>
@@ -2437,7 +2266,7 @@
     <g:additional_image_link>https://vini.gm.com/realimages/1GTUUGE81RZ187285/5944f1a.jpeg</g:additional_image_link>
     <g:condition>used</g:condition>
     <g:availability>in stock</g:availability>
-    <g:price>51995.00 USD</g:price>
+    <g:price>50995.00 USD</g:price>
     <g:make>GMC</g:make>
     <g:model>Sierra 1500</g:model>
     <g:year>2024</g:year>
@@ -2635,122 +2464,21 @@
     </g:address>
   </item>
   <item>
-    <g:id>1GCPSBEK0T1275042</g:id>
-    <g:vehicle_id>1GCPSBEK0T1275042</g:vehicle_id>
-    <g:title>New 2026 Chevrolet Colorado WT Rear Wheel Drive Crew Cab</g:title>
-    <g:description>Summit White exterior, Jet Black, Cloth seat trim interior, Automatic, TurboMax™ engine</g:description>
-    <g:link>https://www.fikeschevy.com/inventory/new-2026-chevrolet-colorado-wt-rear-wheel-drive-crew-cab-1gcpsbek0t1275042/</g:link>
-    <g:image_link>https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg</g:image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg</g:additional_image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/1GNERGKS4TJ325274/d6ec3e3.jpeg</g:additional_image_link>
-    <g:condition>new</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>35005.00 USD</g:price>
-    <g:make>Chevrolet</g:make>
-    <g:model>Colorado</g:model>
-    <g:year>2026</g:year>
-    <g:vin>1GCPSBEK0T1275042</g:vin>
-    <g:mileage>
-      <g:value>0</g:value>
-      <g:unit>MI</g:unit>
-    </g:mileage>
-    <g:transmission>Automatic</g:transmission>
-    <g:drivetrain>Rear Wheel Drive</g:drivetrain>
-    <g:fuel_type></g:fuel_type>
-    <g:exterior_color>Summit White</g:exterior_color>
-    <g:interior_color>Jet Black, Cloth seat trim</g:interior_color>
-    <g:body_style></g:body_style>
-    <g:vehicle_type>car_truck</g:vehicle_type>
-    <g:state_of_vehicle>NEW</g:state_of_vehicle>
-    <g:address>
-      <g:addr1>771 Military St N</g:addr1>
-      <g:city>Hamilton</g:city>
-      <g:region>AL</g:region>
-      <g:postal_code>35570</g:postal_code>
-      <g:country>US</g:country>
-    </g:address>
-  </item>
-  <item>
-    <g:id>3GNAXLEG3TL539797</g:id>
-    <g:vehicle_id>3GNAXLEG3TL539797</g:vehicle_id>
-    <g:title>New 2026 Chevrolet Equinox RS Front Wheel Drive SUV</g:title>
-    <g:description>Sterling Gray Metallic exterior, Black with Red Accents, Evotex seat trim interior, Automatic, 1.5L Turbo 4-cylinder engine</g:description>
-    <g:link>https://www.fikeschevy.com/inventory/new-2026-chevrolet-equinox-rs-front-wheel-drive-suv-3gnaxleg3tl539797/</g:link>
-    <g:image_link>https://vini.gm.com/realimages/3GNAXHEG2TL479282/7e83f41.jpeg</g:image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/3GNAXHEG0TL492533/39dfad8.jpeg</g:additional_image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/3GNAXHEG4TL502304/d6669d8.jpeg</g:additional_image_link>
-    <g:condition>new</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price>38035.00 USD</g:price>
-    <g:make>Chevrolet</g:make>
-    <g:model>Equinox</g:model>
-    <g:year>2026</g:year>
-    <g:vin>3GNAXLEG3TL539797</g:vin>
-    <g:mileage>
-      <g:value>0</g:value>
-      <g:unit>MI</g:unit>
-    </g:mileage>
-    <g:transmission>Automatic</g:transmission>
-    <g:drivetrain>Front Wheel Drive</g:drivetrain>
-    <g:fuel_type></g:fuel_type>
-    <g:exterior_color>Sterling Gray Metallic</g:exterior_color>
-    <g:interior_color>Black with Red Accents, Evotex seat trim</g:interior_color>
-    <g:body_style></g:body_style>
-    <g:vehicle_type>car_truck</g:vehicle_type>
-    <g:state_of_vehicle>NEW</g:state_of_vehicle>
-    <g:address>
-      <g:addr1>771 Military St N</g:addr1>
-      <g:city>Hamilton</g:city>
-      <g:region>AL</g:region>
-      <g:postal_code>35570</g:postal_code>
-      <g:country>US</g:country>
-    </g:address>
-  </item>
-  <item>
-    <g:id>2G1FC1E3XD9227775</g:id>
-    <g:vehicle_id>2G1FC1E3XD9227775</g:vehicle_id>
-    <g:title>Pre-Owned 2013 Chevrolet Camaro LT Rear Wheel Drive Coupe</g:title>
-    <g:description>169,597 miles, Black exterior, BLACK, FRONT LEATHER SEATING SURFACES interior, Automatic, 3.6L DOHC V6 VVT</g:description>
-    <g:link>https://www.fikeschevy.com/inventory/used-2013-chevrolet-camaro-lt-rear-wheel-drive-coupe-2g1fc1e3xd9227775/</g:link>
-    <g:image_link>https://vehicle-images.carscommerce.inc/2942-110005974/YS3FD46Y371115885/thumbnails/large/2a3e2fac3a3d3eeb9e721c4f8c09e256.webp</g:image_link>
-    <g:additional_image_link>https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/thumbnails/large/d326e1be14af933dfd7d76c5fe2013d3.webp</g:additional_image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg</g:additional_image_link>
-    <g:condition>used</g:condition>
-    <g:availability>in stock</g:availability>
-    <g:price></g:price>
-    <g:make>Chevrolet</g:make>
-    <g:model>Camaro</g:model>
-    <g:year>2013</g:year>
-    <g:vin>2G1FC1E3XD9227775</g:vin>
-    <g:mileage>
-      <g:value>169597</g:value>
-      <g:unit>MI</g:unit>
-    </g:mileage>
-    <g:transmission>Automatic</g:transmission>
-    <g:drivetrain>Rear Wheel Drive</g:drivetrain>
-    <g:fuel_type></g:fuel_type>
-    <g:exterior_color>Black</g:exterior_color>
-    <g:interior_color>BLACK, FRONT LEATHER SEATING SURFACES</g:interior_color>
-    <g:body_style>Coupe</g:body_style>
-    <g:vehicle_type>car_truck</g:vehicle_type>
-    <g:state_of_vehicle>USED</g:state_of_vehicle>
-    <g:address>
-      <g:addr1>771 Military St N</g:addr1>
-      <g:city>Hamilton</g:city>
-      <g:region>AL</g:region>
-      <g:postal_code>35570</g:postal_code>
-      <g:country>US</g:country>
-    </g:address>
-  </item>
-  <item>
     <g:id>1FTFW1ET7EFC68470</g:id>
     <g:vehicle_id>1FTFW1ET7EFC68470</g:vehicle_id>
     <g:title>Pre-Owned 2014 Ford F-150 FX4 SuperCrew 5.5-ft. Bed 4WD 4WD Truck</g:title>
-    <g:description>175,374 miles, Black exterior, 3.5L V6 TURBO</g:description>
+    <g:description>175,374 miles, Black exterior, Black interior, 6 Speed Automatic, 3.5L V6 TURBO</g:description>
     <g:link>https://www.fikeschevy.com/inventory/used-2014-ford-f-150-fx4-supercrew-5-5-ft-bed-4wd-4wd-truck-1ftfw1et7efc68470/</g:link>
-    <g:image_link>https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/thumbnails/large/d326e1be14af933dfd7d76c5fe2013d3.webp</g:image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/1GYFZCR49KF177972/801c626.jpeg</g:additional_image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg</g:additional_image_link>
+    <g:image_link>https://vehicle-images.carscommerce.inc/f66d-110005974/1FTFW1ET7EFC68470/thumbnails/large/675b47773338eac373e6e93f732105b9.webp</g:image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/f66d-110005974/1FTFW1ET7EFC68470/675b47773338eac373e6e93f732105b9.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/60b9-110005974/1FTFW1ET7EFC68470/30c734955cf6aed802e01678de5ca460.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/cb5e-110005974/1FTFW1ET7EFC68470/4d4332570287e83a74bc25366c1876cf.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/7489-110005974/1FTFW1ET7EFC68470/d3beec0013a3437efebcec920a7ad75a.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/bf49-110005974/1FTFW1ET7EFC68470/edf143a9d76a22e8d76102afd58e7e57.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/1246-110005974/1FTFW1ET7EFC68470/c2a19e890b112d0421bc704444b01dc9.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/7988-110005974/1FTFW1ET7EFC68470/9e7d6ff7629d0766a2295e48fbb22d28.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/c767-110005974/1FTFW1ET7EFC68470/e02fbc96f55a1e0390c88e701ed5bc4f.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/1c46-110005974/1FTFW1ET7EFC68470/8e34173856a2ec0b2a30f0a0b73af8c6.webp</g:additional_image_link>
     <g:condition>used</g:condition>
     <g:availability>in stock</g:availability>
     <g:price>14995.00 USD</g:price>
@@ -2762,11 +2490,11 @@
       <g:value>175374</g:value>
       <g:unit>MI</g:unit>
     </g:mileage>
-    <g:transmission></g:transmission>
+    <g:transmission>6 Speed Automatic</g:transmission>
     <g:drivetrain>4WD</g:drivetrain>
     <g:fuel_type></g:fuel_type>
     <g:exterior_color>Black</g:exterior_color>
-    <g:interior_color></g:interior_color>
+    <g:interior_color>Black</g:interior_color>
     <g:body_style></g:body_style>
     <g:vehicle_type>car_truck</g:vehicle_type>
     <g:state_of_vehicle>USED</g:state_of_vehicle>
@@ -2782,11 +2510,18 @@
     <g:id>5NPE24AF1HH460812</g:id>
     <g:vehicle_id>5NPE24AF1HH460812</g:vehicle_id>
     <g:title>Pre-Owned 2017 Hyundai Sonata SE 2.4L FWD Sedan 4 Dr.</g:title>
-    <g:description>87,173 miles, Red exterior, 6-Speed Automatic w/SHIFTRONIC -inc: OD lock-up torque converter, shift lock and SHIFTRONIC mode, 2.4L GDI 4-Cylinder</g:description>
+    <g:description>87,173 miles, Red exterior, Beige interior, 6 Speed Automatic, 2.4L GDI 4-Cylinder</g:description>
     <g:link>https://www.fikeschevy.com/inventory/used-2017-hyundai-sonata-se-2-4l-fwd-sedan-4-dr-5npe24af1hh460812/</g:link>
-    <g:image_link>https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/thumbnails/large/d326e1be14af933dfd7d76c5fe2013d3.webp</g:image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/2GNAXHEV1J6314937/2e3ea86.jpeg</g:additional_image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/1GNKRGKD2HJ204173/ba4e392.jpeg</g:additional_image_link>
+    <g:image_link>https://vehicle-images.carscommerce.inc/daef-110005974/5NPE24AF1HH460812/thumbnails/large/8aee98342da7cf0f5bd9e9485f2b24b2.webp</g:image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/daef-110005974/5NPE24AF1HH460812/8aee98342da7cf0f5bd9e9485f2b24b2.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/ea85-110005974/5NPE24AF1HH460812/70f02394695a2001cd97a4c7bc16d40c.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/a502-110005974/5NPE24AF1HH460812/8f41d056f63faafbece28a492b41bc17.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/b25e-110005974/5NPE24AF1HH460812/f2398a6448c6924d77b6797a6a905f46.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/3765-110005974/5NPE24AF1HH460812/751138e6a36520b282ceaea49e8bcfa5.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/7761-110005974/5NPE24AF1HH460812/364a5a408acec54672c9fb7f4916548a.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/6b8f-110005974/5NPE24AF1HH460812/fc090ffadb05c3287e6345f023b6dcae.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/c464-110005974/5NPE24AF1HH460812/981e534ae7031d2155c75dab13d08d28.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/bfa4-110005974/5NPE24AF1HH460812/fa6efcddb6dd19327d6e8f75fa809b21.webp</g:additional_image_link>
     <g:condition>used</g:condition>
     <g:availability>in stock</g:availability>
     <g:price>13995.00 USD</g:price>
@@ -2798,11 +2533,11 @@
       <g:value>87173</g:value>
       <g:unit>MI</g:unit>
     </g:mileage>
-    <g:transmission>6-Speed Automatic w/SHIFTRONIC -inc: OD lock-up torque converter, shift lock and SHIFTRONIC mode</g:transmission>
+    <g:transmission>6 Speed Automatic</g:transmission>
     <g:drivetrain>FWD</g:drivetrain>
     <g:fuel_type></g:fuel_type>
     <g:exterior_color>Red</g:exterior_color>
-    <g:interior_color></g:interior_color>
+    <g:interior_color>Beige</g:interior_color>
     <g:body_style>Sedan</g:body_style>
     <g:vehicle_type>car_truck</g:vehicle_type>
     <g:state_of_vehicle>USED</g:state_of_vehicle>
@@ -2818,11 +2553,18 @@
     <g:id>5UXTY3C05L9C09190</g:id>
     <g:vehicle_id>5UXTY3C05L9C09190</g:vehicle_id>
     <g:title>Pre-Owned 2020 BMW X3 sDrive30i Sports Activity Vehicle RWD Wagon 4 Dr.</g:title>
-    <g:description>70,939 miles, Black exterior, Sport Bucket Seats interior, 2.0L TwinPower Turbo In-Line 4-Cylinder</g:description>
+    <g:description>70,939 miles, Black exterior, Black interior, 8 Speed Automatic, 2.0L TwinPower Turbo In-Line 4-Cylinder</g:description>
     <g:link>https://www.fikeschevy.com/inventory/used-2020-bmw-x3-sdrive30i-sports-activity-vehicle-rwd-wagon-4-dr-5uxty3c05l9c09190/</g:link>
-    <g:image_link>https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg</g:image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/1GYFZCR49KF177972/801c626.jpeg</g:additional_image_link>
-    <g:additional_image_link>https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg</g:additional_image_link>
+    <g:image_link>https://vehicle-images.carscommerce.inc/fd5f-110005974/5UXTY3C05L9C09190/thumbnails/large/82befecb95785e02770de664e5dbf1e8.webp</g:image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/fd5f-110005974/5UXTY3C05L9C09190/82befecb95785e02770de664e5dbf1e8.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/3598-110005974/5UXTY3C05L9C09190/1696667b8098c30c48382d801cff827d.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/4647-110005974/5UXTY3C05L9C09190/8866fa3bf73ad54905c64b044f4d7047.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/acde-110005974/5UXTY3C05L9C09190/a4493f643749b713a0bbebd9ce6358e4.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/7518-110005974/5UXTY3C05L9C09190/712027fc244de23f1f6febe99af3ddbd.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/9d24-110005974/5UXTY3C05L9C09190/5ff66df2e497c1a2a3528e0b8c71d3d7.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/cbc4-110005974/5UXTY3C05L9C09190/08b95a6955ccfae71f01407ee82b5e43.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/51bc-110005974/5UXTY3C05L9C09190/1009c4869e93063a1425ffd81f03d008.webp</g:additional_image_link>
+    <g:additional_image_link>https://vehicle-images.carscommerce.inc/2cca-110005974/5UXTY3C05L9C09190/fd6c2f9be39fc599b2b3273b00e49002.webp</g:additional_image_link>
     <g:condition>used</g:condition>
     <g:availability>in stock</g:availability>
     <g:price>21995.00 USD</g:price>
@@ -2834,11 +2576,11 @@
       <g:value>70939</g:value>
       <g:unit>MI</g:unit>
     </g:mileage>
-    <g:transmission></g:transmission>
+    <g:transmission>8 Speed Automatic</g:transmission>
     <g:drivetrain>RWD</g:drivetrain>
     <g:fuel_type></g:fuel_type>
     <g:exterior_color>Black</g:exterior_color>
-    <g:interior_color>Sport Bucket Seats</g:interior_color>
+    <g:interior_color>Black</g:interior_color>
     <g:body_style>Sports Activity Vehicle</g:body_style>
     <g:vehicle_type>car_truck</g:vehicle_type>
     <g:state_of_vehicle>USED</g:state_of_vehicle>

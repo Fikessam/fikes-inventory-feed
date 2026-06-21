@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T16:33:52.163Z",
+  "generated_at": "2026-06-21T02:35:35.576Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -11,6 +11,17 @@
   "total_vehicles": 68,
   "new_count": 32,
   "used_count": 36,
+  "no_image_count": 8,
+  "no_image_vins": [
+    "3GCUKCEDXTG314473",
+    "3GNAXHEG7TL516259",
+    "KL77LHEP1TC203313",
+    "1GNS5NKD4TR377381",
+    "1GNERGKS8TJ372632",
+    "1GCPSBEK0T1275042",
+    "3GNAXLEG3TL539797",
+    "2G1FC1E3XD9227775"
+  ],
   "vehicles": [
     {
       "vin": "YS3FD46Y371115885",
@@ -127,8 +138,7 @@
         "https://vehicle-images.carscommerce.inc/42a2-110005974/5NPE24AF8JH613336/607623b62089b2f0ea356033de132431.webp",
         "https://vehicle-images.carscommerce.inc/6c75-110005974/5NPE24AF8JH613336/518e9ccdb2d45e29b30fd2e2824ea9a4.webp",
         "https://vehicle-images.carscommerce.inc/2490-110005974/5NPE24AF8JH613336/08c1b918f99b97cb77c3c228a80d2a12.webp",
-        "https://vehicle-images.carscommerce.inc/e12d-110005974/5NPE24AF8JH613336/a7e049903e3151b944ac29375b0a3d04.webp",
-        "https://vehicle-images.carscommerce.inc/a4e3-110005974/2HKRM3H74EH507993/thumbnails/large/275d6573837ceea788bde51a1e9c0e6d.webp"
+        "https://vehicle-images.carscommerce.inc/e12d-110005974/5NPE24AF8JH613336/a7e049903e3151b944ac29375b0a3d04.webp"
       ]
     },
     {
@@ -186,10 +196,7 @@
         "https://vini.gm.com/realimages/3GNAXMEV7NS200005/983d1f6.jpeg",
         "https://vini.gm.com/realimages/3GNAXMEV7NS200005/61c9ca7.jpeg",
         "https://vini.gm.com/realimages/3GNAXMEV7NS200005/69bd948.jpeg",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/d9b63b9.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg",
-        "https://vini.gm.com/realimages/3GNAXFEV5NS120942/ce16582.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEV8NS207455/9b613c1.jpeg"
+        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/d9b63b9.jpeg"
       ]
     },
     {
@@ -211,12 +218,12 @@
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24586",
       "pricing": {
-        "msrp": 18395,
+        "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 19195
+        "fikes_price": 18995
       },
-      "price": 19195,
+      "price": 18995,
       "images": [
         "https://vini.gm.com/realimages/1GYFZCR49KF177972/801c626.jpeg",
         "https://vini.gm.com/realimages/1GYFZCR49KF177972/0bb9136.jpeg",
@@ -247,10 +254,7 @@
         "https://vini.gm.com/realimages/1GYFZCR49KF177972/8e6d6cf.jpeg",
         "https://vini.gm.com/realimages/1GYFZCR49KF177972/4083c26.jpeg",
         "https://vini.gm.com/realimages/1GYFZCR49KF177972/3497133.jpeg",
-        "https://vini.gm.com/realimages/1GYFZCR49KF177972/86a74be.jpeg",
-        "https://vini.gm.com/realimages/1GYKNERS5KZ155275/24ab66f.jpeg",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg"
+        "https://vini.gm.com/realimages/1GYFZCR49KF177972/86a74be.jpeg"
       ]
     },
     {
@@ -275,9 +279,9 @@
         "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 18395
+        "fikes_price": 18995
       },
-      "price": 18395,
+      "price": 18995,
       "images": [
         "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEG4PL152680/65e1c35.jpeg",
@@ -310,10 +314,7 @@
         "https://vini.gm.com/realimages/3GNAXHEG4PL152680/647dbb2.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEG4PL152680/ae6f962.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEG4PL152680/1120002.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/39e092d.jpeg",
-        "https://vini.gm.com/realimages/3GNAXFEV5NS120942/ce16582.jpeg",
-        "https://vini.gm.com/realimages/2GNAXHEV1J6314937/2e3ea86.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEV8NS207455/9b613c1.jpeg"
+        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/39e092d.jpeg"
       ]
     },
     {
@@ -377,8 +378,7 @@
         "https://vehicle-images.carscommerce.inc/1c25-110005974/2HKRM3H74EH507993/8297361e23fe48629cf14948f1064abe.webp",
         "https://vehicle-images.carscommerce.inc/e748-110005974/2HKRM3H74EH507993/b9fbc97c29a934a207b4e97a30075f27.webp",
         "https://vehicle-images.carscommerce.inc/d046-110005974/2HKRM3H74EH507993/d98c4d03dc2cacabf07cb1685fbdc044.webp",
-        "https://vehicle-images.carscommerce.inc/b339-110005974/2HKRM3H74EH507993/50fc37933d17c7f95f05cbe1e8102e7e.webp",
-        "https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/thumbnails/large/d326e1be14af933dfd7d76c5fe2013d3.webp"
+        "https://vehicle-images.carscommerce.inc/b339-110005974/2HKRM3H74EH507993/50fc37933d17c7f95f05cbe1e8102e7e.webp"
       ]
     },
     {
@@ -400,7 +400,7 @@
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24609",
       "pricing": {
-        "msrp": 18395,
+        "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 22495
@@ -442,10 +442,7 @@
         "https://vini.gm.com/realimages/5GAERCKW1LJ154134/7ab0f8d.jpeg",
         "https://vini.gm.com/realimages/5GAERCKW1LJ154134/8634463.jpeg",
         "https://vini.gm.com/realimages/5GAERCKW1LJ154134/ef1230c.jpeg",
-        "https://vini.gm.com/realimages/5GAERCKW1LJ154134/5fd0e46.jpeg",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
-        "https://vini.gm.com/realimages/1GYFZCR49KF177972/801c626.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg"
+        "https://vini.gm.com/realimages/5GAERCKW1LJ154134/5fd0e46.jpeg"
       ]
     },
     {
@@ -467,7 +464,7 @@
       "body_style": "Sport Utility",
       "stock_number": "24637",
       "pricing": {
-        "msrp": 18395,
+        "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 21795
@@ -508,10 +505,7 @@
         "https://vini.gm.com/realimages/1GNERGKW0LJ290395/ccef358.jpeg",
         "https://vini.gm.com/realimages/1GNERGKW0LJ290395/b7e842d.jpeg",
         "https://vini.gm.com/realimages/1GNERGKW0LJ290395/e80ba9c.jpeg",
-        "https://vini.gm.com/realimages/1GNERGKW0LJ290395/f447f3a.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg"
+        "https://vini.gm.com/realimages/1GNERGKW0LJ290395/f447f3a.jpeg"
       ]
     },
     {
@@ -569,10 +563,7 @@
         "https://vini.gm.com/realimages/3GNAXHEG1TL130713/866d248.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEG1TL130713/3356a00.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEG1TL130713/e7f105e.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG1TL130713/015c944.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG2TL479282/7e83f41.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG0TL492533/39dfad8.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg"
+        "https://vini.gm.com/realimages/3GNAXHEG1TL130713/015c944.jpeg"
       ]
     },
     {
@@ -622,10 +613,7 @@
         "https://vehicle-images.carscommerce.inc/3c5a-110005974/W1W8ND6Y4ST198001/2d467fd4ca51316cb0bbc6fe4f49adef.webp",
         "https://vehicle-images.carscommerce.inc/4be8-110005974/W1W8ND6Y4ST198001/d635df67009581273d7c58692f780009.webp",
         "https://vehicle-images.carscommerce.inc/b2f1-110005974/W1W8ND6Y4ST198001/9d7467433b7295665314b836c2cc24c2.webp",
-        "https://vehicle-images.carscommerce.inc/9621-110005974/W1W8ND6Y4ST198001/8bd8926be50dbacba6174544490fc7ce.webp",
-        "https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY8TF157853/adb7e47.jpeg",
-        "https://vini.gm.com/realimages/2GC4KMEY4T1175281/e524c9f.jpeg"
+        "https://vehicle-images.carscommerce.inc/9621-110005974/W1W8ND6Y4ST198001/8bd8926be50dbacba6174544490fc7ce.webp"
       ]
     },
     {
@@ -680,10 +668,7 @@
         "https://vini.gm.com/realimages/1GB4KSEY5TF225039/4de4463.jpeg",
         "https://vini.gm.com/realimages/1GB4KSEY5TF225039/42019f9.jpeg",
         "https://vini.gm.com/realimages/1GB4KSEY5TF225039/dfecbb2.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY5TF225039/4d61453.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY8TF157853/adb7e47.jpeg",
-        "https://vini.gm.com/realimages/1GB4KTEY4TF241108/819c482.jpeg",
-        "https://vini.gm.com/realimages/1GB4KTEY5TF243837/37f09d1.jpeg"
+        "https://vini.gm.com/realimages/1GB4KSEY5TF225039/4d61453.jpeg"
       ]
     },
     {
@@ -737,10 +722,7 @@
         "https://vini.gm.com/realimages/1GB4KSEY8TF157853/f45b52a.jpeg",
         "https://vini.gm.com/realimages/1GB4KSEY8TF157853/a91ee91.jpeg",
         "https://vini.gm.com/realimages/1GB4KSEY8TF157853/0dcbb71.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY8TF157853/e3b9c14.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg",
-        "https://vini.gm.com/realimages/1GB4KTEY4TF241108/819c482.jpeg",
-        "https://vini.gm.com/realimages/1GB4KTEY5TF243837/37f09d1.jpeg"
+        "https://vini.gm.com/realimages/1GB4KSEY8TF157853/e3b9c14.jpeg"
       ]
     },
     {
@@ -798,10 +780,7 @@
         "https://vini.gm.com/realimages/KL79MMSL0TB167460/b43e070.jpeg",
         "https://vini.gm.com/realimages/KL79MMSL0TB167460/20c5f30.jpeg",
         "https://vini.gm.com/realimages/KL79MMSL0TB167460/34c0872.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL0TB167460/778aa85.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL5TB209668/166e93d.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL7TB209851/462f86f.jpeg",
-        "https://vini.gm.com/realimages/KL79MPSL9TB210565/2562521.jpeg"
+        "https://vini.gm.com/realimages/KL79MMSL0TB167460/778aa85.jpeg"
       ]
     },
     {
@@ -863,10 +842,7 @@
         "https://vini.gm.com/realimages/2GC4KMEY4T1175281/4a8f65a.jpeg",
         "https://vini.gm.com/realimages/2GC4KMEY4T1175281/620b570.jpeg",
         "https://vini.gm.com/realimages/2GC4KMEY4T1175281/5db0d48.jpeg",
-        "https://vini.gm.com/realimages/2GC4KMEY4T1175281/ae330cf.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY8TF157853/adb7e47.jpeg",
-        "https://vini.gm.com/realimages/1GC4KTEY8TF234450/96012b9.jpeg"
+        "https://vini.gm.com/realimages/2GC4KMEY4T1175281/ae330cf.jpeg"
       ]
     },
     {
@@ -924,10 +900,7 @@
         "https://vini.gm.com/realimages/1GC4KTEY8TF234450/94550b4.jpeg",
         "https://vini.gm.com/realimages/1GC4KTEY8TF234450/13d92f9.jpeg",
         "https://vini.gm.com/realimages/1GC4KTEY8TF234450/0fbc8cc.jpeg",
-        "https://vini.gm.com/realimages/1GC4KTEY8TF234450/fba018e.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY8TF157853/adb7e47.jpeg",
-        "https://vini.gm.com/realimages/2GC4KMEY4T1175281/e524c9f.jpeg"
+        "https://vini.gm.com/realimages/1GC4KTEY8TF234450/fba018e.jpeg"
       ]
     },
     {
@@ -981,10 +954,7 @@
         "https://vini.gm.com/realimages/1GB4KTEY4TF241108/d5f9dbb.jpeg",
         "https://vini.gm.com/realimages/1GB4KTEY4TF241108/3abb1f1.jpeg",
         "https://vini.gm.com/realimages/1GB4KTEY4TF241108/27c5c74.jpeg",
-        "https://vini.gm.com/realimages/1GB4KTEY4TF241108/c0cc22f.jpeg",
-        "https://vini.gm.com/realimages/1GB4KTEY5TF243837/37f09d1.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY8TF157853/adb7e47.jpeg"
+        "https://vini.gm.com/realimages/1GB4KTEY4TF241108/c0cc22f.jpeg"
       ]
     },
     {
@@ -1038,10 +1008,7 @@
         "https://vini.gm.com/realimages/1GB4KTEY5TF243837/7d8fce0.jpeg",
         "https://vini.gm.com/realimages/1GB4KTEY5TF243837/67d8a0c.jpeg",
         "https://vini.gm.com/realimages/1GB4KTEY5TF243837/4b88073.jpeg",
-        "https://vini.gm.com/realimages/1GB4KTEY5TF243837/82503bc.jpeg",
-        "https://vini.gm.com/realimages/1GB4KTEY4TF241108/819c482.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY8TF157853/adb7e47.jpeg"
+        "https://vini.gm.com/realimages/1GB4KTEY5TF243837/82503bc.jpeg"
       ]
     },
     {
@@ -1069,11 +1036,7 @@
         "fikes_price": null
       },
       "price": 50420,
-      "images": [
-        "https://vini.gm.com/realimages/3GCUKCED7TG374954/57c44b8.jpeg",
-        "https://vini.gm.com/realimages/1GCPKWEK4TZ357851/c3bb140.jpeg",
-        "https://vini.gm.com/realimages/2GCUKDED5T1193589/b056468.jpeg"
-      ]
+      "images": []
     },
     {
       "vin": "1GNERGKS4TJ325274",
@@ -1131,9 +1094,7 @@
         "https://vini.gm.com/realimages/1GNERGKS4TJ325274/0d62099.jpeg",
         "https://vini.gm.com/realimages/1GNERGKS4TJ325274/92bdbc0.jpeg",
         "https://vini.gm.com/realimages/1GNERGKS4TJ325274/4618579.jpeg",
-        "https://vini.gm.com/realimages/1GNERGKS4TJ325274/ce078fa.jpeg",
-        "https://vini.gm.com/realimages/1GNERGKS5TJ325784/392826c.jpeg",
-        "https://vini.gm.com/realimages/3GNAXKEGXTL495128/4f39afb.jpeg"
+        "https://vini.gm.com/realimages/1GNERGKS4TJ325274/ce078fa.jpeg"
       ]
     },
     {
@@ -1188,10 +1149,7 @@
         "https://vini.gm.com/realimages/3GNAXHEG2TL479282/a54aee8.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEG2TL479282/f167762.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEG2TL479282/078c03a.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG2TL479282/4f9fbc7.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG0TL492533/39dfad8.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4TL502304/d6669d8.jpeg"
+        "https://vini.gm.com/realimages/3GNAXHEG2TL479282/4f9fbc7.jpeg"
       ]
     },
     {
@@ -1250,10 +1208,7 @@
         "https://vini.gm.com/realimages/KL79MMS28PB044986/319d2dd.jpeg",
         "https://vini.gm.com/realimages/KL79MMS28PB044986/e164028.jpeg",
         "https://vini.gm.com/realimages/KL79MMS28PB044986/8d00201.jpeg",
-        "https://vini.gm.com/realimages/KL79MMS28PB044986/08f3cfb.jpeg",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg",
-        "https://vini.gm.com/realimages/1GNERGKW0LJ290395/b1b6f9b.jpeg"
+        "https://vini.gm.com/realimages/KL79MMS28PB044986/08f3cfb.jpeg"
       ]
     },
     {
@@ -1319,10 +1274,7 @@
         "https://vini.gm.com/realimages/1GNS6CKD7TR306421/6d5db6b.jpeg",
         "https://vini.gm.com/realimages/1GNS6CKD7TR306421/b472f60.jpeg",
         "https://vini.gm.com/realimages/1GNS6CKD7TR306421/0adad3b.jpeg",
-        "https://vini.gm.com/realimages/1GNS6CKD7TR306421/8fe5e3a.jpeg",
-        "https://vehicle-images.carscommerce.inc/1584-110005974/W1W8ND6Y4ST198001/thumbnails/large/040251473fe65c56d0f1fcc6377e4310.webp",
-        "https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY8TF157853/adb7e47.jpeg"
+        "https://vini.gm.com/realimages/1GNS6CKD7TR306421/8fe5e3a.jpeg"
       ]
     },
     {
@@ -1379,9 +1331,7 @@
         "https://vini.gm.com/realimages/KL77LFEP6TC157949/b31dbb9.jpeg",
         "https://vini.gm.com/realimages/KL77LFEP6TC157949/563b32f.jpeg",
         "https://vini.gm.com/realimages/KL77LFEP6TC157949/2ebe6b8.jpeg",
-        "https://vini.gm.com/realimages/KL77LFEP6TC157949/72911bf.jpeg",
-        "https://vini.gm.com/realimages/KL77LFEP9TC168346/01682b1.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg"
+        "https://vini.gm.com/realimages/KL77LFEP6TC157949/72911bf.jpeg"
       ]
     },
     {
@@ -1440,9 +1390,7 @@
         "https://vini.gm.com/realimages/1GNERGKS5TJ325784/720170c.jpeg",
         "https://vini.gm.com/realimages/1GNERGKS5TJ325784/6755ecd.jpeg",
         "https://vini.gm.com/realimages/1GNERGKS5TJ325784/b22daa5.jpeg",
-        "https://vini.gm.com/realimages/1GNERGKS5TJ325784/4679001.jpeg",
-        "https://vini.gm.com/realimages/1GNERGKS4TJ325274/d6ec3e3.jpeg",
-        "https://vini.gm.com/realimages/3GNAXKEGXTL495128/4f39afb.jpeg"
+        "https://vini.gm.com/realimages/1GNERGKS5TJ325784/4679001.jpeg"
       ]
     },
     {
@@ -1467,9 +1415,9 @@
         "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 18395
+        "fikes_price": 18595
       },
-      "price": 18395,
+      "price": 18595,
       "images": [
         "https://vini.gm.com/realimages/3GNAXFEV5NS120942/ce16582.jpeg",
         "https://vini.gm.com/realimages/3GNAXFEV5NS120942/e45ae1b.jpeg",
@@ -1502,10 +1450,7 @@
         "https://vini.gm.com/realimages/3GNAXFEV5NS120942/2e4724b.jpeg",
         "https://vini.gm.com/realimages/3GNAXFEV5NS120942/2cc0a58.jpeg",
         "https://vini.gm.com/realimages/3GNAXFEV5NS120942/5066bd6.jpeg",
-        "https://vini.gm.com/realimages/3GNAXFEV5NS120942/fd37983.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg",
-        "https://vini.gm.com/realimages/2GNAXHEV1J6314937/2e3ea86.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEV8NS207455/9b613c1.jpeg"
+        "https://vini.gm.com/realimages/3GNAXFEV5NS120942/fd37983.jpeg"
       ]
     },
     {
@@ -1564,10 +1509,7 @@
         "https://vini.gm.com/realimages/KL79MPSL9TB210565/eaf1f86.jpeg",
         "https://vini.gm.com/realimages/KL79MPSL9TB210565/53b0643.jpeg",
         "https://vini.gm.com/realimages/KL79MPSL9TB210565/4c3fd2b.jpeg",
-        "https://vini.gm.com/realimages/KL79MPSL9TB210565/5614375.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL5TB209668/166e93d.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL7TB209851/462f86f.jpeg"
+        "https://vini.gm.com/realimages/KL79MPSL9TB210565/5614375.jpeg"
       ]
     },
     {
@@ -1631,10 +1573,7 @@
         "https://vini.gm.com/realimages/3GNAXHEG0TL492533/33d83fd.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEG0TL492533/9d8dfee.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEG0TL492533/8b791bd.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG0TL492533/5a076ec.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG2TL479282/7e83f41.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4TL502304/d6669d8.jpeg"
+        "https://vini.gm.com/realimages/3GNAXHEG0TL492533/5a076ec.jpeg"
       ]
     },
     {
@@ -1693,9 +1632,7 @@
         "https://vini.gm.com/realimages/1GCPKWEK4TZ357851/ac06fb0.jpeg",
         "https://vini.gm.com/realimages/1GCPKWEK4TZ357851/0ac69ad.jpeg",
         "https://vini.gm.com/realimages/1GCPKWEK4TZ357851/a9167c6.jpeg",
-        "https://vini.gm.com/realimages/1GCPKWEK4TZ357851/17c5320.jpeg",
-        "https://vini.gm.com/realimages/1GCPKWEK1TZ381671/301e6e1.jpeg",
-        "https://vini.gm.com/realimages/2GCUKDED5T1193589/b056468.jpeg"
+        "https://vini.gm.com/realimages/1GCPKWEK4TZ357851/17c5320.jpeg"
       ]
     },
     {
@@ -1720,9 +1657,9 @@
         "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 15995
+        "fikes_price": 13995
       },
-      "price": 15995,
+      "price": 13995,
       "images": [
         "https://vini.gm.com/realimages/2GNAXHEV1J6314937/2e3ea86.jpeg",
         "https://vini.gm.com/realimages/2GNAXHEV1J6314937/17717e5.jpeg",
@@ -1755,10 +1692,7 @@
         "https://vini.gm.com/realimages/2GNAXHEV1J6314937/7be91b1.jpeg",
         "https://vini.gm.com/realimages/2GNAXHEV1J6314937/3332852.jpeg",
         "https://vini.gm.com/realimages/2GNAXHEV1J6314937/12bca1d.jpeg",
-        "https://vini.gm.com/realimages/2GNAXHEV1J6314937/b4daaca.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg",
-        "https://vini.gm.com/realimages/3GNAXFEV5NS120942/ce16582.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEV8NS207455/9b613c1.jpeg"
+        "https://vini.gm.com/realimages/2GNAXHEV1J6314937/b4daaca.jpeg"
       ]
     },
     {
@@ -1814,10 +1748,7 @@
         "https://vini.gm.com/realimages/KL79MMSL5TB209668/1201b13.jpeg",
         "https://vini.gm.com/realimages/KL79MMSL5TB209668/3bb121c.jpeg",
         "https://vini.gm.com/realimages/KL79MMSL5TB209668/e8a57ae.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL5TB209668/f5a3952.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL7TB209851/462f86f.jpeg",
-        "https://vini.gm.com/realimages/KL79MPSL9TB210565/2562521.jpeg"
+        "https://vini.gm.com/realimages/KL79MMSL5TB209668/f5a3952.jpeg"
       ]
     },
     {
@@ -1874,10 +1805,7 @@
         "https://vini.gm.com/realimages/KL79MMSL7TB209851/8a90277.jpeg",
         "https://vini.gm.com/realimages/KL79MMSL7TB209851/1705fba.jpeg",
         "https://vini.gm.com/realimages/KL79MMSL7TB209851/119d33d.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL7TB209851/72147c9.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL5TB209668/166e93d.jpeg",
-        "https://vini.gm.com/realimages/KL79MPSL9TB210565/2562521.jpeg"
+        "https://vini.gm.com/realimages/KL79MMSL7TB209851/72147c9.jpeg"
       ]
     },
     {
@@ -1899,7 +1827,7 @@
       "body_style": "Sport Utility",
       "stock_number": "24659",
       "pricing": {
-        "msrp": 15995,
+        "msrp": 13995,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 12595
@@ -1939,10 +1867,7 @@
         "https://vini.gm.com/realimages/1GNKRGKD2HJ204173/95c4010.jpeg",
         "https://vini.gm.com/realimages/1GNKRGKD2HJ204173/cfa6b6d.jpeg",
         "https://vini.gm.com/realimages/1GNKRGKD2HJ204173/5f67f43.jpeg",
-        "https://vini.gm.com/realimages/1GNKRGKD2HJ204173/5226c64.jpeg",
-        "https://vini.gm.com/realimages/KL7CJKSB8LB033838/0f7e730.jpeg",
-        "https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/thumbnails/large/d326e1be14af933dfd7d76c5fe2013d3.webp",
-        "https://vini.gm.com/realimages/2GNAXHEV1J6314937/2e3ea86.jpeg"
+        "https://vini.gm.com/realimages/1GNKRGKD2HJ204173/5226c64.jpeg"
       ]
     },
     {
@@ -1964,7 +1889,7 @@
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24608A",
       "pricing": {
-        "msrp": 15995,
+        "msrp": 13995,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 18995
@@ -2003,10 +1928,7 @@
         "https://vini.gm.com/realimages/3GNAXHEV8NS207455/0df268d.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEV8NS207455/cc1f222.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEV8NS207455/05fe762.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEV8NS207455/ac6816b.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg",
-        "https://vini.gm.com/realimages/3GNAXFEV5NS120942/ce16582.jpeg",
-        "https://vini.gm.com/realimages/2GNAXHEV1J6314937/2e3ea86.jpeg"
+        "https://vini.gm.com/realimages/3GNAXHEV8NS207455/ac6816b.jpeg"
       ]
     },
     {
@@ -2065,9 +1987,7 @@
         "https://vini.gm.com/realimages/2GCUKDED5T1193589/ae57845.jpeg",
         "https://vini.gm.com/realimages/2GCUKDED5T1193589/0191abf.jpeg",
         "https://vini.gm.com/realimages/2GCUKDED5T1193589/d4d75ee.jpeg",
-        "https://vini.gm.com/realimages/2GCUKDED5T1193589/2b08ae6.jpeg",
-        "https://vini.gm.com/realimages/1GCPKWEK4TZ357851/c3bb140.jpeg",
-        "https://vini.gm.com/realimages/3GCUKCED7TG374954/57c44b8.jpeg"
+        "https://vini.gm.com/realimages/2GCUKDED5T1193589/2b08ae6.jpeg"
       ]
     },
     {
@@ -2132,10 +2052,7 @@
         "https://vini.gm.com/realimages/3GNAXHEG4TL502304/920a1dd.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEG4TL502304/4e7dd22.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEG4TL502304/8a83867.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4TL502304/45c94b1.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG2TL479282/7e83f41.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG0TL492533/39dfad8.jpeg"
+        "https://vini.gm.com/realimages/3GNAXHEG4TL502304/45c94b1.jpeg"
       ]
     },
     {
@@ -2201,10 +2118,7 @@
         "https://vini.gm.com/realimages/3GNAXKEGXTL495128/d192cca.jpeg",
         "https://vini.gm.com/realimages/3GNAXKEGXTL495128/3dfca4a.jpeg",
         "https://vini.gm.com/realimages/3GNAXKEGXTL495128/a22b1db.jpeg",
-        "https://vini.gm.com/realimages/3GNAXKEGXTL495128/3d5f0f3.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG2TL479282/7e83f41.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG0TL492533/39dfad8.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4TL502304/d6669d8.jpeg"
+        "https://vini.gm.com/realimages/3GNAXKEGXTL495128/3d5f0f3.jpeg"
       ]
     },
     {
@@ -2265,9 +2179,7 @@
         "https://vini.gm.com/realimages/KL77LFEP9TC168346/5cdf89a.jpeg",
         "https://vini.gm.com/realimages/KL77LFEP9TC168346/4768a0d.jpeg",
         "https://vini.gm.com/realimages/KL77LFEP9TC168346/0f99792.jpeg",
-        "https://vini.gm.com/realimages/KL77LFEP9TC168346/31eb4ab.jpeg",
-        "https://vini.gm.com/realimages/KL77LFEP6TC157949/7e6440b.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg"
+        "https://vini.gm.com/realimages/KL77LFEP9TC168346/31eb4ab.jpeg"
       ]
     },
     {
@@ -2289,7 +2201,7 @@
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24696",
       "pricing": {
-        "msrp": 18395,
+        "msrp": 18595,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 18995
@@ -2326,10 +2238,7 @@
         "https://vini.gm.com/realimages/2GNAXMEV5J6339316/b00cdf1.jpeg",
         "https://vini.gm.com/realimages/2GNAXMEV5J6339316/c524ad5.jpeg",
         "https://vini.gm.com/realimages/2GNAXMEV5J6339316/d559ded.jpeg",
-        "https://vini.gm.com/realimages/2GNAXMEV5J6339316/57a15a8.jpeg",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg",
-        "https://vini.gm.com/realimages/3GNAXFEV5NS120942/ce16582.jpeg"
+        "https://vini.gm.com/realimages/2GNAXMEV5J6339316/57a15a8.jpeg"
       ]
     },
     {
@@ -2351,7 +2260,7 @@
       "body_style": "Sport Utility",
       "stock_number": "24526A",
       "pricing": {
-        "msrp": 18395,
+        "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 17995
@@ -2391,10 +2300,7 @@
         "https://vehicle-images.carscommerce.inc/7d06-110005974/5NMS23AD4LH250495/0fd1e89e27de860595ebd546ca10db8d.webp",
         "https://vehicle-images.carscommerce.inc/9fae-110005974/5NMS23AD4LH250495/2f96dc11669b9fa35f6461f538b33f0d.webp",
         "https://vehicle-images.carscommerce.inc/70ee-110005974/5NMS23AD4LH250495/2dbc39821c750627a739c42df544f469.webp",
-        "https://vehicle-images.carscommerce.inc/2df4-110005974/5NMS23AD4LH250495/cbd24d8fd8cb4baa1dc769cf418d5260.webp",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
-        "https://vini.gm.com/realimages/1GYFZCR49KF177972/801c626.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg"
+        "https://vehicle-images.carscommerce.inc/2df4-110005974/5NMS23AD4LH250495/cbd24d8fd8cb4baa1dc769cf418d5260.webp"
       ]
     },
     {
@@ -2456,9 +2362,7 @@
         "https://vini.gm.com/realimages/3GCUKCED7TG374954/62f3635.jpeg",
         "https://vini.gm.com/realimages/3GCUKCED7TG374954/6d6b3d0.jpeg",
         "https://vini.gm.com/realimages/3GCUKCED7TG374954/c4f84ef.jpeg",
-        "https://vini.gm.com/realimages/3GCUKCED7TG374954/3ab009b.jpeg",
-        "https://vini.gm.com/realimages/1GCPKWEK4TZ357851/c3bb140.jpeg",
-        "https://vini.gm.com/realimages/2GCUKDED5T1193589/b056468.jpeg"
+        "https://vini.gm.com/realimages/3GCUKCED7TG374954/3ab009b.jpeg"
       ]
     },
     {
@@ -2519,9 +2423,7 @@
         "https://vini.gm.com/realimages/1GCPKWEK1TZ381671/358811b.jpeg",
         "https://vini.gm.com/realimages/1GCPKWEK1TZ381671/453ff18.jpeg",
         "https://vini.gm.com/realimages/1GCPKWEK1TZ381671/e86f8aa.jpeg",
-        "https://vini.gm.com/realimages/1GCPKWEK1TZ381671/97924a2.jpeg",
-        "https://vini.gm.com/realimages/1GCPKWEK4TZ357851/c3bb140.jpeg",
-        "https://vini.gm.com/realimages/2GCUKDED5T1193589/b056468.jpeg"
+        "https://vini.gm.com/realimages/1GCPKWEK1TZ381671/97924a2.jpeg"
       ]
     },
     {
@@ -2583,9 +2485,7 @@
         "https://vini.gm.com/realimages/3GCUKFED7TG375491/26d70f5.jpeg",
         "https://vini.gm.com/realimages/3GCUKFED7TG375491/42c6478.jpeg",
         "https://vini.gm.com/realimages/3GCUKFED7TG375491/5e37f70.jpeg",
-        "https://vini.gm.com/realimages/3GCUKFED7TG375491/9553652.jpeg",
-        "https://vini.gm.com/realimages/1GCPKWEK4TZ357851/c3bb140.jpeg",
-        "https://vini.gm.com/realimages/2GCUKDED5T1193589/b056468.jpeg"
+        "https://vini.gm.com/realimages/3GCUKFED7TG375491/9553652.jpeg"
       ]
     },
     {
@@ -2645,10 +2545,7 @@
         "https://vehicle-images.carscommerce.inc/63d8-110005974/JTEBU5JR8K5627344/6705fb5297b43ed47fcf0c867ebc7d83.webp",
         "https://vehicle-images.carscommerce.inc/bf84-110005974/JTEBU5JR8K5627344/bbf0381f15cd135004b561f014a28aa1.webp",
         "https://vehicle-images.carscommerce.inc/ffc8-110005974/JTEBU5JR8K5627344/684baefca5053b1298bde9435cc837d8.webp",
-        "https://vehicle-images.carscommerce.inc/9266-110005974/JTEBU5JR8K5627344/60769ea1ad7bf17244acd0aacda722ac.webp",
-        "https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG2TL479282/7e83f41.jpeg"
+        "https://vehicle-images.carscommerce.inc/9266-110005974/JTEBU5JR8K5627344/60769ea1ad7bf17244acd0aacda722ac.webp"
       ]
     },
     {
@@ -2705,10 +2602,7 @@
         "https://vini.gm.com/realimages/KL79MVSL8RB134799/97ccbeb.jpeg",
         "https://vini.gm.com/realimages/KL79MVSL8RB134799/c66c448.jpeg",
         "https://vini.gm.com/realimages/KL79MVSL8RB134799/6a2838f.jpeg",
-        "https://vini.gm.com/realimages/KL79MVSL8RB134799/2c6586f.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg",
-        "https://vini.gm.com/realimages/KL79MPSL9TB210565/2562521.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL5TB209668/166e93d.jpeg"
+        "https://vini.gm.com/realimages/KL79MVSL8RB134799/2c6586f.jpeg"
       ]
     },
     {
@@ -2736,11 +2630,7 @@
         "fikes_price": null
       },
       "price": 34425,
-      "images": [
-        "https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG2TL479282/7e83f41.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG0TL492533/39dfad8.jpeg"
-      ]
+      "images": []
     },
     {
       "vin": "4T3ZA3BB2EU082398",
@@ -2799,10 +2689,7 @@
         "https://vehicle-images.carscommerce.inc/5932-110005974/4T3ZA3BB2EU082398/26fc82ba97c52bbb10e74d34f2262ba8.webp",
         "https://vehicle-images.carscommerce.inc/8638-110005974/4T3ZA3BB2EU082398/ef432d15ed353a5fefaa381c63856837.webp",
         "https://vehicle-images.carscommerce.inc/a8bc-110005974/4T3ZA3BB2EU082398/1104096f411bc9aab5ec99c8a9940ee0.webp",
-        "https://vehicle-images.carscommerce.inc/dca7-110005974/4T3ZA3BB2EU082398/b473b5f33d12d76f3e48acc9701385d5.webp",
-        "https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/thumbnails/large/d326e1be14af933dfd7d76c5fe2013d3.webp",
-        "https://vehicle-images.carscommerce.inc/a4e3-110005974/2HKRM3H74EH507993/thumbnails/large/275d6573837ceea788bde51a1e9c0e6d.webp",
-        "https://vini.gm.com/realimages/1GNKRGKD2HJ204173/ba4e392.jpeg"
+        "https://vehicle-images.carscommerce.inc/dca7-110005974/4T3ZA3BB2EU082398/b473b5f33d12d76f3e48acc9701385d5.webp"
       ]
     },
     {
@@ -2824,7 +2711,7 @@
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24708",
       "pricing": {
-        "msrp": 18395,
+        "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": null
@@ -2861,10 +2748,7 @@
         "https://vini.gm.com/realimages/2GNAXMEV1J6102533/2f23b12.jpeg",
         "https://vini.gm.com/realimages/2GNAXMEV1J6102533/d4b0ff1.jpeg",
         "https://vini.gm.com/realimages/2GNAXMEV1J6102533/7b31f19.jpeg",
-        "https://vini.gm.com/realimages/2GNAXMEV1J6102533/82c3483.jpeg",
-        "https://vini.gm.com/realimages/2GNAXMEV5J6339316/bc296d5.jpeg",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg"
+        "https://vini.gm.com/realimages/2GNAXMEV1J6102533/82c3483.jpeg"
       ]
     },
     {
@@ -2889,9 +2773,9 @@
         "msrp": 61238,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 65495
+        "fikes_price": 63495
       },
-      "price": 65495,
+      "price": 63495,
       "images": [
         "https://vini.gm.com/realimages/1GTUUGEL2TZ157210/0021793.jpeg",
         "https://vini.gm.com/realimages/1GTUUGEL2TZ157210/a7ea1c5.jpeg",
@@ -2935,10 +2819,7 @@
         "https://vini.gm.com/realimages/1GTUUGEL2TZ157210/d959dd4.jpeg",
         "https://vini.gm.com/realimages/1GTUUGEL2TZ157210/03c52d3.jpeg",
         "https://vini.gm.com/realimages/1GTUUGEL2TZ157210/8a8478c.jpeg",
-        "https://vini.gm.com/realimages/1GTUUGEL2TZ157210/decd1c4.jpeg",
-        "https://vehicle-images.carscommerce.inc/1584-110005974/W1W8ND6Y4ST198001/thumbnails/large/040251473fe65c56d0f1fcc6377e4310.webp",
-        "https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY8TF157853/adb7e47.jpeg"
+        "https://vini.gm.com/realimages/1GTUUGEL2TZ157210/decd1c4.jpeg"
       ]
     },
     {
@@ -2998,10 +2879,7 @@
         "https://vehicle-images.carscommerce.inc/52a7-110005974/5N1BT3BA8RC697898/a6710bc77067659f6f53324ed5ebfc99.webp",
         "https://vehicle-images.carscommerce.inc/4b1d-110005974/5N1BT3BA8RC697898/2d156eb487d2b26843c71d9335520f19.webp",
         "https://vehicle-images.carscommerce.inc/1bcb-110005974/5N1BT3BA8RC697898/6adb13faec62985c47d6bad33bc56e74.webp",
-        "https://vehicle-images.carscommerce.inc/448f-110005974/5N1BT3BA8RC697898/d134e5c056433aa02248be4bd07f03bd.webp",
-        "https://vehicle-images.carscommerce.inc/6ae0-110005974/1N4BL4BV8RN373986/thumbnails/large/a42dcb7c7347f96a668569641825b2ac.webp",
-        "https://vehicle-images.carscommerce.inc/2c3d-110005974/1N4BL4DV9RN348060/thumbnails/large/155dc654c1fda3e7fe936a78a9911ed3.webp",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg"
+        "https://vehicle-images.carscommerce.inc/448f-110005974/5N1BT3BA8RC697898/d134e5c056433aa02248be4bd07f03bd.webp"
       ]
     },
     {
@@ -3026,9 +2904,9 @@
         "msrp": 46120,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 49995
+        "fikes_price": 48995
       },
-      "price": 49995,
+      "price": 48995,
       "images": [
         "https://vini.gm.com/realimages/1GNSKNKD1RR184381/2d47883.jpeg",
         "https://vini.gm.com/realimages/1GNSKNKD1RR184381/3845e71.jpeg",
@@ -3069,9 +2947,7 @@
         "https://vini.gm.com/realimages/1GNSKNKD1RR184381/014b1dd.jpeg",
         "https://vini.gm.com/realimages/1GNSKNKD1RR184381/3e825fe.jpeg",
         "https://vini.gm.com/realimages/1GNSKNKD1RR184381/3c3f778.jpeg",
-        "https://vini.gm.com/realimages/1GNSKNKD1RR184381/6edd9c5.jpeg",
-        "https://vini.gm.com/realimages/1GNERGKS4TJ325274/d6ec3e3.jpeg",
-        "https://vini.gm.com/realimages/1GNERGKS5TJ325784/392826c.jpeg"
+        "https://vini.gm.com/realimages/1GNSKNKD1RR184381/6edd9c5.jpeg"
       ]
     },
     {
@@ -3099,11 +2975,7 @@
         "fikes_price": null
       },
       "price": 26425,
-      "images": [
-        "https://vini.gm.com/realimages/KL77LFEP6TC157949/7e6440b.jpeg",
-        "https://vini.gm.com/realimages/KL77LFEP9TC168346/01682b1.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg"
-      ]
+      "images": []
     },
     {
       "vin": "1GNS5NKD4TR377381",
@@ -3130,11 +3002,7 @@
         "fikes_price": null
       },
       "price": 70180,
-      "images": [
-        "https://vini.gm.com/realimages/1GNS6CKD7TR306421/bbfeb52.jpeg",
-        "https://vehicle-images.carscommerce.inc/1584-110005974/W1W8ND6Y4ST198001/thumbnails/large/040251473fe65c56d0f1fcc6377e4310.webp",
-        "https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg"
-      ]
+      "images": []
     },
     {
       "vin": "1GNERGKS8TJ372632",
@@ -3161,11 +3029,7 @@
         "fikes_price": null
       },
       "price": 46120,
-      "images": [
-        "https://vini.gm.com/realimages/1GNERGKS4TJ325274/d6ec3e3.jpeg",
-        "https://vini.gm.com/realimages/1GNERGKS5TJ325784/392826c.jpeg",
-        "https://vini.gm.com/realimages/3GNAXKEGXTL495128/4f39afb.jpeg"
-      ]
+      "images": []
     },
     {
       "vin": "5TFUU4ENXCX047016",
@@ -3186,7 +3050,7 @@
       "body_style": "Access Cab",
       "stock_number": "24733",
       "pricing": {
-        "msrp": 18395,
+        "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 21995
@@ -3218,10 +3082,7 @@
         "https://vehicle-images.carscommerce.inc/4e30-110005974/5TFUU4ENXCX047016/6aece31b5903351f9850d1545b02453f.webp",
         "https://vehicle-images.carscommerce.inc/fbdc-110005974/5TFUU4ENXCX047016/50c75e7c5b44b499e250355d4aed7e06.webp",
         "https://vehicle-images.carscommerce.inc/6053-110005974/5TFUU4ENXCX047016/11422b6020d87055bcfbe4b6a0317930.webp",
-        "https://vehicle-images.carscommerce.inc/b31e-110005974/5TFUU4ENXCX047016/062b6c00987eb2a911f75b2faf887d66.webp",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
-        "https://vini.gm.com/realimages/1GYFZCR49KF177972/801c626.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg"
+        "https://vehicle-images.carscommerce.inc/b31e-110005974/5TFUU4ENXCX047016/062b6c00987eb2a911f75b2faf887d66.webp"
       ]
     },
     {
@@ -3243,12 +3104,12 @@
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24737",
       "pricing": {
-        "msrp": 18395,
+        "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 22995
+        "fikes_price": 20995
       },
-      "price": 22995,
+      "price": 20995,
       "images": [
         "https://vini.gm.com/realimages/1GYKNERS5KZ155275/24ab66f.jpeg",
         "https://vini.gm.com/realimages/1GYKNERS5KZ155275/bf12e45.jpeg",
@@ -3285,10 +3146,7 @@
         "https://vini.gm.com/realimages/1GYKNERS5KZ155275/5136814.jpeg",
         "https://vini.gm.com/realimages/1GYKNERS5KZ155275/d8c4b42.jpeg",
         "https://vini.gm.com/realimages/1GYKNERS5KZ155275/5617cf9.jpeg",
-        "https://vini.gm.com/realimages/1GYKNERS5KZ155275/793a02e.jpeg",
-        "https://vini.gm.com/realimages/1GYFZCR49KF177972/801c626.jpeg",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg"
+        "https://vini.gm.com/realimages/1GYKNERS5KZ155275/793a02e.jpeg"
       ]
     },
     {
@@ -3310,7 +3168,7 @@
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24736",
       "pricing": {
-        "msrp": 15995,
+        "msrp": 13995,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 12995
@@ -3347,10 +3205,7 @@
         "https://vini.gm.com/realimages/KL7CJKSB8LB033838/5be52c6.jpeg",
         "https://vini.gm.com/realimages/KL7CJKSB8LB033838/73fe89c.jpeg",
         "https://vini.gm.com/realimages/KL7CJKSB8LB033838/230356b.jpeg",
-        "https://vini.gm.com/realimages/KL7CJKSB8LB033838/1f91294.jpeg",
-        "https://vini.gm.com/realimages/1GNKRGKD2HJ204173/ba4e392.jpeg",
-        "https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/thumbnails/large/d326e1be14af933dfd7d76c5fe2013d3.webp",
-        "https://vini.gm.com/realimages/2GNAXHEV1J6314937/2e3ea86.jpeg"
+        "https://vini.gm.com/realimages/KL7CJKSB8LB033838/1f91294.jpeg"
       ]
     },
     {
@@ -3363,9 +3218,9 @@
       "title": "Pre-Owned 2025 Toyota RAV4 LE FWD (Natl) FWD Utility Body",
       "url": "https://www.fikeschevy.com/inventory/used-2025-toyota-rav4-le-fwd-natl-fwd-utility-body-2t3h1rfv2sc335705/",
       "exterior_color": "Not Specified",
-      "interior_color": "Front Bucket Seats -inc: 6-way adjustable driver's seat and 4-way adjustable front passenger seat",
+      "interior_color": "Beige",
       "drivetrain": "FWD",
-      "transmission": null,
+      "transmission": "8 Speed Automatic",
       "engine": "2.5L DOHC 4-Cylinder w/Dual VVT-i",
       "mileage": 17305,
       "fuel_type": null,
@@ -3379,9 +3234,39 @@
       },
       "price": 33990,
       "images": [
-        "https://vehicle-images.carscommerce.inc/927e-110005974/JTEBU5JR8K5627344/thumbnails/large/5629271b088ee91105fac692ca958856.webp",
-        "https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg"
+        "https://vehicle-images.carscommerce.inc/d093-110005974/2T3H1RFV2SC335705/thumbnails/large/e7311ec6b1d383b37b95b6eb502bb23d.webp",
+        "https://vehicle-images.carscommerce.inc/d093-110005974/2T3H1RFV2SC335705/e7311ec6b1d383b37b95b6eb502bb23d.webp",
+        "https://vehicle-images.carscommerce.inc/8d8b-110005974/2T3H1RFV2SC335705/32d39fc48b9fc2dad75974ab792645fa.webp",
+        "https://vehicle-images.carscommerce.inc/834b-110005974/2T3H1RFV2SC335705/8278aa5b3e8f561b814fdfba64d943ef.webp",
+        "https://vehicle-images.carscommerce.inc/c92d-110005974/2T3H1RFV2SC335705/117f67889db6a637aab59606d316a6ae.webp",
+        "https://vehicle-images.carscommerce.inc/3853-110005974/2T3H1RFV2SC335705/a7d5b7f0ae307674c7acdb274da83b3e.webp",
+        "https://vehicle-images.carscommerce.inc/92a1-110005974/2T3H1RFV2SC335705/1155386d95c7da9bbccd483611134639.webp",
+        "https://vehicle-images.carscommerce.inc/557c-110005974/2T3H1RFV2SC335705/f50260fabc6efeeaa95509c7710572ec.webp",
+        "https://vehicle-images.carscommerce.inc/c069-110005974/2T3H1RFV2SC335705/ac9dfd49ccf4e8815d9f7f4d92a9bff2.webp",
+        "https://vehicle-images.carscommerce.inc/bb68-110005974/2T3H1RFV2SC335705/10ac756006a3778e3fbb1e3dc96b0d0c.webp",
+        "https://vehicle-images.carscommerce.inc/647d-110005974/2T3H1RFV2SC335705/21a9f11571393e013fdddbe858e0befb.webp",
+        "https://vehicle-images.carscommerce.inc/653e-110005974/2T3H1RFV2SC335705/88b617ddc361914f8a3ea82c1eefa69f.webp",
+        "https://vehicle-images.carscommerce.inc/42a1-110005974/2T3H1RFV2SC335705/02429bb8f61a4d9f27a4d1a0a228c804.webp",
+        "https://vehicle-images.carscommerce.inc/1ad7-110005974/2T3H1RFV2SC335705/ae9fa5b45538ab089b023132fe7f4c71.webp",
+        "https://vehicle-images.carscommerce.inc/8d5e-110005974/2T3H1RFV2SC335705/4f28a350fcddfee347eeaa30bf471d5f.webp",
+        "https://vehicle-images.carscommerce.inc/ec83-110005974/2T3H1RFV2SC335705/3b4d15ba7f5f58b1c82e15bdc2a5b601.webp",
+        "https://vehicle-images.carscommerce.inc/f588-110005974/2T3H1RFV2SC335705/751029164c24a6f38182d2e5d872c389.webp",
+        "https://vehicle-images.carscommerce.inc/30a0-110005974/2T3H1RFV2SC335705/5348fd38e64450e85a0de95c7e6c054b.webp",
+        "https://vehicle-images.carscommerce.inc/5f45-110005974/2T3H1RFV2SC335705/e00dfbdc4dfcd49a874499708849f286.webp",
+        "https://vehicle-images.carscommerce.inc/6355-110005974/2T3H1RFV2SC335705/c1dabe6e361d599bd9093188be0e475d.webp",
+        "https://vehicle-images.carscommerce.inc/5150-110005974/2T3H1RFV2SC335705/9f4e87f53c74bb5a1c4ad9b1dc17674d.webp",
+        "https://vehicle-images.carscommerce.inc/e646-110005974/2T3H1RFV2SC335705/8c46d98a4f76a1ff209bbe1cce749a56.webp",
+        "https://vehicle-images.carscommerce.inc/d59b-110005974/2T3H1RFV2SC335705/03150825507cefd1b80beddd763e6de4.webp",
+        "https://vehicle-images.carscommerce.inc/165f-110005974/2T3H1RFV2SC335705/d5e30754691d8bb98812c50ea8ae7306.webp",
+        "https://vehicle-images.carscommerce.inc/fd61-110005974/2T3H1RFV2SC335705/d6b37a4e7883e3f4d19a0f161c99f52d.webp",
+        "https://vehicle-images.carscommerce.inc/41cc-110005974/2T3H1RFV2SC335705/168163dd4d73c287729cb2b725c5886a.webp",
+        "https://vehicle-images.carscommerce.inc/26a0-110005974/2T3H1RFV2SC335705/f618c73bc05d9274c1cd858f4f8e8d45.webp",
+        "https://vehicle-images.carscommerce.inc/2457-110005974/2T3H1RFV2SC335705/5c810017f311302bb8908ca7e2b3a927.webp",
+        "https://vehicle-images.carscommerce.inc/7dbb-110005974/2T3H1RFV2SC335705/e823e333673466ff6fac73db7bd8a617.webp",
+        "https://vehicle-images.carscommerce.inc/9ed5-110005974/2T3H1RFV2SC335705/fe0e7d39870fe7da3017a44ccd1c53fe.webp",
+        "https://vehicle-images.carscommerce.inc/2a7b-110005974/2T3H1RFV2SC335705/c5f108ee4bf12590f5fbf403d3f125a8.webp",
+        "https://vehicle-images.carscommerce.inc/d67b-110005974/2T3H1RFV2SC335705/ea1ad7f603e9a76a31c047157f450088.webp",
+        "https://vehicle-images.carscommerce.inc/5ca8-110005974/2T3H1RFV2SC335705/cb4c2927add16354d833b13d0954a592.webp"
       ]
     },
     {
@@ -3406,9 +3291,9 @@
         "msrp": 64730,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 51995
+        "fikes_price": 50995
       },
-      "price": 51995,
+      "price": 50995,
       "images": [
         "https://vini.gm.com/realimages/1GTUUGE81RZ187285/5f7add2.jpeg",
         "https://vini.gm.com/realimages/1GTUUGE81RZ187285/f738d5a.jpeg",
@@ -3451,10 +3336,7 @@
         "https://vini.gm.com/realimages/1GTUUGE81RZ187285/055f506.jpeg",
         "https://vini.gm.com/realimages/1GTUUGE81RZ187285/f8504d5.jpeg",
         "https://vini.gm.com/realimages/1GTUUGE81RZ187285/2f08df7.jpeg",
-        "https://vini.gm.com/realimages/1GTUUGE81RZ187285/1fcea01.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg",
-        "https://vini.gm.com/realimages/1GB4KSEY8TF157853/adb7e47.jpeg",
-        "https://vini.gm.com/realimages/2GC4KMEY4T1175281/e524c9f.jpeg"
+        "https://vini.gm.com/realimages/1GTUUGE81RZ187285/1fcea01.jpeg"
       ]
     },
     {
@@ -3476,7 +3358,7 @@
       "body_style": "Sedan",
       "stock_number": "24722",
       "pricing": {
-        "msrp": 19195,
+        "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 20495
@@ -3516,10 +3398,7 @@
         "https://vehicle-images.carscommerce.inc/e968-110005974/1N4BL4BV8RN373986/386d80cbaf3536df21ced3260c481e24.webp",
         "https://vehicle-images.carscommerce.inc/e952-110005974/1N4BL4BV8RN373986/021d243f4d51387e3c11ccb29c7cf326.webp",
         "https://vehicle-images.carscommerce.inc/85de-110005974/1N4BL4BV8RN373986/c32d0c7458a09bc340bae2a02c0c6061.webp",
-        "https://vehicle-images.carscommerce.inc/5c3d-110005974/1N4BL4BV8RN373986/361b0905ccbeeca343fa4b6e5e44e39d.webp",
-        "https://vehicle-images.carscommerce.inc/2c3d-110005974/1N4BL4DV9RN348060/thumbnails/large/155dc654c1fda3e7fe936a78a9911ed3.webp",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
-        "https://vini.gm.com/realimages/1GYFZCR49KF177972/801c626.jpeg"
+        "https://vehicle-images.carscommerce.inc/5c3d-110005974/1N4BL4BV8RN373986/361b0905ccbeeca343fa4b6e5e44e39d.webp"
       ]
     },
     {
@@ -3541,7 +3420,7 @@
       "body_style": "Sport Utility",
       "stock_number": "24717",
       "pricing": {
-        "msrp": 18395,
+        "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 16695
@@ -3582,10 +3461,7 @@
         "https://vehicle-images.carscommerce.inc/1aac-110005974/ZACNJDAB6MPN23935/a2adc16415e40fad492fc688b9100bf3.webp",
         "https://vehicle-images.carscommerce.inc/86b1-110005974/ZACNJDAB6MPN23935/8870a2d98f078116a1bf961859be43d7.webp",
         "https://vehicle-images.carscommerce.inc/a976-110005974/ZACNJDAB6MPN23935/ef0dd1fd79fbf92701e4ee7e6ffeacfd.webp",
-        "https://vehicle-images.carscommerce.inc/116b-110005974/ZACNJDAB6MPN23935/a21829fc02830944f5e9dcafefdace4e.webp",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
-        "https://vini.gm.com/realimages/1GYFZCR49KF177972/801c626.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg"
+        "https://vehicle-images.carscommerce.inc/116b-110005974/ZACNJDAB6MPN23935/a21829fc02830944f5e9dcafefdace4e.webp"
       ]
     },
     {
@@ -3607,7 +3483,7 @@
       "body_style": "Sedan",
       "stock_number": "24719",
       "pricing": {
-        "msrp": 19195,
+        "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 21995
@@ -3642,10 +3518,7 @@
         "https://vehicle-images.carscommerce.inc/42c0-110005974/1N4BL4DV9RN348060/8cf56f33dd16a0430af1f44640364985.webp",
         "https://vehicle-images.carscommerce.inc/aef8-110005974/1N4BL4DV9RN348060/e028860589613b75215324278b83212b.webp",
         "https://vehicle-images.carscommerce.inc/692c-110005974/1N4BL4DV9RN348060/c73439a11aee5dffbb954106fdd609fb.webp",
-        "https://vehicle-images.carscommerce.inc/28f5-110005974/1N4BL4DV9RN348060/6805e84fab61706873d2a45d1cbdaa5e.webp",
-        "https://vehicle-images.carscommerce.inc/6ae0-110005974/1N4BL4BV8RN373986/thumbnails/large/a42dcb7c7347f96a668569641825b2ac.webp",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
-        "https://vini.gm.com/realimages/1GYFZCR49KF177972/801c626.jpeg"
+        "https://vehicle-images.carscommerce.inc/28f5-110005974/1N4BL4DV9RN348060/6805e84fab61706873d2a45d1cbdaa5e.webp"
       ]
     },
     {
@@ -3711,9 +3584,7 @@
         "https://vehicle-images.carscommerce.inc/48c4-110005974/W1N4M4GB5SW400097/91fb55099db18c83d7d08f611667e504.webp",
         "https://vehicle-images.carscommerce.inc/cf12-110005974/W1N4M4GB5SW400097/09c94ea75ef7513a8a0c84bc9f09cb32.webp",
         "https://vehicle-images.carscommerce.inc/52bc-110005974/W1N4M4GB5SW400097/358f5705cf18e0033a4166eedb903118.webp",
-        "https://vehicle-images.carscommerce.inc/e55d-110005974/W1N4M4GB5SW400097/e65e5158860c5cbb31b988fdf82382dd.webp",
-        "https://vini.gm.com/realimages/1GNERGKS4TJ325274/d6ec3e3.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG2TL479282/7e83f41.jpeg"
+        "https://vehicle-images.carscommerce.inc/e55d-110005974/W1N4M4GB5SW400097/e65e5158860c5cbb31b988fdf82382dd.webp"
       ]
     },
     {
@@ -3741,11 +3612,7 @@
         "fikes_price": null
       },
       "price": 35005,
-      "images": [
-        "https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg",
-        "https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg",
-        "https://vini.gm.com/realimages/1GNERGKS4TJ325274/d6ec3e3.jpeg"
-      ]
+      "images": []
     },
     {
       "vin": "3GNAXLEG3TL539797",
@@ -3772,11 +3639,7 @@
         "fikes_price": null
       },
       "price": 38035,
-      "images": [
-        "https://vini.gm.com/realimages/3GNAXHEG2TL479282/7e83f41.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG0TL492533/39dfad8.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4TL502304/d6669d8.jpeg"
-      ]
+      "images": []
     },
     {
       "vin": "2G1FC1E3XD9227775",
@@ -3803,11 +3666,7 @@
         "fikes_price": null
       },
       "price": null,
-      "images": [
-        "https://vehicle-images.carscommerce.inc/2942-110005974/YS3FD46Y371115885/thumbnails/large/2a3e2fac3a3d3eeb9e721c4f8c09e256.webp",
-        "https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/thumbnails/large/d326e1be14af933dfd7d76c5fe2013d3.webp",
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg"
-      ]
+      "images": []
     },
     {
       "vin": "1FTFW1ET7EFC68470",
@@ -3819,25 +3678,54 @@
       "title": "Pre-Owned 2014 Ford F-150 FX4 SuperCrew 5.5-ft. Bed 4WD 4WD Truck",
       "url": "https://www.fikeschevy.com/inventory/used-2014-ford-f-150-fx4-supercrew-5-5-ft-bed-4wd-4wd-truck-1ftfw1et7efc68470/",
       "exterior_color": "Black",
-      "interior_color": null,
+      "interior_color": "Black",
       "drivetrain": "4WD",
-      "transmission": null,
+      "transmission": "6 Speed Automatic",
       "engine": "3.5L V6 TURBO",
       "mileage": 175374,
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24580A",
       "pricing": {
-        "msrp": 18395,
+        "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 14995
       },
       "price": 14995,
       "images": [
-        "https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/thumbnails/large/d326e1be14af933dfd7d76c5fe2013d3.webp",
-        "https://vini.gm.com/realimages/1GYFZCR49KF177972/801c626.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg"
+        "https://vehicle-images.carscommerce.inc/f66d-110005974/1FTFW1ET7EFC68470/thumbnails/large/675b47773338eac373e6e93f732105b9.webp",
+        "https://vehicle-images.carscommerce.inc/f66d-110005974/1FTFW1ET7EFC68470/675b47773338eac373e6e93f732105b9.webp",
+        "https://vehicle-images.carscommerce.inc/60b9-110005974/1FTFW1ET7EFC68470/30c734955cf6aed802e01678de5ca460.webp",
+        "https://vehicle-images.carscommerce.inc/cb5e-110005974/1FTFW1ET7EFC68470/4d4332570287e83a74bc25366c1876cf.webp",
+        "https://vehicle-images.carscommerce.inc/7489-110005974/1FTFW1ET7EFC68470/d3beec0013a3437efebcec920a7ad75a.webp",
+        "https://vehicle-images.carscommerce.inc/bf49-110005974/1FTFW1ET7EFC68470/edf143a9d76a22e8d76102afd58e7e57.webp",
+        "https://vehicle-images.carscommerce.inc/1246-110005974/1FTFW1ET7EFC68470/c2a19e890b112d0421bc704444b01dc9.webp",
+        "https://vehicle-images.carscommerce.inc/7988-110005974/1FTFW1ET7EFC68470/9e7d6ff7629d0766a2295e48fbb22d28.webp",
+        "https://vehicle-images.carscommerce.inc/c767-110005974/1FTFW1ET7EFC68470/e02fbc96f55a1e0390c88e701ed5bc4f.webp",
+        "https://vehicle-images.carscommerce.inc/1c46-110005974/1FTFW1ET7EFC68470/8e34173856a2ec0b2a30f0a0b73af8c6.webp",
+        "https://vehicle-images.carscommerce.inc/7d8c-110005974/1FTFW1ET7EFC68470/4d9fedec35be540f01a82630257f2066.webp",
+        "https://vehicle-images.carscommerce.inc/b784-110005974/1FTFW1ET7EFC68470/79be7b4caa74ef1db1b93c7fcd3ffcc2.webp",
+        "https://vehicle-images.carscommerce.inc/87c1-110005974/1FTFW1ET7EFC68470/40d552691739f7982b74b237f0250843.webp",
+        "https://vehicle-images.carscommerce.inc/c012-110005974/1FTFW1ET7EFC68470/aff3c26edeecde3c103f39fbceb3b093.webp",
+        "https://vehicle-images.carscommerce.inc/f8f8-110005974/1FTFW1ET7EFC68470/c3cb37cc7db57926692f36a0224acae7.webp",
+        "https://vehicle-images.carscommerce.inc/61d1-110005974/1FTFW1ET7EFC68470/6cd876a5dd2f3bb937bf49e1240cff91.webp",
+        "https://vehicle-images.carscommerce.inc/bcce-110005974/1FTFW1ET7EFC68470/fa69489f9141b5565d23729066858aa9.webp",
+        "https://vehicle-images.carscommerce.inc/d3b0-110005974/1FTFW1ET7EFC68470/46794da34420ba9dff0438b684cf7af3.webp",
+        "https://vehicle-images.carscommerce.inc/37d9-110005974/1FTFW1ET7EFC68470/5318ee6b9d631590b0da57ad19eef4a1.webp",
+        "https://vehicle-images.carscommerce.inc/2d36-110005974/1FTFW1ET7EFC68470/d33f433bf1b58bc02c4cbe9596aaf419.webp",
+        "https://vehicle-images.carscommerce.inc/f603-110005974/1FTFW1ET7EFC68470/a978d698168d7773dd1e7abc2c06598e.webp",
+        "https://vehicle-images.carscommerce.inc/a441-110005974/1FTFW1ET7EFC68470/40e12fef46072d94464176952eee5c2f.webp",
+        "https://vehicle-images.carscommerce.inc/42eb-110005974/1FTFW1ET7EFC68470/e557a60a3e237f11d6dd727896ef3d04.webp",
+        "https://vehicle-images.carscommerce.inc/2b20-110005974/1FTFW1ET7EFC68470/68320908284de745e29a33a3a05b8ab7.webp",
+        "https://vehicle-images.carscommerce.inc/b985-110005974/1FTFW1ET7EFC68470/31563656091718ec0e12b655c5ac2c35.webp",
+        "https://vehicle-images.carscommerce.inc/d021-110005974/1FTFW1ET7EFC68470/fe4c10d6696b5ab5c0279f47b3b3b1a6.webp",
+        "https://vehicle-images.carscommerce.inc/e19c-110005974/1FTFW1ET7EFC68470/07d090d7d9c012c54ff6e964cbd17d74.webp",
+        "https://vehicle-images.carscommerce.inc/4da7-110005974/1FTFW1ET7EFC68470/a2cc186f2c18c6267515e23a6c49ba9e.webp",
+        "https://vehicle-images.carscommerce.inc/5161-110005974/1FTFW1ET7EFC68470/af9ca8276a69e90faa5dba5bc080d84d.webp",
+        "https://vehicle-images.carscommerce.inc/6d9d-110005974/1FTFW1ET7EFC68470/4826ecbd01f60c8fa72e02111a944c7c.webp",
+        "https://vehicle-images.carscommerce.inc/a5fa-110005974/1FTFW1ET7EFC68470/ad25bb61eec68450c7c62453a53561f3.webp",
+        "https://vehicle-images.carscommerce.inc/6204-110005974/1FTFW1ET7EFC68470/9f333d667dea99c957f28ecf703949a3.webp"
       ]
     },
     {
@@ -3850,9 +3738,9 @@
       "title": "Pre-Owned 2017 Hyundai Sonata SE 2.4L FWD Sedan 4 Dr.",
       "url": "https://www.fikeschevy.com/inventory/used-2017-hyundai-sonata-se-2-4l-fwd-sedan-4-dr-5npe24af1hh460812/",
       "exterior_color": "Red",
-      "interior_color": null,
+      "interior_color": "Beige",
       "drivetrain": "FWD",
-      "transmission": "6-Speed Automatic w/SHIFTRONIC -inc: OD lock-up torque converter, shift lock and SHIFTRONIC mode",
+      "transmission": "6 Speed Automatic",
       "engine": "2.4L GDI 4-Cylinder",
       "mileage": 87173,
       "fuel_type": null,
@@ -3866,9 +3754,38 @@
       },
       "price": 13995,
       "images": [
-        "https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/thumbnails/large/d326e1be14af933dfd7d76c5fe2013d3.webp",
-        "https://vini.gm.com/realimages/2GNAXHEV1J6314937/2e3ea86.jpeg",
-        "https://vini.gm.com/realimages/1GNKRGKD2HJ204173/ba4e392.jpeg"
+        "https://vehicle-images.carscommerce.inc/daef-110005974/5NPE24AF1HH460812/thumbnails/large/8aee98342da7cf0f5bd9e9485f2b24b2.webp",
+        "https://vehicle-images.carscommerce.inc/daef-110005974/5NPE24AF1HH460812/8aee98342da7cf0f5bd9e9485f2b24b2.webp",
+        "https://vehicle-images.carscommerce.inc/ea85-110005974/5NPE24AF1HH460812/70f02394695a2001cd97a4c7bc16d40c.webp",
+        "https://vehicle-images.carscommerce.inc/a502-110005974/5NPE24AF1HH460812/8f41d056f63faafbece28a492b41bc17.webp",
+        "https://vehicle-images.carscommerce.inc/b25e-110005974/5NPE24AF1HH460812/f2398a6448c6924d77b6797a6a905f46.webp",
+        "https://vehicle-images.carscommerce.inc/3765-110005974/5NPE24AF1HH460812/751138e6a36520b282ceaea49e8bcfa5.webp",
+        "https://vehicle-images.carscommerce.inc/7761-110005974/5NPE24AF1HH460812/364a5a408acec54672c9fb7f4916548a.webp",
+        "https://vehicle-images.carscommerce.inc/6b8f-110005974/5NPE24AF1HH460812/fc090ffadb05c3287e6345f023b6dcae.webp",
+        "https://vehicle-images.carscommerce.inc/c464-110005974/5NPE24AF1HH460812/981e534ae7031d2155c75dab13d08d28.webp",
+        "https://vehicle-images.carscommerce.inc/bfa4-110005974/5NPE24AF1HH460812/fa6efcddb6dd19327d6e8f75fa809b21.webp",
+        "https://vehicle-images.carscommerce.inc/4d09-110005974/5NPE24AF1HH460812/07eaa07209d1db1a907fd41bc450e7ad.webp",
+        "https://vehicle-images.carscommerce.inc/a0ba-110005974/5NPE24AF1HH460812/2b645b6f560dfe78b889234f0b696d50.webp",
+        "https://vehicle-images.carscommerce.inc/74ca-110005974/5NPE24AF1HH460812/7a2c1d0ab6dcf641fbb1a5ddbb896b21.webp",
+        "https://vehicle-images.carscommerce.inc/da37-110005974/5NPE24AF1HH460812/7028b769cbf218544b56eb86916ef576.webp",
+        "https://vehicle-images.carscommerce.inc/adf4-110005974/5NPE24AF1HH460812/9c6a488a232355035df6b62e2b3b38e5.webp",
+        "https://vehicle-images.carscommerce.inc/9576-110005974/5NPE24AF1HH460812/05ad70c21928ff8f2c637c3e0702dbbb.webp",
+        "https://vehicle-images.carscommerce.inc/77d9-110005974/5NPE24AF1HH460812/69f55349bf35514696e763ffc990debb.webp",
+        "https://vehicle-images.carscommerce.inc/a36d-110005974/5NPE24AF1HH460812/d6ee02ea3c32b97aeeacae31b815d493.webp",
+        "https://vehicle-images.carscommerce.inc/9f1e-110005974/5NPE24AF1HH460812/36158ad9b1efa4de81b6bea97b17e275.webp",
+        "https://vehicle-images.carscommerce.inc/472f-110005974/5NPE24AF1HH460812/504ce58c7faea71398d5ef99671a0ecb.webp",
+        "https://vehicle-images.carscommerce.inc/1bbb-110005974/5NPE24AF1HH460812/cda508dd6d142ffff82de8dd04a54901.webp",
+        "https://vehicle-images.carscommerce.inc/7104-110005974/5NPE24AF1HH460812/69604303b7972e481863dbb756eda32b.webp",
+        "https://vehicle-images.carscommerce.inc/ecd3-110005974/5NPE24AF1HH460812/d8a25d16849eb5ed025874827bb0ca76.webp",
+        "https://vehicle-images.carscommerce.inc/1f4f-110005974/5NPE24AF1HH460812/340b3806b2ad683a11268a39e6e10c5d.webp",
+        "https://vehicle-images.carscommerce.inc/91fc-110005974/5NPE24AF1HH460812/f66ca568ce387dc2e9a70fd6bdafec46.webp",
+        "https://vehicle-images.carscommerce.inc/4283-110005974/5NPE24AF1HH460812/b0ddc3bc62a5a44895d671506099c257.webp",
+        "https://vehicle-images.carscommerce.inc/2ae6-110005974/5NPE24AF1HH460812/0eeac376913d67c1512ae2d0fb1ff0c6.webp",
+        "https://vehicle-images.carscommerce.inc/158e-110005974/5NPE24AF1HH460812/a38534224dc2a708133cdd05b5263021.webp",
+        "https://vehicle-images.carscommerce.inc/cbb1-110005974/5NPE24AF1HH460812/704986e8f4922d916b76a3718e1fef78.webp",
+        "https://vehicle-images.carscommerce.inc/aa69-110005974/5NPE24AF1HH460812/22ed3607e3c98efc5f46c5ac36ea2f6d.webp",
+        "https://vehicle-images.carscommerce.inc/4e44-110005974/5NPE24AF1HH460812/356197019dccbc523a3c636086256661.webp",
+        "https://vehicle-images.carscommerce.inc/7a28-110005974/5NPE24AF1HH460812/3136d7cf9a698ea3a943783fcb1a2520.webp"
       ]
     },
     {
@@ -3881,25 +3798,55 @@
       "title": "Pre-Owned 2020 BMW X3 sDrive30i Sports Activity Vehicle RWD Wagon 4 Dr.",
       "url": "https://www.fikeschevy.com/inventory/used-2020-bmw-x3-sdrive30i-sports-activity-vehicle-rwd-wagon-4-dr-5uxty3c05l9c09190/",
       "exterior_color": "Black",
-      "interior_color": "Sport Bucket Seats",
+      "interior_color": "Black",
       "drivetrain": "RWD",
-      "transmission": null,
+      "transmission": "8 Speed Automatic",
       "engine": "2.0L TwinPower Turbo In-Line 4-Cylinder",
       "mileage": 70939,
       "fuel_type": null,
       "body_style": "Sports Activity Vehicle",
       "stock_number": "24730",
       "pricing": {
-        "msrp": 18395,
+        "msrp": 18995,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 21995
       },
       "price": 21995,
       "images": [
-        "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
-        "https://vini.gm.com/realimages/1GYFZCR49KF177972/801c626.jpeg",
-        "https://vini.gm.com/realimages/3GNAXHEG4PL152680/216bc97.jpeg"
+        "https://vehicle-images.carscommerce.inc/fd5f-110005974/5UXTY3C05L9C09190/thumbnails/large/82befecb95785e02770de664e5dbf1e8.webp",
+        "https://vehicle-images.carscommerce.inc/fd5f-110005974/5UXTY3C05L9C09190/82befecb95785e02770de664e5dbf1e8.webp",
+        "https://vehicle-images.carscommerce.inc/3598-110005974/5UXTY3C05L9C09190/1696667b8098c30c48382d801cff827d.webp",
+        "https://vehicle-images.carscommerce.inc/4647-110005974/5UXTY3C05L9C09190/8866fa3bf73ad54905c64b044f4d7047.webp",
+        "https://vehicle-images.carscommerce.inc/acde-110005974/5UXTY3C05L9C09190/a4493f643749b713a0bbebd9ce6358e4.webp",
+        "https://vehicle-images.carscommerce.inc/7518-110005974/5UXTY3C05L9C09190/712027fc244de23f1f6febe99af3ddbd.webp",
+        "https://vehicle-images.carscommerce.inc/9d24-110005974/5UXTY3C05L9C09190/5ff66df2e497c1a2a3528e0b8c71d3d7.webp",
+        "https://vehicle-images.carscommerce.inc/cbc4-110005974/5UXTY3C05L9C09190/08b95a6955ccfae71f01407ee82b5e43.webp",
+        "https://vehicle-images.carscommerce.inc/51bc-110005974/5UXTY3C05L9C09190/1009c4869e93063a1425ffd81f03d008.webp",
+        "https://vehicle-images.carscommerce.inc/2cca-110005974/5UXTY3C05L9C09190/fd6c2f9be39fc599b2b3273b00e49002.webp",
+        "https://vehicle-images.carscommerce.inc/2468-110005974/5UXTY3C05L9C09190/1039bfbb4ceb67af1a8139035117dabb.webp",
+        "https://vehicle-images.carscommerce.inc/df6f-110005974/5UXTY3C05L9C09190/b45612b4d6cb3441e7af1fec74a8f9ad.webp",
+        "https://vehicle-images.carscommerce.inc/eab9-110005974/5UXTY3C05L9C09190/b17ab9d81b5a71d648104aad6e49feff.webp",
+        "https://vehicle-images.carscommerce.inc/3b15-110005974/5UXTY3C05L9C09190/2106bea54dd937b56c3a10c0046353b5.webp",
+        "https://vehicle-images.carscommerce.inc/6328-110005974/5UXTY3C05L9C09190/743db19c5a94460f847d894a7e83d247.webp",
+        "https://vehicle-images.carscommerce.inc/64d9-110005974/5UXTY3C05L9C09190/cae7b9324f9f9f56fe23eddac9f430ed.webp",
+        "https://vehicle-images.carscommerce.inc/7a4e-110005974/5UXTY3C05L9C09190/f13eed5acd565438d539cbca2666da7c.webp",
+        "https://vehicle-images.carscommerce.inc/b921-110005974/5UXTY3C05L9C09190/bf332c11d48c77a5b61b9b8e6531851c.webp",
+        "https://vehicle-images.carscommerce.inc/465f-110005974/5UXTY3C05L9C09190/d895e4165dcfd7be12a3186917c18877.webp",
+        "https://vehicle-images.carscommerce.inc/a1d5-110005974/5UXTY3C05L9C09190/aa08b05637d5a34b00dc9d86de50c60f.webp",
+        "https://vehicle-images.carscommerce.inc/145c-110005974/5UXTY3C05L9C09190/058e0f5fcacfa9d6e16e30318c29234f.webp",
+        "https://vehicle-images.carscommerce.inc/da50-110005974/5UXTY3C05L9C09190/db7e42164af67a472267bf6eaafb5413.webp",
+        "https://vehicle-images.carscommerce.inc/9a85-110005974/5UXTY3C05L9C09190/4d1605b5ebb8a7e56b5b957e89d8f643.webp",
+        "https://vehicle-images.carscommerce.inc/74ac-110005974/5UXTY3C05L9C09190/43c4841b2be3ba919ca788a8f525348c.webp",
+        "https://vehicle-images.carscommerce.inc/562d-110005974/5UXTY3C05L9C09190/9f3adbe530b69f5d590613d8ab3e6ef0.webp",
+        "https://vehicle-images.carscommerce.inc/e52a-110005974/5UXTY3C05L9C09190/2210f58842d22fdc22ad9ee8e8f75777.webp",
+        "https://vehicle-images.carscommerce.inc/b54f-110005974/5UXTY3C05L9C09190/d6554a845ea933ca6a911b6d5458c040.webp",
+        "https://vehicle-images.carscommerce.inc/bb6e-110005974/5UXTY3C05L9C09190/3f3db83153603d3d94351fec22e2bff8.webp",
+        "https://vehicle-images.carscommerce.inc/7b29-110005974/5UXTY3C05L9C09190/45f09afa89f2f5679ca80409f75680b5.webp",
+        "https://vehicle-images.carscommerce.inc/45b4-110005974/5UXTY3C05L9C09190/8e27073ff4a8b79b95af69ce46e4013a.webp",
+        "https://vehicle-images.carscommerce.inc/3466-110005974/5UXTY3C05L9C09190/43d53f5f74b9867bd771dbcd19af71bb.webp",
+        "https://vehicle-images.carscommerce.inc/90a0-110005974/5UXTY3C05L9C09190/197412f4b2fa303f7c7f9876d085e67f.webp",
+        "https://vehicle-images.carscommerce.inc/be30-110005974/5UXTY3C05L9C09190/9fb66bdb103bd4f627ca817ba5612a5b.webp"
       ]
     }
   ]

@@ -43,6 +43,7 @@
 const fs = require('fs');
 const path = require('path');
 const puppeteer = require('puppeteer');
+const { XMLValidator } = require('fast-xml-parser');
 
 // ============================================================================
 // Config
@@ -601,7 +602,7 @@ function writeOutputs(vehicles) {
   const feedVehicles = vehicles.filter((v) => v.images && v.images.length > 0);
   const items = feedVehicles.map(vehicleToFeedItem).join('\n');
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<!-- Fikes Vehicles -- Meta Commerce Manager automotive inventory feed -->
+<!-- Fikes Vehicles — Meta Commerce Manager automotive inventory feed -->
 <!-- Pixel ID ${PIXEL_ID} is associated with this catalog in Commerce -->
 <!-- Manager > Settings > Event Sources (Meta does not read pixel binding -->
 <!-- from the feed file itself); included below as <g:pixel_id> for -->
@@ -625,6 +626,45 @@ ${items}
       `and ${feedVehicles.length} vehicles -> ${path.join(OUTPUT_DIR, 'feed.xml')} ` +
       `(${noImageVehicles.length} excluded from feed for 0 images)`
   );
+}
+
+// Validates the feed.xml actually written to disk (not the in-memory
+// string). Throws on failure; the caller in main() lets that propagate up
+// to the top-level catch, which sets a non-zero exit code — required so an
+// unattended GitHub Actions run actually fails the job instead of
+// committing a broken feed.xml silently.
+function validateFeedXml(feedPath) {
+  const xml = fs.readFileSync(feedPath, 'utf8');
+
+  // General well-formedness: tag balance, attribute syntax, declaration,
+  // etc. Confirmed via direct testing that this does NOT catch an illegal
+  // "--" inside a comment's content (fast-xml-parser treats comment bodies
+  // as opaque and doesn't check that specific spec rule), so that case is
+  // checked explicitly below rather than assumed to be covered here.
+  const result = XMLValidator.validate(xml, { allowBooleanAttributes: true });
+  if (result !== true) {
+    const { code, msg, line, col } = result.err;
+    throw new Error(`feed.xml failed XML validation: [${code}] ${msg} (line ${line}, col ${col})`);
+  }
+
+  // Explicit check for the exact bug class that caused this issue: XML
+  // comments may not contain the literal two-character sequence "--"
+  // anywhere in their content, not just at the closing delimiter.
+  const commentRe = /<!--([\s\S]*?)-->/g;
+  const offenders = [];
+  let match;
+  while ((match = commentRe.exec(xml)) !== null) {
+    if (match[1].includes('--')) {
+      offenders.push(match[1].trim());
+    }
+  }
+  if (offenders.length > 0) {
+    throw new Error(
+      `feed.xml has ${offenders.length} XML comment(s) containing an illegal "--" sequence: ${offenders.join(' | ')}`
+    );
+  }
+
+  console.log(`feed.xml passed XML validation (${feedPath})`);
 }
 
 // ============================================================================
@@ -687,6 +727,13 @@ async function main() {
   console.log(`Final vehicle count after one-time VIN dedupe: ${finalVehicles.length}`);
 
   writeOutputs(finalVehicles);
+
+  // Validation step — runs unconditionally after the file is on disk,
+  // local or in CI. Throws on failure, which propagates to the
+  // main().catch() below and sets process.exitCode = 1, so an unattended
+  // GitHub Actions run is marked failed rather than committing a broken
+  // feed.xml silently.
+  validateFeedXml(path.join(OUTPUT_DIR, 'feed.xml'));
 }
 
 if (require.main === module) {

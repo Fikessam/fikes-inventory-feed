@@ -552,6 +552,36 @@ const SUV_MODEL_HINTS = [
 const PICKUP_MODEL_HINTS = ['silverado', 'sierra', 'f-150', 'tacoma', 'colorado'];
 const VAN_MODEL_HINTS = ['sprinter', 'express', 'savana'];
 
+// ----------------------------------------------------------------------------
+// transmission / drivetrain normalization
+// ----------------------------------------------------------------------------
+// Meta's Vehicles catalog schema restricts these to fixed enums:
+//   transmission: AUTOMATIC, MANUAL, OTHER, NONE
+//   drivetrain:   TWO_WD, FOUR_WD, AWD, FWD, RWD, OTHER, NONE
+// (confirmed against the Graph API Product Catalog Vehicles reference).
+// Raw DCS/DI text like "8-Speed Automatic" or "Four Wheel Drive" is rejected
+// as an "Unsupported value" — same failure class normalizeBodyStyle already
+// solves for body_style. These two functions do the same job for these
+// fields; wired in below at vehicleToFeedItem().
+function normalizeTransmission(raw) {
+  if (!raw) return 'NONE';
+  const t = raw.toLowerCase();
+  if (/manual|stick/.test(t)) return 'MANUAL';
+  if (/auto|cvt|speed/.test(t)) return 'AUTOMATIC';
+  return 'OTHER';
+}
+
+function normalizeDrivetrain(raw) {
+  if (!raw) return 'NONE';
+  const d = raw.toLowerCase().replace(/[\s-]/g, '');
+  if (/allwheel|awd/.test(d)) return 'AWD';
+  if (/4wd|4x4|fourwheel/.test(d)) return 'FOUR_WD';
+  if (/fwd|frontwheel/.test(d)) return 'FWD';
+  if (/rwd|rearwheel/.test(d)) return 'RWD';
+  if (/^2wd$|twowheel/.test(d)) return 'TWO_WD';
+  return 'OTHER';
+}
+
 function normalizeBodyStyle(v) {
   const raw = (v.body_style || '').toLowerCase();
   const model = (v.model || '').toLowerCase();
@@ -632,8 +662,8 @@ function vehicleToFeedItem(v) {
       <unit>MI</unit>
       <value>${v.mileage != null ? v.mileage : 0}</value>
     </mileage>
-    <transmission>${escapeXml(v.transmission)}</transmission>
-    <drivetrain>${escapeXml(v.drivetrain)}</drivetrain>
+    <transmission>${normalizeTransmission(v.transmission)}</transmission>
+    <drivetrain>${normalizeDrivetrain(v.drivetrain)}</drivetrain>
     <exterior_color>${escapeXml(v.exterior_color)}</exterior_color>
     <interior_color>${escapeXml(v.interior_color)}</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -653,6 +683,22 @@ function writeOutputs(vehicles) {
     );
   }
 
+  // Mirrors the no-images check above: a missing price causes Meta to
+  // reject the item at upload ("Price is missing") rather than just
+  // underperform, so it deserves the same loud, visible warning here
+  // instead of only surfacing later in Meta's error report. Usually means
+  // the VDP used a price label the scraper's regexes don't recognize yet
+  // (see the MSRP/Fikes Sales Event/Net Price/Fikes Price matchers above) —
+  // worth checking the specific VDP page when this fires.
+  const noPriceVehicles = vehicles.filter((v) => v.price == null);
+  if (noPriceVehicles.length > 0) {
+    console.log(
+      `${noPriceVehicles.length} vehicle(s) have no detected price and will be EXCLUDED from feed.xml ` +
+        '(still present in inventory.json for visibility): ' +
+        noPriceVehicles.map((v) => v.vin).join(', ')
+    );
+  }
+
   // ---- inventory.json ----
   // Keeps every scraped vehicle, including zero-image ones, so nothing is
   // silently lost — this is the full audit trail.
@@ -665,6 +711,8 @@ function writeOutputs(vehicles) {
     used_count: vehicles.filter((v) => v.condition === 'used').length,
     no_image_count: noImageVehicles.length,
     no_image_vins: noImageVehicles.map((v) => v.vin),
+    no_price_count: noPriceVehicles.length,
+    no_price_vins: noPriceVehicles.map((v) => v.vin),
     vehicles,
   };
   fs.writeFileSync(path.join(OUTPUT_DIR, 'inventory.json'), JSON.stringify(jsonOut, null, 2));
@@ -675,7 +723,7 @@ function writeOutputs(vehicles) {
   // rather than submitting a known-bad item. They're still fully visible
   // in inventory.json above for follow-up (e.g. asking the dealership for
   // real photos on these specific VINs).
-  const feedVehicles = vehicles.filter((v) => v.images && v.images.length > 0);
+  const feedVehicles = vehicles.filter((v) => v.images && v.images.length > 0 && v.price != null);
   const items = feedVehicles.map(vehicleToFeedItem).join('\n');
   // Root structure is <listings><listing>...</listing></listings> — this is
   // Meta's Vehicles catalog schema, confirmed against their own downloaded
@@ -844,6 +892,8 @@ module.exports = {
   isVdpUrl,
   parseSitemapVdpUrls,
   normalizeBodyStyle,
+  normalizeTransmission,
+  normalizeDrivetrain,
   vehicleToFeedItem,
   writeOutputs,
   validateFeedXml,

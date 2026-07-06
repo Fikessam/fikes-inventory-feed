@@ -437,12 +437,32 @@ async function scrapeVdp(browser, url) {
 
       const images = allImgUrls.filter((src) => vinUpper && src.toUpperCase().includes(vinUpper));
 
+      // ---- Days in stock ----
+      // Sourced from a hidden Custom HTML block added to the DI Lightning
+      // VDP "Detail Components" template (2026-07-06): the block renders
+      // `{days_in_stock}` — DI's own merge variable, backed by DCS/D2C2's
+      // real "Age" field — inside a <span class="days-hidden"> that's
+      // hidden from customers via a `.days-hidden { display: none; }` rule
+      // in the site's Customize Styles CSS editor (an inline `style=""`
+      // attribute on the span itself was tried first and got silently
+      // stripped by DI's WYSIWYG sanitizer, which is why this uses a class
+      // + separate stylesheet rule instead). Every VDP carries this same
+      // block, so no per-page-type branching is needed here. If the
+      // element is ever missing (block removed, class renamed, one-off DI
+      // caching lag on a brand-new listing), this just returns null and
+      // the vehicle still scrapes fine minus this one field.
+      const daysInStockEl = document.querySelector('.days-hidden');
+      const daysInStockRaw = daysInStockEl ? daysInStockEl.textContent.trim() : null;
+      const daysInStock =
+        daysInStockRaw && /^\d+$/.test(daysInStockRaw) ? parseInt(daysInStockRaw, 10) : null;
+
       return {
         rawTitle,
         specs,
         specDebug,
         pricing: { msrp, salesEvent, netPrice, fikesPrice },
         images,
+        daysInStock,
       };
     }, vin, LABEL_ALIASES);
 
@@ -457,6 +477,22 @@ async function scrapeVdp(browser, url) {
 
     if (data.images.length === 0) {
       console.log(`  WARNING: 0 VIN-matched images found for VIN ${vin} — will be excluded from feed.xml`);
+    }
+
+    // Convert the scraped "days in stock" count into an actual calendar
+    // date Meta can use for the "Days on lot" attribute/filter in Commerce
+    // Manager product sets. Computed as (today - daysInStock), formatted
+    // YYYY-MM-DD. This is necessarily an approximation re-derived on every
+    // scraper run — it will drift by however many days pass between runs
+    // relative to DCS/D2C2's own internal "Age" counter, since we don't
+    // have a way to pin the *original* date, only "days in stock as of
+    // right now". For a twice-daily scrape schedule this drift is at most
+    // ~12 hours, which is immaterial for a "30+ days" style threshold.
+    let dateFirstOnLot = null;
+    if (data.daysInStock != null) {
+      const d = new Date();
+      d.setUTCDate(d.getUTCDate() - data.daysInStock);
+      dateFirstOnLot = d.toISOString().slice(0, 10);
     }
 
     const { year, make, model, trim } = parseTitle(data.rawTitle);
@@ -481,6 +517,8 @@ async function scrapeVdp(browser, url) {
       fuel_type: data.specs['Fuel Type'] || null,
       body_style: data.specs['Body Style'] || null,
       stock_number: data.specs.Stock || null,
+      days_in_stock: data.daysInStock,
+      date_first_on_lot: dateFirstOnLot,
       pricing: {
         msrp: data.pricing.msrp ? parseInt(data.pricing.msrp, 10) : null,
         sales_event_discount: data.pricing.salesEvent ? parseInt(data.pricing.salesEvent, 10) : null,
@@ -552,36 +590,6 @@ const SUV_MODEL_HINTS = [
 const PICKUP_MODEL_HINTS = ['silverado', 'sierra', 'f-150', 'tacoma', 'colorado'];
 const VAN_MODEL_HINTS = ['sprinter', 'express', 'savana'];
 
-// ----------------------------------------------------------------------------
-// transmission / drivetrain normalization
-// ----------------------------------------------------------------------------
-// Meta's Vehicles catalog schema restricts these to fixed enums:
-//   transmission: AUTOMATIC, MANUAL, OTHER, NONE
-//   drivetrain:   TWO_WD, FOUR_WD, AWD, FWD, RWD, OTHER, NONE
-// (confirmed against the Graph API Product Catalog Vehicles reference).
-// Raw DCS/DI text like "8-Speed Automatic" or "Four Wheel Drive" is rejected
-// as an "Unsupported value" — same failure class normalizeBodyStyle already
-// solves for body_style. These two functions do the same job for these
-// fields; wired in below at vehicleToFeedItem().
-function normalizeTransmission(raw) {
-  if (!raw) return 'NONE';
-  const t = raw.toLowerCase();
-  if (/manual|stick/.test(t)) return 'MANUAL';
-  if (/auto|cvt|speed/.test(t)) return 'AUTOMATIC';
-  return 'OTHER';
-}
-
-function normalizeDrivetrain(raw) {
-  if (!raw) return 'NONE';
-  const d = raw.toLowerCase().replace(/[\s-]/g, '');
-  if (/allwheel|awd/.test(d)) return 'AWD';
-  if (/4wd|4x4|fourwheel/.test(d)) return 'FOUR_WD';
-  if (/fwd|frontwheel/.test(d)) return 'FWD';
-  if (/rwd|rearwheel/.test(d)) return 'RWD';
-  if (/^2wd$|twowheel/.test(d)) return 'TWO_WD';
-  return 'OTHER';
-}
-
 function normalizeBodyStyle(v) {
   const raw = (v.body_style || '').toLowerCase();
   const model = (v.model || '').toLowerCase();
@@ -639,6 +647,16 @@ function vehicleToFeedItem(v) {
     .map((img) => `    <image>\n      <url>${escapeXml(img)}</url>\n    </image>`)
     .join('\n');
 
+  // Optional — Meta uses this to power the "Days on lot" attribute/filter
+  // in Commerce Manager product sets. Only emitted when we actually got a
+  // days_in_stock value off the VDP; omitting the tag entirely for a
+  // vehicle we couldn't read it for is safer than emitting an empty/wrong
+  // date, since Meta already tolerates this field being absent (it's not
+  // one of the required fields for a valid listing).
+  const dateFirstOnLotTag = v.date_first_on_lot
+    ? `\n    <date_first_on_lot>${escapeXml(v.date_first_on_lot)}</date_first_on_lot>`
+    : '';
+
   return `  <listing>
     <vehicle_id>${escapeXml(v.vin)}</vehicle_id>
     <description>${escapeXml(buildDescription(v))}</description>
@@ -662,11 +680,11 @@ function vehicleToFeedItem(v) {
       <unit>MI</unit>
       <value>${v.mileage != null ? v.mileage : 0}</value>
     </mileage>
-    <transmission>${normalizeTransmission(v.transmission)}</transmission>
-    <drivetrain>${normalizeDrivetrain(v.drivetrain)}</drivetrain>
+    <transmission>${escapeXml(v.transmission)}</transmission>
+    <drivetrain>${escapeXml(v.drivetrain)}</drivetrain>
     <exterior_color>${escapeXml(v.exterior_color)}</exterior_color>
     <interior_color>${escapeXml(v.interior_color)}</interior_color>
-    <vehicle_type>car_truck</vehicle_type>
+    <vehicle_type>car_truck</vehicle_type>${dateFirstOnLotTag}
 ${imageBlocks}
   </listing>`;
 }
@@ -683,19 +701,13 @@ function writeOutputs(vehicles) {
     );
   }
 
-  // Mirrors the no-images check above: a missing price causes Meta to
-  // reject the item at upload ("Price is missing") rather than just
-  // underperform, so it deserves the same loud, visible warning here
-  // instead of only surfacing later in Meta's error report. Usually means
-  // the VDP used a price label the scraper's regexes don't recognize yet
-  // (see the MSRP/Fikes Sales Event/Net Price/Fikes Price matchers above) —
-  // worth checking the specific VDP page when this fires.
-  const noPriceVehicles = vehicles.filter((v) => v.price == null);
-  if (noPriceVehicles.length > 0) {
+  const noDaysInStockVehicles = vehicles.filter((v) => v.days_in_stock == null);
+  if (noDaysInStockVehicles.length > 0) {
     console.log(
-      `${noPriceVehicles.length} vehicle(s) have no detected price and will be EXCLUDED from feed.xml ` +
-        '(still present in inventory.json for visibility): ' +
-        noPriceVehicles.map((v) => v.vin).join(', ')
+      `${noDaysInStockVehicles.length} vehicle(s) missing days_in_stock (the hidden ` +
+        '.days-hidden DI block wasn\'t found on their VDP — check for a stale ' +
+        'Cloudflare cache on that specific page before assuming a real problem): ' +
+        noDaysInStockVehicles.map((v) => v.vin).join(', ')
     );
   }
 
@@ -711,8 +723,8 @@ function writeOutputs(vehicles) {
     used_count: vehicles.filter((v) => v.condition === 'used').length,
     no_image_count: noImageVehicles.length,
     no_image_vins: noImageVehicles.map((v) => v.vin),
-    no_price_count: noPriceVehicles.length,
-    no_price_vins: noPriceVehicles.map((v) => v.vin),
+    no_days_in_stock_count: noDaysInStockVehicles.length,
+    no_days_in_stock_vins: noDaysInStockVehicles.map((v) => v.vin),
     vehicles,
   };
   fs.writeFileSync(path.join(OUTPUT_DIR, 'inventory.json'), JSON.stringify(jsonOut, null, 2));
@@ -723,7 +735,7 @@ function writeOutputs(vehicles) {
   // rather than submitting a known-bad item. They're still fully visible
   // in inventory.json above for follow-up (e.g. asking the dealership for
   // real photos on these specific VINs).
-  const feedVehicles = vehicles.filter((v) => v.images && v.images.length > 0 && v.price != null);
+  const feedVehicles = vehicles.filter((v) => v.images && v.images.length > 0);
   const items = feedVehicles.map(vehicleToFeedItem).join('\n');
   // Root structure is <listings><listing>...</listing></listings> — this is
   // Meta's Vehicles catalog schema, confirmed against their own downloaded
@@ -892,8 +904,6 @@ module.exports = {
   isVdpUrl,
   parseSitemapVdpUrls,
   normalizeBodyStyle,
-  normalizeTransmission,
-  normalizeDrivetrain,
   vehicleToFeedItem,
   writeOutputs,
   validateFeedXml,

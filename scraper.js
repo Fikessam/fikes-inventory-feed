@@ -251,42 +251,48 @@ function parseSitemapVdpUrls(xmlText) {
   return urls;
 }
 
-// Fetches the sitemap's raw XML via an in-page fetch() call rather than a
-// page.goto() navigation. This is deliberate: this is a Yoast SEO sitemap
-// with a client-side XSLT stylesheet, and navigating to it directly was
-// confirmed unreliable for reading the raw XML back out via response.text()
-// — even though the URL itself is valid, unblocked, and fully populated (68
-// URLs, confirmed by opening it in a real browser tab). Issuing the request
-// as a background fetch() from an already-warmed-up page sidesteps Chrome's
-// special handling of that XML+XSLT document entirely, while still reusing
-// the same cookies/session as the navigation would have used.
-async function fetchInventorySitemapUrls(browser) {
-  const page = await browser.newPage();
-  await configurePage(page);
-  try {
-    // Land on the homepage first so this page has a same-origin document
-    // to issue the fetch() from — fetch() cannot be called from a blank
-    // about:blank page in Puppeteer, it needs a real document context on
-    // the target origin first.
-    await gotoWithRetry(page, BASE_URL);
-    console.log(`Fetching inventory sitemap: ${SITEMAP_URL}`);
-    const result = await page.evaluate(async (sitemapUrl) => {
-      const res = await fetch(sitemapUrl, { credentials: 'include' });
-      const text = await res.text();
-      return { status: res.status, ok: res.ok, length: text.length, text };
-    }, SITEMAP_URL);
-    if (!result.ok) {
-      throw new Error(`Sitemap fetch returned HTTP ${result.status} (body length ${result.length})`);
-    }
-    const urls = parseSitemapVdpUrls(result.text);
-    console.log(`  HTTP ${result.status}, ${result.length} bytes, ${urls.length} VDP URLs found in sitemap`);
-    if (urls.length === 0) {
-      console.warn(`  Sitemap response preview: ${result.text.slice(0, 300)}`);
-    }
-    return urls;
-  } finally {
-    await page.close();
+// Fetches the sitemap's raw XML via a SECOND navigation on the SAME page
+// object used for the homepage warmup — not a brand-new page, and not an
+// in-page fetch() call. Both of those were tried and both failed:
+//
+//   - A fresh page navigated straight to the sitemap URL (first version of
+//     this function) came back with a valid response and no error, but 0
+//     <loc> matches — confirmed against a real browser tab that the actual
+//     sitemap is fully populated with 68 URLs, so that response was wrong,
+//     not empty-by-design.
+//   - An in-page fetch() call to the same URL (second version) was blocked
+//     outright with "TypeError: Failed to fetch" before any content came
+//     back at all.
+//
+// Root cause: configurePage() sets sec-fetch-site: 'same-origin' whenever
+// isEntryPage is not explicitly true — but the first version of this
+// function opened a brand-new page and navigated it straight to the
+// sitemap with that header still set to 'same-origin', even though that
+// page had never been anywhere yet. A real browser's actual first
+// navigation in a new tab sends sec-fetch-site: 'none', not 'same-origin'.
+// That mismatch (claiming a same-origin follow-up on a tab with no prior
+// navigation) is exactly the kind of automation fingerprint Cloudflare's
+// WAF checks for, and is the most likely explanation for silently getting
+// served a decoy/empty response instead of the real sitemap.
+//
+// Fix: don't open a second page at all. Take the SAME page that already
+// did the homepage warmup navigation, and navigate IT a second time to the
+// sitemap URL. That's a genuine same-origin follow-up navigation in one
+// continuous session/tab — which is what the sec-fetch-site: same-origin
+// header was already (correctly) claiming, just previously on the wrong
+// page. This restores page.goto()/response.text() (fetch() is blocked
+// harder, per above) but now with header/reality parity.
+async function fetchInventorySitemapUrls(warmedUpPage) {
+  console.log(`Fetching inventory sitemap: ${SITEMAP_URL}`);
+  const response = await gotoWithRetry(warmedUpPage, SITEMAP_URL);
+  const status = response ? response.status() : null;
+  const xmlText = await response.text();
+  const urls = parseSitemapVdpUrls(xmlText);
+  console.log(`  HTTP ${status}, ${xmlText.length} bytes, ${urls.length} VDP URLs found in sitemap`);
+  if (urls.length === 0) {
+    console.warn(`  Sitemap response preview: ${xmlText.slice(0, 300)}`);
   }
+  return urls;
 }
 
 // ============================================================================
@@ -862,14 +868,13 @@ async function main() {
     // confirmed by the homepage-first approach working previously. This is
     // a separate concern from the listing-page "no results" issue, so it
     // stays in place even though listing pages are no longer visited.
-    const warmupPage = await browser.newPage();
+ const warmupPage = await browser.newPage();
     await configurePage(warmupPage, { isEntryPage: true });
     console.log(`Warming up session: ${BASE_URL}`);
     await gotoWithRetry(warmupPage, BASE_URL);
     await delay(REQUEST_DELAY_MS);
+    const vdpUrls = await fetchInventorySitemapUrls(warmupPage);
     await warmupPage.close();
-
-    const vdpUrls = await fetchInventorySitemapUrls(browser);
 
     for (const url of vdpUrls) {
       console.log(`  scraping: ${url}`);

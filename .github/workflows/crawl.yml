@@ -1,20 +1,3 @@
-- name: Diagnostic - plain HTTP check of sitemap URL from this runner
-        # Deliberately runs BEFORE the Puppeteer-based crawler. No browser
-        # involved at all here — just a raw HTTP request from this exact
-        # runner's IP, to isolate whether a 403 on the sitemap URL is about
-        # this runner's network origin/IP reputation, or specifically about
-        # Puppeteer/headless-Chrome's fingerprint. This step never fails the
-        # job (curl's exit code is ignored) — it's purely informational, so
-        # its result is visible in this step's own log for the next run.
-        run: |
-          echo "Plain curl HTTP status for homepage:"
-          curl -s -o /dev/null -w "%{http_code}\n" https://www.fikeschevy.com/ || true
-          echo "Plain curl HTTP status for sitemap URL:"
-          curl -s -o /dev/null -w "%{http_code}\n" https://www.fikeschevy.com/dealer-inspire-inventory/inventory_sitemap || true
-          echo "First 500 bytes of sitemap response body:"
-          curl -s https://www.fikeschevy.com/dealer-inspire-inventory/inventory_sitemap | head -c 500 || true
-          echo ""
-        continue-on-error: true
 name: Crawl Inventory & Deploy Feed
 
 on:
@@ -51,7 +34,25 @@ jobs:
 
       - name: Install Node dependencies
         run: npm ci
-
+        
+        - name: Diagnostic - plain HTTP check of sitemap URL from this runner
+        # Deliberately runs BEFORE the Puppeteer-based crawler. No browser
+        # involved at all here — just a raw HTTP request from this exact
+        # runner's IP, to isolate whether a 403 on the sitemap URL is about
+        # this runner's network origin/IP reputation, or specifically about
+        # Puppeteer/headless-Chrome's fingerprint. This step never fails the
+        # job (curl's exit code is ignored) — it's purely informational, so
+        # its result is visible in this step's own log for the next run.
+        run: |
+          echo "Plain curl HTTP status for homepage:"
+          curl -s -o /dev/null -w "%{http_code}\n" https://www.fikeschevy.com/ || true
+          echo "Plain curl HTTP status for sitemap URL:"
+          curl -s -o /dev/null -w "%{http_code}\n" https://www.fikeschevy.com/dealer-inspire-inventory/inventory_sitemap || true
+          echo "First 500 bytes of sitemap response body:"
+          curl -s https://www.fikeschevy.com/dealer-inspire-inventory/inventory_sitemap | head -c 500 || true
+          echo ""
+        continue-on-error: true
+        
       - name: Run crawler
         run: node scraper.js
 

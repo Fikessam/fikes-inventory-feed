@@ -251,16 +251,38 @@ function parseSitemapVdpUrls(xmlText) {
   return urls;
 }
 
+// Fetches the sitemap's raw XML via an in-page fetch() call rather than a
+// page.goto() navigation. This is deliberate: this is a Yoast SEO sitemap
+// with a client-side XSLT stylesheet, and navigating to it directly was
+// confirmed unreliable for reading the raw XML back out via response.text()
+// — even though the URL itself is valid, unblocked, and fully populated (68
+// URLs, confirmed by opening it in a real browser tab). Issuing the request
+// as a background fetch() from an already-warmed-up page sidesteps Chrome's
+// special handling of that XML+XSLT document entirely, while still reusing
+// the same cookies/session as the navigation would have used.
 async function fetchInventorySitemapUrls(browser) {
   const page = await browser.newPage();
   await configurePage(page);
-
   try {
+    // Land on the homepage first so this page has a same-origin document
+    // to issue the fetch() from — fetch() cannot be called from a blank
+    // about:blank page in Puppeteer, it needs a real document context on
+    // the target origin first.
+    await gotoWithRetry(page, BASE_URL);
     console.log(`Fetching inventory sitemap: ${SITEMAP_URL}`);
-    const response = await gotoWithRetry(page, SITEMAP_URL);
-    const xmlText = await response.text();
-    const urls = parseSitemapVdpUrls(xmlText);
-    console.log(`  ${urls.length} VDP URLs found in sitemap`);
+    const result = await page.evaluate(async (sitemapUrl) => {
+      const res = await fetch(sitemapUrl, { credentials: 'include' });
+      const text = await res.text();
+      return { status: res.status, ok: res.ok, length: text.length, text };
+    }, SITEMAP_URL);
+    if (!result.ok) {
+      throw new Error(`Sitemap fetch returned HTTP ${result.status} (body length ${result.length})`);
+    }
+    const urls = parseSitemapVdpUrls(result.text);
+    console.log(`  HTTP ${result.status}, ${result.length} bytes, ${urls.length} VDP URLs found in sitemap`);
+    if (urls.length === 0) {
+      console.warn(`  Sitemap response preview: ${result.text.slice(0, 300)}`);
+    }
     return urls;
   } finally {
     await page.close();

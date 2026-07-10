@@ -88,17 +88,11 @@ const OUTPUT_DIR = path.join(__dirname, 'docs');
 const USER_AGENT =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 ' +
   '(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36';
-// Real Chrome 125 sends these client hints headers automatically. A
-// manually-set User-Agent string with no matching sec-ch-ua/sec-fetch-*
-// headers is a textbook automation fingerprint.
 const SEC_CH_UA = '"Chromium";v="125", "Not.A/Brand";v="24", "Google Chrome";v="125"';
 const BLOCKED_RESOURCE_TYPES = new Set(['image', 'font', 'media', 'stylesheet']);
 // ============================================================================
 // VIN / condition extraction from VDP URLs
 // ============================================================================
-// Confirmed pattern: VIN is the last 17 characters before the trailing slash
-// in a VDP URL slug, e.g.
-//   /inventory/new-2026-chevrolet-equinox-lt-1GNAXKEX1RZ123456/
 const VIN_FROM_URL_RE = /\/inventory\/[^/]+-([A-HJ-NPR-Z0-9]{17})\/?$/i;
 function extractVinFromUrl(rawUrl) {
   const clean = rawUrl.split('?')[0].split('#')[0];
@@ -108,10 +102,6 @@ function extractVinFromUrl(rawUrl) {
 function isVdpUrl(rawUrl) {
   return /\/inventory\//i.test(rawUrl) && extractVinFromUrl(rawUrl) !== null;
 }
-// VDP slugs are /inventory/{condition}-{year}-{make}-{model}-{trim}-{VIN}/ —
-// pull the condition token straight from the URL rather than relying on
-// page title text, since the slug format is the more structurally reliable
-// of the two confirmed patterns and doesn't require a page load to read.
 const CONDITION_FROM_URL_RE = /\/inventory\/(certified-pre-owned|certified|pre-owned|used|new)-/i;
 function extractConditionFromUrl(rawUrl) {
   const match = rawUrl.match(CONDITION_FROM_URL_RE);
@@ -122,9 +112,6 @@ function extractConditionFromUrl(rawUrl) {
 // Title parsing (year / make / model / trim)
 // ============================================================================
 const CONDITION_PREFIX_RE = /^(certified\s+pre-?owned|pre-?owned|certified|new|used)\s+/i;
-// Some GM model names carry a trailing numeric/suffix token that belongs to
-// the model, not the trim — e.g. "Silverado 1500", "Silverado 2500HD",
-// "Bolt EUV". Fold these into the model when present.
 const MODEL_SUFFIX_RE = /^(\d{3,4}(HD)?|EUV|EV|ZR2|ZL1|SS)$/i;
 function parseTitle(rawTitle) {
   if (!rawTitle) return { year: null, make: null, model: null, trim: null };
@@ -163,11 +150,6 @@ async function configurePage(page, { isEntryPage = false } = {}) {
     'accept-language': 'en-US,en;q=0.9',
     referer: `${BASE_URL}/`,
     'cache-control': 'max-age=0',
-    // Client hints — real Chrome 125 sends all of these on every navigation
-    // request. sec-fetch-site is 'none' only for a true direct/first-party
-    // entry (the homepage warmup); every internal navigation after that is
-    // 'same-origin', matching how a real browser would report a link click
-    // within the same site.
     'sec-ch-ua': SEC_CH_UA,
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"macOS"',
@@ -176,15 +158,12 @@ async function configurePage(page, { isEntryPage = false } = {}) {
     'sec-fetch-site': isEntryPage ? 'none' : 'same-origin',
     'sec-fetch-user': '?1',
   });
-  // Stealth: hide the automation fingerprint that Cloudflare's WAF checks for.
   await page.evaluateOnNewDocument(() => {
     Object.defineProperty(navigator, 'webdriver', { get: () => false });
     window.chrome = window.chrome || { runtime: {} };
     Object.defineProperty(navigator, 'languages', { get: () => ['en-US', 'en'] });
     Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
   });
-  // Skip heavy assets we don't need — we only read DOM attributes/text/raw
-  // response bodies, we never need the actual image/font/css bytes.
   await page.setRequestInterception(true);
   page.on('request', (req) => {
     if (BLOCKED_RESOURCE_TYPES.has(req.resourceType())) {
@@ -212,15 +191,9 @@ function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 // ============================================================================
-// Inventory sitemap — replaces listing-page crawling entirely
+// Inventory sitemap
 // ============================================================================
 const LOC_TAG_RE = /<loc>([^<]+)<\/loc>/g;
-// Extracts every <loc> entry that looks like a VDP URL, in document order,
-// with NO uniqueness filtering. If the same VDP URL is genuinely listed
-// twice in the sitemap (e.g. the known duplicate listing case), both
-// entries get scraped — exactly like every other URL — and the single
-// end-of-run VIN dedupe pass in main() is what collapses that down, same
-// as it always has.
 function parseSitemapVdpUrls(xmlText) {
   const urls = [];
   let match;
@@ -232,37 +205,6 @@ function parseSitemapVdpUrls(xmlText) {
   }
   return urls;
 }
-// Fetches the sitemap's raw XML via a SECOND navigation on the SAME page
-// object used for the homepage warmup — not a brand-new page, and not an
-// in-page fetch() call. Both of those were tried and both failed:
-//
-//   - A fresh page navigated straight to the sitemap URL (first version of
-//     this function) came back with a valid response and no error, but 0
-//     <loc> matches — confirmed against a real browser tab that the actual
-//     sitemap is fully populated with 68 URLs, so that response was wrong,
-//     not empty-by-design.
-//   - An in-page fetch() call to the same URL (second version) was blocked
-//     outright with "TypeError: Failed to fetch" before any content came
-//     back at all.
-//
-// Root cause: configurePage() sets sec-fetch-site: 'same-origin' whenever
-// isEntryPage is not explicitly true — but the first version of this
-// function opened a brand-new page and navigated it straight to the
-// sitemap with that header still set to 'same-origin', even though that
-// page had never been anywhere yet. A real browser's actual first
-// navigation in a new tab sends sec-fetch-site: 'none', not 'same-origin'.
-// That mismatch (claiming a same-origin follow-up on a tab with no prior
-// navigation) is exactly the kind of automation fingerprint Cloudflare's
-// WAF checks for, and is the most likely explanation for silently getting
-// served a decoy/empty response instead of the real sitemap.
-//
-// Fix: don't open a second page at all. Take the SAME page that already
-// did the homepage warmup navigation, and navigate IT a second time to the
-// sitemap URL. That's a genuine same-origin follow-up navigation in one
-// continuous session/tab — which is what the sec-fetch-site: same-origin
-// header was already (correctly) claiming, just previously on the wrong
-// page. This restores page.goto()/response.text() (fetch() is blocked
-// harder, per above) but now with header/reality parity.
 async function fetchInventorySitemapUrls(warmedUpPage) {
   console.log(`Fetching inventory sitemap: ${SITEMAP_URL}`);
   const response = await gotoWithRetry(warmedUpPage, SITEMAP_URL);
@@ -271,15 +213,12 @@ async function fetchInventorySitemapUrls(warmedUpPage) {
   const urls = parseSitemapVdpUrls(xmlText);
   console.log(`  HTTP ${status}, ${xmlText.length} bytes, ${urls.length} VDP URLs found in sitemap`);
   if (urls.length === 0) {
-    // Diagnostic breadcrumb rather than a silent zero — if this ever fires
-    // again, the first 300 chars of whatever we actually got back will be
-    // in the Actions log instead of us having to guess blind a fourth time.
     console.warn(`  Sitemap response preview: ${xmlText.slice(0, 300)}`);
   }
   return urls;
 }
 // ============================================================================
-// VDP scrape — one full vehicle record per URL
+// VDP scrape
 // ============================================================================
 const LABEL_ALIASES = {
   exterior: 'Exterior',
@@ -522,6 +461,9 @@ function vehicleToFeedItem(v) {
   const dateFirstOnLotTag = v.date_first_on_lot
     ? `\n    <date_first_on_lot>${escapeXml(v.date_first_on_lot)}</date_first_on_lot>`
     : '';
+  const customNumber0Tag = v.days_in_stock != null
+    ? `\n    <custom_number_0>${v.days_in_stock}</custom_number_0>`
+    : '';
   return `  <listing>
     <vehicle_id>${escapeXml(v.vin)}</vehicle_id>
     <description>${escapeXml(buildDescription(v))}</description>
@@ -549,7 +491,7 @@ function vehicleToFeedItem(v) {
     <drivetrain>${escapeXml(v.drivetrain)}</drivetrain>
     <exterior_color>${escapeXml(v.exterior_color)}</exterior_color>
     <interior_color>${escapeXml(v.interior_color)}</interior_color>
-    <vehicle_type>car_truck</vehicle_type>${dateFirstOnLotTag}
+    <vehicle_type>car_truck</vehicle_type>${dateFirstOnLotTag}${customNumber0Tag}
 ${imageBlocks}
   </listing>`;
 }
@@ -651,11 +593,6 @@ async function main() {
     console.log(`Warming up session: ${BASE_URL}`);
     await gotoWithRetry(warmupPage, BASE_URL);
     await delay(REQUEST_DELAY_MS);
-    // NOTE: deliberately NOT closing warmupPage here. It gets reused for
-    // the sitemap navigation immediately below — see the comment above
-    // fetchInventorySitemapUrls() for why this same-page reuse is the fix,
-    // not just a convenience. It's closed right after the sitemap fetch
-    // completes, once it's no longer needed.
     const vdpUrls = await fetchInventorySitemapUrls(warmupPage);
     await warmupPage.close();
     for (const url of vdpUrls) {
@@ -679,25 +616,6 @@ async function main() {
     return true;
   });
   console.log(`Final vehicle count after one-time VIN dedupe: ${finalVehicles.length}`);
-  // ==========================================================================
-  // SAFETY GUARDRAIL — do not touch docs/feed.xml or docs/inventory.json at
-  // all if the scrape came back suspiciously low. Added 2026-07-08 after the
-  // sitemap fetch got blocked (403) partway through a debugging session and
-  // silently produced 0 vehicles, which — before this guardrail existed —
-  // still wrote and committed an EMPTY feed.xml to the live repo. If that
-  // empty file happened to get fetched by Commerce Manager's own scheduled
-  // pull, it could wipe the live Facebook/Instagram catalog down to zero
-  // listings. Normal inventory size for this dealership is roughly 60-70
-  // vehicles; MIN_EXPECTED_VEHICLES is set well below that so a genuinely
-  // low-but-real inventory day doesn't false-positive, while a scrape that
-  // came back empty or nearly empty due to a site block, network failure,
-  // etc. gets caught here instead of silently overwriting good data.
-  // This throws (same pattern as validateFeedXml below) so an unattended
-  // GitHub Actions run is clearly marked FAILED rather than quietly
-  // succeeding while leaving stale-but-safe data in place. The existing
-  // docs/feed.xml and docs/inventory.json from the last successful run are
-  // simply left untouched on disk — writeOutputs() is never called, so
-  // there is nothing for the "Commit & push feed" step to stage or push.
   const MIN_EXPECTED_VEHICLES = 10;
   if (finalVehicles.length < MIN_EXPECTED_VEHICLES) {
     throw new Error(

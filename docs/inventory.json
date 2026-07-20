@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T19:39:30.094Z",
+  "generated_at": "2026-07-20T20:45:32.252Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -8,10 +8,10 @@
     "zip": "35570",
     "country": "US"
   },
-  "total_vehicles": 69,
-  "new_count": 27,
+  "total_vehicles": 70,
+  "new_count": 28,
   "used_count": 42,
-  "no_image_count": 11,
+  "no_image_count": 12,
   "no_image_vins": [
     "3GNAXHEG7TL516259",
     "3GNAXLEG3TL539797",
@@ -23,7 +23,8 @@
     "3GCUDHEL4NG601499",
     "3GYFNBE31CS526820",
     "1GCPSBEK2T1289024",
-    "KL77LKEP0TC238177"
+    "KL77LKEP0TC238177",
+    "KL77LHEP5TC238825"
   ],
   "no_days_in_stock_count": 0,
   "no_days_in_stock_vins": [],
@@ -3963,6 +3964,35 @@
         "fikes_price": null
       },
       "price": 28494,
+      "images": []
+    },
+    {
+      "vin": "KL77LHEP5TC238825",
+      "condition": "new",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Trax",
+      "trim": "LT Front Wheel Drive SUV",
+      "title": "New 2026 Chevrolet Trax LT Front Wheel Drive SUV",
+      "url": "https://www.fikeschevy.com/inventory/new-2026-chevrolet-trax-lt-front-wheel-drive-suv-kl77lhep5tc238825/",
+      "exterior_color": "Marina Blue Metallic",
+      "interior_color": "Jet Black with Blue accents, Cloth/Evotex seat trim",
+      "drivetrain": "Front Wheel Drive",
+      "transmission": "Automatic",
+      "engine": "ECOTEC 1.2L Turbo engine",
+      "mileage": null,
+      "fuel_type": null,
+      "body_style": null,
+      "stock_number": "Start Saving Vehicles Today!",
+      "days_in_stock": 3,
+      "date_first_on_lot": "2026-07-17",
+      "pricing": {
+        "msrp": 28529,
+        "sales_event_discount": null,
+        "net_price": null,
+        "fikes_price": null
+      },
+      "price": 28529,
       "images": []
     }
   ]

@@ -2,7 +2,7 @@
 <!-- Fikes Vehicles — Meta Commerce Manager automotive inventory feed -->
 <!-- Pixel ID 911722818604064 is associated with this catalog via Commerce -->
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
-<!-- 12 vehicle(s) excluded from this feed for having -->
+<!-- 14 vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
 <listings>
   <title>Fikes Vehicles</title>
@@ -34,7 +34,7 @@
     <exterior_color>Black</exterior_color>
     <interior_color>Tan</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2025-11-01</date_first_on_lot>
+    <date_first_on_lot>2025-11-02</date_first_on_lot>
     <custom_number_0>261</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/thumbnails/large/d326e1be14af933dfd7d76c5fe2013d3.webp</url>
@@ -161,7 +161,7 @@
     <exterior_color>Summit White</exterior_color>
     <interior_color>Jet Black, Perforated leather-appointed seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-03-23</date_first_on_lot>
+    <date_first_on_lot>2026-03-24</date_first_on_lot>
     <custom_number_0>119</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg</url>
@@ -282,7 +282,7 @@
     <exterior_color>RADIANT SILVER METALLIC</exterior_color>
     <interior_color>With Linear Galaxy high-gloss genuine wood trim.)</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-03-30</date_first_on_lot>
+    <date_first_on_lot>2026-03-31</date_first_on_lot>
     <custom_number_0>112</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GYFZCR49KF177972/04cec22.jpeg</url>
@@ -403,7 +403,7 @@
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-04-02</date_first_on_lot>
+    <date_first_on_lot>2026-04-03</date_first_on_lot>
     <custom_number_0>109</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXHEG4PL152680/166a3f6.jpeg</url>
@@ -530,7 +530,7 @@
     <exterior_color>Silver</exterior_color>
     <interior_color></interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-04-04</date_first_on_lot>
+    <date_first_on_lot>2026-04-05</date_first_on_lot>
     <custom_number_0>107</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/a4e3-110005974/2HKRM3H74EH507993/thumbnails/large/275d6573837ceea788bde51a1e9c0e6d.webp</url>
@@ -669,7 +669,7 @@
     <exterior_color>Satin Steel Metallic</exterior_color>
     <interior_color>Dark Galvanized with Ebony interior accents, Perforated Leather-appointed seats</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-04-07</date_first_on_lot>
+    <date_first_on_lot>2026-04-08</date_first_on_lot>
     <custom_number_0>104</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/5GAERCKW1LJ154134/a9c8018.jpeg</url>
@@ -809,7 +809,7 @@
     <interior_color>Jet Black, Premium cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-15</date_first_on_lot>
-    <custom_number_0>96</custom_number_0>
+    <custom_number_0>97</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNERGKW0LJ290395/b1b6f9b.jpeg</url>
     </image>
@@ -944,7 +944,7 @@
     <exterior_color>Summit White</exterior_color>
     <interior_color>Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2025-05-03</date_first_on_lot>
+    <date_first_on_lot>2025-05-04</date_first_on_lot>
     <custom_number_0>443</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg</url>
@@ -1065,7 +1065,7 @@
     <exterior_color>Gray</exterior_color>
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-01-31</date_first_on_lot>
+    <date_first_on_lot>2026-02-01</date_first_on_lot>
     <custom_number_0>170</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/1584-110005974/W1W8ND6Y4ST198001/thumbnails/large/040251473fe65c56d0f1fcc6377e4310.webp</url>
@@ -1162,7 +1162,7 @@
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Jet Black, Vinyl seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-02-17</date_first_on_lot>
+    <date_first_on_lot>2026-02-18</date_first_on_lot>
     <custom_number_0>153</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg</url>
@@ -1274,7 +1274,7 @@
     <exterior_color>Black</exterior_color>
     <interior_color>Jet Black, Vinyl seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-02-17</date_first_on_lot>
+    <date_first_on_lot>2026-02-18</date_first_on_lot>
     <custom_number_0>153</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GB4KSEY8TF157853/adb7e47.jpeg</url>
@@ -1383,7 +1383,7 @@
     <exterior_color>Summit White</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-02-20</date_first_on_lot>
+    <date_first_on_lot>2026-02-21</date_first_on_lot>
     <custom_number_0>150</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg</url>
@@ -1504,7 +1504,7 @@
     <exterior_color>White Sands</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-03-03</date_first_on_lot>
+    <date_first_on_lot>2026-03-04</date_first_on_lot>
     <custom_number_0>139</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/2GC4KMEY4T1175281/f4c78c1.jpeg</url>
@@ -1631,7 +1631,7 @@
     <exterior_color>Summit White</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-03-10</date_first_on_lot>
+    <date_first_on_lot>2026-03-11</date_first_on_lot>
     <custom_number_0>132</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GB4KTEY5TF243837/37f09d1.jpeg</url>
@@ -1740,7 +1740,7 @@
     <exterior_color>White Sands</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-03-13</date_first_on_lot>
+    <date_first_on_lot>2026-03-14</date_first_on_lot>
     <custom_number_0>129</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GCUKCEDXTG314473/9fb0e09.jpeg</url>
@@ -1861,7 +1861,7 @@
     <exterior_color>Summit White</exterior_color>
     <interior_color>LT Jet Black, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-04-03</date_first_on_lot>
+    <date_first_on_lot>2026-04-04</date_first_on_lot>
     <custom_number_0>108</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNERGKS4TJ325274/d6ec3e3.jpeg</url>
@@ -1985,7 +1985,7 @@
     <exterior_color>Summit White</exterior_color>
     <interior_color>Artemis Gray, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-03-31</date_first_on_lot>
+    <date_first_on_lot>2026-04-01</date_first_on_lot>
     <custom_number_0>111</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXHEG2TL479282/7e83f41.jpeg</url>
@@ -2097,7 +2097,7 @@
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-04-07</date_first_on_lot>
+    <date_first_on_lot>2026-04-08</date_first_on_lot>
     <custom_number_0>104</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MMS28PB044986/376f8aa.jpeg</url>
@@ -2221,7 +2221,7 @@
     <exterior_color>Summit White</exterior_color>
     <interior_color>Gideon/Very Dark Atmosphere, Leather-Appointed seating surfaces</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-03-25</date_first_on_lot>
+    <date_first_on_lot>2026-03-26</date_first_on_lot>
     <custom_number_0>117</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNS6CKD7TR306421/bbfeb52.jpeg</url>
@@ -2366,7 +2366,7 @@
     <exterior_color>Summit White</exterior_color>
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-04-15</date_first_on_lot>
+    <date_first_on_lot>2026-04-16</date_first_on_lot>
     <custom_number_0>96</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXFEV5NS120942/ce16582.jpeg</url>
@@ -2493,7 +2493,7 @@
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Jet Black/Medium Ash Gray, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-04-15</date_first_on_lot>
+    <date_first_on_lot>2026-04-16</date_first_on_lot>
     <custom_number_0>96</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MPSL9TB210565/2562521.jpeg</url>
@@ -2617,7 +2617,7 @@
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-04-22</date_first_on_lot>
+    <date_first_on_lot>2026-04-23</date_first_on_lot>
     <custom_number_0>89</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MMSL5TB209668/166e93d.jpeg</url>
@@ -2732,7 +2732,7 @@
     <exterior_color>Mosaic Black Metallic</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-04-22</date_first_on_lot>
+    <date_first_on_lot>2026-04-23</date_first_on_lot>
     <custom_number_0>89</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MMSL7TB209851/462f86f.jpeg</url>
@@ -2851,7 +2851,7 @@
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-28</date_first_on_lot>
-    <custom_number_0>83</custom_number_0>
+    <custom_number_0>84</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXHEV8NS207455/9b613c1.jpeg</url>
     </image>
@@ -2980,7 +2980,7 @@
     <exterior_color>Polar White Tricoat</exterior_color>
     <interior_color>Maple Sugar, Sueded Microfiber seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-04-18</date_first_on_lot>
+    <date_first_on_lot>2026-04-19</date_first_on_lot>
     <custom_number_0>93</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXKEGXTL495128/4f39afb.jpeg</url>
@@ -3125,7 +3125,7 @@
     <exterior_color>Mosaic Black Metallic</exterior_color>
     <interior_color>Jet Black/Gray with Blue accents, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-05-01</date_first_on_lot>
+    <date_first_on_lot>2026-05-02</date_first_on_lot>
     <custom_number_0>80</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL77LFEP9TC168346/01682b1.jpeg</url>
@@ -3255,7 +3255,7 @@
     <exterior_color>Summit White</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-05-13</date_first_on_lot>
+    <date_first_on_lot>2026-05-14</date_first_on_lot>
     <custom_number_0>68</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/301e6e1.jpeg</url>
@@ -3385,7 +3385,7 @@
     <exterior_color>Gray</exterior_color>
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-05-21</date_first_on_lot>
+    <date_first_on_lot>2026-05-22</date_first_on_lot>
     <custom_number_0>60</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/927e-110005974/JTEBU5JR8K5627344/thumbnails/large/5629271b088ee91105fac692ca958856.webp</url>
@@ -3512,7 +3512,7 @@
     <exterior_color>Summit White</exterior_color>
     <interior_color>Jet Black/Artemis with Yellow stitching, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-05-20</date_first_on_lot>
+    <date_first_on_lot>2026-05-21</date_first_on_lot>
     <custom_number_0>61</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/d28584d.jpeg</url>
@@ -3630,7 +3630,7 @@
     <exterior_color>IRIDESCENT PEARL TRICOAT</exterior_color>
     <interior_color>JET BLACK/BRANDY, PERFORATED LEATHER-APPOINTED SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-05-27</date_first_on_lot>
+    <date_first_on_lot>2026-05-28</date_first_on_lot>
     <custom_number_0>54</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/2GNAXMEV1J6102533/a22915c.jpeg</url>
@@ -3754,7 +3754,7 @@
     <exterior_color>Glacier White Tricoat</exterior_color>
     <interior_color>Atmosphere/Brownstone, Forge perforated leather seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-05-27</date_first_on_lot>
+    <date_first_on_lot>2026-05-28</date_first_on_lot>
     <custom_number_0>54</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GTUUGEL2TZ157210/0021793.jpeg</url>
@@ -3914,7 +3914,7 @@
     <exterior_color>Silver</exterior_color>
     <interior_color>Front Bucket Seats -inc: 8-way power driver seat w/2-way power lumbar support and 4-way manual passenger seat</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-05-28</date_first_on_lot>
+    <date_first_on_lot>2026-05-29</date_first_on_lot>
     <custom_number_0>53</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/8362-110005974/5N1BT3BA8RC697898/thumbnails/large/cc3c324403084bd432989275e2cf2637.webp</url>
@@ -4041,7 +4041,7 @@
     <exterior_color>Black</exterior_color>
     <interior_color>Jet Black, Leather-Appointed seating surfaces 1st and 2nd row</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-05-29</date_first_on_lot>
+    <date_first_on_lot>2026-05-30</date_first_on_lot>
     <custom_number_0>52</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNSKNKD1RR184381/2d47883.jpeg</url>
@@ -4192,7 +4192,7 @@
     <exterior_color>Apex Red</exterior_color>
     <interior_color>Jet Black with Yellow accents, Cloth/Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-05-30</date_first_on_lot>
+    <date_first_on_lot>2026-05-31</date_first_on_lot>
     <custom_number_0>51</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL77LHEP1TC203313/7b3b1d0.jpeg</url>
@@ -4319,7 +4319,7 @@
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Gideon/Very Dark Atmosphere, Leather-Appointed seating surfaces</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-01</date_first_on_lot>
+    <date_first_on_lot>2026-06-02</date_first_on_lot>
     <custom_number_0>49</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNS5NKD4TR377381/cd122d3.jpeg</url>
@@ -4473,7 +4473,7 @@
     <exterior_color>Mosaic Black Metallic</exterior_color>
     <interior_color>Jet Black, Premium cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-02</date_first_on_lot>
+    <date_first_on_lot>2026-06-03</date_first_on_lot>
     <custom_number_0>48</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNEVGKW8PJ266749/6ddd05f.jpeg</url>
@@ -4603,7 +4603,7 @@
     <exterior_color>Mosaic Black Metallic</exterior_color>
     <interior_color>LT Jet Black, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-02</date_first_on_lot>
+    <date_first_on_lot>2026-06-03</date_first_on_lot>
     <custom_number_0>48</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNERGKS8TJ372632/4a0edfb.jpeg</url>
@@ -4736,7 +4736,7 @@
     <exterior_color>Not Specified</exterior_color>
     <interior_color>Beige</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-09</date_first_on_lot>
+    <date_first_on_lot>2026-06-10</date_first_on_lot>
     <custom_number_0>41</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/d093-110005974/2T3H1RFV2SC335705/thumbnails/large/e7311ec6b1d383b37b95b6eb502bb23d.webp</url>
@@ -4866,7 +4866,7 @@
     <exterior_color>White Frost Tricoat</exterior_color>
     <interior_color>Atmosphere/Brownstone, Forge perforated leather seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-10</date_first_on_lot>
+    <date_first_on_lot>2026-06-11</date_first_on_lot>
     <custom_number_0>40</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GTUUGE81RZ187285/5f7add2.jpeg</url>
@@ -5023,7 +5023,7 @@
     <exterior_color>Red</exterior_color>
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-12</date_first_on_lot>
+    <date_first_on_lot>2026-06-13</date_first_on_lot>
     <custom_number_0>38</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/3c98-110005974/ZACNJDAB6MPN23935/thumbnails/large/ed147a8fdff21e089c3b0a26560cf319.webp</url>
@@ -5159,7 +5159,7 @@
     <exterior_color>Red</exterior_color>
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-18</date_first_on_lot>
+    <date_first_on_lot>2026-06-19</date_first_on_lot>
     <custom_number_0>32</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/396c-110005974/W1N4M4GB5SW400097/thumbnails/large/643d538a55f4cf48414e8ad1c282fcd1.webp</url>
@@ -5304,7 +5304,7 @@
     <exterior_color>Summit White</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-17</date_first_on_lot>
+    <date_first_on_lot>2026-06-18</date_first_on_lot>
     <custom_number_0>33</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/e51f684.jpeg</url>
@@ -5431,7 +5431,7 @@
     <exterior_color>Slate Gray Metallic</exterior_color>
     <interior_color>Jet Black, Leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-19</date_first_on_lot>
+    <date_first_on_lot>2026-06-20</date_first_on_lot>
     <custom_number_0>31</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GCUDFEL3RG306887/87a2e4c.jpeg</url>
@@ -5576,7 +5576,7 @@
     <exterior_color>Includes (MDP) Anthracite lower exterior accent color, Paint code W598F.</exterior_color>
     <interior_color>EBONY, CLOTH WITH LEATHERETTE SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-19</date_first_on_lot>
+    <date_first_on_lot>2026-06-20</date_first_on_lot>
     <custom_number_0>31</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL4CJASB2MB336607/40e2b7f.jpeg</url>
@@ -5697,7 +5697,7 @@
     <exterior_color>Black</exterior_color>
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-04-09</date_first_on_lot>
+    <date_first_on_lot>2026-04-10</date_first_on_lot>
     <custom_number_0>102</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/f66d-110005974/1FTFW1ET7EFC68470/thumbnails/large/675b47773338eac373e6e93f732105b9.webp</url>
@@ -5824,7 +5824,7 @@
     <exterior_color>Red</exterior_color>
     <interior_color>Beige</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-20</date_first_on_lot>
+    <date_first_on_lot>2026-06-21</date_first_on_lot>
     <custom_number_0>30</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/daef-110005974/5NPE24AF1HH460812/thumbnails/large/8aee98342da7cf0f5bd9e9485f2b24b2.webp</url>
@@ -5951,7 +5951,7 @@
     <exterior_color>Black</exterior_color>
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-20</date_first_on_lot>
+    <date_first_on_lot>2026-06-21</date_first_on_lot>
     <custom_number_0>30</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/fd5f-110005974/5UXTY3C05L9C09190/thumbnails/large/82befecb95785e02770de664e5dbf1e8.webp</url>
@@ -6081,7 +6081,7 @@
     <exterior_color>Includes (CM5) Black Carbon Metallic lower exterior accent color, Paint code W700S.</exterior_color>
     <interior_color>EBONY, CLOTH WITH LEATHERETTE SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-04-23</date_first_on_lot>
+    <date_first_on_lot>2026-04-24</date_first_on_lot>
     <custom_number_0>88</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL4CJASB2KB707939/35ba635.jpeg</url>
@@ -6203,7 +6203,7 @@
     <interior_color>JET BLACK/DARK ASH, LEATHER-APPOINTED SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2024-05-24</date_first_on_lot>
-    <custom_number_0>787</custom_number_0>
+    <custom_number_0>788</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/fc45b5f.jpeg</url>
     </image>
@@ -6335,7 +6335,7 @@
     <exterior_color>Red</exterior_color>
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-30</date_first_on_lot>
+    <date_first_on_lot>2026-07-01</date_first_on_lot>
     <custom_number_0>20</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/8f87-110005974/3MW5R1J05M8C03877/thumbnails/large/dcba62d1cbb20f9037df1e8f395ddc55.webp</url>
@@ -6468,7 +6468,7 @@
     <exterior_color>Summit White</exterior_color>
     <interior_color>Jet Black, Perforated leather-appointed seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-30</date_first_on_lot>
+    <date_first_on_lot>2026-07-01</date_first_on_lot>
     <custom_number_0>20</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GTG6EEN9N1318246/4bd8239.jpeg</url>
@@ -6598,7 +6598,7 @@
     <exterior_color>Not Specified</exterior_color>
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-07-04</date_first_on_lot>
+    <date_first_on_lot>2026-07-05</date_first_on_lot>
     <custom_number_0>16</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/d2a9-110005974/JTJYARBZ3J2093809/thumbnails/large/bfea6c6917ba22c340c1c458d1992f6e.webp</url>
@@ -6725,7 +6725,7 @@
     <exterior_color>Red</exterior_color>
     <interior_color>Gray</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-07-11</date_first_on_lot>
+    <date_first_on_lot>2026-07-12</date_first_on_lot>
     <custom_number_0>9</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/bb27-110005974/1D7HA182X7S188915/thumbnails/large/a1aa9fecb42451ee811640e4a2595011.webp</url>
@@ -6852,7 +6852,7 @@
     <exterior_color>Satin Steel Metallic</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-23</date_first_on_lot>
+    <date_first_on_lot>2026-06-24</date_first_on_lot>
     <custom_number_0>27</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GTG5CEN3N1320176/1d0d6e6.jpeg</url>
@@ -6982,7 +6982,7 @@
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-03-14</date_first_on_lot>
+    <date_first_on_lot>2026-03-15</date_first_on_lot>
     <custom_number_0>128</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/2GC4KME77T1179896/3662249.jpeg</url>
@@ -7097,7 +7097,7 @@
     <exterior_color>Black</exterior_color>
     <interior_color>6-Way Driver Seat -inc: Manual Recline and Fore/Aft Movement</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-07-15</date_first_on_lot>
+    <date_first_on_lot>2026-07-16</date_first_on_lot>
     <custom_number_0>5</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/b19c-110005974/1C4AJWAG6JL812600/thumbnails/large/921ca43f5864bb32cde876b8157ed7dc.webp</url>
@@ -7203,7 +7203,7 @@
     <exterior_color>WHITE FROST TRICOAT</exterior_color>
     <interior_color>with Ebony interior accents</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-24</date_first_on_lot>
+    <date_first_on_lot>2026-06-25</date_first_on_lot>
     <custom_number_0>26</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1G4ZU5SS6KU129584/92e0d0c.jpeg</url>
@@ -7330,7 +7330,7 @@
     <exterior_color>Mosaic Black Metallic</exterior_color>
     <interior_color>Jet Black/Clove, Perforated leather-appointed seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-24</date_first_on_lot>
+    <date_first_on_lot>2026-06-25</date_first_on_lot>
     <custom_number_0>26</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNEVNKW7PJ284888/1e0822a.jpeg</url>

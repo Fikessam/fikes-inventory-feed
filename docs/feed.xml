@@ -2,7 +2,7 @@
 <!-- Fikes Vehicles — Meta Commerce Manager automotive inventory feed -->
 <!-- Pixel ID 911722818604064 is associated with this catalog via Commerce -->
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
-<!-- 16 vehicle(s) excluded from this feed for having -->
+<!-- 15 vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
 <listings>
   <title>Fikes Vehicles</title>
@@ -6919,6 +6919,148 @@
     </image>
   </listing>
   <listing>
+    <vehicle_id>5GAERDKW5LJ151372</vehicle_id>
+    <description>74,490 miles, CHAMPAGNE GOLD METALLIC exterior, CHESTNUT WITH EBONY INTERIOR ACCENTS, PERFORATED LEATHER-APPOINTED SEATS interior, Automatic, Engine, 3.6L 6 Cylinder</description>
+    <url>https://www.fikeschevy.com/inventory/used-2020-buick-enclave-avenir-front-wheel-drive-suv-5gaerdkw5lj151372/</url>
+    <title>Pre-Owned 2020 Buick Enclave Avenir Front Wheel Drive SUV</title>
+    <body_style>SUV</body_style>
+    <price>24995.00 USD</price>
+    <address format="simple">
+      <component name="addr1">771 Military St N</component>
+      <component name="city">Hamilton</component>
+      <component name="region">AL</component>
+      <component name="postal_code">35570</component>
+      <component name="country">US</component>
+    </address>
+    <make>Buick</make>
+    <model>Enclave</model>
+    <year>2020</year>
+    <vin>5GAERDKW5LJ151372</vin>
+    <state_of_vehicle>USED</state_of_vehicle>
+    <mileage>
+      <unit>MI</unit>
+      <value>74490</value>
+    </mileage>
+    <transmission>Automatic</transmission>
+    <drivetrain>Front Wheel Drive</drivetrain>
+    <exterior_color>CHAMPAGNE GOLD METALLIC</exterior_color>
+    <interior_color>CHESTNUT WITH EBONY INTERIOR ACCENTS, PERFORATED LEATHER-APPOINTED SEATS</interior_color>
+    <vehicle_type>car_truck</vehicle_type>
+    <date_first_on_lot>2026-07-07</date_first_on_lot>
+    <custom_number_0>14</custom_number_0>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/cb3d958.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/e1f3a17.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/72cc93e.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/2975a87.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/6d4dbd3.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/5a2f5bc.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/16b6cc5.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/95d3980.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/622f9bd.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/1816d85.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/d60ecb7.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/1854ef7.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/640d0f6.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/7ed2723.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/c5a9bfd.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/037bbfe.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/244fa24.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/3a1a5a8.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/d4eefc9.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/96f7a26.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/d30f34b.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/3a271ac.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/d83827b.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/c65c6a5.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/a80bee9.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/ee1cad8.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/d6d9a87.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/f940205.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/44cbd1a.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/621b938.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/3896389.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/90abb37.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/7ae4066.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/c951649.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/d6e5dd0.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/e59971e.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/5GAERDKW5LJ151372/69706ad.jpeg</url>
+    </image>
+  </listing>
+  <listing>
     <vehicle_id>1C4AJWAG6JL812600</vehicle_id>
     <description>64,868 miles, Black exterior, 6-Way Driver Seat -inc: Manual Recline and Fore/Aft Movement interior, 3.6L V6 24V VVT</description>
     <url>https://www.fikeschevy.com/inventory/used-2018-jeep-wrangler-jk-sport-s-4x4-4wd-wagon-2-dr-1c4ajwag6jl812600/</url>
@@ -7149,6 +7291,127 @@
     </image>
     <image>
       <url>https://vini.gm.com/realimages/1G4ZU5SS6KU129584/1f303b3.jpeg</url>
+    </image>
+  </listing>
+  <listing>
+    <vehicle_id>1GCHSDEN9J1163380</vehicle_id>
+    <description>126,160 miles, BLACK exterior, JET BLACK, CLOTH/LEATHERETTE SEAT TRIM interior, Automatic, Engine: 3.6L, 6Cyl Gas</description>
+    <url>https://www.fikeschevy.com/inventory/used-2018-chevrolet-colorado-2wd-z71-rear-wheel-drive-extended-cab-1gchsden9j1163380/</url>
+    <title>Pre-Owned 2018 Chevrolet Colorado 2WD Z71 Rear Wheel Drive Extended Cab</title>
+    <body_style>PICKUP</body_style>
+    <price>16695.00 USD</price>
+    <address format="simple">
+      <component name="addr1">771 Military St N</component>
+      <component name="city">Hamilton</component>
+      <component name="region">AL</component>
+      <component name="postal_code">35570</component>
+      <component name="country">US</component>
+    </address>
+    <make>Chevrolet</make>
+    <model>Colorado</model>
+    <year>2018</year>
+    <vin>1GCHSDEN9J1163380</vin>
+    <state_of_vehicle>USED</state_of_vehicle>
+    <mileage>
+      <unit>MI</unit>
+      <value>126160</value>
+    </mileage>
+    <transmission>Automatic</transmission>
+    <drivetrain>Rear Wheel Drive</drivetrain>
+    <exterior_color>BLACK</exterior_color>
+    <interior_color>JET BLACK, CLOTH/LEATHERETTE SEAT TRIM</interior_color>
+    <vehicle_type>car_truck</vehicle_type>
+    <date_first_on_lot>2026-04-08</date_first_on_lot>
+    <custom_number_0>104</custom_number_0>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/10e72f5.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/6424719.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/f5e4900.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/af14d2f.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/541ef42.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/964dd6f.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/7e279f4.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/1b13b7e.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/7c38a51.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/39dee3f.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/5b741bf.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/928b0c9.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/f35bff9.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/de1e794.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/0073311.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/2038b29.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/0cc0b8e.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/ae900c9.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/33041a5.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/15b9f68.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/c357712.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/5c6b176.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/aee6cd8.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/ec3a2ee.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/f92b3d6.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/02554dd.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/296b8c5.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/d48ae8f.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/bb98216.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GCHSDEN9J1163380/0917b1f.jpeg</url>
     </image>
   </listing>
   <listing>

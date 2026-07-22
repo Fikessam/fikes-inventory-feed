@@ -2,8 +2,11 @@
 <!-- Fikes Vehicles — Meta Commerce Manager automotive inventory feed -->
 <!-- Pixel ID 911722818604064 is associated with this catalog via Commerce -->
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
-<!-- 14 vehicle(s) excluded from this feed for having -->
+<!-- 15 vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
+<!-- 0 vehicle(s) included below as availability=SOLD -->
+<!-- (dropped out of the live scrape within the last 3 runs; -->
+<!-- see docs/sold-tracking.json). -->
 <listings>
   <title>Fikes Vehicles</title>
   <listing>
@@ -24,6 +27,7 @@
     <model>Sonata</model>
     <year>2018</year>
     <vin>5NPE24AF8JH613336</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -151,6 +155,7 @@
     <model>Equinox</model>
     <year>2022</year>
     <vin>3GNAXMEV7NS200005</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -272,6 +277,7 @@
     <model>XT4</model>
     <year>2019</year>
     <vin>1GYFZCR49KF177972</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -393,6 +399,7 @@
     <model>Equinox</model>
     <year>2023</year>
     <vin>3GNAXHEG4PL152680</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -520,6 +527,7 @@
     <model>CR-V</model>
     <year>2014</year>
     <vin>2HKRM3H74EH507993</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -659,6 +667,7 @@
     <model>Enclave</model>
     <year>2020</year>
     <vin>5GAERCKW1LJ154134</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -798,6 +807,7 @@
     <model>Traverse</model>
     <year>2020</year>
     <vin>1GNERGKW0LJ290395</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -934,6 +944,7 @@
     <model>Equinox</model>
     <year>2026</year>
     <vin>3GNAXHEG1TL130713</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -1055,6 +1066,7 @@
     <model>Sprinter 3500</model>
     <year>2025</year>
     <vin>W1W8ND6Y4ST198001</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -1152,6 +1164,7 @@
     <model>Silverado 3500</model>
     <year>2026</year>
     <vin>1GB4KSEY5TF225039</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -1264,6 +1277,7 @@
     <model>Silverado 3500</model>
     <year>2026</year>
     <vin>1GB4KSEY8TF157853</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -1373,6 +1387,7 @@
     <model>Trailblazer</model>
     <year>2026</year>
     <vin>KL79MMSL0TB167460</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -1494,6 +1509,7 @@
     <model>Silverado 2500</model>
     <year>2026</year>
     <vin>2GC4KMEY4T1175281</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -1621,6 +1637,7 @@
     <model>Silverado 3500</model>
     <year>2026</year>
     <vin>1GB4KTEY5TF243837</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -1730,6 +1747,7 @@
     <model>Silverado 1500</model>
     <year>2026</year>
     <vin>3GCUKCEDXTG314473</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -1851,6 +1869,7 @@
     <model>Traverse</model>
     <year>2026</year>
     <vin>1GNERGKS4TJ325274</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -1975,6 +1994,7 @@
     <model>Equinox</model>
     <year>2026</year>
     <vin>3GNAXHEG2TL479282</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -2087,6 +2107,7 @@
     <model>Trailblazer</model>
     <year>2023</year>
     <vin>KL79MMS28PB044986</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -2211,6 +2232,7 @@
     <model>Suburban</model>
     <year>2026</year>
     <vin>1GNS6CKD7TR306421</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -2356,6 +2378,7 @@
     <model>Equinox</model>
     <year>2022</year>
     <vin>3GNAXFEV5NS120942</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -2483,6 +2506,7 @@
     <model>Trailblazer</model>
     <year>2026</year>
     <vin>KL79MPSL9TB210565</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -2607,6 +2631,7 @@
     <model>Trailblazer</model>
     <year>2026</year>
     <vin>KL79MMSL5TB209668</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -2722,6 +2747,7 @@
     <model>Trailblazer</model>
     <year>2026</year>
     <vin>KL79MMSL7TB209851</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -2840,6 +2866,7 @@
     <model>Equinox</model>
     <year>2022</year>
     <vin>3GNAXHEV8NS207455</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -2970,6 +2997,7 @@
     <model>Equinox</model>
     <year>2026</year>
     <vin>3GNAXKEGXTL495128</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -3115,6 +3143,7 @@
     <model>Trax</model>
     <year>2026</year>
     <vin>KL77LFEP9TC168346</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -3245,6 +3274,7 @@
     <model>Silverado 1500</model>
     <year>2026</year>
     <vin>1GCPKWEK1TZ381671</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -3375,6 +3405,7 @@
     <model>4Runner</model>
     <year>2019</year>
     <vin>JTEBU5JR8K5627344</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -3490,7 +3521,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-chevrolet-trailblazer-activ-front-wheel-drive-suv-kl79mvsl8rb134799/</url>
     <title>Pre-Owned 2024 Chevrolet Trailblazer ACTIV Front Wheel Drive SUV</title>
     <body_style>SUV</body_style>
-    <price>25695.00 USD</price>
+    <price>25495.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -3502,6 +3533,7 @@
     <model>Trailblazer</model>
     <year>2024</year>
     <vin>KL79MVSL8RB134799</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -3620,6 +3652,7 @@
     <model>Equinox</model>
     <year>2018</year>
     <vin>2GNAXMEV1J6102533</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -3744,6 +3777,7 @@
     <model>Sierra 1500</model>
     <year>2026</year>
     <vin>1GTUUGEL2TZ157210</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -3904,6 +3938,7 @@
     <model>Rogue</model>
     <year>2024</year>
     <vin>5N1BT3BA8RC697898</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -4031,6 +4066,7 @@
     <model>Trax</model>
     <year>2026</year>
     <vin>KL77LHEP1TC203313</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -4158,6 +4194,7 @@
     <model>Tahoe</model>
     <year>2026</year>
     <vin>1GNS5NKD4TR377381</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -4312,6 +4349,7 @@
     <model>Traverse</model>
     <year>2023</year>
     <vin>1GNEVGKW8PJ266749</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -4442,6 +4480,7 @@
     <model>Traverse</model>
     <year>2026</year>
     <vin>1GNERGKS8TJ372632</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -4575,6 +4614,7 @@
     <model>RAV4</model>
     <year>2025</year>
     <vin>2T3H1RFV2SC335705</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -4705,6 +4745,7 @@
     <model>Sierra 1500</model>
     <year>2024</year>
     <vin>1GTUUGE81RZ187285</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -4862,6 +4903,7 @@
     <model>Renegade</model>
     <year>2021</year>
     <vin>ZACNJDAB6MPN23935</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -4998,6 +5040,7 @@
     <model>GLB 250</model>
     <year>2025</year>
     <vin>W1N4M4GB5SW400097</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -5143,6 +5186,7 @@
     <model>Colorado</model>
     <year>2026</year>
     <vin>1GCPSBEK0T1275042</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -5270,6 +5314,7 @@
     <model>Silverado 1500</model>
     <year>2024</year>
     <vin>3GCUDFEL3RG306887</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -5415,6 +5460,7 @@
     <model>Encore</model>
     <year>2021</year>
     <vin>KL4CJASB2MB336607</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -5536,6 +5582,7 @@
     <model>F-150</model>
     <year>2014</year>
     <vin>1FTFW1ET7EFC68470</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -5663,6 +5710,7 @@
     <model>Sonata</model>
     <year>2017</year>
     <vin>5NPE24AF1HH460812</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -5790,6 +5838,7 @@
     <model>X3</model>
     <year>2020</year>
     <vin>5UXTY3C05L9C09190</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -5920,6 +5969,7 @@
     <model>Encore</model>
     <year>2019</year>
     <vin>KL4CJASB2KB707939</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -6041,6 +6091,7 @@
     <model>Tahoe</model>
     <year>2018</year>
     <vin>1GNSKBKC9JR403131</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -6174,6 +6225,7 @@
     <model>3</model>
     <year>2021</year>
     <vin>3MW5R1J05M8C03877</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -6307,6 +6359,7 @@
     <model>Canyon</model>
     <year>2022</year>
     <vin>1GTG6EEN9N1318246</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -6437,6 +6490,7 @@
     <model>Ram 1500</model>
     <year>2007</year>
     <vin>1D7HA182X7S188915</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -6564,6 +6618,7 @@
     <model>Canyon</model>
     <year>2022</year>
     <vin>1GTG5CEN3N1320176</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -6694,6 +6749,7 @@
     <model>Silverado 2500</model>
     <year>2026</year>
     <vin>2GC4KME77T1179896</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -6809,6 +6865,7 @@
     <model>Enclave</model>
     <year>2020</year>
     <vin>5GAERDKW5LJ151372</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -6951,6 +7008,7 @@
     <model>Wrangler</model>
     <year>2018</year>
     <vin>1C4AJWAG6JL812600</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -7057,6 +7115,7 @@
     <model>LaCrosse</model>
     <year>2019</year>
     <vin>1G4ZU5SS6KU129584</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -7184,6 +7243,7 @@
     <model>Colorado</model>
     <year>2018</year>
     <vin>1GCHSDEN9J1163380</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -7305,6 +7365,7 @@
     <model>F-250</model>
     <year>2015</year>
     <vin>1FT7W2BTXFED49095</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -7342,6 +7403,7 @@
     <model>Pacifica</model>
     <year>2020</year>
     <vin>2C4RC1GG7LR285779</vin>
+    <availability>AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -7449,6 +7511,134 @@
     </image>
     <image>
       <url>https://vehicle-images.carscommerce.inc/3ed8-110005974/2C4RC1GG7LR285779/659790f8d31e28b4412d2d16a6cf5e50.webp</url>
+    </image>
+  </listing>
+  <listing>
+    <vehicle_id>5YFB4MDE9RP133398</vehicle_id>
+    <description>52,669 miles, Blue exterior, Black interior, Automatic, 2.0L I-4 DOHC 16-Valve -inc: Dynamic force</description>
+    <url>https://www.fikeschevy.com/inventory/used-2024-toyota-corolla-le-cvt-natl-fwd-sedan-4-dr-5yfb4mde9rp133398/</url>
+    <title>Pre-Owned 2024 Toyota Corolla LE CVT (Natl) FWD Sedan 4 Dr.</title>
+    <body_style>SEDAN</body_style>
+    <price>22194.00 USD</price>
+    <address format="simple">
+      <component name="addr1">771 Military St N</component>
+      <component name="city">Hamilton</component>
+      <component name="region">AL</component>
+      <component name="postal_code">35570</component>
+      <component name="country">US</component>
+    </address>
+    <make>Toyota</make>
+    <model>Corolla</model>
+    <year>2024</year>
+    <vin>5YFB4MDE9RP133398</vin>
+    <availability>AVAILABLE</availability>
+    <state_of_vehicle>USED</state_of_vehicle>
+    <mileage>
+      <unit>MI</unit>
+      <value>52669</value>
+    </mileage>
+    <transmission>Automatic</transmission>
+    <drivetrain>FWD</drivetrain>
+    <exterior_color>Blue</exterior_color>
+    <interior_color>Black</interior_color>
+    <vehicle_type>car_truck</vehicle_type>
+    <date_first_on_lot>2026-07-22</date_first_on_lot>
+    <custom_number_0>0</custom_number_0>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/5e52-110005974/5YFB4MDE9RP133398/thumbnails/large/ee6adefce77850e7f5b063cbfa2b1a47.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/5e52-110005974/5YFB4MDE9RP133398/ee6adefce77850e7f5b063cbfa2b1a47.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/ac25-110005974/5YFB4MDE9RP133398/af1177499bdeadc89d4ec152ae006959.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/cd07-110005974/5YFB4MDE9RP133398/a5472c9e1f5777cb2f77cbc80fb873c8.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/eff0-110005974/5YFB4MDE9RP133398/63ec9b8f10211fca588a07e52cedff10.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/88c6-110005974/5YFB4MDE9RP133398/d3a36ed4e62aa6c7f4be4e7672feab74.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/df5b-110005974/5YFB4MDE9RP133398/f32df608a4de33fbed1e2836b09cc19e.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/5b6f-110005974/5YFB4MDE9RP133398/600a0fca775b6a33e8882b7a48c44c2a.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/5dff-110005974/5YFB4MDE9RP133398/7650f98160ac6c84087a8b9508d4bc34.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/5176-110005974/5YFB4MDE9RP133398/fd2128315ab701c487cb21652e00f440.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/a85a-110005974/5YFB4MDE9RP133398/093814e2e5712a7a63a9db0a421b6363.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/e92e-110005974/5YFB4MDE9RP133398/136a4e54942947cd13d1a527b22f8372.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/c533-110005974/5YFB4MDE9RP133398/9cf613d5d76401b3e3d74edaeffd1776.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/8568-110005974/5YFB4MDE9RP133398/853e95f190b9bd3e3cc2f479834ffc81.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/dc1b-110005974/5YFB4MDE9RP133398/ca6f2db7948ec21093a7db7df3cf81f1.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/cb80-110005974/5YFB4MDE9RP133398/ef5304088636b2cb658f9ac370875667.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/74b2-110005974/5YFB4MDE9RP133398/0dd403ac9efcb4e810dfc93289fa751f.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/76ef-110005974/5YFB4MDE9RP133398/2bed5721d6ebb0aeb6691e07078152de.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/c773-110005974/5YFB4MDE9RP133398/b15192f916a96cafc25b4ede2e481eaa.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/7f5a-110005974/5YFB4MDE9RP133398/e8ac01a26c144e8e88f27510a0c24650.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/b488-110005974/5YFB4MDE9RP133398/3bff5d6acc9dcc8c3cc708ad29bbfe85.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/3cf4-110005974/5YFB4MDE9RP133398/df4e604b21163954375ef35171799896.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/4c09-110005974/5YFB4MDE9RP133398/d3b03dbbe52e21a3480622fae95790ed.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/548e-110005974/5YFB4MDE9RP133398/acc4c1c89f86bfec380db826d94994ba.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/26ae-110005974/5YFB4MDE9RP133398/d67ba35922caedb0daa15d797b82dd09.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/7128-110005974/5YFB4MDE9RP133398/b6f33caa0f47b904f9b5baf0ba16936e.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/3d4b-110005974/5YFB4MDE9RP133398/21d07d5315494401f63118c1a1ec1a6d.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/e0b5-110005974/5YFB4MDE9RP133398/b68b48096bf0fa71bffd59b6158840c4.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/b4c6-110005974/5YFB4MDE9RP133398/13197707010676f4ee985a2e00660bd6.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/230e-110005974/5YFB4MDE9RP133398/9d8405c6809dd0a9f37eb1fbc3ed47c2.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/52ba-110005974/5YFB4MDE9RP133398/ef5e559d22f452ce9e00f11fc647df5f.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/a0de-110005974/5YFB4MDE9RP133398/b981e5396fbee0efdbc1c9c01365941d.webp</url>
     </image>
   </listing>
 </listings>

@@ -4,7 +4,7 @@
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
 <!-- 19 vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
-<!-- 5 vehicle(s) included below as availability=SOLD -->
+<!-- 1 vehicle(s) included below as availability=SOLD -->
 <!-- (dropped out of the live scrape within the last 3 runs; -->
 <!-- see docs/sold-tracking.json). -->
 <listings>
@@ -33,7 +33,7 @@
       <unit>MI</unit>
       <value>115410</value>
     </mileage>
-    <transmission>Automatic</transmission>
+    <transmission>AUTOMATIC</transmission>
     <drivetrain>FWD</drivetrain>
     <exterior_color>Black</exterior_color>
     <interior_color>Tan</interior_color>
@@ -161,8 +161,8 @@
       <unit>MI</unit>
       <value>73556</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Summit White</exterior_color>
     <interior_color>Jet Black, Perforated leather-appointed seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -283,8 +283,8 @@
       <unit>MI</unit>
       <value>80852</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>RADIANT SILVER METALLIC</exterior_color>
     <interior_color>With Linear Galaxy high-gloss genuine wood trim.)</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -405,8 +405,8 @@
       <unit>MI</unit>
       <value>72306</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -533,7 +533,7 @@
       <unit>MI</unit>
       <value>206147</value>
     </mileage>
-    <transmission></transmission>
+    <transmission>OTHER</transmission>
     <drivetrain>FWD</drivetrain>
     <exterior_color>Silver</exterior_color>
     <interior_color></interior_color>
@@ -673,8 +673,8 @@
       <unit>MI</unit>
       <value>74925</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Satin Steel Metallic</exterior_color>
     <interior_color>Dark Galvanized with Ebony interior accents, Perforated Leather-appointed seats</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -813,8 +813,8 @@
       <unit>MI</unit>
       <value>65459</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Cajun Red Tintcoat</exterior_color>
     <interior_color>Jet Black, Premium cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -950,8 +950,8 @@
       <unit>MI</unit>
       <value>260</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>All Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>AWD</drivetrain>
     <exterior_color>Gray</exterior_color>
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -1048,8 +1048,8 @@
       <unit>MI</unit>
       <value>6</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Four Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Jet Black, Vinyl seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -1161,8 +1161,8 @@
       <unit>MI</unit>
       <value>8</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Four Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>Black</exterior_color>
     <interior_color>Jet Black, Vinyl seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -1271,8 +1271,8 @@
       <unit>MI</unit>
       <value>6</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Summit White</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -1393,8 +1393,8 @@
       <unit>MI</unit>
       <value>6</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Four Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>White Sands</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -1521,8 +1521,8 @@
       <unit>MI</unit>
       <value>8</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Four Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>Summit White</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -1631,8 +1631,8 @@
       <unit>MI</unit>
       <value>8</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Four Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>White Sands</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -1753,8 +1753,8 @@
       <unit>MI</unit>
       <value>6</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Summit White</exterior_color>
     <interior_color>LT Jet Black, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -1878,8 +1878,8 @@
       <unit>MI</unit>
       <value>8</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Summit White</exterior_color>
     <interior_color>Artemis Gray, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -1991,8 +1991,8 @@
       <unit>MI</unit>
       <value>51138</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -2116,8 +2116,8 @@
       <unit>MI</unit>
       <value>6</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Four Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>Summit White</exterior_color>
     <interior_color>Gideon/Very Dark Atmosphere, Leather-Appointed seating surfaces</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -2262,8 +2262,8 @@
       <unit>MI</unit>
       <value>65991</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Summit White</exterior_color>
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -2390,8 +2390,8 @@
       <unit>MI</unit>
       <value>8</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Jet Black/Medium Ash Gray, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -2515,8 +2515,8 @@
       <unit>MI</unit>
       <value>8</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -2631,8 +2631,8 @@
       <unit>MI</unit>
       <value>8</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Mosaic Black Metallic</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -2750,8 +2750,8 @@
       <unit>MI</unit>
       <value>49284</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Summit White</exterior_color>
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -2881,8 +2881,8 @@
       <unit>MI</unit>
       <value>6</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Polar White Tricoat</exterior_color>
     <interior_color>Maple Sugar, Sueded Microfiber seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -3027,8 +3027,8 @@
       <unit>MI</unit>
       <value>6</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Mosaic Black Metallic</exterior_color>
     <interior_color>Jet Black/Gray with Blue accents, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -3158,8 +3158,8 @@
       <unit>MI</unit>
       <value>8</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Four Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>Summit White</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -3289,8 +3289,8 @@
       <unit>MI</unit>
       <value>90515</value>
     </mileage>
-    <transmission>5 Speed Automatic</transmission>
-    <drivetrain>4WD</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>Gray</exterior_color>
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -3417,8 +3417,8 @@
       <unit>MI</unit>
       <value>11491</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Summit White</exterior_color>
     <interior_color>Jet Black/Artemis with Yellow stitching, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -3536,8 +3536,8 @@
       <unit>MI</unit>
       <value>112503</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>IRIDESCENT PEARL TRICOAT</exterior_color>
     <interior_color>JET BLACK/BRANDY, PERFORATED LEATHER-APPOINTED SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -3661,8 +3661,8 @@
       <unit>MI</unit>
       <value>13708</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Four Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>Glacier White Tricoat</exterior_color>
     <interior_color>Atmosphere/Brownstone, Forge perforated leather seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -3822,7 +3822,7 @@
       <unit>MI</unit>
       <value>30121</value>
     </mileage>
-    <transmission>Xtronic CVT w/Manual Mode</transmission>
+    <transmission>AUTOMATIC</transmission>
     <drivetrain>FWD</drivetrain>
     <exterior_color>Silver</exterior_color>
     <interior_color>Front Bucket Seats -inc: 8-way power driver seat w/2-way power lumbar support and 4-way manual passenger seat</interior_color>
@@ -3950,8 +3950,8 @@
       <unit>MI</unit>
       <value>6</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Apex Red</exterior_color>
     <interior_color>Jet Black with Yellow accents, Cloth/Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -4078,8 +4078,8 @@
       <unit>MI</unit>
       <value>6</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Rear Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>RWD</drivetrain>
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Gideon/Very Dark Atmosphere, Leather-Appointed seating surfaces</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -4233,8 +4233,8 @@
       <unit>MI</unit>
       <value>26052</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>All Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>AWD</drivetrain>
     <exterior_color>Mosaic Black Metallic</exterior_color>
     <interior_color>Jet Black, Premium cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -4364,8 +4364,8 @@
       <unit>MI</unit>
       <value>8</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Mosaic Black Metallic</exterior_color>
     <interior_color>LT Jet Black, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -4498,8 +4498,8 @@
       <unit>MI</unit>
       <value>67525</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Four Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>White Frost Tricoat</exterior_color>
     <interior_color>Atmosphere/Brownstone, Forge perforated leather seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -4656,8 +4656,8 @@
       <unit>MI</unit>
       <value>54783</value>
     </mileage>
-    <transmission>9 Speed Automatic</transmission>
-    <drivetrain>4WD</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>Red</exterior_color>
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -4793,7 +4793,7 @@
       <unit>MI</unit>
       <value>6984</value>
     </mileage>
-    <transmission>8 Speed Automatic</transmission>
+    <transmission>AUTOMATIC</transmission>
     <drivetrain>FWD</drivetrain>
     <exterior_color>Red</exterior_color>
     <interior_color>Black</interior_color>
@@ -4939,8 +4939,8 @@
       <unit>MI</unit>
       <value>11</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Rear Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>RWD</drivetrain>
     <exterior_color>Summit White</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -5067,8 +5067,8 @@
       <unit>MI</unit>
       <value>8</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Black with Red Accents, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -5204,8 +5204,8 @@
       <unit>MI</unit>
       <value>40231</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Four Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>Slate Gray Metallic</exterior_color>
     <interior_color>Jet Black, Leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -5350,8 +5350,8 @@
       <unit>MI</unit>
       <value>46087</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Includes (MDP) Anthracite lower exterior accent color, Paint code W598F.</exterior_color>
     <interior_color>EBONY, CLOTH WITH LEATHERETTE SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -5472,8 +5472,8 @@
       <unit>MI</unit>
       <value>175374</value>
     </mileage>
-    <transmission>6 Speed Automatic</transmission>
-    <drivetrain>4WD</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>Black</exterior_color>
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -5600,7 +5600,7 @@
       <unit>MI</unit>
       <value>87173</value>
     </mileage>
-    <transmission>6 Speed Automatic</transmission>
+    <transmission>AUTOMATIC</transmission>
     <drivetrain>FWD</drivetrain>
     <exterior_color>Red</exterior_color>
     <interior_color>Beige</interior_color>
@@ -5728,7 +5728,7 @@
       <unit>MI</unit>
       <value>70939</value>
     </mileage>
-    <transmission>8 Speed Automatic</transmission>
+    <transmission>AUTOMATIC</transmission>
     <drivetrain>RWD</drivetrain>
     <exterior_color>Black</exterior_color>
     <interior_color>Black</interior_color>
@@ -5859,8 +5859,8 @@
       <unit>MI</unit>
       <value>49927</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Includes (CM5) Black Carbon Metallic lower exterior accent color, Paint code W700S.</exterior_color>
     <interior_color>EBONY, CLOTH WITH LEATHERETTE SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -5981,7 +5981,7 @@
       <unit>MI</unit>
       <value>90372</value>
     </mileage>
-    <transmission>8 Speed Automatic</transmission>
+    <transmission>AUTOMATIC</transmission>
     <drivetrain>RWD</drivetrain>
     <exterior_color>Red</exterior_color>
     <interior_color>Black</interior_color>
@@ -6115,8 +6115,8 @@
       <unit>MI</unit>
       <value>16641</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Rear Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>RWD</drivetrain>
     <exterior_color>Satin Steel Metallic</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -6246,8 +6246,8 @@
       <unit>MI</unit>
       <value>158</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Four Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>Sterling Gray Metallic</exterior_color>
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -6362,8 +6362,8 @@
       <unit>MI</unit>
       <value>74490</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>CHAMPAGNE GOLD METALLIC</exterior_color>
     <interior_color>CHESTNUT WITH EBONY INTERIOR ACCENTS, PERFORATED LEATHER-APPOINTED SEATS</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -6505,8 +6505,8 @@
       <unit>MI</unit>
       <value>64868</value>
     </mileage>
-    <transmission></transmission>
-    <drivetrain>4WD</drivetrain>
+    <transmission>OTHER</transmission>
+    <drivetrain>4X4</drivetrain>
     <exterior_color>Black</exterior_color>
     <interior_color>6-Way Driver Seat -inc: Manual Recline and Fore/Aft Movement</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -6612,7 +6612,7 @@
       <unit>MI</unit>
       <value>97750</value>
     </mileage>
-    <transmission>9 Speed Automatic</transmission>
+    <transmission>AUTOMATIC</transmission>
     <drivetrain>FWD</drivetrain>
     <exterior_color>Red</exterior_color>
     <interior_color>Black</interior_color>
@@ -6740,7 +6740,7 @@
       <unit>MI</unit>
       <value>52669</value>
     </mileage>
-    <transmission>Automatic</transmission>
+    <transmission>AUTOMATIC</transmission>
     <drivetrain>FWD</drivetrain>
     <exterior_color>Blue</exterior_color>
     <interior_color>Black</interior_color>
@@ -6868,7 +6868,7 @@
       <unit>MI</unit>
       <value>14782</value>
     </mileage>
-    <transmission>Automatic</transmission>
+    <transmission>AUTOMATIC</transmission>
     <drivetrain>FWD</drivetrain>
     <exterior_color>Red</exterior_color>
     <interior_color>Charcoal</interior_color>
@@ -6999,8 +6999,8 @@
       <unit>MI</unit>
       <value>181696</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Rear Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>RWD</drivetrain>
     <exterior_color>Summit White</exterior_color>
     <interior_color>VINYL</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -7076,8 +7076,8 @@
       <unit>MI</unit>
       <value>88307</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Rear Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>RWD</drivetrain>
     <exterior_color>SILVER ICE METALLIC</exterior_color>
     <interior_color>JET BLACK, CLOTH SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -7204,8 +7204,8 @@
       <unit>MI</unit>
       <value>66063</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>(Includes (BT3) Dark Argent Metallic lower accent color.)</exterior_color>
     <interior_color>TITANIUM, UPSCALE CLOTH SEAT TRIM WITH LEATHERETTE ACCENTS</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -7335,8 +7335,8 @@
       <unit>MI</unit>
       <value>27776</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
     <exterior_color>Crystal White Tricoat</exterior_color>
     <interior_color>Cirrus, Leather Seating Surfaces with Mini-Perforated inserts</interior_color>
     <vehicle_type>car_truck</vehicle_type>
@@ -7443,521 +7443,6 @@
     </image>
   </listing>
   <listing>
-    <vehicle_id>3GNAXHEG1TL130713</vehicle_id>
-    <description>Summit White exterior, Black, Cloth seat trim interior, Automatic, 1.5L Turbo 4-cylinder engine</description>
-    <url>https://www.fikeschevy.com/inventory/new-2026-chevrolet-equinox-lt-front-wheel-drive-suv-3gnaxheg1tl130713/</url>
-    <title>New 2026 Chevrolet Equinox LT Front Wheel Drive SUV</title>
-    <body_style>SUV</body_style>
-    <price>26249.00 USD</price>
-    <address format="simple">
-      <component name="addr1">771 Military St N</component>
-      <component name="city">Hamilton</component>
-      <component name="region">AL</component>
-      <component name="postal_code">35570</component>
-      <component name="country">US</component>
-    </address>
-    <make>Chevrolet</make>
-    <model>Equinox</model>
-    <year>2026</year>
-    <vin>3GNAXHEG1TL130713</vin>
-    <availability>SOLD</availability>
-    <state_of_vehicle>NEW</state_of_vehicle>
-    <mileage>
-      <unit>MI</unit>
-      <value>456</value>
-    </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Front Wheel Drive</drivetrain>
-    <exterior_color>Summit White</exterior_color>
-    <interior_color>Black, Cloth seat trim</interior_color>
-    <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2025-05-03</date_first_on_lot>
-    <custom_number_0>448</custom_number_0>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/67d7fa5.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/4127d66.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/7d657d4.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/5cae224.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/de624d4.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/f254f5b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/c6e2bda.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/6ebdacc.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/800d97c.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/6b46957.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/ce95e8d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/f73ff1e.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/8ffb010.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/a0747ff.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/be246b2.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/55b24a7.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/da0e294.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/407ccbf.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/7929084.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/e46ee54.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/f09eb2a.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/7197b09.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/a9414e0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/f190e11.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/6ab08db.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/d9f57d4.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/866d248.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/3356a00.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/e7f105e.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GNAXHEG1TL130713/015c944.jpeg</url>
-    </image>
-  </listing>
-  <listing>
-    <vehicle_id>2T3H1RFV2SC335705</vehicle_id>
-    <description>17,305 miles, Not Specified exterior, Beige interior, 8 Speed Automatic, 2.5L DOHC 4-Cylinder w/Dual VVT-i</description>
-    <url>https://www.fikeschevy.com/inventory/used-2025-toyota-rav4-le-fwd-natl-fwd-utility-body-2t3h1rfv2sc335705/</url>
-    <title>Pre-Owned 2025 Toyota RAV4 LE FWD (Natl) FWD Utility Body</title>
-    <body_style>SUV</body_style>
-    <price>30894.00 USD</price>
-    <address format="simple">
-      <component name="addr1">771 Military St N</component>
-      <component name="city">Hamilton</component>
-      <component name="region">AL</component>
-      <component name="postal_code">35570</component>
-      <component name="country">US</component>
-    </address>
-    <make>Toyota</make>
-    <model>RAV4</model>
-    <year>2025</year>
-    <vin>2T3H1RFV2SC335705</vin>
-    <availability>SOLD</availability>
-    <state_of_vehicle>USED</state_of_vehicle>
-    <mileage>
-      <unit>MI</unit>
-      <value>17305</value>
-    </mileage>
-    <transmission>8 Speed Automatic</transmission>
-    <drivetrain>FWD</drivetrain>
-    <exterior_color>Not Specified</exterior_color>
-    <interior_color>Beige</interior_color>
-    <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-09</date_first_on_lot>
-    <custom_number_0>46</custom_number_0>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/d093-110005974/2T3H1RFV2SC335705/thumbnails/large/e7311ec6b1d383b37b95b6eb502bb23d.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/d093-110005974/2T3H1RFV2SC335705/e7311ec6b1d383b37b95b6eb502bb23d.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/8d8b-110005974/2T3H1RFV2SC335705/32d39fc48b9fc2dad75974ab792645fa.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/834b-110005974/2T3H1RFV2SC335705/8278aa5b3e8f561b814fdfba64d943ef.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/c92d-110005974/2T3H1RFV2SC335705/117f67889db6a637aab59606d316a6ae.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/3853-110005974/2T3H1RFV2SC335705/a7d5b7f0ae307674c7acdb274da83b3e.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/92a1-110005974/2T3H1RFV2SC335705/1155386d95c7da9bbccd483611134639.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/557c-110005974/2T3H1RFV2SC335705/f50260fabc6efeeaa95509c7710572ec.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/c069-110005974/2T3H1RFV2SC335705/ac9dfd49ccf4e8815d9f7f4d92a9bff2.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/bb68-110005974/2T3H1RFV2SC335705/10ac756006a3778e3fbb1e3dc96b0d0c.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/647d-110005974/2T3H1RFV2SC335705/21a9f11571393e013fdddbe858e0befb.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/653e-110005974/2T3H1RFV2SC335705/88b617ddc361914f8a3ea82c1eefa69f.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/42a1-110005974/2T3H1RFV2SC335705/02429bb8f61a4d9f27a4d1a0a228c804.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/1ad7-110005974/2T3H1RFV2SC335705/ae9fa5b45538ab089b023132fe7f4c71.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/8d5e-110005974/2T3H1RFV2SC335705/4f28a350fcddfee347eeaa30bf471d5f.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/ec83-110005974/2T3H1RFV2SC335705/3b4d15ba7f5f58b1c82e15bdc2a5b601.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/f588-110005974/2T3H1RFV2SC335705/751029164c24a6f38182d2e5d872c389.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/30a0-110005974/2T3H1RFV2SC335705/5348fd38e64450e85a0de95c7e6c054b.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/5f45-110005974/2T3H1RFV2SC335705/e00dfbdc4dfcd49a874499708849f286.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/6355-110005974/2T3H1RFV2SC335705/c1dabe6e361d599bd9093188be0e475d.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/5150-110005974/2T3H1RFV2SC335705/9f4e87f53c74bb5a1c4ad9b1dc17674d.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/e646-110005974/2T3H1RFV2SC335705/8c46d98a4f76a1ff209bbe1cce749a56.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/d59b-110005974/2T3H1RFV2SC335705/03150825507cefd1b80beddd763e6de4.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/165f-110005974/2T3H1RFV2SC335705/d5e30754691d8bb98812c50ea8ae7306.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/fd61-110005974/2T3H1RFV2SC335705/d6b37a4e7883e3f4d19a0f161c99f52d.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/41cc-110005974/2T3H1RFV2SC335705/168163dd4d73c287729cb2b725c5886a.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/26a0-110005974/2T3H1RFV2SC335705/f618c73bc05d9274c1cd858f4f8e8d45.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/2457-110005974/2T3H1RFV2SC335705/5c810017f311302bb8908ca7e2b3a927.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/7dbb-110005974/2T3H1RFV2SC335705/e823e333673466ff6fac73db7bd8a617.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/9ed5-110005974/2T3H1RFV2SC335705/fe0e7d39870fe7da3017a44ccd1c53fe.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/2a7b-110005974/2T3H1RFV2SC335705/c5f108ee4bf12590f5fbf403d3f125a8.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/d67b-110005974/2T3H1RFV2SC335705/ea1ad7f603e9a76a31c047157f450088.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/5ca8-110005974/2T3H1RFV2SC335705/cb4c2927add16354d833b13d0954a592.webp</url>
-    </image>
-  </listing>
-  <listing>
-    <vehicle_id>1GNSKBKC9JR403131</vehicle_id>
-    <description>147,180 miles, BLACK exterior, JET BLACK/DARK ASH, LEATHER-APPOINTED SEAT TRIM interior, Automatic, Engine: 5.3L, V-8, SIDI, Active Fuel Mgt</description>
-    <url>https://www.fikeschevy.com/inventory/used-2018-chevrolet-tahoe-lt-four-wheel-drive-suv-1gnskbkc9jr403131/</url>
-    <title>Pre-Owned 2018 Chevrolet Tahoe LT Four Wheel Drive SUV</title>
-    <body_style>SUV</body_style>
-    <price>20295.00 USD</price>
-    <address format="simple">
-      <component name="addr1">771 Military St N</component>
-      <component name="city">Hamilton</component>
-      <component name="region">AL</component>
-      <component name="postal_code">35570</component>
-      <component name="country">US</component>
-    </address>
-    <make>Chevrolet</make>
-    <model>Tahoe</model>
-    <year>2018</year>
-    <vin>1GNSKBKC9JR403131</vin>
-    <availability>SOLD</availability>
-    <state_of_vehicle>USED</state_of_vehicle>
-    <mileage>
-      <unit>MI</unit>
-      <value>147180</value>
-    </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Four Wheel Drive</drivetrain>
-    <exterior_color>BLACK</exterior_color>
-    <interior_color>JET BLACK/DARK ASH, LEATHER-APPOINTED SEAT TRIM</interior_color>
-    <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2024-05-24</date_first_on_lot>
-    <custom_number_0>792</custom_number_0>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/fc45b5f.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/6cb6852.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/d14a2c6.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/1885dea.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/ce0d220.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/2deab60.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/77a4150.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/61d1350.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/7d1375b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/d91198d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/7cb4957.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/87e1700.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/00ab066.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/a886c02.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/0658bdc.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/e32bea0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/0f4a391.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/8c92fb3.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/8b6a91d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/06faf31.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/5022b08.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/7725c13.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/97a544c.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/3564af0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/71e842f.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/d6a01dd.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/d57ead4.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/69a5b62.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/e7911f4.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/57c7ca5.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/e3cd7be.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/997dd74.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/3e4ee85.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GNSKBKC9JR403131/339503b.jpeg</url>
-    </image>
-  </listing>
-  <listing>
-    <vehicle_id>1D7HA182X7S188915</vehicle_id>
-    <description>287,877 miles, Red exterior, Gray interior, Automatic, 8 Cylinder Engine</description>
-    <url>https://www.fikeschevy.com/inventory/used-2007-dodge-ram-1500-2wd-crew-cab-140-5-in-slt-rwd-crew-pickup-1d7ha182x7s188915/</url>
-    <title>Pre-Owned 2007 Dodge Ram 1500 2WD Crew Cab 140.5 in SLT RWD Crew Pickup</title>
-    <body_style>PICKUP</body_style>
-    <price>5194.00 USD</price>
-    <address format="simple">
-      <component name="addr1">771 Military St N</component>
-      <component name="city">Hamilton</component>
-      <component name="region">AL</component>
-      <component name="postal_code">35570</component>
-      <component name="country">US</component>
-    </address>
-    <make>Dodge</make>
-    <model>Ram 1500</model>
-    <year>2007</year>
-    <vin>1D7HA182X7S188915</vin>
-    <availability>SOLD</availability>
-    <state_of_vehicle>USED</state_of_vehicle>
-    <mileage>
-      <unit>MI</unit>
-      <value>287877</value>
-    </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>RWD</drivetrain>
-    <exterior_color>Red</exterior_color>
-    <interior_color>Gray</interior_color>
-    <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-07-11</date_first_on_lot>
-    <custom_number_0>14</custom_number_0>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/bb27-110005974/1D7HA182X7S188915/thumbnails/large/a1aa9fecb42451ee811640e4a2595011.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/bb27-110005974/1D7HA182X7S188915/a1aa9fecb42451ee811640e4a2595011.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/dce2-110005974/1D7HA182X7S188915/e28c0bd0b455b4cc9edba941da1dbbb1.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/d6b4-110005974/1D7HA182X7S188915/fd72cc31a43f4256136a4478ecb02b89.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/daec-110005974/1D7HA182X7S188915/9a25497cc4773a9c82ec1fb3ab77321d.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/9c98-110005974/1D7HA182X7S188915/8d9234a9bdfd58dd45b716665062fae6.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/385b-110005974/1D7HA182X7S188915/d4617a48e02e083fee11cda20287d6e3.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/e978-110005974/1D7HA182X7S188915/0a6f13ed640d545de370574263fc4c76.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/3afd-110005974/1D7HA182X7S188915/6049df19f67a1328f1adad63a690e243.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/24fa-110005974/1D7HA182X7S188915/5894673a4caf0676bda3cdb26fc5fda0.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/73f4-110005974/1D7HA182X7S188915/f31a3ae47c6a580bb83b352f012c9c6d.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/bd4c-110005974/1D7HA182X7S188915/2691de75991089e7dadcc01668aedd79.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/a52b-110005974/1D7HA182X7S188915/dbdb4d5fd034b44c1c564d58cfa98c18.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/6c44-110005974/1D7HA182X7S188915/8f540eaeb92a95263d4e5286cbc35c81.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/c231-110005974/1D7HA182X7S188915/99ed33025c81050fdc77c41e5e908c3d.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/f46a-110005974/1D7HA182X7S188915/e46fb580d54ecd2c634be4fa4e9f634b.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/ac18-110005974/1D7HA182X7S188915/b64bc7df001366ff56b17b4a1537c526.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/c0c8-110005974/1D7HA182X7S188915/2246e57e476a156240d88b1e7ed06a18.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/27f1-110005974/1D7HA182X7S188915/38121fdf22991c73a8971203737dd7ff.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/321c-110005974/1D7HA182X7S188915/ebd28bcd9ba114d7035043ab9105d361.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/2fb4-110005974/1D7HA182X7S188915/58f8a973b2ec7a7a18581f14d0043616.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/6e40-110005974/1D7HA182X7S188915/65694cfc6d95fe226a5a615f5ad28f75.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/556c-110005974/1D7HA182X7S188915/bccbaa6bedfd995cca3b3b74a7598c2b.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/474b-110005974/1D7HA182X7S188915/280fc8a73fcab471ba829947e962cb64.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/e8d8-110005974/1D7HA182X7S188915/278e6d3495d29a2d43ed8306e3012954.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/d564-110005974/1D7HA182X7S188915/3053aea86e27b48b7d5a7ab76a9e739b.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/f4d5-110005974/1D7HA182X7S188915/8e68c75261771a56e865e15c7db78f53.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/8047-110005974/1D7HA182X7S188915/f38ddc61b0064e5c2f78536c92343720.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/6249-110005974/1D7HA182X7S188915/f9d8ab21ea29301f2e5aebea8283529f.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/4e39-110005974/1D7HA182X7S188915/edfb5313a74bf33bf5b416a0e4c3679a.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/1955-110005974/1D7HA182X7S188915/fd52d63519fb2e6f778a00cc43a5883c.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/ff04-110005974/1D7HA182X7S188915/1af8ddc0e65bd7621a2a74156a7cc3c7.webp</url>
-    </image>
-  </listing>
-  <listing>
     <vehicle_id>1GCHSDEN9J1163380</vehicle_id>
     <description>126,160 miles, BLACK exterior, JET BLACK, CLOTH/LEATHERETTE SEAT TRIM interior, Automatic, Engine: 3.6L, 6Cyl Gas</description>
     <url>https://www.fikeschevy.com/inventory/used-2018-chevrolet-colorado-2wd-z71-rear-wheel-drive-extended-cab-1gchsden9j1163380/</url>
@@ -7981,8 +7466,8 @@
       <unit>MI</unit>
       <value>126160</value>
     </mileage>
-    <transmission>Automatic</transmission>
-    <drivetrain>Rear Wheel Drive</drivetrain>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>RWD</drivetrain>
     <exterior_color>BLACK</exterior_color>
     <interior_color>JET BLACK, CLOTH/LEATHERETTE SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>

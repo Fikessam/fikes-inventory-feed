@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T15:24:38.494Z",
+  "generated_at": "2026-07-29T16:04:54.280Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -11,7 +11,7 @@
   "total_vehicles": 77,
   "new_count": 28,
   "used_count": 49,
-  "no_image_count": 19,
+  "no_image_count": 18,
   "no_image_vins": [
     "3GNAXHEG7TL516259",
     "1GCUKEEL2TZ421150",
@@ -19,7 +19,6 @@
     "5FNRL5H90DB049379",
     "1GC4KME78TF344055",
     "3D7MX48CX6G233591",
-    "3GCUDHEL4NG601499",
     "3GYFNBE31CS526820",
     "1GCPSBEK2T1289024",
     "KL77LKEP0TC238177",
@@ -119,12 +118,12 @@
       "days_in_stock": 128,
       "date_first_on_lot": "2026-03-23",
       "pricing": {
-        "msrp": 19448,
+        "msrp": 19194,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 20695
+        "fikes_price": 20495
       },
-      "price": 20695,
+      "price": 20495,
       "images": [
         "https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg",
         "https://vini.gm.com/realimages/3GNAXMEV7NS200005/fb245f0.jpeg",
@@ -182,9 +181,9 @@
         "msrp": 23194,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 19295
+        "fikes_price": 19195
       },
-      "price": 19295,
+      "price": 19195,
       "images": [
         "https://vini.gm.com/realimages/1GYFZCR49KF177972/04cec22.jpeg",
         "https://vini.gm.com/realimages/1GYFZCR49KF177972/6bb8ee5.jpeg",
@@ -239,7 +238,7 @@
       "days_in_stock": 118,
       "date_first_on_lot": "2026-04-02",
       "pricing": {
-        "msrp": 20894,
+        "msrp": 20694,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 18595
@@ -367,7 +366,7 @@
       "days_in_stock": 113,
       "date_first_on_lot": "2026-04-07",
       "pricing": {
-        "msrp": 19494,
+        "msrp": 19394,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 22995
@@ -436,9 +435,9 @@
         "msrp": 18794,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 21295
+        "fikes_price": 21195
       },
-      "price": 21295,
+      "price": 21195,
       "images": [
         "https://vini.gm.com/realimages/1GNERGKW0LJ290395/b1b6f9b.jpeg",
         "https://vini.gm.com/realimages/1GNERGKW0LJ290395/1cac42e.jpeg",
@@ -1019,7 +1018,7 @@
       "days_in_stock": 113,
       "date_first_on_lot": "2026-04-07",
       "pricing": {
-        "msrp": 22194,
+        "msrp": 21394,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 19395
@@ -1148,7 +1147,7 @@
       "days_in_stock": 105,
       "date_first_on_lot": "2026-04-15",
       "pricing": {
-        "msrp": 20894,
+        "msrp": 20694,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 18495
@@ -1388,12 +1387,12 @@
       "days_in_stock": 92,
       "date_first_on_lot": "2026-04-28",
       "pricing": {
-        "msrp": 20894,
+        "msrp": 20694,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 19249
+        "fikes_price": 18995
       },
-      "price": 19249,
+      "price": 18995,
       "images": [
         "https://vini.gm.com/realimages/3GNAXHEV8NS207455/9b613c1.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEV8NS207455/93a691e.jpeg",
@@ -1929,7 +1928,7 @@
       "days_in_stock": 62,
       "date_first_on_lot": "2026-05-28",
       "pricing": {
-        "msrp": 19494,
+        "msrp": 19394,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 23794
@@ -2254,9 +2253,9 @@
         "msrp": 65229,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 50495
+        "fikes_price": 50295
       },
-      "price": 50495,
+      "price": 50295,
       "images": [
         "https://vini.gm.com/realimages/1GTUUGE81RZ187285/5f7add2.jpeg",
         "https://vini.gm.com/realimages/1GTUUGE81RZ187285/f738d5a.jpeg",
@@ -2586,9 +2585,9 @@
         "msrp": 61737,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 49995
+        "fikes_price": 49695
       },
-      "price": 49995,
+      "price": 49695,
       "images": [
         "https://vini.gm.com/realimages/3GCUDFEL3RG306887/87a2e4c.jpeg",
         "https://vini.gm.com/realimages/3GCUDFEL3RG306887/602ca42.jpeg",
@@ -2651,7 +2650,7 @@
       "days_in_stock": 40,
       "date_first_on_lot": "2026-06-19",
       "pricing": {
-        "msrp": 19494,
+        "msrp": 19394,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 16995
@@ -2901,9 +2900,9 @@
         "msrp": 18794,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 14995
+        "fikes_price": 14795
       },
-      "price": 14995,
+      "price": 14795,
       "images": [
         "https://vini.gm.com/realimages/KL4CJASB2KB707939/35ba635.jpeg",
         "https://vini.gm.com/realimages/KL4CJASB2KB707939/b7595da.jpeg",
@@ -3080,7 +3079,7 @@
       "days_in_stock": 22,
       "date_first_on_lot": "2026-07-07",
       "pricing": {
-        "msrp": 19494,
+        "msrp": 19394,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": null
@@ -3259,7 +3258,7 @@
       "days_in_stock": 22,
       "date_first_on_lot": "2026-07-07",
       "pricing": {
-        "msrp": 19494,
+        "msrp": 19394,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 24995
@@ -3326,7 +3325,7 @@
       "days_in_stock": 14,
       "date_first_on_lot": "2026-07-15",
       "pricing": {
-        "msrp": 19494,
+        "msrp": 19394,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 20194
@@ -3416,7 +3415,40 @@
         "fikes_price": null
       },
       "price": null,
-      "images": []
+      "images": [
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/47f2889.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/6db0b3e.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/f72790f.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/72b0418.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/8f21faa.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/4e3e881.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/c4c403b.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/cc5f14d.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/b6021a5.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/372f2a4.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/94ae088.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/127408b.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/f289971.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/607a5ea.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/5d2939f.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/e28eb88.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/9f117ee.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/c5bd1be.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/1a350bf.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/d83db83.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/da3ee95.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/406fc18.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/93aa4d0.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/9fa02c9.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/8783d29.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/c064457.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/321b2a0.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/501fe04.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/e1d3c11.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/8f3f8f6.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/f3027cf.jpeg",
+        "https://vini.gm.com/realimages/3GCUDHEL4NG601499/1f13b59.jpeg"
+      ]
     },
     {
       "vin": "3GYFNBE31CS526820",
@@ -3439,7 +3471,7 @@
       "days_in_stock": 13,
       "date_first_on_lot": "2026-07-16",
       "pricing": {
-        "msrp": 20894,
+        "msrp": 20694,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": null
@@ -3620,9 +3652,9 @@
         "msrp": 65229,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": null
+        "fikes_price": 38695
       },
-      "price": null,
+      "price": 38695,
       "images": []
     },
     {
@@ -3740,9 +3772,9 @@
         "msrp": 23194,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 31995
+        "fikes_price": 33495
       },
-      "price": 31995,
+      "price": 33495,
       "images": []
     },
     {
@@ -3769,9 +3801,9 @@
         "msrp": 18694,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 20995
+        "fikes_price": 21495
       },
-      "price": 20995,
+      "price": 21495,
       "images": []
     },
     {
@@ -3941,7 +3973,39 @@
         "https://vini.gm.com/realimages/1GCGSCEN8J1211540/8744908.jpeg",
         "https://vini.gm.com/realimages/1GCGSCEN8J1211540/5eeb1e2.jpeg",
         "https://vini.gm.com/realimages/1GCGSCEN8J1211540/294440f.jpeg",
-        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/8c55de2.jpeg"
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/8c55de2.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/b804564.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/1e21eca.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/337b397.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/ebe46f0.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/503593b.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/83ff546.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/60181e1.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/0a409f8.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/1e5f487.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/61d7439.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/a753ba5.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/e8cbf96.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/cd468a6.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/a2b2ba7.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/0930765.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/75d29ca.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/c55c2b0.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/6e7d8d4.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/282a8e3.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/1080d2a.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/4233cac.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/718395b.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/9a34637.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/de862b5.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/af95524.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/965c27c.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/841988d.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/97139c0.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/049bb7c.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/1516762.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/acd3a54.jpeg",
+        "https://vini.gm.com/realimages/1GCGSCEN8J1211540/c89a6ef.jpeg"
       ]
     },
     {
@@ -3965,7 +4029,7 @@
       "days_in_stock": 4,
       "date_first_on_lot": "2026-07-25",
       "pricing": {
-        "msrp": 20894,
+        "msrp": 20694,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": null
@@ -4120,7 +4184,7 @@
       "days_in_stock": 2,
       "date_first_on_lot": "2026-07-27",
       "pricing": {
-        "msrp": 19494,
+        "msrp": 19394,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": null
@@ -4149,7 +4213,7 @@
       "days_in_stock": 1,
       "date_first_on_lot": "2026-07-28",
       "pricing": {
-        "msrp": 19494,
+        "msrp": 19394,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": null
@@ -4187,10 +4251,6 @@
       "images": []
     }
   ],
-  "sold_tracking_count": 3,
-  "sold_tracking_vins": [
-    "1GCHSDEN9J1163380",
-    "4T1BF1FK8GU164956",
-    "KL79MMS25RB177501"
-  ]
+  "sold_tracking_count": 0,
+  "sold_tracking_vins": []
 }

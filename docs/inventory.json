@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T14:45:04.728Z",
+  "generated_at": "2026-07-31T22:52:19.909Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -8,10 +8,10 @@
     "zip": "35570",
     "country": "US"
   },
-  "total_vehicles": 74,
-  "new_count": 28,
-  "used_count": 46,
-  "no_image_count": 17,
+  "total_vehicles": 76,
+  "new_count": 29,
+  "used_count": 47,
+  "no_image_count": 19,
   "no_image_vins": [
     "3GNAXHEG7TL516259",
     "1GCUKEEL2TZ421150",
@@ -29,7 +29,9 @@
     "3FA6P0LU4KR188843",
     "1GNS6PKD3TR434386",
     "1GCGTEEN8L1103978",
-    "1GC4YPEY9RF148725"
+    "1GC4YPEY9RF148725",
+    "1GCHSBEA8M1107744",
+    "1GCPSBEK8T1289190"
   ],
   "no_days_in_stock_count": 0,
   "no_days_in_stock_vins": [],
@@ -3989,7 +3991,7 @@
       "mileage": null,
       "fuel_type": null,
       "body_style": null,
-      "stock_number": "Start Saving Vehicles Today!",
+      "stock_number": "24861",
       "days_in_stock": 6,
       "date_first_on_lot": "2026-07-25",
       "pricing": {
@@ -4057,6 +4059,64 @@
         "fikes_price": 50995
       },
       "price": 50995,
+      "images": []
+    },
+    {
+      "vin": "1GCHSBEA8M1107744",
+      "condition": "used",
+      "year": "2021",
+      "make": "Chevrolet",
+      "model": "Colorado",
+      "trim": "2WD Work Truck Rear Wheel Drive Extended Cab",
+      "title": "Pre-Owned 2021 Chevrolet Colorado 2WD Work Truck Rear Wheel Drive Extended Cab",
+      "url": "https://www.fikeschevy.com/inventory/used-2021-chevrolet-colorado-2wd-work-truck-rear-wheel-drive-extended-cab-1gchsbea8m1107744/",
+      "exterior_color": "Summit White",
+      "interior_color": "JET BLACK/DARK ASH, VINYL SEAT TRIM",
+      "drivetrain": "Rear Wheel Drive",
+      "transmission": "Automatic",
+      "engine": "Engine: Gas, 2.5L 4 Cylinder, L4, SIDI, DOHC, VVT",
+      "mileage": 120029,
+      "fuel_type": null,
+      "body_style": "Extended Cab Pickup",
+      "stock_number": "24631",
+      "days_in_stock": 113,
+      "date_first_on_lot": "2026-04-09",
+      "pricing": {
+        "msrp": 10794,
+        "sales_event_discount": null,
+        "net_price": null,
+        "fikes_price": 11995
+      },
+      "price": 11995,
+      "images": []
+    },
+    {
+      "vin": "1GCPSBEK8T1289190",
+      "condition": "new",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Colorado",
+      "trim": "WT Rear Wheel Drive Crew Cab",
+      "title": "New 2026 Chevrolet Colorado WT Rear Wheel Drive Crew Cab",
+      "url": "https://www.fikeschevy.com/inventory/new-2026-chevrolet-colorado-wt-rear-wheel-drive-crew-cab-1gcpsbek8t1289190/",
+      "exterior_color": "Sterling Gray Metallic",
+      "interior_color": "Jet Black, Cloth seat trim",
+      "drivetrain": "Rear Wheel Drive",
+      "transmission": "Automatic",
+      "engine": "TurboMax™ engine",
+      "mileage": null,
+      "fuel_type": null,
+      "body_style": null,
+      "stock_number": "24860",
+      "days_in_stock": 15,
+      "date_first_on_lot": "2026-07-16",
+      "pricing": {
+        "msrp": 32194,
+        "sales_event_discount": null,
+        "net_price": null,
+        "fikes_price": null
+      },
+      "price": 32194,
       "images": []
     }
   ],

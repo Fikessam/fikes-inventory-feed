@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T13:57:26.029Z",
+  "generated_at": "2026-08-05T13:57:24.634Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -9,8 +9,8 @@
     "country": "US"
   },
   "total_vehicles": 74,
-  "new_count": 27,
-  "used_count": 47,
+  "new_count": 28,
+  "used_count": 46,
   "no_image_count": 18,
   "no_image_vins": [
     "3GNAXHEG7TL516259",
@@ -23,14 +23,14 @@
     "KL77LHEP5TC238825",
     "1GC4K0CY4JF115566",
     "2GCUDGED9P1109758",
-    "3GCUYEED6MG250931",
     "3GNAXJEG2RL293516",
-    "KL79MMS25RB177501",
     "3FA6P0LU4KR188843",
     "1GNS6PKD3TR434386",
     "1GCPSBEK8T1289190",
     "3GNARHEG4VL148443",
-    "2GKALUEK6C6268080"
+    "2GKALUEK6C6268080",
+    "1GCPTEEK8T1247956",
+    "19XFA1F56BE014267"
   ],
   "no_days_in_stock_count": 0,
   "no_days_in_stock_vins": [],
@@ -53,7 +53,7 @@
       "fuel_type": null,
       "body_style": "Sedan",
       "stock_number": "24255",
-      "days_in_stock": 276,
+      "days_in_stock": 277,
       "date_first_on_lot": "2025-11-01",
       "pricing": {
         "msrp": 8194,
@@ -115,7 +115,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24574B",
-      "days_in_stock": 134,
+      "days_in_stock": 135,
       "date_first_on_lot": "2026-03-23",
       "pricing": {
         "msrp": 19194,
@@ -175,7 +175,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24586",
-      "days_in_stock": 127,
+      "days_in_stock": 128,
       "date_first_on_lot": "2026-03-30",
       "pricing": {
         "msrp": 23194,
@@ -235,7 +235,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24592",
-      "days_in_stock": 124,
+      "days_in_stock": 125,
       "date_first_on_lot": "2026-04-02",
       "pricing": {
         "msrp": 20694,
@@ -297,7 +297,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24550A",
-      "days_in_stock": 122,
+      "days_in_stock": 123,
       "date_first_on_lot": "2026-04-04",
       "pricing": {
         "msrp": 11194,
@@ -363,7 +363,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24609",
-      "days_in_stock": 119,
+      "days_in_stock": 120,
       "date_first_on_lot": "2026-04-07",
       "pricing": {
         "msrp": 19394,
@@ -429,7 +429,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility",
       "stock_number": "24637",
-      "days_in_stock": 111,
+      "days_in_stock": 112,
       "date_first_on_lot": "2026-04-15",
       "pricing": {
         "msrp": 18494,
@@ -494,7 +494,7 @@
       "fuel_type": null,
       "body_style": "Extended Cargo Van 170\" WB AWD",
       "stock_number": "24461",
-      "days_in_stock": 185,
+      "days_in_stock": 186,
       "date_first_on_lot": "2026-01-31",
       "pricing": {
         "msrp": 65229,
@@ -546,7 +546,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24513",
-      "days_in_stock": 168,
+      "days_in_stock": 169,
       "date_first_on_lot": "2026-02-17",
       "pricing": {
         "msrp": 65229,
@@ -603,7 +603,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24514",
-      "days_in_stock": 168,
+      "days_in_stock": 169,
       "date_first_on_lot": "2026-02-17",
       "pricing": {
         "msrp": 65229,
@@ -659,7 +659,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24512",
-      "days_in_stock": 165,
+      "days_in_stock": 166,
       "date_first_on_lot": "2026-02-20",
       "pricing": {
         "msrp": 21394,
@@ -719,7 +719,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24551",
-      "days_in_stock": 154,
+      "days_in_stock": 155,
       "date_first_on_lot": "2026-03-03",
       "pricing": {
         "msrp": 61737,
@@ -781,7 +781,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24552",
-      "days_in_stock": 147,
+      "days_in_stock": 148,
       "date_first_on_lot": "2026-03-10",
       "pricing": {
         "msrp": 65229,
@@ -837,15 +837,15 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24612",
-      "days_in_stock": 144,
+      "days_in_stock": 145,
       "date_first_on_lot": "2026-03-13",
       "pricing": {
-        "msrp": 44194,
+        "msrp": 42894,
         "sales_event_discount": 4000,
         "net_price": null,
         "fikes_price": null
       },
-      "price": 44194,
+      "price": 42894,
       "images": [
         "https://vini.gm.com/realimages/3GCUKCEDXTG314473/9fb0e09.jpeg",
         "https://vini.gm.com/realimages/3GCUKCEDXTG314473/89ff69d.jpeg",
@@ -897,7 +897,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24617",
-      "days_in_stock": 123,
+      "days_in_stock": 124,
       "date_first_on_lot": "2026-04-03",
       "pricing": {
         "msrp": 38534,
@@ -958,7 +958,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24616",
-      "days_in_stock": 126,
+      "days_in_stock": 127,
       "date_first_on_lot": "2026-03-31",
       "pricing": {
         "msrp": 37134,
@@ -1015,7 +1015,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24611",
-      "days_in_stock": 132,
+      "days_in_stock": 133,
       "date_first_on_lot": "2026-03-25",
       "pricing": {
         "msrp": 61737,
@@ -1083,7 +1083,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24638",
-      "days_in_stock": 111,
+      "days_in_stock": 112,
       "date_first_on_lot": "2026-04-15",
       "pricing": {
         "msrp": 20694,
@@ -1145,7 +1145,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24668",
-      "days_in_stock": 104,
+      "days_in_stock": 105,
       "date_first_on_lot": "2026-04-22",
       "pricing": {
         "msrp": 21394,
@@ -1204,7 +1204,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24608A",
-      "days_in_stock": 98,
+      "days_in_stock": 99,
       "date_first_on_lot": "2026-04-28",
       "pricing": {
         "msrp": 20694,
@@ -1267,7 +1267,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24703",
-      "days_in_stock": 108,
+      "days_in_stock": 109,
       "date_first_on_lot": "2026-04-18",
       "pricing": {
         "msrp": 38534,
@@ -1335,7 +1335,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24702",
-      "days_in_stock": 95,
+      "days_in_stock": 96,
       "date_first_on_lot": "2026-05-01",
       "pricing": {
         "msrp": 25889,
@@ -1398,7 +1398,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility",
       "stock_number": "24633",
-      "days_in_stock": 75,
+      "days_in_stock": 76,
       "date_first_on_lot": "2026-05-21",
       "pricing": {
         "msrp": 32654,
@@ -1460,7 +1460,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility",
       "stock_number": "24620A",
-      "days_in_stock": 76,
+      "days_in_stock": 77,
       "date_first_on_lot": "2026-05-20",
       "pricing": {
         "msrp": 20694,
@@ -1519,7 +1519,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24727",
-      "days_in_stock": 84,
+      "days_in_stock": 85,
       "date_first_on_lot": "2026-05-12",
       "pricing": {
         "msrp": 37134,
@@ -1548,7 +1548,7 @@
       "fuel_type": null,
       "body_style": "Crew Cab Pickup",
       "stock_number": "24710",
-      "days_in_stock": 69,
+      "days_in_stock": 70,
       "date_first_on_lot": "2026-05-27",
       "pricing": {
         "msrp": 61737,
@@ -1621,7 +1621,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility",
       "stock_number": "24700",
-      "days_in_stock": 68,
+      "days_in_stock": 69,
       "date_first_on_lot": "2026-05-28",
       "pricing": {
         "msrp": 19394,
@@ -1683,7 +1683,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24726",
-      "days_in_stock": 66,
+      "days_in_stock": 67,
       "date_first_on_lot": "2026-05-30",
       "pricing": {
         "msrp": 28529,
@@ -1745,7 +1745,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24725",
-      "days_in_stock": 64,
+      "days_in_stock": 65,
       "date_first_on_lot": "2026-06-01",
       "pricing": {
         "msrp": 61737,
@@ -1816,7 +1816,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility",
       "stock_number": "24720",
-      "days_in_stock": 63,
+      "days_in_stock": 64,
       "date_first_on_lot": "2026-06-02",
       "pricing": {
         "msrp": 25939,
@@ -1879,7 +1879,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24741",
-      "days_in_stock": 63,
+      "days_in_stock": 64,
       "date_first_on_lot": "2026-06-02",
       "pricing": {
         "msrp": 50919,
@@ -1943,7 +1943,7 @@
       "fuel_type": null,
       "body_style": "Crew Cab Pickup",
       "stock_number": "24752",
-      "days_in_stock": 55,
+      "days_in_stock": 56,
       "date_first_on_lot": "2026-06-10",
       "pricing": {
         "msrp": 65229,
@@ -2015,7 +2015,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility",
       "stock_number": "24717",
-      "days_in_stock": 53,
+      "days_in_stock": 54,
       "date_first_on_lot": "2026-06-12",
       "pricing": {
         "msrp": 18794,
@@ -2080,15 +2080,15 @@
       "fuel_type": null,
       "body_style": "Sport Utility",
       "stock_number": "24755",
-      "days_in_stock": 47,
+      "days_in_stock": 48,
       "date_first_on_lot": "2026-06-18",
       "pricing": {
         "msrp": 32654,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 39194
+        "fikes_price": 36394
       },
-      "price": 39194,
+      "price": 36394,
       "images": [
         "https://vehicle-images.carscommerce.inc/396c-110005974/W1N4M4GB5SW400097/thumbnails/large/643d538a55f4cf48414e8ad1c282fcd1.webp",
         "https://vehicle-images.carscommerce.inc/396c-110005974/W1N4M4GB5SW400097/643d538a55f4cf48414e8ad1c282fcd1.webp",
@@ -2148,7 +2148,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24821",
-      "days_in_stock": 48,
+      "days_in_stock": 49,
       "date_first_on_lot": "2026-06-17",
       "pricing": {
         "msrp": 38894,
@@ -2210,7 +2210,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24820",
-      "days_in_stock": 69,
+      "days_in_stock": 70,
       "date_first_on_lot": "2026-05-27",
       "pricing": {
         "msrp": 34924,
@@ -2275,7 +2275,7 @@
       "fuel_type": null,
       "body_style": "Crew Cab Pickup",
       "stock_number": "24764",
-      "days_in_stock": 46,
+      "days_in_stock": 47,
       "date_first_on_lot": "2026-06-19",
       "pricing": {
         "msrp": 50919,
@@ -2343,7 +2343,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24763",
-      "days_in_stock": 46,
+      "days_in_stock": 47,
       "date_first_on_lot": "2026-06-19",
       "pricing": {
         "msrp": 19394,
@@ -2386,68 +2386,6 @@
       ]
     },
     {
-      "vin": "1FTFW1ET7EFC68470",
-      "condition": "used",
-      "year": "2014",
-      "make": "Ford",
-      "model": "F-150",
-      "trim": "FX4 SuperCrew 5.5-ft. Bed 4WD 4WD Truck",
-      "title": "Pre-Owned 2014 Ford F-150 FX4 SuperCrew 5.5-ft. Bed 4WD 4WD Truck",
-      "url": "https://www.fikeschevy.com/inventory/used-2014-ford-f-150-fx4-supercrew-5-5-ft-bed-4wd-4wd-truck-1ftfw1et7efc68470/",
-      "exterior_color": "Black",
-      "interior_color": "Black",
-      "drivetrain": "4WD",
-      "transmission": "6 Speed Automatic",
-      "engine": "3.5L V6 TURBO",
-      "mileage": 175374,
-      "fuel_type": null,
-      "body_style": null,
-      "stock_number": "24580A",
-      "days_in_stock": 117,
-      "date_first_on_lot": "2026-04-09",
-      "pricing": {
-        "msrp": 16794,
-        "sales_event_discount": null,
-        "net_price": null,
-        "fikes_price": 13894
-      },
-      "price": 13894,
-      "images": [
-        "https://vehicle-images.carscommerce.inc/f66d-110005974/1FTFW1ET7EFC68470/thumbnails/large/675b47773338eac373e6e93f732105b9.webp",
-        "https://vehicle-images.carscommerce.inc/f66d-110005974/1FTFW1ET7EFC68470/675b47773338eac373e6e93f732105b9.webp",
-        "https://vehicle-images.carscommerce.inc/60b9-110005974/1FTFW1ET7EFC68470/30c734955cf6aed802e01678de5ca460.webp",
-        "https://vehicle-images.carscommerce.inc/cb5e-110005974/1FTFW1ET7EFC68470/4d4332570287e83a74bc25366c1876cf.webp",
-        "https://vehicle-images.carscommerce.inc/7489-110005974/1FTFW1ET7EFC68470/d3beec0013a3437efebcec920a7ad75a.webp",
-        "https://vehicle-images.carscommerce.inc/bf49-110005974/1FTFW1ET7EFC68470/edf143a9d76a22e8d76102afd58e7e57.webp",
-        "https://vehicle-images.carscommerce.inc/1246-110005974/1FTFW1ET7EFC68470/c2a19e890b112d0421bc704444b01dc9.webp",
-        "https://vehicle-images.carscommerce.inc/7988-110005974/1FTFW1ET7EFC68470/9e7d6ff7629d0766a2295e48fbb22d28.webp",
-        "https://vehicle-images.carscommerce.inc/c767-110005974/1FTFW1ET7EFC68470/e02fbc96f55a1e0390c88e701ed5bc4f.webp",
-        "https://vehicle-images.carscommerce.inc/1c46-110005974/1FTFW1ET7EFC68470/8e34173856a2ec0b2a30f0a0b73af8c6.webp",
-        "https://vehicle-images.carscommerce.inc/7d8c-110005974/1FTFW1ET7EFC68470/4d9fedec35be540f01a82630257f2066.webp",
-        "https://vehicle-images.carscommerce.inc/b784-110005974/1FTFW1ET7EFC68470/79be7b4caa74ef1db1b93c7fcd3ffcc2.webp",
-        "https://vehicle-images.carscommerce.inc/87c1-110005974/1FTFW1ET7EFC68470/40d552691739f7982b74b237f0250843.webp",
-        "https://vehicle-images.carscommerce.inc/c012-110005974/1FTFW1ET7EFC68470/aff3c26edeecde3c103f39fbceb3b093.webp",
-        "https://vehicle-images.carscommerce.inc/f8f8-110005974/1FTFW1ET7EFC68470/c3cb37cc7db57926692f36a0224acae7.webp",
-        "https://vehicle-images.carscommerce.inc/61d1-110005974/1FTFW1ET7EFC68470/6cd876a5dd2f3bb937bf49e1240cff91.webp",
-        "https://vehicle-images.carscommerce.inc/bcce-110005974/1FTFW1ET7EFC68470/fa69489f9141b5565d23729066858aa9.webp",
-        "https://vehicle-images.carscommerce.inc/d3b0-110005974/1FTFW1ET7EFC68470/46794da34420ba9dff0438b684cf7af3.webp",
-        "https://vehicle-images.carscommerce.inc/37d9-110005974/1FTFW1ET7EFC68470/5318ee6b9d631590b0da57ad19eef4a1.webp",
-        "https://vehicle-images.carscommerce.inc/2d36-110005974/1FTFW1ET7EFC68470/d33f433bf1b58bc02c4cbe9596aaf419.webp",
-        "https://vehicle-images.carscommerce.inc/f603-110005974/1FTFW1ET7EFC68470/a978d698168d7773dd1e7abc2c06598e.webp",
-        "https://vehicle-images.carscommerce.inc/a441-110005974/1FTFW1ET7EFC68470/40e12fef46072d94464176952eee5c2f.webp",
-        "https://vehicle-images.carscommerce.inc/42eb-110005974/1FTFW1ET7EFC68470/e557a60a3e237f11d6dd727896ef3d04.webp",
-        "https://vehicle-images.carscommerce.inc/2b20-110005974/1FTFW1ET7EFC68470/68320908284de745e29a33a3a05b8ab7.webp",
-        "https://vehicle-images.carscommerce.inc/b985-110005974/1FTFW1ET7EFC68470/31563656091718ec0e12b655c5ac2c35.webp",
-        "https://vehicle-images.carscommerce.inc/d021-110005974/1FTFW1ET7EFC68470/fe4c10d6696b5ab5c0279f47b3b3b1a6.webp",
-        "https://vehicle-images.carscommerce.inc/e19c-110005974/1FTFW1ET7EFC68470/07d090d7d9c012c54ff6e964cbd17d74.webp",
-        "https://vehicle-images.carscommerce.inc/4da7-110005974/1FTFW1ET7EFC68470/a2cc186f2c18c6267515e23a6c49ba9e.webp",
-        "https://vehicle-images.carscommerce.inc/5161-110005974/1FTFW1ET7EFC68470/af9ca8276a69e90faa5dba5bc080d84d.webp",
-        "https://vehicle-images.carscommerce.inc/6d9d-110005974/1FTFW1ET7EFC68470/4826ecbd01f60c8fa72e02111a944c7c.webp",
-        "https://vehicle-images.carscommerce.inc/a5fa-110005974/1FTFW1ET7EFC68470/ad25bb61eec68450c7c62453a53561f3.webp",
-        "https://vehicle-images.carscommerce.inc/6204-110005974/1FTFW1ET7EFC68470/9f333d667dea99c957f28ecf703949a3.webp"
-      ]
-    },
-    {
       "vin": "5NPE24AF1HH460812",
       "condition": "used",
       "year": "2017",
@@ -2465,10 +2403,10 @@
       "fuel_type": null,
       "body_style": "Sedan",
       "stock_number": "24686",
-      "days_in_stock": 45,
+      "days_in_stock": 46,
       "date_first_on_lot": "2026-06-20",
       "pricing": {
-        "msrp": 13894,
+        "msrp": 10994,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 10794
@@ -2527,7 +2465,7 @@
       "fuel_type": null,
       "body_style": "Sports Activity Vehicle",
       "stock_number": "24730",
-      "days_in_stock": 45,
+      "days_in_stock": 46,
       "date_first_on_lot": "2026-06-20",
       "pricing": {
         "msrp": 19394,
@@ -2590,7 +2528,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24652",
-      "days_in_stock": 103,
+      "days_in_stock": 104,
       "date_first_on_lot": "2026-04-23",
       "pricing": {
         "msrp": 11194,
@@ -2646,11 +2584,11 @@
       "drivetrain": "Four Wheel Drive",
       "transmission": "Automatic",
       "engine": "6.2L EcoTec3 V8 engine",
-      "mileage": null,
+      "mileage": 8,
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24819",
-      "days_in_stock": 42,
+      "days_in_stock": 43,
       "date_first_on_lot": "2026-06-23",
       "pricing": {
         "msrp": 65229,
@@ -2679,7 +2617,7 @@
       "fuel_type": null,
       "body_style": "Sedan",
       "stock_number": "24746",
-      "days_in_stock": 35,
+      "days_in_stock": 36,
       "date_first_on_lot": "2026-06-30",
       "pricing": {
         "msrp": 18794,
@@ -2743,10 +2681,10 @@
       "fuel_type": null,
       "body_style": "Regular Cab",
       "stock_number": "24663C",
-      "days_in_stock": 27,
+      "days_in_stock": 28,
       "date_first_on_lot": "2026-07-08",
       "pricing": {
-        "msrp": 13894,
+        "msrp": 10794,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 10994
@@ -2800,7 +2738,7 @@
       "fuel_type": null,
       "body_style": "Passenger Van",
       "stock_number": "24797",
-      "days_in_stock": 28,
+      "days_in_stock": 29,
       "date_first_on_lot": "2026-07-07",
       "pricing": {
         "msrp": 19394,
@@ -2829,7 +2767,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24818",
-      "days_in_stock": 27,
+      "days_in_stock": 28,
       "date_first_on_lot": "2026-07-08",
       "pricing": {
         "msrp": 61737,
@@ -2858,7 +2796,7 @@
       "fuel_type": null,
       "body_style": "Crew Cab Pickup",
       "stock_number": "24773",
-      "days_in_stock": 42,
+      "days_in_stock": 43,
       "date_first_on_lot": "2026-06-23",
       "pricing": {
         "msrp": 25939,
@@ -2921,7 +2859,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24822",
-      "days_in_stock": 143,
+      "days_in_stock": 144,
       "date_first_on_lot": "2026-03-14",
       "pricing": {
         "msrp": 61737,
@@ -2979,15 +2917,15 @@
       "fuel_type": null,
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24806",
-      "days_in_stock": 28,
+      "days_in_stock": 29,
       "date_first_on_lot": "2026-07-07",
       "pricing": {
         "msrp": 19394,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 24995
+        "fikes_price": 23995
       },
-      "price": 24995,
+      "price": 23995,
       "images": [
         "https://vini.gm.com/realimages/5GAERDKW5LJ151372/cb3d958.jpeg",
         "https://vini.gm.com/realimages/5GAERDKW5LJ151372/e1f3a17.jpeg",
@@ -3046,7 +2984,7 @@
       "fuel_type": null,
       "body_style": "Quad Cab 8' Box",
       "stock_number": "24553M",
-      "days_in_stock": 20,
+      "days_in_stock": 21,
       "date_first_on_lot": "2026-07-15",
       "pricing": {
         "msrp": 10794,
@@ -3075,7 +3013,7 @@
       "fuel_type": null,
       "body_style": "Crew Cab Pickup",
       "stock_number": "24553A",
-      "days_in_stock": 20,
+      "days_in_stock": 21,
       "date_first_on_lot": "2026-07-15",
       "pricing": {
         "msrp": 50919,
@@ -3137,7 +3075,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24834",
-      "days_in_stock": 20,
+      "days_in_stock": 21,
       "date_first_on_lot": "2026-07-15",
       "pricing": {
         "msrp": 38894,
@@ -3166,7 +3104,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24832",
-      "days_in_stock": 18,
+      "days_in_stock": 19,
       "date_first_on_lot": "2026-07-17",
       "pricing": {
         "msrp": 25889,
@@ -3195,7 +3133,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24833",
-      "days_in_stock": 18,
+      "days_in_stock": 19,
       "date_first_on_lot": "2026-07-17",
       "pricing": {
         "msrp": 28529,
@@ -3224,7 +3162,7 @@
       "fuel_type": null,
       "body_style": "Passenger Van",
       "stock_number": "24706",
-      "days_in_stock": 14,
+      "days_in_stock": 15,
       "date_first_on_lot": "2026-07-21",
       "pricing": {
         "msrp": 18794,
@@ -3286,7 +3224,7 @@
       "fuel_type": null,
       "body_style": "Crew Cab Pickup",
       "stock_number": "24716A",
-      "days_in_stock": 19,
+      "days_in_stock": 20,
       "date_first_on_lot": "2026-07-16",
       "pricing": {
         "msrp": 35504,
@@ -3315,7 +3253,7 @@
       "fuel_type": null,
       "body_style": "Sedan",
       "stock_number": "24790",
-      "days_in_stock": 13,
+      "days_in_stock": 14,
       "date_first_on_lot": "2026-07-22",
       "pricing": {
         "msrp": 18794,
@@ -3377,44 +3315,15 @@
       "fuel_type": null,
       "body_style": "Crew Cab Pickup",
       "stock_number": "24839",
-      "days_in_stock": 12,
+      "days_in_stock": 13,
       "date_first_on_lot": "2026-07-23",
       "pricing": {
         "msrp": 50919,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 43995
+        "fikes_price": 42695
       },
-      "price": 43995,
-      "images": []
-    },
-    {
-      "vin": "3GCUYEED6MG250931",
-      "condition": "used",
-      "year": "2021",
-      "make": "Chevrolet",
-      "model": "Silverado 1500",
-      "trim": "RST Four Wheel Drive Crew Cab",
-      "title": "Pre-Owned 2021 Chevrolet Silverado 1500 RST Four Wheel Drive Crew Cab",
-      "url": "https://www.fikeschevy.com/inventory/used-2021-chevrolet-silverado-1500-rst-four-wheel-drive-crew-cab-3gcuyeed6mg250931/",
-      "exterior_color": "Satin Steel Metallic",
-      "interior_color": "Jet Black, Cloth seat trim",
-      "drivetrain": "Four Wheel Drive",
-      "transmission": "Automatic",
-      "engine": "5.3L EcoTec3 V8 engine",
-      "mileage": 79297,
-      "fuel_type": null,
-      "body_style": "Crew Cab Pickup",
-      "stock_number": "24840",
-      "days_in_stock": 12,
-      "date_first_on_lot": "2026-07-23",
-      "pricing": {
-        "msrp": 38894,
-        "sales_event_discount": null,
-        "net_price": null,
-        "fikes_price": 33495
-      },
-      "price": 33495,
+      "price": 42695,
       "images": []
     },
     {
@@ -3435,7 +3344,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24841",
-      "days_in_stock": 12,
+      "days_in_stock": 13,
       "date_first_on_lot": "2026-07-23",
       "pricing": {
         "msrp": 18494,
@@ -3464,15 +3373,15 @@
       "fuel_type": null,
       "body_style": "Sedan",
       "stock_number": "24827",
-      "days_in_stock": 11,
+      "days_in_stock": 12,
       "date_first_on_lot": "2026-07-24",
       "pricing": {
         "msrp": 18794,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 22194
+        "fikes_price": 21694
       },
-      "price": 22194,
+      "price": 21694,
       "images": [
         "https://vehicle-images.carscommerce.inc/70c4-110005974/3N1AB8CVXRY356658/thumbnails/large/79793339d60e3c4f8b3adc44ccede4dc.webp",
         "https://vehicle-images.carscommerce.inc/70c4-110005974/3N1AB8CVXRY356658/79793339d60e3c4f8b3adc44ccede4dc.webp",
@@ -3527,7 +3436,7 @@
       "fuel_type": null,
       "body_style": "159.0\" WB",
       "stock_number": "24603",
-      "days_in_stock": 120,
+      "days_in_stock": 121,
       "date_first_on_lot": "2026-04-06",
       "pricing": {
         "msrp": 8194,
@@ -3572,16 +3481,50 @@
       "fuel_type": null,
       "body_style": "Sport Utility",
       "stock_number": "24233A",
-      "days_in_stock": 10,
+      "days_in_stock": 11,
       "date_first_on_lot": "2026-07-25",
       "pricing": {
         "msrp": 25939,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": null
+        "fikes_price": 22495
       },
-      "price": null,
-      "images": []
+      "price": 22495,
+      "images": [
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/c33ca32.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/ba18331.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/234a3fd.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/ed8c7f7.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/8b75044.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/b3ef85f.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/5656493.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/052353d.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/c38133c.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/8fe2a2d.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/218df40.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/c2912d2.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/a5bb5f7.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/e08b0d3.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/b968da3.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/32733b8.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/c654eb0.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/5cbc4f8.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/869ab75.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/2283705.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/f0b73be.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/3536902.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/df37a6a.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/f2c9551.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/5398fc0.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/b8a20c6.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/0804f6f.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/f55bb66.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/75b7df2.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/cc7f3a4.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/512cbca.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/a0d4553.jpeg",
+        "https://vini.gm.com/realimages/KL79MMS25RB177501/c6fba17.jpeg"
+      ]
     },
     {
       "vin": "KL4CJASB6GB575047",
@@ -3601,10 +3544,10 @@
       "fuel_type": null,
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24696A",
-      "days_in_stock": 29,
+      "days_in_stock": 30,
       "date_first_on_lot": "2026-07-06",
       "pricing": {
-        "msrp": 10794,
+        "msrp": 14994,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": null
@@ -3664,7 +3607,7 @@
       "fuel_type": null,
       "body_style": "Sport Utility Vehicle",
       "stock_number": "24788",
-      "days_in_stock": 33,
+      "days_in_stock": 34,
       "date_first_on_lot": "2026-07-02",
       "pricing": {
         "msrp": 37134,
@@ -3727,7 +3670,7 @@
       "fuel_type": null,
       "body_style": "Sedan",
       "stock_number": "24846",
-      "days_in_stock": 7,
+      "days_in_stock": 8,
       "date_first_on_lot": "2026-07-28",
       "pricing": {
         "msrp": 19394,
@@ -3756,7 +3699,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24861",
-      "days_in_stock": 10,
+      "days_in_stock": 11,
       "date_first_on_lot": "2026-07-25",
       "pricing": {
         "msrp": 78194,
@@ -3785,15 +3728,15 @@
       "fuel_type": null,
       "body_style": "Crew Cab Pickup",
       "stock_number": "24784",
-      "days_in_stock": 34,
+      "days_in_stock": 35,
       "date_first_on_lot": "2026-07-01",
       "pricing": {
         "msrp": 50919,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 50995
+        "fikes_price": 52495
       },
-      "price": 50995,
+      "price": 52495,
       "images": [
         "https://vini.gm.com/realimages/1GC4YPEY9RF148725/8da4737.jpeg",
         "https://vini.gm.com/realimages/1GC4YPEY9RF148725/453316c.jpeg",
@@ -3849,15 +3792,15 @@
       "fuel_type": null,
       "body_style": "Extended Cab Pickup",
       "stock_number": "24631",
-      "days_in_stock": 117,
+      "days_in_stock": 118,
       "date_first_on_lot": "2026-04-09",
       "pricing": {
-        "msrp": 10794,
+        "msrp": 18494,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 11995
+        "fikes_price": 14495
       },
-      "price": 11995,
+      "price": 14495,
       "images": [
         "https://vini.gm.com/realimages/1GCHSBEA8M1107744/cb69a00.jpeg",
         "https://vini.gm.com/realimages/1GCHSBEA8M1107744/b62e1ad.jpeg",
@@ -3907,7 +3850,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "24860",
-      "days_in_stock": 19,
+      "days_in_stock": 20,
       "date_first_on_lot": "2026-07-16",
       "pricing": {
         "msrp": 38894,
@@ -3936,15 +3879,15 @@
       "fuel_type": null,
       "body_style": "Sedan",
       "stock_number": "24804",
-      "days_in_stock": 3,
+      "days_in_stock": 4,
       "date_first_on_lot": "2026-08-01",
       "pricing": {
         "msrp": 7194,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 7694
+        "fikes_price": 8194
       },
-      "price": 7694,
+      "price": 8194,
       "images": [
         "https://vehicle-images.carscommerce.inc/bd4d-110005974/KNAFK4A69E5175742/thumbnails/large/2c43f8f320a0928a8f2a39037419214b.webp",
         "https://vehicle-images.carscommerce.inc/bd4d-110005974/KNAFK4A69E5175742/2c43f8f320a0928a8f2a39037419214b.webp",
@@ -3998,7 +3941,7 @@
       "fuel_type": null,
       "body_style": null,
       "stock_number": "Start Saving Vehicles Today!",
-      "days_in_stock": 14,
+      "days_in_stock": 15,
       "date_first_on_lot": "2026-07-21",
       "pricing": {
         "msrp": 37134,
@@ -4027,8 +3970,66 @@
       "fuel_type": null,
       "body_style": "Sport Utility",
       "stock_number": "24667A",
-      "days_in_stock": 3,
+      "days_in_stock": 4,
       "date_first_on_lot": "2026-08-01",
+      "pricing": {
+        "msrp": 19394,
+        "sales_event_discount": null,
+        "net_price": null,
+        "fikes_price": null
+      },
+      "price": null,
+      "images": []
+    },
+    {
+      "vin": "1GCPTEEK8T1247956",
+      "condition": "new",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Colorado",
+      "trim": "Trail Boss Four Wheel Drive Crew Cab",
+      "title": "New 2026 Chevrolet Colorado Trail Boss Four Wheel Drive Crew Cab",
+      "url": "https://www.fikeschevy.com/inventory/new-2026-chevrolet-colorado-trail-boss-four-wheel-drive-crew-cab-1gcpteek8t1247956/",
+      "exterior_color": "Sterling Gray Metallic",
+      "interior_color": "Jet Black, Evotex seat trim",
+      "drivetrain": "Four Wheel Drive",
+      "transmission": "Automatic",
+      "engine": "TurboMax™ engine",
+      "mileage": null,
+      "fuel_type": null,
+      "body_style": null,
+      "stock_number": "24863",
+      "days_in_stock": 90,
+      "date_first_on_lot": "2026-05-07",
+      "pricing": {
+        "msrp": 44194,
+        "sales_event_discount": null,
+        "net_price": null,
+        "fikes_price": null
+      },
+      "price": 44194,
+      "images": []
+    },
+    {
+      "vin": "19XFA1F56BE014267",
+      "condition": "used",
+      "year": "2011",
+      "make": "Honda",
+      "model": "Civic",
+      "trim": "Sdn 4dr Auto LX FWD Sedan 4 Dr.",
+      "title": "Pre-Owned 2011 Honda Civic Sdn 4dr Auto LX FWD Sedan 4 Dr.",
+      "url": "https://www.fikeschevy.com/inventory/used-2011-honda-civic-sdn-4dr-auto-lx-fwd-sedan-4-dr-19xfa1f56be014267/",
+      "exterior_color": "Red",
+      "interior_color": "Cloth reclining front bucket seats -inc: driver manual height adjustment, active adjustable head restraints",
+      "drivetrain": "FWD",
+      "transmission": null,
+      "engine": "1.8L SOHC MPFI 16-valve i-VTEC I4 engine",
+      "mileage": 78087,
+      "fuel_type": null,
+      "body_style": "4 Door Sedan",
+      "stock_number": "24810",
+      "days_in_stock": 1,
+      "date_first_on_lot": "2026-08-04",
       "pricing": {
         "msrp": 19394,
         "sales_event_discount": null,
@@ -4039,14 +4040,13 @@
       "images": []
     }
   ],
-  "sold_tracking_count": 7,
+  "sold_tracking_count": 6,
   "sold_tracking_vins": [
-    "KL79MPSL9TB210565",
-    "3GYFNBE31CS526820",
-    "1GCGTEEN8L1103978",
     "KL79MMS28PB044986",
     "KL79MMSL5TB209668",
     "1GCPKWEK1TZ381671",
-    "1C4AJWAG6JL812600"
+    "1C4AJWAG6JL812600",
+    "1FTFW1ET7EFC68470",
+    "3GCUYEED6MG250931"
   ]
 }

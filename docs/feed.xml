@@ -2,9 +2,9 @@
 <!-- Fikes Vehicles — Meta Commerce Manager automotive inventory feed -->
 <!-- Pixel ID 911722818604064 is associated with this catalog via Commerce -->
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
-<!-- 17 vehicle(s) excluded from this feed for having -->
+<!-- 18 vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
-<!-- 4 vehicle(s) included below as availability=SOLD -->
+<!-- 2 vehicle(s) included below as availability=SOLD -->
 <!-- (dropped out of the live scrape within the last 3 runs; -->
 <!-- see docs/sold-tracking.json). -->
 <listings>
@@ -39,7 +39,7 @@
     <interior_color>Tan</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2025-11-01</date_first_on_lot>
-    <custom_number_0>283</custom_number_0>
+    <custom_number_0>284</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/thumbnails/large/d326e1be14af933dfd7d76c5fe2013d3.webp</url>
     </image>
@@ -167,7 +167,7 @@
     <interior_color>Jet Black, Perforated leather-appointed seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-23</date_first_on_lot>
-    <custom_number_0>141</custom_number_0>
+    <custom_number_0>142</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg</url>
     </image>
@@ -289,7 +289,7 @@
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-02</date_first_on_lot>
-    <custom_number_0>131</custom_number_0>
+    <custom_number_0>132</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXHEG4PL152680/166a3f6.jpeg</url>
     </image>
@@ -417,7 +417,7 @@
     <interior_color>Dark Galvanized with Ebony interior accents, Perforated Leather-appointed seats</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-07</date_first_on_lot>
-    <custom_number_0>126</custom_number_0>
+    <custom_number_0>127</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/5GAERCKW1LJ154134/a9c8018.jpeg</url>
     </image>
@@ -557,7 +557,7 @@
     <interior_color>Jet Black, Premium cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-15</date_first_on_lot>
-    <custom_number_0>118</custom_number_0>
+    <custom_number_0>119</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNERGKW0LJ290395/b1b6f9b.jpeg</url>
     </image>
@@ -694,7 +694,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-01-31</date_first_on_lot>
-    <custom_number_0>192</custom_number_0>
+    <custom_number_0>193</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/1584-110005974/W1W8ND6Y4ST198001/thumbnails/large/040251473fe65c56d0f1fcc6377e4310.webp</url>
     </image>
@@ -792,7 +792,7 @@
     <interior_color>Jet Black, Vinyl seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-02-17</date_first_on_lot>
-    <custom_number_0>175</custom_number_0>
+    <custom_number_0>176</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg</url>
     </image>
@@ -905,7 +905,7 @@
     <interior_color>Jet Black, Vinyl seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-02-17</date_first_on_lot>
-    <custom_number_0>175</custom_number_0>
+    <custom_number_0>176</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GB4KSEY8TF157853/adb7e47.jpeg</url>
     </image>
@@ -1015,7 +1015,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-02-20</date_first_on_lot>
-    <custom_number_0>172</custom_number_0>
+    <custom_number_0>173</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg</url>
     </image>
@@ -1137,7 +1137,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-03</date_first_on_lot>
-    <custom_number_0>161</custom_number_0>
+    <custom_number_0>162</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/2GC4KMEY4T1175281/f4c78c1.jpeg</url>
     </image>
@@ -1265,7 +1265,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-10</date_first_on_lot>
-    <custom_number_0>154</custom_number_0>
+    <custom_number_0>155</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GB4KTEY5TF243837/37f09d1.jpeg</url>
     </image>
@@ -1375,7 +1375,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-13</date_first_on_lot>
-    <custom_number_0>151</custom_number_0>
+    <custom_number_0>152</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GCUKCEDXTG314473/9fb0e09.jpeg</url>
     </image>
@@ -1497,7 +1497,7 @@
     <interior_color>LT Jet Black, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-03</date_first_on_lot>
-    <custom_number_0>130</custom_number_0>
+    <custom_number_0>131</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNERGKS4TJ325274/d6ec3e3.jpeg</url>
     </image>
@@ -1622,7 +1622,7 @@
     <interior_color>Artemis Gray, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-31</date_first_on_lot>
-    <custom_number_0>133</custom_number_0>
+    <custom_number_0>134</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXHEG2TL479282/7e83f41.jpeg</url>
     </image>
@@ -1735,7 +1735,7 @@
     <interior_color>Gideon/Very Dark Atmosphere, Leather-Appointed seating surfaces</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-25</date_first_on_lot>
-    <custom_number_0>139</custom_number_0>
+    <custom_number_0>140</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNS6CKD7TR306421/bbfeb52.jpeg</url>
     </image>
@@ -1881,7 +1881,7 @@
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-15</date_first_on_lot>
-    <custom_number_0>118</custom_number_0>
+    <custom_number_0>119</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXFEV5NS120942/ce16582.jpeg</url>
     </image>
@@ -2009,7 +2009,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-22</date_first_on_lot>
-    <custom_number_0>111</custom_number_0>
+    <custom_number_0>112</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MMSL7TB209851/462f86f.jpeg</url>
     </image>
@@ -2128,7 +2128,7 @@
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-28</date_first_on_lot>
-    <custom_number_0>105</custom_number_0>
+    <custom_number_0>106</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXHEV8NS207455/9b613c1.jpeg</url>
     </image>
@@ -2259,7 +2259,7 @@
     <interior_color>Maple Sugar, Sueded Microfiber seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-18</date_first_on_lot>
-    <custom_number_0>115</custom_number_0>
+    <custom_number_0>116</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXKEGXTL495128/4f39afb.jpeg</url>
     </image>
@@ -2405,7 +2405,7 @@
     <interior_color>Jet Black/Gray with Blue accents, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-01</date_first_on_lot>
-    <custom_number_0>102</custom_number_0>
+    <custom_number_0>103</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL77LFEP9TC168346/01682b1.jpeg</url>
     </image>
@@ -2536,7 +2536,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-21</date_first_on_lot>
-    <custom_number_0>82</custom_number_0>
+    <custom_number_0>83</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/927e-110005974/JTEBU5JR8K5627344/thumbnails/large/5629271b088ee91105fac692ca958856.webp</url>
     </image>
@@ -2664,7 +2664,7 @@
     <interior_color>Jet Black/Artemis with Yellow stitching, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-20</date_first_on_lot>
-    <custom_number_0>83</custom_number_0>
+    <custom_number_0>84</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/d28584d.jpeg</url>
     </image>
@@ -2783,7 +2783,7 @@
     <interior_color>Atmosphere/Brownstone, Forge perforated leather seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-27</date_first_on_lot>
-    <custom_number_0>76</custom_number_0>
+    <custom_number_0>77</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GTUUGEL2TZ157210/0021793.jpeg</url>
     </image>
@@ -2920,7 +2920,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-nissan-rogue-fwd-sv-fwd-wagon-4-dr-5n1bt3ba8rc697898/</url>
     <title>Pre-Owned 2024 Nissan Rogue FWD SV FWD Wagon 4 Dr.</title>
     <body_style>SUV</body_style>
-    <price>23494.00 USD</price>
+    <price>23194.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -2944,7 +2944,7 @@
     <interior_color>Front Bucket Seats -inc: 8-way power driver seat w/2-way power lumbar support and 4-way manual passenger seat</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-28</date_first_on_lot>
-    <custom_number_0>75</custom_number_0>
+    <custom_number_0>76</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/8362-110005974/5N1BT3BA8RC697898/thumbnails/large/cc3c324403084bd432989275e2cf2637.webp</url>
     </image>
@@ -3072,7 +3072,7 @@
     <interior_color>Jet Black with Yellow accents, Cloth/Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-30</date_first_on_lot>
-    <custom_number_0>73</custom_number_0>
+    <custom_number_0>74</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL77LHEP1TC203313/7b3b1d0.jpeg</url>
     </image>
@@ -3200,7 +3200,7 @@
     <interior_color>Gideon/Very Dark Atmosphere, Leather-Appointed seating surfaces</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-01</date_first_on_lot>
-    <custom_number_0>71</custom_number_0>
+    <custom_number_0>72</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNS5NKD4TR377381/cd122d3.jpeg</url>
     </image>
@@ -3355,7 +3355,7 @@
     <interior_color>Jet Black, Premium cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-02</date_first_on_lot>
-    <custom_number_0>70</custom_number_0>
+    <custom_number_0>71</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNEVGKW8PJ266749/6ddd05f.jpeg</url>
     </image>
@@ -3486,7 +3486,7 @@
     <interior_color>LT Jet Black, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-02</date_first_on_lot>
-    <custom_number_0>70</custom_number_0>
+    <custom_number_0>71</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNERGKS8TJ372632/4a0edfb.jpeg</url>
     </image>
@@ -3620,7 +3620,7 @@
     <interior_color>Atmosphere/Brownstone, Forge perforated leather seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-10</date_first_on_lot>
-    <custom_number_0>62</custom_number_0>
+    <custom_number_0>63</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GTUUGE81RZ187285/5f7add2.jpeg</url>
     </image>
@@ -3778,7 +3778,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-12</date_first_on_lot>
-    <custom_number_0>60</custom_number_0>
+    <custom_number_0>61</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/3c98-110005974/ZACNJDAB6MPN23935/thumbnails/large/ed147a8fdff21e089c3b0a26560cf319.webp</url>
     </image>
@@ -3915,7 +3915,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-18</date_first_on_lot>
-    <custom_number_0>54</custom_number_0>
+    <custom_number_0>55</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/396c-110005974/W1N4M4GB5SW400097/thumbnails/large/643d538a55f4cf48414e8ad1c282fcd1.webp</url>
     </image>
@@ -4061,7 +4061,7 @@
     <interior_color>Black with Red Accents, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-27</date_first_on_lot>
-    <custom_number_0>76</custom_number_0>
+    <custom_number_0>77</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXLEG3TL539797/74df3b7.jpeg</url>
     </image>
@@ -4198,7 +4198,7 @@
     <interior_color>Jet Black, Leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-19</date_first_on_lot>
-    <custom_number_0>53</custom_number_0>
+    <custom_number_0>54</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GCUDFEL3RG306887/87a2e4c.jpeg</url>
     </image>
@@ -4344,7 +4344,7 @@
     <interior_color>EBONY, CLOTH WITH LEATHERETTE SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-19</date_first_on_lot>
-    <custom_number_0>53</custom_number_0>
+    <custom_number_0>54</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL4CJASB2MB336607/40e2b7f.jpeg</url>
     </image>
@@ -4466,7 +4466,7 @@
     <interior_color>Beige</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-20</date_first_on_lot>
-    <custom_number_0>52</custom_number_0>
+    <custom_number_0>53</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/daef-110005974/5NPE24AF1HH460812/thumbnails/large/8aee98342da7cf0f5bd9e9485f2b24b2.webp</url>
     </image>
@@ -4570,7 +4570,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2020-bmw-x3-sdrive30i-sports-activity-vehicle-rwd-wagon-4-dr-5uxty3c05l9c09190/</url>
     <title>Pre-Owned 2020 BMW X3 sDrive30i Sports Activity Vehicle RWD Wagon 4 Dr.</title>
     <body_style>SUV</body_style>
-    <price>21494.00 USD</price>
+    <price>21094.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -4594,7 +4594,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-20</date_first_on_lot>
-    <custom_number_0>52</custom_number_0>
+    <custom_number_0>53</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/fd5f-110005974/5UXTY3C05L9C09190/thumbnails/large/82befecb95785e02770de664e5dbf1e8.webp</url>
     </image>
@@ -4725,7 +4725,7 @@
     <interior_color>EBONY, CLOTH WITH LEATHERETTE SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-23</date_first_on_lot>
-    <custom_number_0>110</custom_number_0>
+    <custom_number_0>111</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL4CJASB2KB707939/35ba635.jpeg</url>
     </image>
@@ -4847,7 +4847,7 @@
     <interior_color>Jet Black, Leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-23</date_first_on_lot>
-    <custom_number_0>49</custom_number_0>
+    <custom_number_0>50</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GCUKEEL2TZ421150/981e335.jpeg</url>
     </image>
@@ -4993,7 +4993,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-30</date_first_on_lot>
-    <custom_number_0>42</custom_number_0>
+    <custom_number_0>43</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/8f87-110005974/3MW5R1J05M8C03877/thumbnails/large/dcba62d1cbb20f9037df1e8f395ddc55.webp</url>
     </image>
@@ -5127,7 +5127,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-08</date_first_on_lot>
-    <custom_number_0>34</custom_number_0>
+    <custom_number_0>35</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/30aa-110005974/3C6JR6AGXGG318021/thumbnails/large/a08bb4afe5f1ba6ed5e8ae0b638e60bc.webp</url>
     </image>
@@ -5240,7 +5240,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-23</date_first_on_lot>
-    <custom_number_0>49</custom_number_0>
+    <custom_number_0>50</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GTG5CEN3N1320176/1d0d6e6.jpeg</url>
     </image>
@@ -5371,7 +5371,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-14</date_first_on_lot>
-    <custom_number_0>150</custom_number_0>
+    <custom_number_0>151</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/2GC4KME77T1179896/3662249.jpeg</url>
     </image>
@@ -5487,7 +5487,7 @@
     <interior_color>Jet Black/Graystone, Perforated leather seating surfaces</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-15</date_first_on_lot>
-    <custom_number_0>27</custom_number_0>
+    <custom_number_0>28</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GCUDHEL4NG601499/47f2889.jpeg</url>
     </image>
@@ -5615,7 +5615,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-21</date_first_on_lot>
-    <custom_number_0>21</custom_number_0>
+    <custom_number_0>22</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/5c89-110005974/2C4RC1GG7LR285779/thumbnails/large/b13c696ee55c015aced74ef03eec41d2.webp</url>
     </image>
@@ -5719,7 +5719,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-toyota-corolla-le-cvt-natl-fwd-sedan-4-dr-5yfb4mde9rp133398/</url>
     <title>Pre-Owned 2024 Toyota Corolla LE CVT (Natl) FWD Sedan 4 Dr.</title>
     <body_style>SEDAN</body_style>
-    <price>21694.00 USD</price>
+    <price>20694.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -5743,7 +5743,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-22</date_first_on_lot>
-    <custom_number_0>20</custom_number_0>
+    <custom_number_0>21</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/5e52-110005974/5YFB4MDE9RP133398/thumbnails/large/ee6adefce77850e7f5b063cbfa2b1a47.webp</url>
     </image>
@@ -5871,7 +5871,7 @@
     <interior_color>Jet Black, Perforated leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-23</date_first_on_lot>
-    <custom_number_0>19</custom_number_0>
+    <custom_number_0>20</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/2GCUDGED9P1109758/5f0ce38.jpeg</url>
     </image>
@@ -5991,6 +5991,143 @@
     </image>
   </listing>
   <listing>
+    <vehicle_id>3GCUYEED6MG250931</vehicle_id>
+    <description>79,297 miles, Satin Steel Metallic exterior, Jet Black, Cloth seat trim interior, Automatic, 5.3L EcoTec3 V8 engine</description>
+    <url>https://www.fikeschevy.com/inventory/used-2021-chevrolet-silverado-1500-rst-four-wheel-drive-crew-cab-3gcuyeed6mg250931/</url>
+    <title>Pre-Owned 2021 Chevrolet Silverado 1500 RST Four Wheel Drive Crew Cab</title>
+    <body_style>PICKUP</body_style>
+    <price>34495.00 USD</price>
+    <address format="simple">
+      <component name="addr1">771 Military St N</component>
+      <component name="city">Hamilton</component>
+      <component name="region">AL</component>
+      <component name="postal_code">35570</component>
+      <component name="country">US</component>
+    </address>
+    <make>Chevrolet</make>
+    <model>Silverado 1500</model>
+    <year>2021</year>
+    <vin>3GCUYEED6MG250931</vin>
+    <availability>AVAILABLE</availability>
+    <state_of_vehicle>USED</state_of_vehicle>
+    <mileage>
+      <unit>MI</unit>
+      <value>79297</value>
+    </mileage>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
+    <exterior_color>Satin Steel Metallic</exterior_color>
+    <interior_color>Jet Black, Cloth seat trim</interior_color>
+    <vehicle_type>car_truck</vehicle_type>
+    <date_first_on_lot>2026-07-23</date_first_on_lot>
+    <custom_number_0>20</custom_number_0>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/4e5d50f.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/3ab6eef.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/f1f2258.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/b6a4c6c.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/6025543.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/2611833.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/ff276b6.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/28ae74c.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/665264a.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/400feb5.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/ddfaac4.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/c887f10.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/c9d953c.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/90be135.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/d162afe.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/e0fd73a.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/0b738c7.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/9d8dbb1.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/9860938.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/b7937e0.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/63fc615.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/82d81dd.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/78258a1.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/f75cfba.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/a098f8e.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/a0c117d.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/116603a.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/f3302c8.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/d8848bd.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/e8f6a61.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/490c239.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/bbe8262.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/9f39fbe.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/29cb925.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/320a3b5.jpeg</url>
+    </image>
+  </listing>
+  <listing>
     <vehicle_id>3N1AB8CVXRY356658</vehicle_id>
     <description>14,782 miles, Red exterior, Charcoal interior, Automatic, 2.0L DOHC I-4 -inc: idle stop/start</description>
     <url>https://www.fikeschevy.com/inventory/used-2024-nissan-sentra-sv-cvt-fwd-sedan-4-dr-3n1ab8cvxry356658/</url>
@@ -6020,7 +6157,7 @@
     <interior_color>Charcoal</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-24</date_first_on_lot>
-    <custom_number_0>18</custom_number_0>
+    <custom_number_0>19</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/70c4-110005974/3N1AB8CVXRY356658/thumbnails/large/79793339d60e3c4f8b3adc44ccede4dc.webp</url>
     </image>
@@ -6151,7 +6288,7 @@
     <interior_color>VINYL</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-06</date_first_on_lot>
-    <custom_number_0>127</custom_number_0>
+    <custom_number_0>128</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GBJG312X71135769/a65de73.jpeg</url>
     </image>
@@ -6228,7 +6365,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-25</date_first_on_lot>
-    <custom_number_0>17</custom_number_0>
+    <custom_number_0>18</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MMS25RB177501/c33ca32.jpeg</url>
     </image>
@@ -6359,7 +6496,7 @@
     <interior_color>TITANIUM, UPSCALE CLOTH SEAT TRIM WITH LEATHERETTE ACCENTS</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-06</date_first_on_lot>
-    <custom_number_0>36</custom_number_0>
+    <custom_number_0>37</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/5d94f0a.jpeg</url>
     </image>
@@ -6490,7 +6627,7 @@
     <interior_color>Cirrus, Leather Seating Surfaces with Mini-Perforated inserts</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-02</date_first_on_lot>
-    <custom_number_0>40</custom_number_0>
+    <custom_number_0>41</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/a01483f.jpeg</url>
     </image>
@@ -6621,7 +6758,7 @@
     <interior_color>Jet Black, Perforated leather-appointed front outboard seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-01</date_first_on_lot>
-    <custom_number_0>41</custom_number_0>
+    <custom_number_0>42</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GC4YPEY9RF148725/8da4737.jpeg</url>
     </image>
@@ -6755,7 +6892,7 @@
     <interior_color>JET BLACK/DARK ASH, VINYL SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-09</date_first_on_lot>
-    <custom_number_0>124</custom_number_0>
+    <custom_number_0>125</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GCHSBEA8M1107744/cb69a00.jpeg</url>
     </image>
@@ -6871,7 +7008,7 @@
     <interior_color>Gray</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-01</date_first_on_lot>
-    <custom_number_0>10</custom_number_0>
+    <custom_number_0>11</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/bd4d-110005974/KNAFK4A69E5175742/thumbnails/large/2c43f8f320a0928a8f2a39037419214b.webp</url>
     </image>
@@ -6999,7 +7136,7 @@
     <interior_color>Tan</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-05</date_first_on_lot>
-    <custom_number_0>6</custom_number_0>
+    <custom_number_0>7</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/aab6-110005974/19XFA1F56BE014267/thumbnails/large/a51153f27aef901830b20e0c70008966.webp</url>
     </image>
@@ -7097,7 +7234,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-kia-k5-lxs-auto-fwd-fwd-sedan-4-dr-5xxg14j26rg264743/</url>
     <title>Pre-Owned 2024 Kia K5 LXS Auto FWD FWD Sedan 4 Dr.</title>
     <body_style>SEDAN</body_style>
-    <price>22194.00 USD</price>
+    <price>20694.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -7121,7 +7258,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-08</date_first_on_lot>
-    <custom_number_0>3</custom_number_0>
+    <custom_number_0>4</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/124c-110005974/5XXG14J26RG264743/thumbnails/large/1afc9c76725d7b1500da39ddea53b1ba.webp</url>
     </image>
@@ -7223,265 +7360,6 @@
     </image>
     <image>
       <url>https://vehicle-images.carscommerce.inc/1e99-110005974/5XXG14J26RG264743/25f128117ac57396272c463df897146d.webp</url>
-    </image>
-  </listing>
-  <listing>
-    <vehicle_id>1GCPKWEK1TZ381671</vehicle_id>
-    <description>Summit White exterior, Jet Black, Cloth seat trim interior, Automatic, TurboMax™ engine</description>
-    <url>https://www.fikeschevy.com/inventory/new-2026-chevrolet-silverado-1500-rst-four-wheel-drive-crew-cab-1gcpkwek1tz381671/</url>
-    <title>New 2026 Chevrolet Silverado 1500 RST Four Wheel Drive Crew Cab</title>
-    <body_style>PICKUP</body_style>
-    <price>61737.00 USD</price>
-    <address format="simple">
-      <component name="addr1">771 Military St N</component>
-      <component name="city">Hamilton</component>
-      <component name="region">AL</component>
-      <component name="postal_code">35570</component>
-      <component name="country">US</component>
-    </address>
-    <make>Chevrolet</make>
-    <model>Silverado 1500</model>
-    <year>2026</year>
-    <vin>1GCPKWEK1TZ381671</vin>
-    <availability>SOLD</availability>
-    <state_of_vehicle>NEW</state_of_vehicle>
-    <mileage>
-      <unit>MI</unit>
-      <value>8</value>
-    </mileage>
-    <transmission>AUTOMATIC</transmission>
-    <drivetrain>4X4</drivetrain>
-    <exterior_color>Summit White</exterior_color>
-    <interior_color>Jet Black, Cloth seat trim</interior_color>
-    <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-05-13</date_first_on_lot>
-    <custom_number_0>87</custom_number_0>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/301e6e1.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/1423bd8.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/35fe963.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/a5585bf.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/587c2d0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/cce971a.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/e9e1326.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/b5b0eda.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/b1feef9.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/5b3ad19.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/f028647.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/9844147.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/9f86f6e.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/e1cccf8.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/804c898.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/4edf91e.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/0accd7f.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/30d8b51.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/8f32d14.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/6d60bba.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/e3f0c77.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/eceb87d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/99743c6.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/623abb3.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/6387624.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/0347b37.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/9ad10b9.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/aaa3dd5.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/3f30869.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/358811b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/453ff18.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/e86f8aa.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPKWEK1TZ381671/97924a2.jpeg</url>
-    </image>
-  </listing>
-  <listing>
-    <vehicle_id>1GCPSBEK0T1275042</vehicle_id>
-    <description>Summit White exterior, Jet Black, Cloth seat trim interior, Automatic, TurboMax™ engine</description>
-    <url>https://www.fikeschevy.com/inventory/new-2026-chevrolet-colorado-wt-rear-wheel-drive-crew-cab-1gcpsbek0t1275042/</url>
-    <title>New 2026 Chevrolet Colorado WT Rear Wheel Drive Crew Cab</title>
-    <body_style>PICKUP</body_style>
-    <price>39194.00 USD</price>
-    <address format="simple">
-      <component name="addr1">771 Military St N</component>
-      <component name="city">Hamilton</component>
-      <component name="region">AL</component>
-      <component name="postal_code">35570</component>
-      <component name="country">US</component>
-    </address>
-    <make>Chevrolet</make>
-    <model>Colorado</model>
-    <year>2026</year>
-    <vin>1GCPSBEK0T1275042</vin>
-    <availability>SOLD</availability>
-    <state_of_vehicle>NEW</state_of_vehicle>
-    <mileage>
-      <unit>MI</unit>
-      <value>18</value>
-    </mileage>
-    <transmission>AUTOMATIC</transmission>
-    <drivetrain>RWD</drivetrain>
-    <exterior_color>Summit White</exterior_color>
-    <interior_color>Jet Black, Cloth seat trim</interior_color>
-    <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-17</date_first_on_lot>
-    <custom_number_0>52</custom_number_0>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/e51f684.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/a7853e4.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/6a4b74b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/c01837b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/61856e0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/4ab68ee.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/c45ccea.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/c02568e.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/a040b51.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/ed94f97.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/6207c09.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/22118bd.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/4525a41.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/b76b36d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/98fab04.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/ee62f00.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/b6afbd0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/b33226d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/8dcc669.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/a5a0cc3.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/4271850.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/2ac06b7.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/14a0949.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/81a5182.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/3854667.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/dc96bf8.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/fd47f3c.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/4829754.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/0393943.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/b68ab24.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/082f470.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GCPSBEK0T1275042/24c369d.jpeg</url>
     </image>
   </listing>
   <listing>

@@ -2,7 +2,7 @@
 <!-- Fikes Vehicles — Meta Commerce Manager automotive inventory feed -->
 <!-- Pixel ID 911722818604064 is associated with this catalog via Commerce -->
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
-<!-- 18 vehicle(s) excluded from this feed for having -->
+<!-- 19 vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
 <!-- 2 vehicle(s) included below as availability=SOLD -->
 <!-- (dropped out of the live scrape within the last 3 runs; -->
@@ -1351,7 +1351,7 @@
     <url>https://www.fikeschevy.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukcedxtg314473/</url>
     <title>New 2026 Chevrolet Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab</title>
     <body_style>PICKUP</body_style>
-    <price>42694.00 USD</price>
+    <price>42495.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -7360,6 +7360,140 @@
     </image>
     <image>
       <url>https://vehicle-images.carscommerce.inc/1e99-110005974/5XXG14J26RG264743/25f128117ac57396272c463df897146d.webp</url>
+    </image>
+  </listing>
+  <listing>
+    <vehicle_id>KL4CJASB5HB104850</vehicle_id>
+    <description>73,219 miles, Includes (CM5) Black Carbon Metallic lower exterior accent color, Paint code W700S.) exterior, EBONY, CLOTH WITH LEATHERETTE SEAT TRIM interior, Automatic, ECOTEC Turbo 1.4L VVT DOHC 4 Cyl. Engine</description>
+    <url>https://www.fikeschevy.com/inventory/used-2017-buick-encore-preferred-front-wheel-drive-suv-kl4cjasb5hb104850/</url>
+    <title>Pre-Owned 2017 Buick Encore Preferred Front Wheel Drive SUV</title>
+    <body_style>SUV</body_style>
+    <price>11995.00 USD</price>
+    <address format="simple">
+      <component name="addr1">771 Military St N</component>
+      <component name="city">Hamilton</component>
+      <component name="region">AL</component>
+      <component name="postal_code">35570</component>
+      <component name="country">US</component>
+    </address>
+    <make>Buick</make>
+    <model>Encore</model>
+    <year>2017</year>
+    <vin>KL4CJASB5HB104850</vin>
+    <availability>AVAILABLE</availability>
+    <state_of_vehicle>USED</state_of_vehicle>
+    <mileage>
+      <unit>MI</unit>
+      <value>73219</value>
+    </mileage>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
+    <exterior_color>Includes (CM5) Black Carbon Metallic lower exterior accent color, Paint code W700S.)</exterior_color>
+    <interior_color>EBONY, CLOTH WITH LEATHERETTE SEAT TRIM</interior_color>
+    <vehicle_type>car_truck</vehicle_type>
+    <date_first_on_lot>2026-06-19</date_first_on_lot>
+    <custom_number_0>54</custom_number_0>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/9ccdd09.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/5b0092a.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/01c8dd0.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/77b5952.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/310bfb0.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/e906e6d.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/4f011e4.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/5cd70a5.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/8e5e425.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/cd6be26.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/8f77011.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/295e560.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/ee8011e.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/32e7e63.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/048ffb4.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/eb231c7.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/16abe92.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/7b2cceb.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/0c30976.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/cf5e3c0.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/c89a4c0.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/b73a2a7.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/fd403c0.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/f27105e.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/c6c7067.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/fcce47b.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/3d6364b.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/839ab71.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/b75a017.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/adf938b.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/5f8b38b.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/df7318b.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/ee7cde1.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/e218274.jpeg</url>
     </image>
   </listing>
   <listing>

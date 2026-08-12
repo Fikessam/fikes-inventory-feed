@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T13:57:15.034Z",
+  "generated_at": "2026-08-12T19:45:38.692Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -8,10 +8,10 @@
     "zip": "35570",
     "country": "US"
   },
-  "total_vehicles": 75,
+  "total_vehicles": 77,
   "new_count": 28,
-  "used_count": 47,
-  "no_image_count": 18,
+  "used_count": 49,
+  "no_image_count": 19,
   "no_image_vins": [
     "3GNAXHEG7TL516259",
     "5FNRL5H90DB049379",
@@ -25,12 +25,13 @@
     "1GNS6PKD3TR434386",
     "1GCPSBEK8T1289190",
     "3GNARHEG4VL148443",
+    "1GCGSBEN1L1132546",
     "1GNERGKS0VJ115970",
     "1GCHSBEA2F1153413",
     "1GNS5RKD2TR448648",
-    "KL4CJASB5HB104850",
     "KL77LKEP7TC230397",
-    "JTMWFREV8ED028386"
+    "JTMWFREV8ED028386",
+    "1GCGSCEA7L1176845"
   ],
   "no_days_in_stock_count": 0,
   "no_days_in_stock_vins": [],
@@ -714,12 +715,12 @@
       "days_in_stock": 152,
       "date_first_on_lot": "2026-03-13",
       "pricing": {
-        "msrp": 42694,
+        "msrp": 42495,
         "sales_event_discount": 4000,
         "net_price": null,
         "fikes_price": null
       },
-      "price": 42694,
+      "price": 42495,
       "images": [
         "https://vini.gm.com/realimages/3GCUKCEDXTG314473/9fb0e09.jpeg",
         "https://vini.gm.com/realimages/3GCUKCEDXTG314473/89ff69d.jpeg",
@@ -1498,7 +1499,7 @@
       "days_in_stock": 76,
       "date_first_on_lot": "2026-05-28",
       "pricing": {
-        "msrp": 18794,
+        "msrp": 18595,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 23194
@@ -2158,7 +2159,7 @@
       "days_in_stock": 54,
       "date_first_on_lot": "2026-06-19",
       "pricing": {
-        "msrp": 18794,
+        "msrp": 18595,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 16995
@@ -2280,7 +2281,7 @@
       "days_in_stock": 53,
       "date_first_on_lot": "2026-06-20",
       "pricing": {
-        "msrp": 18794,
+        "msrp": 18595,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": 21094
@@ -2592,7 +2593,7 @@
       "days_in_stock": 36,
       "date_first_on_lot": "2026-07-07",
       "pricing": {
-        "msrp": 18794,
+        "msrp": 18595,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": null
@@ -3533,7 +3534,7 @@
       "days_in_stock": 15,
       "date_first_on_lot": "2026-07-28",
       "pricing": {
-        "msrp": 18794,
+        "msrp": 18595,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": null
@@ -3813,6 +3814,35 @@
       "images": []
     },
     {
+      "vin": "1GCGSBEN1L1132546",
+      "condition": "used",
+      "year": "2020",
+      "make": "Chevrolet",
+      "model": "Colorado",
+      "trim": "2WD Work Truck Rear Wheel Drive Crew Cab",
+      "title": "Pre-Owned 2020 Chevrolet Colorado 2WD Work Truck Rear Wheel Drive Crew Cab",
+      "url": "https://www.fikeschevy.com/inventory/used-2020-chevrolet-colorado-2wd-work-truck-rear-wheel-drive-crew-cab-1gcgsben1l1132546/",
+      "exterior_color": "Summit White",
+      "interior_color": "JET BLACK/DARK ASH, VINYL SEAT TRIM",
+      "drivetrain": "Rear Wheel Drive",
+      "transmission": "Automatic",
+      "engine": "Engine: 3.6L, 6Cyl Gas",
+      "mileage": 129011,
+      "fuel_type": null,
+      "body_style": "Crew Cab Pickup",
+      "stock_number": "24865",
+      "days_in_stock": 8,
+      "date_first_on_lot": "2026-08-04",
+      "pricing": {
+        "msrp": 20894,
+        "sales_event_discount": null,
+        "net_price": null,
+        "fikes_price": 16995
+      },
+      "price": 16995,
+      "images": []
+    },
+    {
       "vin": "19XFA1F56BE014267",
       "condition": "used",
       "year": "2011",
@@ -3986,12 +4016,12 @@
       "days_in_stock": 6,
       "date_first_on_lot": "2026-08-06",
       "pricing": {
-        "msrp": 18794,
+        "msrp": 18595,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 15990
+        "fikes_price": 17991
       },
-      "price": 15990,
+      "price": 17991,
       "images": []
     },
     {
@@ -4050,7 +4080,42 @@
         "fikes_price": 11995
       },
       "price": 11995,
-      "images": []
+      "images": [
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/9ccdd09.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/5b0092a.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/01c8dd0.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/77b5952.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/310bfb0.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/e906e6d.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/4f011e4.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/5cd70a5.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/8e5e425.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/cd6be26.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/8f77011.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/295e560.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/ee8011e.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/32e7e63.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/048ffb4.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/eb231c7.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/16abe92.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/7b2cceb.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/0c30976.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/cf5e3c0.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/c89a4c0.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/b73a2a7.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/fd403c0.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/f27105e.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/c6c7067.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/fcce47b.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/3d6364b.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/839ab71.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/b75a017.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/adf938b.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/5f8b38b.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/df7318b.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/ee7cde1.jpeg",
+        "https://vini.gm.com/realimages/KL4CJASB5HB104850/e218274.jpeg"
+      ]
     },
     {
       "vin": "KL77LKEP7TC230397",
@@ -4108,6 +4173,35 @@
         "fikes_price": 9194
       },
       "price": 9194,
+      "images": []
+    },
+    {
+      "vin": "1GCGSCEA7L1176845",
+      "condition": "used",
+      "year": "2020",
+      "make": "Chevrolet",
+      "model": "Colorado",
+      "trim": "2WD LT Rear Wheel Drive Crew Cab",
+      "title": "Pre-Owned 2020 Chevrolet Colorado 2WD LT Rear Wheel Drive Crew Cab",
+      "url": "https://www.fikeschevy.com/inventory/used-2020-chevrolet-colorado-2wd-lt-rear-wheel-drive-crew-cab-1gcgscea7l1176845/",
+      "exterior_color": "SHADOW GRAY METALLIC",
+      "interior_color": "JET BLACK, CLOTH SEAT TRIM",
+      "drivetrain": "Rear Wheel Drive",
+      "transmission": "Automatic",
+      "engine": "Engine: Gas, 2.5L 4 Cylinder, L4, SIDI, DOHC, VVT",
+      "mileage": 78979,
+      "fuel_type": null,
+      "body_style": "Crew Cab Pickup",
+      "stock_number": "24789",
+      "days_in_stock": 41,
+      "date_first_on_lot": "2026-07-02",
+      "pricing": {
+        "msrp": 23194,
+        "sales_event_discount": null,
+        "net_price": null,
+        "fikes_price": 22995
+      },
+      "price": 22995,
       "images": []
     }
   ],

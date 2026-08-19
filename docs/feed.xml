@@ -2,7 +2,7 @@
 <!-- Fikes Vehicles — Meta Commerce Manager automotive inventory feed -->
 <!-- Pixel ID 911722818604064 is associated with this catalog via Commerce -->
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
-<!-- 22 vehicle(s) excluded from this feed for having -->
+<!-- 21 vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
 <!-- 5 vehicle(s) included below as availability=SOLD -->
 <!-- (dropped out of the live scrape within the last 3 runs; -->
@@ -39,102 +39,12 @@
     <interior_color>Tan</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2025-11-01</date_first_on_lot>
-    <custom_number_0>290</custom_number_0>
+    <custom_number_0>291</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/thumbnails/large/d326e1be14af933dfd7d76c5fe2013d3.webp</url>
     </image>
     <image>
       <url>https://vehicle-images.carscommerce.inc/4b6d-110005974/5NPE24AF8JH613336/d326e1be14af933dfd7d76c5fe2013d3.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/95fd-110005974/5NPE24AF8JH613336/ef5362452ab080cdba8fdf84c7613953.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/bee0-110005974/5NPE24AF8JH613336/9f77750a40588705d9b0d92bff3bd61e.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/2f62-110005974/5NPE24AF8JH613336/f543bc5dd1f27f6b6fd956010d7679a3.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/1d29-110005974/5NPE24AF8JH613336/7e6de0a69bc4a5f850c4a56ce9a31523.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/9148-110005974/5NPE24AF8JH613336/541986f924ef501ef41b27f58a422445.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/d7f4-110005974/5NPE24AF8JH613336/307ff4a70035445c9c50f467744e43f6.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/e4f3-110005974/5NPE24AF8JH613336/ee35c5c30ca5d725cfa890d669e104e5.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/e499-110005974/5NPE24AF8JH613336/51f012b24c23d6ed8ee53af2d4b67070.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/53b1-110005974/5NPE24AF8JH613336/dc58e58124bd786c954d2d465ddab76d.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/8270-110005974/5NPE24AF8JH613336/f9a71f2b97b3fefd6fbdebd71f931f4f.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/3c1f-110005974/5NPE24AF8JH613336/ca8c14685e886037c08342b8262bf4f5.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/2ba8-110005974/5NPE24AF8JH613336/019c7b764a10f464551f3d790f27ddbc.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/bbff-110005974/5NPE24AF8JH613336/ce73cd53041e5c00e017b50708d3ce35.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/5d4e-110005974/5NPE24AF8JH613336/7031152596237ff1bdb244dd68fe07e1.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/e57e-110005974/5NPE24AF8JH613336/16158e03c126bab9c87e3360f1761d87.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/62b9-110005974/5NPE24AF8JH613336/e05f766f64e8dfe9696b2e49e978099c.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/84fc-110005974/5NPE24AF8JH613336/9460eb381fd781cb8898d7dc5376ad67.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/b437-110005974/5NPE24AF8JH613336/bd66c4a8dba4935c323aea72555001f5.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/6372-110005974/5NPE24AF8JH613336/3e731e1b54f77aab01031f1ef73c099a.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/6284-110005974/5NPE24AF8JH613336/e142aef170c9ecc055b36378888cae62.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/58aa-110005974/5NPE24AF8JH613336/ddca019c8de6446a347892ffcaf2d1c9.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/dcf8-110005974/5NPE24AF8JH613336/e83482227b6384d27cddb91eace7c249.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/beb7-110005974/5NPE24AF8JH613336/1b3ac20582f8d897fa2054cdd2ab3ba1.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/7031-110005974/5NPE24AF8JH613336/68c9d862be3c9173ac71971808eec75c.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/2c34-110005974/5NPE24AF8JH613336/94737e4373d766030b4c913271cfa60c.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/c55a-110005974/5NPE24AF8JH613336/6fc74b43c2c4e2d60d318200e095a119.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/42a2-110005974/5NPE24AF8JH613336/607623b62089b2f0ea356033de132431.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/6c75-110005974/5NPE24AF8JH613336/518e9ccdb2d45e29b30fd2e2824ea9a4.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/2490-110005974/5NPE24AF8JH613336/08c1b918f99b97cb77c3c228a80d2a12.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/e12d-110005974/5NPE24AF8JH613336/a7e049903e3151b944ac29375b0a3d04.webp</url>
     </image>
   </listing>
   <listing>
@@ -167,7 +77,7 @@
     <interior_color>Jet Black, Perforated leather-appointed seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-23</date_first_on_lot>
-    <custom_number_0>148</custom_number_0>
+    <custom_number_0>149</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXMEV7NS200005/ee309b9.jpeg</url>
     </image>
@@ -289,7 +199,7 @@
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-02</date_first_on_lot>
-    <custom_number_0>138</custom_number_0>
+    <custom_number_0>139</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXHEG4PL152680/166a3f6.jpeg</url>
     </image>
@@ -417,7 +327,7 @@
     <interior_color>Dark Galvanized with Ebony interior accents, Perforated Leather-appointed seats</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-07</date_first_on_lot>
-    <custom_number_0>133</custom_number_0>
+    <custom_number_0>134</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/5GAERCKW1LJ154134/a9c8018.jpeg</url>
     </image>
@@ -557,7 +467,7 @@
     <interior_color>Jet Black, Premium cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-15</date_first_on_lot>
-    <custom_number_0>125</custom_number_0>
+    <custom_number_0>126</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNERGKW0LJ290395/b1b6f9b.jpeg</url>
     </image>
@@ -694,7 +604,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-01-31</date_first_on_lot>
-    <custom_number_0>199</custom_number_0>
+    <custom_number_0>200</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/1584-110005974/W1W8ND6Y4ST198001/thumbnails/large/040251473fe65c56d0f1fcc6377e4310.webp</url>
     </image>
@@ -792,7 +702,7 @@
     <interior_color>Jet Black, Vinyl seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-02-17</date_first_on_lot>
-    <custom_number_0>182</custom_number_0>
+    <custom_number_0>183</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GB4KSEY5TF225039/24e0b76.jpeg</url>
     </image>
@@ -905,7 +815,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-02-20</date_first_on_lot>
-    <custom_number_0>179</custom_number_0>
+    <custom_number_0>180</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MMSL0TB167460/a188807.jpeg</url>
     </image>
@@ -1027,7 +937,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-03</date_first_on_lot>
-    <custom_number_0>168</custom_number_0>
+    <custom_number_0>169</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/2GC4KMEY4T1175281/f4c78c1.jpeg</url>
     </image>
@@ -1155,7 +1065,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-10</date_first_on_lot>
-    <custom_number_0>161</custom_number_0>
+    <custom_number_0>162</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GB4KTEY5TF243837/37f09d1.jpeg</url>
     </image>
@@ -1265,7 +1175,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-13</date_first_on_lot>
-    <custom_number_0>158</custom_number_0>
+    <custom_number_0>159</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GCUKCEDXTG314473/9fb0e09.jpeg</url>
     </image>
@@ -1387,7 +1297,7 @@
     <interior_color>LT Jet Black, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-03</date_first_on_lot>
-    <custom_number_0>137</custom_number_0>
+    <custom_number_0>138</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNERGKS4TJ325274/d6ec3e3.jpeg</url>
     </image>
@@ -1512,7 +1422,7 @@
     <interior_color>Artemis Gray, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-31</date_first_on_lot>
-    <custom_number_0>140</custom_number_0>
+    <custom_number_0>141</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXHEG2TL479282/7e83f41.jpeg</url>
     </image>
@@ -1625,7 +1535,7 @@
     <interior_color>Gideon/Very Dark Atmosphere, Leather-Appointed seating surfaces</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-25</date_first_on_lot>
-    <custom_number_0>146</custom_number_0>
+    <custom_number_0>147</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNS6CKD7TR306421/bbfeb52.jpeg</url>
     </image>
@@ -1771,7 +1681,7 @@
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-15</date_first_on_lot>
-    <custom_number_0>125</custom_number_0>
+    <custom_number_0>126</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXFEV5NS120942/ce16582.jpeg</url>
     </image>
@@ -1899,7 +1809,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-22</date_first_on_lot>
-    <custom_number_0>118</custom_number_0>
+    <custom_number_0>119</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MMSL7TB209851/462f86f.jpeg</url>
     </image>
@@ -2018,7 +1928,7 @@
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-28</date_first_on_lot>
-    <custom_number_0>112</custom_number_0>
+    <custom_number_0>113</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXHEV8NS207455/9b613c1.jpeg</url>
     </image>
@@ -2125,7 +2035,7 @@
     <url>https://www.fikeschevy.com/inventory/new-2026-chevrolet-equinox-activ-front-wheel-drive-suv-3gnaxkegxtl495128/</url>
     <title>New 2026 Chevrolet Equinox ACTIV Front Wheel Drive SUV</title>
     <body_style>SUV</body_style>
-    <price>34924.00 USD</price>
+    <price>34425.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -2149,7 +2059,7 @@
     <interior_color>Maple Sugar, Sueded Microfiber seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-18</date_first_on_lot>
-    <custom_number_0>122</custom_number_0>
+    <custom_number_0>123</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXKEGXTL495128/4f39afb.jpeg</url>
     </image>
@@ -2295,7 +2205,7 @@
     <interior_color>Jet Black/Gray with Blue accents, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-01</date_first_on_lot>
-    <custom_number_0>109</custom_number_0>
+    <custom_number_0>110</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL77LFEP9TC168346/01682b1.jpeg</url>
     </image>
@@ -2402,7 +2312,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2019-toyota-4runner-sr5-premium-4wd-4wd-utility-body-jtebu5jr8k5627344/</url>
     <title>Pre-Owned 2019 Toyota 4Runner SR5 Premium 4WD 4WD Utility Body</title>
     <body_style>SUV</body_style>
-    <price>32494.00 USD</price>
+    <price>32194.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -2426,7 +2336,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-21</date_first_on_lot>
-    <custom_number_0>89</custom_number_0>
+    <custom_number_0>90</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/927e-110005974/JTEBU5JR8K5627344/thumbnails/large/5629271b088ee91105fac692ca958856.webp</url>
     </image>
@@ -2554,7 +2464,7 @@
     <interior_color>Jet Black/Artemis with Yellow stitching, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-20</date_first_on_lot>
-    <custom_number_0>90</custom_number_0>
+    <custom_number_0>91</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/d28584d.jpeg</url>
     </image>
@@ -2673,7 +2583,7 @@
     <interior_color>Atmosphere/Brownstone, Forge perforated leather seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-27</date_first_on_lot>
-    <custom_number_0>83</custom_number_0>
+    <custom_number_0>84</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GTUUGEL2TZ157210/0021793.jpeg</url>
     </image>
@@ -2834,7 +2744,7 @@
     <interior_color>Front Bucket Seats -inc: 8-way power driver seat w/2-way power lumbar support and 4-way manual passenger seat</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-28</date_first_on_lot>
-    <custom_number_0>82</custom_number_0>
+    <custom_number_0>83</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/8362-110005974/5N1BT3BA8RC697898/thumbnails/large/cc3c324403084bd432989275e2cf2637.webp</url>
     </image>
@@ -2962,7 +2872,7 @@
     <interior_color>Jet Black with Yellow accents, Cloth/Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-30</date_first_on_lot>
-    <custom_number_0>80</custom_number_0>
+    <custom_number_0>81</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL77LHEP1TC203313/7b3b1d0.jpeg</url>
     </image>
@@ -3090,7 +3000,7 @@
     <interior_color>Gideon/Very Dark Atmosphere, Leather-Appointed seating surfaces</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-01</date_first_on_lot>
-    <custom_number_0>78</custom_number_0>
+    <custom_number_0>79</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNS5NKD4TR377381/cd122d3.jpeg</url>
     </image>
@@ -3245,7 +3155,7 @@
     <interior_color>Jet Black, Premium cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-02</date_first_on_lot>
-    <custom_number_0>77</custom_number_0>
+    <custom_number_0>78</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GNEVGKW8PJ266749/6ddd05f.jpeg</url>
     </image>
@@ -3376,7 +3286,7 @@
     <interior_color>Atmosphere/Brownstone, Forge perforated leather seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-10</date_first_on_lot>
-    <custom_number_0>69</custom_number_0>
+    <custom_number_0>70</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GTUUGE81RZ187285/5f7add2.jpeg</url>
     </image>
@@ -3534,7 +3444,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-12</date_first_on_lot>
-    <custom_number_0>67</custom_number_0>
+    <custom_number_0>68</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/3c98-110005974/ZACNJDAB6MPN23935/thumbnails/large/ed147a8fdff21e089c3b0a26560cf319.webp</url>
     </image>
@@ -3642,158 +3552,12 @@
     </image>
   </listing>
   <listing>
-    <vehicle_id>W1N4M4GB5SW400097</vehicle_id>
-    <description>6,984 miles, Red exterior, Black interior, 8 Speed Automatic, 2.0L I-4 Turbocharged</description>
-    <url>https://www.fikeschevy.com/inventory/used-2025-mercedes-benz-glb-glb-250-suv-fwd-wagon-4-dr-w1n4m4gb5sw400097/</url>
-    <title>Pre-Owned 2025 Mercedes-Benz GLB 250 SUV FWD Wagon 4 Dr.</title>
-    <body_style>SUV</body_style>
-    <price>36394.00 USD</price>
-    <address format="simple">
-      <component name="addr1">771 Military St N</component>
-      <component name="city">Hamilton</component>
-      <component name="region">AL</component>
-      <component name="postal_code">35570</component>
-      <component name="country">US</component>
-    </address>
-    <make>Mercedes-Benz</make>
-    <model>GLB 250</model>
-    <year>2025</year>
-    <vin>W1N4M4GB5SW400097</vin>
-    <availability>AVAILABLE</availability>
-    <state_of_vehicle>USED</state_of_vehicle>
-    <mileage>
-      <unit>MI</unit>
-      <value>6984</value>
-    </mileage>
-    <transmission>AUTOMATIC</transmission>
-    <drivetrain>FWD</drivetrain>
-    <exterior_color>Red</exterior_color>
-    <interior_color>Black</interior_color>
-    <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-06-18</date_first_on_lot>
-    <custom_number_0>61</custom_number_0>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/396c-110005974/W1N4M4GB5SW400097/thumbnails/large/643d538a55f4cf48414e8ad1c282fcd1.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/396c-110005974/W1N4M4GB5SW400097/643d538a55f4cf48414e8ad1c282fcd1.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/9a76-110005974/W1N4M4GB5SW400097/32ed1395904aa2266561b6b8caa77871.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/4d40-110005974/W1N4M4GB5SW400097/7cbbfcadaf3c1f1ef4e99940f406dcc7.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/5464-110005974/W1N4M4GB5SW400097/5418fcf9ce2de1706ffc6283b84fb5ce.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/b172-110005974/W1N4M4GB5SW400097/9fa9dedcf0ad3a60cc6575eb56fe2319.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/5803-110005974/W1N4M4GB5SW400097/acd8feaa9e51b6dd50916461c1471feb.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/5735-110005974/W1N4M4GB5SW400097/dca8aa6a6ccebb8b409c36d4ccd224e7.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/6d64-110005974/W1N4M4GB5SW400097/15c45557c05a876af3ea2ec068a17f2b.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/80a8-110005974/W1N4M4GB5SW400097/3dfb217cfeae1dc9db044e6d2286f4fe.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/7afd-110005974/W1N4M4GB5SW400097/02ec6069d4e8f0fe50fb3a91c4462fee.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/f188-110005974/W1N4M4GB5SW400097/49c88d7ca3dc99cccfd0716729865e18.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/fac0-110005974/W1N4M4GB5SW400097/ab9a9484dcb4b938b4550e1d2063da6f.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/1a0d-110005974/W1N4M4GB5SW400097/f1f498841fb20e1b959e8ab2576e62b2.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/47ff-110005974/W1N4M4GB5SW400097/e6c58b26edfbdbd7ba1d42be50bb49ed.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/452e-110005974/W1N4M4GB5SW400097/f8cf284c3eea4dbd477fb49cc6afed87.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/7078-110005974/W1N4M4GB5SW400097/5fa09c077737925f6335b5f55e24403b.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/5ccc-110005974/W1N4M4GB5SW400097/57636feb8881874c02f83a22fa5bafbf.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/65d7-110005974/W1N4M4GB5SW400097/5d0f23245debcc66ea7e076d68b56c3c.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/34e7-110005974/W1N4M4GB5SW400097/0097f5a864f98da369361581f0cbefbc.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/4dc1-110005974/W1N4M4GB5SW400097/f858e96dc9b22e4abefe17b435665376.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/3fbe-110005974/W1N4M4GB5SW400097/b8049f0824e6888949643289c42084e4.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/f6de-110005974/W1N4M4GB5SW400097/85364495d597f4d06868a673fa0e8941.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/471b-110005974/W1N4M4GB5SW400097/66f8e9d732e2b2f52341b1ea75621ddd.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/ae06-110005974/W1N4M4GB5SW400097/327a05e197c860ccd62bf6b8028a56ce.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/1e4e-110005974/W1N4M4GB5SW400097/d6b307e3527aff38bd10b68d38492dc4.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/e657-110005974/W1N4M4GB5SW400097/963800e697d8fdfda5f4d80505e8bbc8.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/22f3-110005974/W1N4M4GB5SW400097/675c6cd2fb8b1cc9438c6db765e1a3ae.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/c887-110005974/W1N4M4GB5SW400097/4fdf9939d7576685fd77590acf1d5bd9.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/92e5-110005974/W1N4M4GB5SW400097/6161d160df913e9aef778da50fd52384.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/c65a-110005974/W1N4M4GB5SW400097/0b1a3fbbbd815973f906e89564a3bc59.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/51c4-110005974/W1N4M4GB5SW400097/b1275a9cdcec751c7fbdd294fc25225e.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/c3e5-110005974/W1N4M4GB5SW400097/361428c027ff8b2995f08a540d0f1e10.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/38f0-110005974/W1N4M4GB5SW400097/47bf8b1f58f2d97c7452d60ac2212053.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/48c4-110005974/W1N4M4GB5SW400097/91fb55099db18c83d7d08f611667e504.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/cf12-110005974/W1N4M4GB5SW400097/09c94ea75ef7513a8a0c84bc9f09cb32.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/52bc-110005974/W1N4M4GB5SW400097/358f5705cf18e0033a4166eedb903118.webp</url>
-    </image>
-    <image>
-      <url>https://vehicle-images.carscommerce.inc/e55d-110005974/W1N4M4GB5SW400097/e65e5158860c5cbb31b988fdf82382dd.webp</url>
-    </image>
-  </listing>
-  <listing>
     <vehicle_id>3GNAXLEG3TL539797</vehicle_id>
     <description>Sterling Gray Metallic exterior, Black with Red Accents, Evotex seat trim interior, Automatic, 1.5L Turbo 4-cylinder engine</description>
     <url>https://www.fikeschevy.com/inventory/new-2026-chevrolet-equinox-rs-front-wheel-drive-suv-3gnaxleg3tl539797/</url>
     <title>New 2026 Chevrolet Equinox RS Front Wheel Drive SUV</title>
     <body_style>SUV</body_style>
-    <price>34924.00 USD</price>
+    <price>34425.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -3817,7 +3581,7 @@
     <interior_color>Black with Red Accents, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-27</date_first_on_lot>
-    <custom_number_0>83</custom_number_0>
+    <custom_number_0>84</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXLEG3TL539797/74df3b7.jpeg</url>
     </image>
@@ -3954,7 +3718,7 @@
     <interior_color>Jet Black, Leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-19</date_first_on_lot>
-    <custom_number_0>60</custom_number_0>
+    <custom_number_0>61</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GCUDFEL3RG306887/87a2e4c.jpeg</url>
     </image>
@@ -4100,7 +3864,7 @@
     <interior_color>EBONY, CLOTH WITH LEATHERETTE SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-19</date_first_on_lot>
-    <custom_number_0>60</custom_number_0>
+    <custom_number_0>61</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL4CJASB2MB336607/40e2b7f.jpeg</url>
     </image>
@@ -4222,7 +3986,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-20</date_first_on_lot>
-    <custom_number_0>59</custom_number_0>
+    <custom_number_0>60</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/fd5f-110005974/5UXTY3C05L9C09190/thumbnails/large/82befecb95785e02770de664e5dbf1e8.webp</url>
     </image>
@@ -4353,7 +4117,7 @@
     <interior_color>EBONY, CLOTH WITH LEATHERETTE SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-23</date_first_on_lot>
-    <custom_number_0>117</custom_number_0>
+    <custom_number_0>118</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL4CJASB2KB707939/35ba635.jpeg</url>
     </image>
@@ -4475,7 +4239,7 @@
     <interior_color>Jet Black, Leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-23</date_first_on_lot>
-    <custom_number_0>56</custom_number_0>
+    <custom_number_0>57</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GCUKEEL2TZ421150/981e335.jpeg</url>
     </image>
@@ -4621,7 +4385,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-30</date_first_on_lot>
-    <custom_number_0>49</custom_number_0>
+    <custom_number_0>50</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/8f87-110005974/3MW5R1J05M8C03877/thumbnails/large/dcba62d1cbb20f9037df1e8f395ddc55.webp</url>
     </image>
@@ -4755,7 +4519,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-08</date_first_on_lot>
-    <custom_number_0>41</custom_number_0>
+    <custom_number_0>42</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/30aa-110005974/3C6JR6AGXGG318021/thumbnails/large/a08bb4afe5f1ba6ed5e8ae0b638e60bc.webp</url>
     </image>
@@ -4868,7 +4632,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-23</date_first_on_lot>
-    <custom_number_0>56</custom_number_0>
+    <custom_number_0>57</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GTG5CEN3N1320176/1d0d6e6.jpeg</url>
     </image>
@@ -4999,7 +4763,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-14</date_first_on_lot>
-    <custom_number_0>157</custom_number_0>
+    <custom_number_0>158</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/2GC4KME77T1179896/3662249.jpeg</url>
     </image>
@@ -5115,7 +4879,7 @@
     <interior_color>Jet Black/Graystone, Perforated leather seating surfaces</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-15</date_first_on_lot>
-    <custom_number_0>34</custom_number_0>
+    <custom_number_0>35</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GCUDHEL4NG601499/47f2889.jpeg</url>
     </image>
@@ -5243,7 +5007,7 @@
     <interior_color>Jet Black with Artemis accents, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-17</date_first_on_lot>
-    <custom_number_0>32</custom_number_0>
+    <custom_number_0>33</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL77LKEP0TC238177/826d3ee.jpeg</url>
     </image>
@@ -5371,7 +5135,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-21</date_first_on_lot>
-    <custom_number_0>28</custom_number_0>
+    <custom_number_0>29</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/5c89-110005974/2C4RC1GG7LR285779/thumbnails/large/b13c696ee55c015aced74ef03eec41d2.webp</url>
     </image>
@@ -5499,7 +5263,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-22</date_first_on_lot>
-    <custom_number_0>27</custom_number_0>
+    <custom_number_0>28</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/5e52-110005974/5YFB4MDE9RP133398/thumbnails/large/ee6adefce77850e7f5b063cbfa2b1a47.webp</url>
     </image>
@@ -5627,7 +5391,7 @@
     <interior_color>Jet Black, Perforated leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-23</date_first_on_lot>
-    <custom_number_0>26</custom_number_0>
+    <custom_number_0>27</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/2GCUDGED9P1109758/5f0ce38.jpeg</url>
     </image>
@@ -5776,7 +5540,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-23</date_first_on_lot>
-    <custom_number_0>26</custom_number_0>
+    <custom_number_0>27</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/3GCUYEED6MG250931/4e5d50f.jpeg</url>
     </image>
@@ -5913,7 +5677,7 @@
     <interior_color>Charcoal</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-24</date_first_on_lot>
-    <custom_number_0>25</custom_number_0>
+    <custom_number_0>26</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/70c4-110005974/3N1AB8CVXRY356658/thumbnails/large/79793339d60e3c4f8b3adc44ccede4dc.webp</url>
     </image>
@@ -6044,7 +5808,7 @@
     <interior_color>VINYL</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-06</date_first_on_lot>
-    <custom_number_0>134</custom_number_0>
+    <custom_number_0>135</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GBJG312X71135769/a65de73.jpeg</url>
     </image>
@@ -6121,7 +5885,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-25</date_first_on_lot>
-    <custom_number_0>24</custom_number_0>
+    <custom_number_0>25</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/KL79MMS25RB177501/c33ca32.jpeg</url>
     </image>
@@ -6252,7 +6016,7 @@
     <interior_color>Cirrus, Leather Seating Surfaces with Mini-Perforated inserts</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-02</date_first_on_lot>
-    <custom_number_0>47</custom_number_0>
+    <custom_number_0>48</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/a01483f.jpeg</url>
     </image>
@@ -6383,7 +6147,7 @@
     <interior_color>Jet Black, Perforated leather-appointed front outboard seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-01</date_first_on_lot>
-    <custom_number_0>48</custom_number_0>
+    <custom_number_0>49</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GC4YPEY9RF148725/8da4737.jpeg</url>
     </image>
@@ -6517,7 +6281,7 @@
     <interior_color>JET BLACK/DARK ASH, VINYL SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-09</date_first_on_lot>
-    <custom_number_0>131</custom_number_0>
+    <custom_number_0>132</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GCHSBEA8M1107744/cb69a00.jpeg</url>
     </image>
@@ -6633,7 +6397,7 @@
     <interior_color>Gray</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-01</date_first_on_lot>
-    <custom_number_0>17</custom_number_0>
+    <custom_number_0>18</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/bd4d-110005974/KNAFK4A69E5175742/thumbnails/large/2c43f8f320a0928a8f2a39037419214b.webp</url>
     </image>
@@ -6761,7 +6525,7 @@
     <interior_color>Tan</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-05</date_first_on_lot>
-    <custom_number_0>13</custom_number_0>
+    <custom_number_0>14</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/aab6-110005974/19XFA1F56BE014267/thumbnails/large/a51153f27aef901830b20e0c70008966.webp</url>
     </image>
@@ -6883,7 +6647,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-08</date_first_on_lot>
-    <custom_number_0>10</custom_number_0>
+    <custom_number_0>11</custom_number_0>
     <image>
       <url>https://vehicle-images.carscommerce.inc/124c-110005974/5XXG14J26RG264743/thumbnails/large/1afc9c76725d7b1500da39ddea53b1ba.webp</url>
     </image>
@@ -7017,7 +6781,7 @@
     <interior_color>JET BLACK, CLOTH SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-02</date_first_on_lot>
-    <custom_number_0>47</custom_number_0>
+    <custom_number_0>48</custom_number_0>
     <image>
       <url>https://vini.gm.com/realimages/1GCGSCEA7L1176845/a96c394.jpeg</url>
     </image>
@@ -7113,137 +6877,6 @@
     </image>
     <image>
       <url>https://vini.gm.com/realimages/1GCGSCEA7L1176845/10c4429.jpeg</url>
-    </image>
-  </listing>
-  <listing>
-    <vehicle_id>KL4CJASB6GB575047</vehicle_id>
-    <description>66,267 miles, (Includes (BT3) Dark Argent Metallic lower accent color.) exterior, TITANIUM, UPSCALE CLOTH SEAT TRIM WITH LEATHERETTE ACCENTS interior, Automatic, 1.4L 4 cyl. Engine, DOHC, Turbocharged</description>
-    <url>https://www.fikeschevy.com/inventory/used-2016-buick-encore-front-wheel-drive-suv-kl4cjasb6gb575047/</url>
-    <title>Pre-Owned 2016 Buick Encore Front Wheel Drive SUV</title>
-    <body_style>SUV</body_style>
-    <price>11995.00 USD</price>
-    <address format="simple">
-      <component name="addr1">771 Military St N</component>
-      <component name="city">Hamilton</component>
-      <component name="region">AL</component>
-      <component name="postal_code">35570</component>
-      <component name="country">US</component>
-    </address>
-    <make>Buick</make>
-    <model>Encore</model>
-    <year>2016</year>
-    <vin>KL4CJASB6GB575047</vin>
-    <availability>SOLD</availability>
-    <state_of_vehicle>USED</state_of_vehicle>
-    <mileage>
-      <unit>MI</unit>
-      <value>66267</value>
-    </mileage>
-    <transmission>AUTOMATIC</transmission>
-    <drivetrain>FWD</drivetrain>
-    <exterior_color>(Includes (BT3) Dark Argent Metallic lower accent color.)</exterior_color>
-    <interior_color>TITANIUM, UPSCALE CLOTH SEAT TRIM WITH LEATHERETTE ACCENTS</interior_color>
-    <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-07-06</date_first_on_lot>
-    <custom_number_0>39</custom_number_0>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/5d94f0a.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/f4cb1a2.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/1949bff.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/14e2458.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/e7b6da0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/621a0db.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/fbf527f.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/1a13828.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/5fbe8b2.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/6e9c512.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/c1fec1d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/95e8665.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/d98371b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/daad988.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/6f7026e.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/773ef0a.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/2b4e63c.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/8e5fbe1.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/2f8ed11.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/2de9335.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/f4601d4.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/b9be36a.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/c9a922a.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/111580a.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/9356a0e.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/f5bde56.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/d73d92a.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/1d4ad88.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/4f625ae.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/af070d0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/42a62d9.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/00726ba.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL4CJASB6GB575047/9dd8944.jpeg</url>
     </image>
   </listing>
   <listing>
@@ -7660,6 +7293,152 @@
     </image>
     <image>
       <url>https://vini.gm.com/realimages/KL4CJASB5HB104850/e218274.jpeg</url>
+    </image>
+  </listing>
+  <listing>
+    <vehicle_id>W1N4M4GB5SW400097</vehicle_id>
+    <description>6,984 miles, Red exterior, Black interior, 8 Speed Automatic, 2.0L I-4 Turbocharged</description>
+    <url>https://www.fikeschevy.com/inventory/used-2025-mercedes-benz-glb-glb-250-suv-fwd-wagon-4-dr-w1n4m4gb5sw400097/</url>
+    <title>Pre-Owned 2025 Mercedes-Benz GLB 250 SUV FWD Wagon 4 Dr.</title>
+    <body_style>SUV</body_style>
+    <price>36394.00 USD</price>
+    <address format="simple">
+      <component name="addr1">771 Military St N</component>
+      <component name="city">Hamilton</component>
+      <component name="region">AL</component>
+      <component name="postal_code">35570</component>
+      <component name="country">US</component>
+    </address>
+    <make>Mercedes-Benz</make>
+    <model>GLB 250</model>
+    <year>2025</year>
+    <vin>W1N4M4GB5SW400097</vin>
+    <availability>SOLD</availability>
+    <state_of_vehicle>USED</state_of_vehicle>
+    <mileage>
+      <unit>MI</unit>
+      <value>6984</value>
+    </mileage>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>FWD</drivetrain>
+    <exterior_color>Red</exterior_color>
+    <interior_color>Black</interior_color>
+    <vehicle_type>car_truck</vehicle_type>
+    <date_first_on_lot>2026-06-18</date_first_on_lot>
+    <custom_number_0>61</custom_number_0>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/396c-110005974/W1N4M4GB5SW400097/thumbnails/large/643d538a55f4cf48414e8ad1c282fcd1.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/396c-110005974/W1N4M4GB5SW400097/643d538a55f4cf48414e8ad1c282fcd1.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/9a76-110005974/W1N4M4GB5SW400097/32ed1395904aa2266561b6b8caa77871.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/4d40-110005974/W1N4M4GB5SW400097/7cbbfcadaf3c1f1ef4e99940f406dcc7.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/5464-110005974/W1N4M4GB5SW400097/5418fcf9ce2de1706ffc6283b84fb5ce.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/b172-110005974/W1N4M4GB5SW400097/9fa9dedcf0ad3a60cc6575eb56fe2319.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/5803-110005974/W1N4M4GB5SW400097/acd8feaa9e51b6dd50916461c1471feb.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/5735-110005974/W1N4M4GB5SW400097/dca8aa6a6ccebb8b409c36d4ccd224e7.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/6d64-110005974/W1N4M4GB5SW400097/15c45557c05a876af3ea2ec068a17f2b.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/80a8-110005974/W1N4M4GB5SW400097/3dfb217cfeae1dc9db044e6d2286f4fe.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/7afd-110005974/W1N4M4GB5SW400097/02ec6069d4e8f0fe50fb3a91c4462fee.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/f188-110005974/W1N4M4GB5SW400097/49c88d7ca3dc99cccfd0716729865e18.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/fac0-110005974/W1N4M4GB5SW400097/ab9a9484dcb4b938b4550e1d2063da6f.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/1a0d-110005974/W1N4M4GB5SW400097/f1f498841fb20e1b959e8ab2576e62b2.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/47ff-110005974/W1N4M4GB5SW400097/e6c58b26edfbdbd7ba1d42be50bb49ed.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/452e-110005974/W1N4M4GB5SW400097/f8cf284c3eea4dbd477fb49cc6afed87.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/7078-110005974/W1N4M4GB5SW400097/5fa09c077737925f6335b5f55e24403b.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/5ccc-110005974/W1N4M4GB5SW400097/57636feb8881874c02f83a22fa5bafbf.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/65d7-110005974/W1N4M4GB5SW400097/5d0f23245debcc66ea7e076d68b56c3c.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/34e7-110005974/W1N4M4GB5SW400097/0097f5a864f98da369361581f0cbefbc.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/4dc1-110005974/W1N4M4GB5SW400097/f858e96dc9b22e4abefe17b435665376.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/3fbe-110005974/W1N4M4GB5SW400097/b8049f0824e6888949643289c42084e4.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/f6de-110005974/W1N4M4GB5SW400097/85364495d597f4d06868a673fa0e8941.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/471b-110005974/W1N4M4GB5SW400097/66f8e9d732e2b2f52341b1ea75621ddd.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/ae06-110005974/W1N4M4GB5SW400097/327a05e197c860ccd62bf6b8028a56ce.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/1e4e-110005974/W1N4M4GB5SW400097/d6b307e3527aff38bd10b68d38492dc4.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/e657-110005974/W1N4M4GB5SW400097/963800e697d8fdfda5f4d80505e8bbc8.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/22f3-110005974/W1N4M4GB5SW400097/675c6cd2fb8b1cc9438c6db765e1a3ae.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/c887-110005974/W1N4M4GB5SW400097/4fdf9939d7576685fd77590acf1d5bd9.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/92e5-110005974/W1N4M4GB5SW400097/6161d160df913e9aef778da50fd52384.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/c65a-110005974/W1N4M4GB5SW400097/0b1a3fbbbd815973f906e89564a3bc59.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/51c4-110005974/W1N4M4GB5SW400097/b1275a9cdcec751c7fbdd294fc25225e.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/c3e5-110005974/W1N4M4GB5SW400097/361428c027ff8b2995f08a540d0f1e10.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/38f0-110005974/W1N4M4GB5SW400097/47bf8b1f58f2d97c7452d60ac2212053.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/48c4-110005974/W1N4M4GB5SW400097/91fb55099db18c83d7d08f611667e504.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/cf12-110005974/W1N4M4GB5SW400097/09c94ea75ef7513a8a0c84bc9f09cb32.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/52bc-110005974/W1N4M4GB5SW400097/358f5705cf18e0033a4166eedb903118.webp</url>
+    </image>
+    <image>
+      <url>https://vehicle-images.carscommerce.inc/e55d-110005974/W1N4M4GB5SW400097/e65e5158860c5cbb31b988fdf82382dd.webp</url>
     </image>
   </listing>
 </listings>

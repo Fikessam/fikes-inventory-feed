@@ -4,7 +4,7 @@
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
 <!-- 20 vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
-<!-- 1 vehicle(s) included below as availability=SOLD -->
+<!-- 0 vehicle(s) included below as availability=SOLD -->
 <!-- (dropped out of the live scrape within the last 3 runs; -->
 <!-- see docs/sold-tracking.json). -->
 <listings>
@@ -7485,125 +7485,6 @@
     </image>
     <image>
       <url>https://vehicle-images.carscommerce.inc/72e5-110005974/1N4BL4CV5RN360093/522fb89a8ad93edd1b397cddee246b7a.webp</url>
-    </image>
-  </listing>
-  <listing>
-    <vehicle_id>KL79MVSL8RB134799</vehicle_id>
-    <description>11,491 miles, Summit White exterior, Jet Black/Artemis with Yellow stitching, Evotex seat trim interior, Automatic, ECOTEC 1.3L Turbo engine</description>
-    <url>https://www.fikeschevy.com/inventory/used-2024-chevrolet-trailblazer-activ-front-wheel-drive-suv-kl79mvsl8rb134799/</url>
-    <title>Pre-Owned 2024 Chevrolet Trailblazer ACTIV Front Wheel Drive SUV</title>
-    <body_style>SUV</body_style>
-    <price>24995.00 USD</price>
-    <address format="simple">
-      <component name="addr1">771 Military St N</component>
-      <component name="city">Hamilton</component>
-      <component name="region">AL</component>
-      <component name="postal_code">35570</component>
-      <component name="country">US</component>
-    </address>
-    <make>Chevrolet</make>
-    <model>Trailblazer</model>
-    <year>2024</year>
-    <vin>KL79MVSL8RB134799</vin>
-    <availability>SOLD</availability>
-    <state_of_vehicle>USED</state_of_vehicle>
-    <mileage>
-      <unit>MI</unit>
-      <value>11491</value>
-    </mileage>
-    <transmission>AUTOMATIC</transmission>
-    <drivetrain>FWD</drivetrain>
-    <exterior_color>Summit White</exterior_color>
-    <interior_color>Jet Black/Artemis with Yellow stitching, Evotex seat trim</interior_color>
-    <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-05-20</date_first_on_lot>
-    <custom_number_0>93</custom_number_0>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/d28584d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/111a330.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/760d1cc.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/12c3929.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/a70f136.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/52049ba.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/ef5895e.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/19d65d1.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/7587e50.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/e58ca8c.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/a4cc0a8.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/981d5c5.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/8fa2cb3.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/9cb9be8.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/dad75fc.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/4cfae63.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/f9e9b1f.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/484c9f6.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/8368b2b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/9cb4f64.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/93b3341.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/574a35b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/b449371.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/91a75db.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/7eca4cc.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/97ccbeb.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/c66c448.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/6a2838f.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/KL79MVSL8RB134799/2c6586f.jpeg</url>
     </image>
   </listing>
 </listings>

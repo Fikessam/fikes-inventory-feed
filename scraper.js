@@ -51,8 +51,8 @@
  * `main()` near the bottom — search for "THE ONLY DEDUPE PASS".
  *
  * OUTPUT:
- *   docs/inventory.json — raw structured vehicle data
- *   docs/feed.xml        — Meta Commerce Manager Vehicles catalog feed,
+ *   docs/inventory.json    — raw structured vehicle data
+ *   docs/feed.xml           — Meta Commerce Manager Vehicles catalog feed,
  *                          using the <listings><listing> schema (NOT the
  *                          generic <rss><channel><item> Google-base product
  *                          feed format — that schema is silently rejected
@@ -61,6 +61,16 @@
  *                          above vehicleToFeedItem() for the full schema
  *                          reference, confirmed against Meta's own
  *                          downloaded XML template and live test uploads.
+ *   docs/sold-tracking.json — internal state file (not uploaded to Meta).
+ *                          Tracks VINs that disappeared from the live scrape
+ *                          so they can be re-emitted with availability=SOLD
+ *                          for a few runs before being dropped for good. See
+ *                          updateSoldTracking() — this exists because a VIN
+ *                          simply being absent from this feed does NOT
+ *                          cause Meta to remove/hide it from the catalog;
+ *                          Meta only reacts to items it's explicitly told
+ *                          about, and manual deletion in Commerce Manager
+ *                          is blocked for feed-managed catalogs.
  * --------------------------------------------------------------------------
  */
 'use strict';
@@ -85,6 +95,19 @@ const DEALER_ADDRESS = {
   country: 'US',
 };
 const OUTPUT_DIR = path.join(__dirname, 'docs');
+// A vehicle that disappears from the live scrape (sold, or pulled from the
+// site) is NOT deleted from Meta's catalog just because it's absent from
+// this feed file — Meta only reacts to items it's actually told about, and
+// this feed is additive/updating, not a "this is the full inventory, delete
+// anything else" declaration. Manual deletion in Commerce Manager is also
+// blocked for feed-managed catalogs (Meta forces edits through the feed).
+// So: when a VIN drops out of the scrape, we keep emitting it here with
+// availability=SOLD for a few runs (long enough for Meta's scheduled sync to
+// pick up the status change), then stop referencing it — Meta retains the
+// last-known SOLD status indefinitely once set, so we don't need to keep
+// emitting it forever.
+const SOLD_GRACE_RUNS = 3;
+const SOLD_TRACKING_PATH = path.join(OUTPUT_DIR, 'sold-tracking.json');
 const USER_AGENT =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 ' +
   '(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36';
@@ -451,7 +474,63 @@ function normalizeBodyStyle(v) {
   );
   return 'SUV';
 }
-function vehicleToFeedItem(v) {
+// ----------------------------------------------------------------------------
+// WHY THIS EXISTS (read before touching drivetrain/transmission handling):
+// Investigated the vehicles that were flagging in Commerce Manager diagnostics
+// as unavailable/rejected despite this feed sending <availability>AVAILABLE
+// for every one of them. The <availability> value itself was never the
+// problem — Meta's automotive schema treats <drivetrain> and <transmission>
+// as CONTROLLED VOCABULARY fields, not free text. Before this fix, both were
+// written straight from whatever string the VDP spec table happened to show
+// (e.g. "All-Wheel Drive", "8-Speed Automatic", "Four Wheel Drive", "CVT",
+// or sometimes nothing at all if the label wasn't found). None of those
+// strings match Meta's accepted enums, so Meta rejects the *entire listing*
+// on ingest as a schema violation — which surfaces in diagnostics as the
+// item not being available, even though availability was correctly set.
+// The fix is to normalize both fields to Meta's accepted values at feed-write
+// time, same pattern as normalizeBodyStyle() above. The raw scraped strings
+// are left untouched in inventory.json/vehicle.drivetrain/vehicle.transmission
+// for debugging; only the feed.xml output goes through these normalizers.
+// ----------------------------------------------------------------------------
+const DRIVETRAIN_ACCEPTED = new Set(['4X2', '4X4', 'AWD', 'FWD', 'RWD', 'OTHER', 'NONE']);
+function normalizeDrivetrain(raw, vin) {
+  if (!raw) {
+    console.warn(`  Missing drivetrain value${vin ? ` for VIN ${vin}` : ''} — defaulting to OTHER.`);
+    return 'OTHER';
+  }
+  const s = raw.trim().toLowerCase();
+  if (/^(n\/a|none|not applicable|-+)$/.test(s)) return 'NONE';
+  if (/all.?wheel|awd/.test(s)) return 'AWD';
+  if (/four.?wheel|4wd|4x4/.test(s)) return '4X4';
+  if (/4x2|2wd|two.?wheel drive/.test(s)) return '4X2';
+  if (/front.?wheel|fwd/.test(s)) return 'FWD';
+  if (/rear.?wheel|rwd/.test(s)) return 'RWD';
+  console.warn(
+    `  Unrecognized drivetrain value "${raw}"${vin ? ` for VIN ${vin}` : ''} — defaulting to OTHER. ` +
+      'Meta only accepts 4X2/4X4/AWD/FWD/RWD/OTHER/NONE; add a mapping rule above if this is a ' +
+      'legitimate recurring value.'
+  );
+  return 'OTHER';
+}
+const TRANSMISSION_ACCEPTED = new Set(['AUTOMATIC', 'MANUAL', 'OTHER', 'NONE']);
+function normalizeTransmission(raw, vin) {
+  if (!raw) {
+    console.warn(`  Missing transmission value${vin ? ` for VIN ${vin}` : ''} — defaulting to OTHER.`);
+    return 'OTHER';
+  }
+  const s = raw.trim().toLowerCase();
+  if (/^(n\/a|none|not applicable|-+)$/.test(s)) return 'NONE';
+  // CVT and dual-clutch (DCT) are both automatic transmissions for Meta's purposes.
+  if (/auto|cvt|continuously variable|dct|dual.?clutch/.test(s)) return 'AUTOMATIC';
+  if (/manual|stick|standard/.test(s)) return 'MANUAL';
+  console.warn(
+    `  Unrecognized transmission value "${raw}"${vin ? ` for VIN ${vin}` : ''} — defaulting to OTHER. ` +
+      'Meta only accepts AUTOMATIC/MANUAL/OTHER/NONE; add a mapping rule above if this is a ' +
+      'legitimate recurring value.'
+  );
+  return 'OTHER';
+}
+function vehicleToFeedItem(v, { availability = 'AVAILABLE' } = {}) {
   const price = v.price != null ? `${Number(v.price).toFixed(2)} USD` : '';
   const images = v.images || [];
   const bodyStyle = normalizeBodyStyle(v);
@@ -482,20 +561,79 @@ function vehicleToFeedItem(v) {
     <model>${escapeXml(v.model)}</model>
     <year>${escapeXml(v.year)}</year>
     <vin>${escapeXml(v.vin)}</vin>
+    <availability>${availability}</availability>
     <state_of_vehicle>${v.condition === 'new' ? 'NEW' : 'USED'}</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
       <value>${v.mileage != null ? v.mileage : 0}</value>
     </mileage>
-    <transmission>${escapeXml(v.transmission)}</transmission>
-    <drivetrain>${escapeXml(v.drivetrain)}</drivetrain>
+    <transmission>${normalizeTransmission(v.transmission, v.vin)}</transmission>
+    <drivetrain>${normalizeDrivetrain(v.drivetrain, v.vin)}</drivetrain>
     <exterior_color>${escapeXml(v.exterior_color)}</exterior_color>
     <interior_color>${escapeXml(v.interior_color)}</interior_color>
     <vehicle_type>car_truck</vehicle_type>${dateFirstOnLotTag}${customNumber0Tag}
 ${imageBlocks}
   </listing>`;
 }
-function writeOutputs(vehicles) {
+function loadPreviousVehicles() {
+  try {
+    const prev = JSON.parse(fs.readFileSync(path.join(OUTPUT_DIR, 'inventory.json'), 'utf8'));
+    return Array.isArray(prev.vehicles) ? prev.vehicles : [];
+  } catch (err) {
+    return []; // no previous run (first run, or file missing/corrupt) — nothing to diff against
+  }
+}
+function loadSoldTracking() {
+  try {
+    return JSON.parse(fs.readFileSync(SOLD_TRACKING_PATH, 'utf8'));
+  } catch (err) {
+    return {};
+  }
+}
+function saveSoldTracking(tracking) {
+  fs.writeFileSync(SOLD_TRACKING_PATH, JSON.stringify(tracking, null, 2));
+}
+// Compares this run's scraped VINs against last run's, marks newly-missing
+// VINs as sold (tracked for SOLD_GRACE_RUNS more runs), clears tracking for
+// any VIN that reappears, and expires tracking once the grace period passes.
+// Returns the array of vehicle records that should be emitted this run with
+// availability=SOLD.
+function updateSoldTracking(currentVehicles) {
+  const previousVehicles = loadPreviousVehicles();
+  const currentVinSet = new Set(currentVehicles.map((v) => v.vin));
+  const tracking = loadSoldTracking();
+  for (const prevVehicle of previousVehicles) {
+    if (!currentVinSet.has(prevVehicle.vin) && !tracking[prevVehicle.vin]) {
+      tracking[prevVehicle.vin] = { vehicleData: prevVehicle, missingRunCount: 0 };
+      console.log(
+        `  VIN ${prevVehicle.vin} (${prevVehicle.title}) dropped out of the scrape — ` +
+          `will emit availability=SOLD in the feed for ${SOLD_GRACE_RUNS} more run(s).`
+      );
+    }
+  }
+  for (const vin of Object.keys(tracking)) {
+    if (currentVinSet.has(vin)) {
+      console.log(`  VIN ${vin} reappeared in the scrape — clearing SOLD tracking.`);
+      delete tracking[vin];
+    }
+  }
+  const soldVehiclesToEmit = [];
+  for (const [vin, entry] of Object.entries(tracking)) {
+    entry.missingRunCount += 1;
+    if (entry.missingRunCount <= SOLD_GRACE_RUNS) {
+      soldVehiclesToEmit.push(entry.vehicleData);
+    } else {
+      console.log(
+        `  VIN ${vin} has been marked SOLD for ${entry.missingRunCount} run(s) — ` +
+          'dropping from the feed for good. Meta should already have it as unavailable.'
+      );
+      delete tracking[vin];
+    }
+  }
+  saveSoldTracking(tracking);
+  return soldVehiclesToEmit;
+}
+function writeOutputs(vehicles, soldVehicles = []) {
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   const noImageVehicles = vehicles.filter((v) => !v.images || v.images.length === 0);
   if (noImageVehicles.length > 0) {
@@ -527,15 +665,23 @@ function writeOutputs(vehicles) {
     no_days_in_stock_vins: noDaysInStockVehicles.map((v) => v.vin),
     vehicles,
   };
+  jsonOut.sold_tracking_count = soldVehicles.length;
+  jsonOut.sold_tracking_vins = soldVehicles.map((v) => v.vin);
   fs.writeFileSync(path.join(OUTPUT_DIR, 'inventory.json'), JSON.stringify(jsonOut, null, 2));
   const feedVehicles = vehicles.filter((v) => v.images && v.images.length > 0);
-  const items = feedVehicles.map(vehicleToFeedItem).join('\n');
+  const soldFeedVehicles = soldVehicles.filter((v) => v.images && v.images.length > 0);
+  const activeItems = feedVehicles.map((v) => vehicleToFeedItem(v, { availability: 'AVAILABLE' })).join('\n');
+  const soldItems = soldFeedVehicles.map((v) => vehicleToFeedItem(v, { availability: 'SOLD' })).join('\n');
+  const items = [activeItems, soldItems].filter(Boolean).join('\n');
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <!-- Fikes Vehicles — Meta Commerce Manager automotive inventory feed -->
 <!-- Pixel ID ${PIXEL_ID} is associated with this catalog via Commerce -->
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
 <!-- ${noImageVehicles.length} vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
+<!-- ${soldFeedVehicles.length} vehicle(s) included below as availability=SOLD -->
+<!-- (dropped out of the live scrape within the last ${SOLD_GRACE_RUNS} runs; -->
+<!-- see docs/sold-tracking.json). -->
 <listings>
   <title>Fikes Vehicles</title>
 ${items}
@@ -544,8 +690,9 @@ ${items}
   fs.writeFileSync(path.join(OUTPUT_DIR, 'feed.xml'), xml);
   console.log(
     `Wrote ${vehicles.length} vehicles -> ${path.join(OUTPUT_DIR, 'inventory.json')} ` +
-      `and ${feedVehicles.length} vehicles -> ${path.join(OUTPUT_DIR, 'feed.xml')} ` +
-      `(${noImageVehicles.length} excluded from feed for 0 images)`
+      `and ${feedVehicles.length + soldFeedVehicles.length} listings -> ${path.join(OUTPUT_DIR, 'feed.xml')} ` +
+      `(${feedVehicles.length} AVAILABLE, ${soldFeedVehicles.length} SOLD, ` +
+      `${noImageVehicles.length} excluded from feed for 0 images)`
   );
 }
 function validateFeedXml(feedPath) {
@@ -627,7 +774,8 @@ async function main() {
         'dealership inventory is genuinely this small.'
     );
   }
-  writeOutputs(finalVehicles);
+  const soldVehicles = updateSoldTracking(finalVehicles);
+  writeOutputs(finalVehicles, soldVehicles);
   validateFeedXml(path.join(OUTPUT_DIR, 'feed.xml'));
 }
 if (require.main === module) {
@@ -643,7 +791,13 @@ module.exports = {
   isVdpUrl,
   parseSitemapVdpUrls,
   normalizeBodyStyle,
+  normalizeDrivetrain,
+  normalizeTransmission,
   vehicleToFeedItem,
   writeOutputs,
   validateFeedXml,
+  loadPreviousVehicles,
+  loadSoldTracking,
+  saveSoldTracking,
+  updateSoldTracking,
 };

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:25:38.011Z",
+  "generated_at": "2026-09-22T20:09:54.424Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -8,10 +8,10 @@
     "zip": "35570",
     "country": "US"
   },
-  "total_vehicles": 86,
+  "total_vehicles": 88,
   "new_count": 32,
-  "used_count": 54,
-  "no_image_count": 16,
+  "used_count": 56,
+  "no_image_count": 17,
   "no_image_vins": [
     "3D7MX48CX6G233591",
     "2GC4KNEY3T1229837",
@@ -19,16 +19,17 @@
     "4S4BP61C887354122",
     "KL77LKEP5TC244458",
     "3GNEC12J77G233914",
+    "2GNAXFEV0N6135749",
     "3GCUKREC7FG224440",
     "1GNS6SKD2TR476681",
     "1GNS6GKL3TR392258",
     "1GCPKWEK1TZ496867",
     "1GCPKWEKXTZ496401",
     "1GNSCTKT5MR369566",
-    "1GNSKGKL7RR101670",
     "KL77LFEP3TC272914",
     "KL77LKEP9TC274546",
-    "1GKKRRKD9EJ161844"
+    "1GKKRRKD9EJ161844",
+    "1GCGSBE33F1250567"
   ],
   "no_days_in_stock_count": 0,
   "no_days_in_stock_vins": [],
@@ -151,9 +152,9 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 18495
+        "fikes_price": 17395
       },
-      "price": 18495,
+      "price": 17395,
       "images": [
         "https://vini.gm.com/realimages/3GNAXHEG4PL152680/166a3f6.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEG4PL152680/64034b5.jpeg",
@@ -1456,9 +1457,9 @@
         "msrp": 60420,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 48995
+        "fikes_price": 48495
       },
-      "price": 48995,
+      "price": 48495,
       "images": [
         "https://vini.gm.com/realimages/1GTUUGE81RZ187285/5f7add2.jpeg",
         "https://vini.gm.com/realimages/1GTUUGE81RZ187285/f738d5a.jpeg",
@@ -1593,9 +1594,9 @@
         "msrp": 60420,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 48895
+        "fikes_price": 48495
       },
-      "price": 48895,
+      "price": 48495,
       "images": [
         "https://vini.gm.com/realimages/3GCUDFEL3RG306887/87a2e4c.jpeg",
         "https://vini.gm.com/realimages/3GCUDFEL3RG306887/602ca42.jpeg",
@@ -1784,9 +1785,9 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 14795
+        "fikes_price": 13295
       },
-      "price": 14795,
+      "price": 13295,
       "images": [
         "https://vini.gm.com/realimages/KL4CJASB2KB707939/35ba635.jpeg",
         "https://vini.gm.com/realimages/KL4CJASB2KB707939/b7595da.jpeg",
@@ -3042,9 +3043,9 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 17895
+        "fikes_price": 17995
       },
-      "price": 17895,
+      "price": 17995,
       "images": [
         "https://vini.gm.com/realimages/1GCHSBEA2F1153413/8925052.jpeg",
         "https://vini.gm.com/realimages/1GCHSBEA2F1153413/44f3b0e.jpeg",
@@ -3293,9 +3294,9 @@
         "msrp": 26615,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 25995
+        "fikes_price": 25795
       },
-      "price": 25995,
+      "price": 25795,
       "images": [
         "https://vini.gm.com/realimages/3GNAXNEG6RL134859/2126ad2.jpeg",
         "https://vini.gm.com/realimages/3GNAXNEG6RL134859/cd6cf3b.jpeg",
@@ -3779,9 +3780,9 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 18995
+        "fikes_price": 18895
       },
-      "price": 18995,
+      "price": 18895,
       "images": [
         "https://vini.gm.com/realimages/2GNAX5EV1N6116248/fcb9f2c.jpeg",
         "https://vini.gm.com/realimages/2GNAX5EV1N6116248/37bfde0.jpeg",
@@ -3900,6 +3901,35 @@
       "date_first_on_lot": "2026-08-31",
       "pricing": {
         "msrp": 73148,
+        "sales_event_discount": null,
+        "net_price": null,
+        "fikes_price": null
+      },
+      "price": null,
+      "images": []
+    },
+    {
+      "vin": "2GNAXFEV0N6135749",
+      "condition": "used",
+      "year": "2022",
+      "make": "Chevrolet",
+      "model": "Equinox",
+      "trim": "LS Front Wheel Drive SUV",
+      "title": "Pre-Owned 2022 Chevrolet Equinox LS Front Wheel Drive SUV",
+      "url": "https://www.fikeschevy.com/inventory/used-2022-chevrolet-equinox-ls-front-wheel-drive-suv-2gnaxfev0n6135749/",
+      "exterior_color": "IRON GRAY METALLIC",
+      "interior_color": "MEDIUM ASH GRAY, PREMIUM CLOTH SEAT TRIM",
+      "drivetrain": "Front Wheel Drive",
+      "transmission": "Automatic",
+      "engine": "1.5L Turbo Gas Engine",
+      "mileage": 143930,
+      "fuel_type": null,
+      "body_style": "Sport Utility Vehicle",
+      "stock_number": "24903",
+      "days_in_stock": 22,
+      "date_first_on_lot": "2026-08-31",
+      "pricing": {
+        "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
         "fikes_price": null
@@ -4474,9 +4504,9 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": null
+        "fikes_price": 25495
       },
-      "price": null,
+      "price": 25495,
       "images": [
         "https://vini.gm.com/realimages/1GCGSBEN1N1122781/fb515b5.jpeg",
         "https://vini.gm.com/realimages/1GCGSBEN1N1122781/8eb4a19.jpeg",
@@ -4536,10 +4566,58 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": null
+        "fikes_price": 59995
       },
-      "price": null,
-      "images": []
+      "price": 59995,
+      "images": [
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/18024a2.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/a26380c.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/fffa3bf.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/8dd757b.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/a3614e9.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/9a619e7.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/5dabaa1.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/bcaae65.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/ea1599a.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/1f74052.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/5f955b1.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/8a2889e.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/3ab8cdf.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/d1cd0e3.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/fea99ff.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/02a17ac.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/2981ad9.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/c4b3f1d.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/96a18be.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/d84673d.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/bf0697e.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/f826c9d.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/56d9db5.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/db3fda8.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/58200f0.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/de1e4f4.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/8c6cc77.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/72e978c.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/c613dc2.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/935b668.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/9c66aec.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/1821551.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/9699a4d.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/3133c99.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/c2d57cf.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/81da27e.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/53490c9.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/be4ce90.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/8279c7c.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/195d396.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/e3b5c1b.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/a3d8759.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/dfa0185.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/1231958.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/51254d1.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/1cfcc15.jpeg",
+        "https://vini.gm.com/realimages/1GNSKGKL7RR101670/7122023.jpeg"
+      ]
     },
     {
       "vin": "1GYKPAR48PZ175502",
@@ -4565,9 +4643,9 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 28495
+        "fikes_price": 28695
       },
-      "price": 28495,
+      "price": 28695,
       "images": [
         "https://vini.gm.com/realimages/1GYKPAR48PZ175502/8a892df.jpeg",
         "https://vini.gm.com/realimages/1GYKPAR48PZ175502/c3f559c.jpeg",
@@ -4600,39 +4678,7 @@
         "https://vini.gm.com/realimages/1GYKPAR48PZ175502/d81aae5.jpeg",
         "https://vini.gm.com/realimages/1GYKPAR48PZ175502/83b305d.jpeg",
         "https://vini.gm.com/realimages/1GYKPAR48PZ175502/0272aa3.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/a3949e0.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/1c63a14.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/f8da78b.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/a0eab1f.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/a3ac59e.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/856ac91.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/86d6249.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/4d75f38.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/3fbf241.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/dfda85b.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/7c55daf.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/62e1c4d.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/37a905b.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/4474361.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/56f66e9.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/8dfc667.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/9c68b97.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/dacb558.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/4adf48f.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/00a2d8a.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/0f8fb78.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/f0c945d.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/0349ef6.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/3d9549e.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/e6f99e0.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/90a9c07.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/d865187.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/13be729.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/cb175f9.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/732e546.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/d7066ce.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/2a8338d.jpeg",
-        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/6ba0bae.jpeg"
+        "https://vini.gm.com/realimages/1GYKPAR48PZ175502/a3949e0.jpeg"
       ]
     },
     {
@@ -4775,9 +4821,9 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "fikes_price": 48995
+        "fikes_price": 48295
       },
-      "price": 48995,
+      "price": 48295,
       "images": [
         "https://vini.gm.com/realimages/2GC4KME76S1112334/6d72965.jpeg",
         "https://vini.gm.com/realimages/2GC4KME76S1112334/0a61f5f.jpeg",
@@ -4910,12 +4956,39 @@
       },
       "price": null,
       "images": []
+    },
+    {
+      "vin": "1GCGSBE33F1250567",
+      "condition": "used",
+      "year": "2015",
+      "make": "Chevrolet",
+      "model": "Colorado",
+      "trim": "2WD LT Rear Wheel Drive Crew Cab",
+      "title": "Pre-Owned 2015 Chevrolet Colorado 2WD LT Rear Wheel Drive Crew Cab",
+      "url": "https://www.fikeschevy.com/inventory/used-2015-chevrolet-colorado-2wd-lt-rear-wheel-drive-crew-cab-1gcgsbe33f1250567/",
+      "exterior_color": "SUMMIT WHITE",
+      "interior_color": "JET BLACK/DARK ASH, CLOTH SEAT TRIM",
+      "drivetrain": "Rear Wheel Drive",
+      "transmission": "Automatic",
+      "engine": "Engine - Gas, 3.6L 6 Cylinder, SIDI, DOHC, VVT",
+      "mileage": 123816,
+      "fuel_type": null,
+      "body_style": "Crew Cab Pickup",
+      "stock_number": "24786A",
+      "days_in_stock": 62,
+      "date_first_on_lot": "2026-07-22",
+      "pricing": {
+        "msrp": null,
+        "sales_event_discount": null,
+        "net_price": null,
+        "fikes_price": null
+      },
+      "price": null,
+      "images": []
     }
   ],
-  "sold_tracking_count": 11,
+  "sold_tracking_count": 9,
   "sold_tracking_vins": [
-    "1GYKPCRSXNZ103952",
-    "2G1WT57K491153920",
     "5FNRL5H90DB049379",
     "KL77LKEP0TC238177",
     "3FA6P0LU4KR188843",

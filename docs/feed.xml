@@ -2,9 +2,9 @@
 <!-- Fikes Vehicles — Meta Commerce Manager automotive inventory feed -->
 <!-- Pixel ID 911722818604064 is associated with this catalog via Commerce -->
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
-<!-- 16 vehicle(s) excluded from this feed for having -->
+<!-- 17 vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
-<!-- 4 vehicle(s) included below as availability=SOLD -->
+<!-- 3 vehicle(s) included below as availability=SOLD -->
 <!-- (dropped out of the live scrape within the last 3 runs; -->
 <!-- see docs/sold-tracking.json). -->
 <listings>
@@ -239,7 +239,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2023-chevrolet-equinox-ls-front-wheel-drive-suv-3gnaxheg4pl152680/</url>
     <title>Pre-Owned 2023 Chevrolet Equinox LS Front Wheel Drive SUV</title>
     <body_style>SUV</body_style>
-    <price>18495.00 USD</price>
+    <price>17395.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -2936,7 +2936,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-1gtuuge81rz187285/</url>
     <title>Pre-Owned 2024 GMC Sierra 1500 Denali Four Wheel Drive Crew Cab</title>
     <body_style>PICKUP</body_style>
-    <price>48995.00 USD</price>
+    <price>48495.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -3231,7 +3231,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcudfel3rg306887/</url>
     <title>Pre-Owned 2024 Chevrolet Silverado 1500 LT Trail Boss Four Wheel Drive Crew Cab</title>
     <body_style>PICKUP</body_style>
-    <price>48895.00 USD</price>
+    <price>48495.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -3630,7 +3630,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2019-buick-encore-preferred-front-wheel-drive-suv-kl4cjasb2kb707939/</url>
     <title>Pre-Owned 2019 Buick Encore Preferred Front Wheel Drive SUV</title>
     <body_style>SUV</body_style>
-    <price>14795.00 USD</price>
+    <price>13295.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -6157,7 +6157,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2015-chevrolet-colorado-2wd-lt-rear-wheel-drive-extended-cab-1gchsbea2f1153413/</url>
     <title>Pre-Owned 2015 Chevrolet Colorado 2WD LT Rear Wheel Drive Extended Cab</title>
     <body_style>PICKUP</body_style>
-    <price>17895.00 USD</price>
+    <price>17995.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -6678,7 +6678,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-chevrolet-equinox-premier-front-wheel-drive-suv-3gnaxneg6rl134859/</url>
     <title>Pre-Owned 2024 Chevrolet Equinox Premier Front Wheel Drive SUV</title>
     <body_style>SUV</body_style>
-    <price>25995.00 USD</price>
+    <price>25795.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -7440,7 +7440,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2022-chevrolet-equinox-ls-all-wheel-drive-suv-2gnax5ev1n6116248/</url>
     <title>Pre-Owned 2022 Chevrolet Equinox LS All Wheel Drive SUV</title>
     <body_style>SUV</body_style>
-    <price>18995.00 USD</price>
+    <price>18895.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -8452,7 +8452,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2022-chevrolet-colorado-2wd-work-truck-rear-wheel-drive-crew-cab-1gcgsben1n1122781/</url>
     <title>Pre-Owned 2022 Chevrolet Colorado 2WD Work Truck Rear Wheel Drive Crew Cab</title>
     <body_style>PICKUP</body_style>
-    <price></price>
+    <price>25495.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -8575,12 +8575,185 @@
     </image>
   </listing>
   <listing>
+    <vehicle_id>1GNSKGKL7RR101670</vehicle_id>
+    <description>63,957 miles, Iridescent Pearl Tricoat exterior, Jet Black/Mocha, Perforated leather seating surfaces interior, Automatic, 6.2L V8 engine</description>
+    <url>https://www.fikeschevy.com/inventory/used-2024-chevrolet-suburban-high-country-four-wheel-drive-suv-1gnskgkl7rr101670/</url>
+    <title>Pre-Owned 2024 Chevrolet Suburban High Country Four Wheel Drive SUV</title>
+    <body_style>SUV</body_style>
+    <price>59995.00 USD</price>
+    <address format="simple">
+      <component name="addr1">771 Military St N</component>
+      <component name="city">Hamilton</component>
+      <component name="region">AL</component>
+      <component name="postal_code">35570</component>
+      <component name="country">US</component>
+    </address>
+    <make>Chevrolet</make>
+    <model>Suburban</model>
+    <year>2024</year>
+    <vin>1GNSKGKL7RR101670</vin>
+    <availability>AVAILABLE</availability>
+    <state_of_vehicle>USED</state_of_vehicle>
+    <mileage>
+      <unit>MI</unit>
+      <value>63957</value>
+    </mileage>
+    <transmission>AUTOMATIC</transmission>
+    <drivetrain>4X4</drivetrain>
+    <exterior_color>Iridescent Pearl Tricoat</exterior_color>
+    <interior_color>Jet Black/Mocha, Perforated leather seating surfaces</interior_color>
+    <vehicle_type>car_truck</vehicle_type>
+    <date_first_on_lot>2026-09-10</date_first_on_lot>
+    <custom_number_0>12</custom_number_0>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/18024a2.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/a26380c.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/fffa3bf.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/8dd757b.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/a3614e9.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/9a619e7.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/5dabaa1.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/bcaae65.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/ea1599a.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/1f74052.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/5f955b1.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/8a2889e.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/3ab8cdf.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/d1cd0e3.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/fea99ff.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/02a17ac.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/2981ad9.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/c4b3f1d.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/96a18be.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/d84673d.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/bf0697e.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/f826c9d.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/56d9db5.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/db3fda8.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/58200f0.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/de1e4f4.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/8c6cc77.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/72e978c.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/c613dc2.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/935b668.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/9c66aec.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/1821551.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/9699a4d.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/3133c99.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/c2d57cf.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/81da27e.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/53490c9.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/be4ce90.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/8279c7c.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/195d396.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/e3b5c1b.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/a3d8759.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/dfa0185.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/1231958.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/51254d1.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/1cfcc15.jpeg</url>
+    </image>
+    <image>
+      <url>https://vini.gm.com/realimages/1GNSKGKL7RR101670/7122023.jpeg</url>
+    </image>
+  </listing>
+  <listing>
     <vehicle_id>1GYKPAR48PZ175502</vehicle_id>
     <description>58,707 miles, CRYSTAL WHITE TRICOAT exterior, (With Lunar Brushed aluminum trim.) interior, Automatic, 2.0L Turbo 4-cylinder engine</description>
     <url>https://www.fikeschevy.com/inventory/used-2023-cadillac-xt6-fwd-luxury-front-wheel-drive-suv-1gykpar48pz175502/</url>
     <title>Pre-Owned 2023 Cadillac XT6 FWD Luxury Front Wheel Drive SUV</title>
     <body_style>SUV</body_style>
-    <price>28495.00 USD</price>
+    <price>28695.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -8700,102 +8873,6 @@
     </image>
     <image>
       <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/a3949e0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/1c63a14.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/f8da78b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/a0eab1f.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/a3ac59e.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/856ac91.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/86d6249.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/4d75f38.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/3fbf241.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/dfda85b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/7c55daf.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/62e1c4d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/37a905b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/4474361.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/56f66e9.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/8dfc667.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/9c68b97.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/dacb558.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/4adf48f.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/00a2d8a.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/0f8fb78.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/f0c945d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/0349ef6.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/3d9549e.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/e6f99e0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/90a9c07.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/d865187.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/13be729.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/cb175f9.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/732e546.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/d7066ce.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/2a8338d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/6ba0bae.jpeg</url>
     </image>
   </listing>
   <listing>
@@ -8920,7 +8997,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2025-chevrolet-silverado-2500-hd-custom-four-wheel-drive-crew-cab-2gc4kme76s1112334/</url>
     <title>Pre-Owned 2025 Chevrolet Silverado 2500 HD Custom Four Wheel Drive Crew Cab</title>
     <body_style>PICKUP</body_style>
-    <price>48995.00 USD</price>
+    <price>48295.00 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -9189,137 +9266,6 @@
     </image>
     <image>
       <url>https://vini.gm.com/realimages/1GNERGKS4VJ134988/041ed7c.jpeg</url>
-    </image>
-  </listing>
-  <listing>
-    <vehicle_id>1GYKPCRSXNZ103952</vehicle_id>
-    <description>27,776 miles, Crystal White Tricoat exterior, Cirrus, Leather Seating Surfaces with Mini-Perforated inserts interior, Automatic, 3.6L V6 engine</description>
-    <url>https://www.fikeschevy.com/inventory/used-2022-cadillac-xt6-premium-luxury-front-wheel-drive-suv-1gykpcrsxnz103952/</url>
-    <title>Pre-Owned 2022 Cadillac XT6 Premium Luxury Front Wheel Drive SUV</title>
-    <body_style>SUV</body_style>
-    <price>33995.00 USD</price>
-    <address format="simple">
-      <component name="addr1">771 Military St N</component>
-      <component name="city">Hamilton</component>
-      <component name="region">AL</component>
-      <component name="postal_code">35570</component>
-      <component name="country">US</component>
-    </address>
-    <make>Cadillac</make>
-    <model>XT6</model>
-    <year>2022</year>
-    <vin>1GYKPCRSXNZ103952</vin>
-    <availability>SOLD</availability>
-    <state_of_vehicle>USED</state_of_vehicle>
-    <mileage>
-      <unit>MI</unit>
-      <value>27776</value>
-    </mileage>
-    <transmission>AUTOMATIC</transmission>
-    <drivetrain>FWD</drivetrain>
-    <exterior_color>Crystal White Tricoat</exterior_color>
-    <interior_color>Cirrus, Leather Seating Surfaces with Mini-Perforated inserts</interior_color>
-    <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-07-02</date_first_on_lot>
-    <custom_number_0>78</custom_number_0>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/a01483f.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/fad2017.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/9ec80cd.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/63b93de.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/fe08822.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/dfae201.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/f3eddd1.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/ed4faad.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/aa9b17b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/1b28b9e.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/e146996.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/a3a5d69.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/dadc149.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/3eea60a.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/e01cc45.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/0b3fb2f.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/f59464b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/38757bd.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/9b1f1cf.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/d40bbb8.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/05fb2e3.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/dd9bf92.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/81f1901.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/d3c9cb3.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/ca58440.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/15f3446.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/56a8ba0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/c97dbeb.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/6c2a4a4.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/d02732a.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/be65d69.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/9651044.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/1GYKPCRSXNZ103952/08ebeec.jpeg</url>
     </image>
   </listing>
   <listing>

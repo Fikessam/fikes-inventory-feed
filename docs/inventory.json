@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:41:44.177Z",
+  "generated_at": "2026-09-29T21:34:26.063Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -8,10 +8,10 @@
     "zip": "35570",
     "country": "US"
   },
-  "total_vehicles": 83,
-  "new_count": 27,
+  "total_vehicles": 84,
+  "new_count": 28,
   "used_count": 56,
-  "no_image_count": 17,
+  "no_image_count": 18,
   "no_image_vins": [
     "3D7MX48CX6G233591",
     "2GC4KNEY3T1229837",
@@ -29,7 +29,8 @@
     "KL79MPSL1RB128869",
     "2G1125S32F9213011",
     "LRBFX3SX8KD059163",
-    "19XFC1F35JE002389"
+    "19XFC1F35JE002389",
+    "2GC4KME78T1221024"
   ],
   "no_days_in_stock_count": 0,
   "no_days_in_stock_vins": [],
@@ -4643,12 +4644,39 @@
       },
       "price": 15189,
       "images": []
+    },
+    {
+      "vin": "2GC4KME78T1221024",
+      "condition": "new",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Silverado 2500",
+      "trim": "HD Custom Four Wheel Drive Crew Cab",
+      "title": "New 2026 Chevrolet Silverado 2500 HD Custom Four Wheel Drive Crew Cab",
+      "url": "https://www.fikeschevy.com/inventory/new-2026-chevrolet-silverado-2500-hd-custom-four-wheel-drive-crew-cab-2gc4kme78t1221024/",
+      "exterior_color": "White Sands",
+      "interior_color": "Jet Black, Cloth seat trim",
+      "drivetrain": "Four Wheel Drive",
+      "transmission": "Automatic",
+      "engine": "6.6L V8 Gas engine",
+      "mileage": 437,
+      "fuel_type": null,
+      "body_style": null,
+      "stock_number": "24961",
+      "days_in_stock": 67,
+      "date_first_on_lot": "2026-07-24",
+      "pricing": {
+        "msrp": 61915,
+        "sales_event_discount": null,
+        "net_price": null,
+        "fikes_price": null
+      },
+      "price": 61915,
+      "images": []
     }
   ],
-  "sold_tracking_count": 7,
+  "sold_tracking_count": 5,
   "sold_tracking_vins": [
-    "KL79MMSL0TB167460",
-    "1GNSCTKT5MR369566",
     "1GNSKGKL7RR101670",
     "3GNAXHEG7TL516259",
     "1GC4KME78TF344055",

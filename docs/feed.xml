@@ -4,7 +4,7 @@
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
 <!-- 18 vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
-<!-- 89 vehicle(s) included below as availability=SOLD -->
+<!-- 89 vehicle(s) included below as availability=NOT_AVAILABLE -->
 <!-- (dropped out of the live scrape within the last 3 runs; -->
 <!-- see docs/sold-tracking.json). -->
 <listings>
@@ -9106,7 +9106,7 @@
     <model>Equinox</model>
     <year>2026</year>
     <vin>3GNAXHEG7TL516259</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -9233,7 +9233,7 @@
     <model>Silverado 2500</model>
     <year>2026</year>
     <vin>1GC4KME78TF344055</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -9360,7 +9360,7 @@
     <model>Colorado</model>
     <year>2021</year>
     <vin>1GCHSBEA8M1107744</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -9475,7 +9475,7 @@
     <model>Silverado 2500</model>
     <year>2025</year>
     <vin>2GC4KME76S1112334</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -9611,7 +9611,7 @@
     <model>1500</model>
     <year>2016</year>
     <vin>3C6JR6AGXGG318021</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -9648,7 +9648,7 @@
     <model>Equinox</model>
     <year>2024</year>
     <vin>3GNAXHEG2RL198088</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -9775,7 +9775,7 @@
     <model>Suburban</model>
     <year>2024</year>
     <vin>1GNSKGKL7RR101670</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -9947,7 +9947,7 @@
     <model>Trailblazer</model>
     <year>2026</year>
     <vin>KL79MMSL0TB167460</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -10068,7 +10068,7 @@
     <model>Tahoe</model>
     <year>2021</year>
     <vin>1GNSCTKT5MR369566</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -10246,7 +10246,7 @@
     <model>Equinox</model>
     <year>2023</year>
     <vin>3GNAXHEG4PL152680</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -10373,7 +10373,7 @@
     <model>Silverado 1500</model>
     <year>2022</year>
     <vin>3GCUDHEL4NG601499</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -10500,7 +10500,7 @@
     <model>Equinox</model>
     <year>2026</year>
     <vin>3GNAXHEG2TL479282</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -10612,7 +10612,7 @@
     <model>Traverse</model>
     <year>2027</year>
     <vin>1GNERGKS0VJ115970</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -10745,7 +10745,7 @@
     <model>Trax</model>
     <year>2026</year>
     <vin>KL77LKEP0TC238177</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -10872,7 +10872,7 @@
     <model>Silverado 2500</model>
     <year>2026</year>
     <vin>2GC4KNE74T1205800</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -11017,7 +11017,7 @@
     <model>Equinox</model>
     <year>2020</year>
     <vin>3GNAXUEV3LS525733</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -11147,7 +11147,7 @@
     <model>XT6</model>
     <year>2022</year>
     <vin>1GYKPCRSXNZ103952</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -11277,7 +11277,7 @@
     <model>Equinox</model>
     <year>2026</year>
     <vin>3GNAXLEG3TL539797</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -11413,7 +11413,7 @@
     <model>Colorado</model>
     <year>2026</year>
     <vin>1GCPSBEK8T1289190</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -11537,7 +11537,7 @@
     <model>Gladiator</model>
     <year>2020</year>
     <vin>1C6JJTBGXLL117821</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -11667,7 +11667,7 @@
     <model>Pacifica</model>
     <year>2020</year>
     <vin>2C4RC1GG7LR285779</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -11794,7 +11794,7 @@
     <model>Accord</model>
     <year>2025</year>
     <vin>1HGCY1F25SA012082</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -11921,7 +11921,7 @@
     <model>Tahoe</model>
     <year>2026</year>
     <vin>1GNS6TKL8TR462555</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -12081,7 +12081,7 @@
     <model>Traverse</model>
     <year>2026</year>
     <vin>1GNERGKS4TJ325274</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -12205,7 +12205,7 @@
     <model>Suburban</model>
     <year>2026</year>
     <vin>1GNS6CKD7TR306421</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -12350,7 +12350,7 @@
     <model>3</model>
     <year>2021</year>
     <vin>3MW5R1J05M8C03877</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -12483,7 +12483,7 @@
     <model>Equinox</model>
     <year>2020</year>
     <vin>3GNAXHEV8LS534824</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -12604,7 +12604,7 @@
     <model>Silverado 1500</model>
     <year>2021</year>
     <vin>3GCUYEED6MG250931</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -12740,7 +12740,7 @@
     <model>Corvette</model>
     <year>2008</year>
     <vin>1G1YY26W185130461</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -12837,7 +12837,7 @@
     <model>Colorado</model>
     <year>2020</year>
     <vin>1GCGSCEA7L1176845</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -12964,7 +12964,7 @@
     <model>4Runner</model>
     <year>2019</year>
     <vin>JTEBU5JR8K5627344</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -13091,7 +13091,7 @@
     <model>Silverado 3500</model>
     <year>2018</year>
     <vin>1GC4K0CY4JF115566</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -13224,7 +13224,7 @@
     <model>Civic</model>
     <year>2011</year>
     <vin>19XFA1F56BE014267</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -13345,7 +13345,7 @@
     <model>Trailblazer</model>
     <year>2024</year>
     <vin>KL79MVSL8RB134799</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -13463,7 +13463,7 @@
     <model>Sonata</model>
     <year>2018</year>
     <vin>5NPE24AF8JH613336</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -13500,7 +13500,7 @@
     <model>GLB 250</model>
     <year>2025</year>
     <vin>W1N4M4GB5SW400097</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -13645,7 +13645,7 @@
     <model>Traverse</model>
     <year>2026</year>
     <vin>1GNERGKS8TJ372632</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -13778,7 +13778,7 @@
     <model>Sonata</model>
     <year>2017</year>
     <vin>5NPE24AF1HH460812</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -13815,7 +13815,7 @@
     <model>Encore</model>
     <year>2017</year>
     <vin>KL4CJASB5HB104850</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -13948,7 +13948,7 @@
     <model>Silverado 3500</model>
     <year>2026</year>
     <vin>1GB4KSEY8TF157853</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -14057,7 +14057,7 @@
     <model>Encore</model>
     <year>2016</year>
     <vin>KL4CJASB6GB575047</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -14187,7 +14187,7 @@
     <model>XT4</model>
     <year>2019</year>
     <vin>1GYFZCR49KF177972</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -14308,7 +14308,7 @@
     <model>Enclave</model>
     <year>2020</year>
     <vin>5GAERDKW5LJ151372</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -14450,7 +14450,7 @@
     <model>Silverado 1500</model>
     <year>2026</year>
     <vin>1GCPKWEK1TZ381671</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -14580,7 +14580,7 @@
     <model>Colorado</model>
     <year>2026</year>
     <vin>1GCPSBEK0T1275042</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -14707,7 +14707,7 @@
     <model>CR-V</model>
     <year>2014</year>
     <vin>2HKRM3H74EH507993</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -14846,7 +14846,7 @@
     <model>F-150</model>
     <year>2014</year>
     <vin>1FTFW1ET7EFC68470</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -14973,7 +14973,7 @@
     <model>Wrangler</model>
     <year>2018</year>
     <vin>1C4AJWAG6JL812600</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -15079,7 +15079,7 @@
     <model>Trailblazer</model>
     <year>2023</year>
     <vin>KL79MMS28PB044986</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -15203,7 +15203,7 @@
     <model>Trailblazer</model>
     <year>2026</year>
     <vin>KL79MMSL5TB209668</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -15318,7 +15318,7 @@
     <model>Trailblazer</model>
     <year>2026</year>
     <vin>KL79MPSL9TB210565</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -15442,7 +15442,7 @@
     <model>Equinox</model>
     <year>2018</year>
     <vin>2GNAXMEV1J6102533</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -15566,7 +15566,7 @@
     <model>Colorado</model>
     <year>2018</year>
     <vin>1GCGSCEN8J1211540</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -15789,7 +15789,7 @@
     <model>Colorado</model>
     <year>2018</year>
     <vin>1GCHSDEN9J1163380</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -15910,7 +15910,7 @@
     <model>Equinox</model>
     <year>2026</year>
     <vin>3GNAXHEG1TL130713</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -16031,7 +16031,7 @@
     <model>RAV4</model>
     <year>2025</year>
     <vin>2T3H1RFV2SC335705</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -16161,7 +16161,7 @@
     <model>Tahoe</model>
     <year>2018</year>
     <vin>1GNSKBKC9JR403131</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -16294,7 +16294,7 @@
     <model>Ram 1500</model>
     <year>2007</year>
     <vin>1D7HA182X7S188915</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -16421,7 +16421,7 @@
     <model>Canyon</model>
     <year>2022</year>
     <vin>1GTG6EEN9N1318246</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -16551,7 +16551,7 @@
     <model>LaCrosse</model>
     <year>2019</year>
     <vin>1G4ZU5SS6KU129584</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -16678,7 +16678,7 @@
     <model>F-250</model>
     <year>2015</year>
     <vin>1FT7W2BTXFED49095</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -16715,7 +16715,7 @@
     <model>NX</model>
     <year>2018</year>
     <vin>JTJYARBZ3J2093809</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -16842,7 +16842,7 @@
     <model>Tahoe</model>
     <year>2024</year>
     <vin>1GNSKNKD1RR184381</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -16993,7 +16993,7 @@
     <model>Traverse</model>
     <year>2023</year>
     <vin>1GNEVNKW7PJ284888</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -17129,7 +17129,7 @@
     <model>Silverado 1500</model>
     <year>2026</year>
     <vin>3GCUKFED7TG375491</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -17262,7 +17262,7 @@
     <model>RX 350</model>
     <year>2016</year>
     <vin>2T2BZMCA8GC049467</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -17398,7 +17398,7 @@
     <model>Rover</model>
     <year>2016</year>
     <vin>SALAG2V67GA840962</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -17543,7 +17543,7 @@
     <model>9-3</model>
     <year>2007</year>
     <vin>YS3FD46Y371115885</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -17664,7 +17664,7 @@
     <model>Silverado 3500</model>
     <year>2026</year>
     <vin>1GB4KTEY4TF241108</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -17773,7 +17773,7 @@
     <model>Silverado 1500</model>
     <year>2026</year>
     <vin>1GCPKWEK4TZ357851</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -17897,7 +17897,7 @@
     <model>Equinox</model>
     <year>2018</year>
     <vin>2GNAXHEV1J6314937</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -18024,7 +18024,7 @@
     <model>Silverado 1500</model>
     <year>2026</year>
     <vin>2GCUKDED5T1193589</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -18148,7 +18148,7 @@
     <model>Silverado 1500</model>
     <year>2026</year>
     <vin>3GCUKCED7TG374954</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -18281,7 +18281,7 @@
     <model>Trax</model>
     <year>2020</year>
     <vin>KL7CJKSB8LB033838</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -18405,7 +18405,7 @@
     <model>Colorado</model>
     <year>2021</year>
     <vin>1GCGTBEN0M1142225</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -18529,7 +18529,7 @@
     <model>Trax</model>
     <year>2026</year>
     <vin>KL77LHEP9TC122883</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -18656,7 +18656,7 @@
     <model>Silverado 3500</model>
     <year>2026</year>
     <vin>1GC4KTEY8TF234450</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -18716,7 +18716,7 @@
     <model>Trax</model>
     <year>2026</year>
     <vin>KL77LFEP6TC157949</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -18776,7 +18776,7 @@
     <model>Traverse</model>
     <year>2026</year>
     <vin>1GNERGKS5TJ325784</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -18836,7 +18836,7 @@
     <model>Equinox</model>
     <year>2026</year>
     <vin>3GNAXHEG0TL492533</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -18896,7 +18896,7 @@
     <model>Traverse</model>
     <year>2017</year>
     <vin>1GNKRGKD2HJ204173</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -18956,7 +18956,7 @@
     <model>Equinox</model>
     <year>2026</year>
     <vin>3GNAXHEG4TL502304</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>NEW</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -19016,7 +19016,7 @@
     <model>Equinox</model>
     <year>2018</year>
     <vin>2GNAXMEV5J6339316</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -19076,7 +19076,7 @@
     <model>Santa</model>
     <year>2020</year>
     <vin>5NMS23AD4LH250495</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -19136,7 +19136,7 @@
     <model>Venza</model>
     <year>2014</year>
     <vin>4T3ZA3BB2EU082398</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -19196,7 +19196,7 @@
     <model>Tacoma</model>
     <year>2012</year>
     <vin>5TFUU4ENXCX047016</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -19256,7 +19256,7 @@
     <model>XT5</model>
     <year>2019</year>
     <vin>1GYKNERS5KZ155275</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -19316,7 +19316,7 @@
     <model>Altima</model>
     <year>2024</year>
     <vin>1N4BL4BV8RN373986</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
@@ -19376,7 +19376,7 @@
     <model>Altima</model>
     <year>2024</year>
     <vin>1N4BL4DV9RN348060</vin>
-    <availability>SOLD</availability>
+    <availability>NOT_AVAILABLE</availability>
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>

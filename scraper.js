@@ -63,7 +63,7 @@
  *                          downloaded XML template and live test uploads.
  *   docs/sold-tracking.json — internal state file (not uploaded to Meta).
  *                          Tracks VINs that disappeared from the live scrape
- *                          so they can be re-emitted with availability=SOLD
+ *                          so they can be re-emitted with availability=NOT_AVAILABLE
  *                          for a few runs before being dropped for good. See
  *                          updateSoldTracking() — this exists because a VIN
  *                          simply being absent from this feed does NOT
@@ -102,10 +102,13 @@ const OUTPUT_DIR = path.join(__dirname, 'docs');
 // anything else" declaration. Manual deletion in Commerce Manager is also
 // blocked for feed-managed catalogs (Meta forces edits through the feed).
 // So: when a VIN drops out of the scrape, we keep emitting it here with
-// availability=SOLD for a few runs (long enough for Meta's scheduled sync to
+// availability=NOT_AVAILABLE for a few runs (long enough for Meta's scheduled sync to
 // pick up the status change), then stop referencing it — Meta retains the
 // last-known SOLD status indefinitely once set, so we don't need to keep
 // emitting it forever.
+// NOTE: Meta's vehicle catalog only accepts AVAILABLE / NOT_AVAILABLE (plus
+// PENDING / UNKNOWN). "SOLD" is not a valid value and was silently ignored,
+// which is why sold vehicles stayed AVAILABLE in the catalog before 9/30/2026.
 const SOLD_GRACE_RUNS = 3;
 const SOLD_TRACKING_PATH = path.join(OUTPUT_DIR, 'sold-tracking.json');
 const USER_AGENT =
@@ -530,8 +533,41 @@ function normalizeTransmission(raw, vin) {
   );
   return 'OTHER';
 }
+// ----------------------------------------------------------------------------
+// Ad template helpers (custom labels for the Meta catalog image template)
+//   <title>          clean "Year Make Model" (DI's full title is too long for ad headlines)
+//   custom_label_0   mileage text, e.g. "48,210 mi" (or "New" for new vehicles)
+//   custom_label_1   one badge: Just Arrived (<14 days) > Under $20K (blank if none)
+//   custom_label_2   whole-dollar display price, e.g. "$16,994"
+//   custom_label_3   "current" on every AVAILABLE listing. Product sets filter on
+//                    this (exact match) so stale catalog items never reach ads.
+//   SOLD listings get no custom labels at all.
+// ----------------------------------------------------------------------------
+const JUST_ARRIVED_MAX_DAYS = 14;
+const UNDER_PRICE_THRESHOLD = 20000;
+function buildCleanTitle(v) {
+  const parts = [v.year, v.make, v.model].filter(Boolean);
+  return parts.length >= 2 ? parts.join(' ') : v.title;
+}
+function buildMileageLabel(v) {
+  if (v.condition === 'new') return 'New';
+  if (v.mileage != null && v.mileage > 0) return `${v.mileage.toLocaleString('en-US')} mi`;
+  return '';
+}
+function buildBadgeLabel(v) {
+  if (v.days_in_stock != null && v.days_in_stock < JUST_ARRIVED_MAX_DAYS) return 'Just Arrived';
+  if (v.price != null && v.price > 0 && v.price < UNDER_PRICE_THRESHOLD) return 'Under $20K';
+  return '';
+}
+function buildPriceLabel(v) {
+  if (v.price == null || v.price <= 0) return '';
+  return `$${Math.round(Number(v.price)).toLocaleString('en-US')}`;
+}
+function customLabelTag(n, value) {
+  return value ? `\n    <custom_label_${n}>${escapeXml(value)}</custom_label_${n}>` : '';
+}
 function vehicleToFeedItem(v, { availability = 'AVAILABLE' } = {}) {
-  const price = v.price != null ? `${Number(v.price).toFixed(2)} USD` : '';
+  const price = v.price != null ? `${Math.round(Number(v.price))} USD` : '';
   const images = v.images || [];
   const bodyStyle = normalizeBodyStyle(v);
   const imageBlocks = images
@@ -543,11 +579,18 @@ function vehicleToFeedItem(v, { availability = 'AVAILABLE' } = {}) {
   const customNumber0Tag = v.days_in_stock != null
     ? `\n    <custom_number_0>${v.days_in_stock}</custom_number_0>`
     : '';
+  const customLabelTags =
+    availability === 'AVAILABLE'
+      ? customLabelTag(0, buildMileageLabel(v)) +
+        customLabelTag(1, buildBadgeLabel(v)) +
+        customLabelTag(2, buildPriceLabel(v)) +
+        customLabelTag(3, 'current')
+      : '';
   return `  <listing>
     <vehicle_id>${escapeXml(v.vin)}</vehicle_id>
     <description>${escapeXml(buildDescription(v))}</description>
     <url>${escapeXml(v.url)}</url>
-    <title>${escapeXml(v.title)}</title>
+    <title>${escapeXml(buildCleanTitle(v))}</title>
     <body_style>${bodyStyle}</body_style>
     <price>${price}</price>
     <address format="simple">
@@ -571,7 +614,7 @@ function vehicleToFeedItem(v, { availability = 'AVAILABLE' } = {}) {
     <drivetrain>${normalizeDrivetrain(v.drivetrain, v.vin)}</drivetrain>
     <exterior_color>${escapeXml(v.exterior_color)}</exterior_color>
     <interior_color>${escapeXml(v.interior_color)}</interior_color>
-    <vehicle_type>car_truck</vehicle_type>${dateFirstOnLotTag}${customNumber0Tag}
+    <vehicle_type>car_truck</vehicle_type>${dateFirstOnLotTag}${customNumber0Tag}${customLabelTags}
 ${imageBlocks}
   </listing>`;
 }
@@ -597,7 +640,7 @@ function saveSoldTracking(tracking) {
 // VINs as sold (tracked for SOLD_GRACE_RUNS more runs), clears tracking for
 // any VIN that reappears, and expires tracking once the grace period passes.
 // Returns the array of vehicle records that should be emitted this run with
-// availability=SOLD.
+// availability=NOT_AVAILABLE.
 function updateSoldTracking(currentVehicles) {
   const previousVehicles = loadPreviousVehicles();
   const currentVinSet = new Set(currentVehicles.map((v) => v.vin));
@@ -607,7 +650,7 @@ function updateSoldTracking(currentVehicles) {
       tracking[prevVehicle.vin] = { vehicleData: prevVehicle, missingRunCount: 0 };
       console.log(
         `  VIN ${prevVehicle.vin} (${prevVehicle.title}) dropped out of the scrape — ` +
-          `will emit availability=SOLD in the feed for ${SOLD_GRACE_RUNS} more run(s).`
+          `will emit availability=NOT_AVAILABLE in the feed for ${SOLD_GRACE_RUNS} more run(s).`
       );
     }
   }
@@ -671,7 +714,7 @@ function writeOutputs(vehicles, soldVehicles = []) {
   const feedVehicles = vehicles.filter((v) => v.images && v.images.length > 0);
   const soldFeedVehicles = soldVehicles.filter((v) => v.images && v.images.length > 0);
   const activeItems = feedVehicles.map((v) => vehicleToFeedItem(v, { availability: 'AVAILABLE' })).join('\n');
-  const soldItems = soldFeedVehicles.map((v) => vehicleToFeedItem(v, { availability: 'SOLD' })).join('\n');
+  const soldItems = soldFeedVehicles.map((v) => vehicleToFeedItem(v, { availability: 'NOT_AVAILABLE' })).join('\n');
   const items = [activeItems, soldItems].filter(Boolean).join('\n');
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <!-- Fikes Vehicles — Meta Commerce Manager automotive inventory feed -->
@@ -679,7 +722,7 @@ function writeOutputs(vehicles, soldVehicles = []) {
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
 <!-- ${noImageVehicles.length} vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
-<!-- ${soldFeedVehicles.length} vehicle(s) included below as availability=SOLD -->
+<!-- ${soldFeedVehicles.length} vehicle(s) included below as availability=NOT_AVAILABLE -->
 <!-- (dropped out of the live scrape within the last ${SOLD_GRACE_RUNS} runs; -->
 <!-- see docs/sold-tracking.json). -->
 <listings>

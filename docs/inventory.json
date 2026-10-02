@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:40:39.563Z",
+  "generated_at": "2026-10-02T23:00:05.611Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -8,10 +8,10 @@
     "zip": "35570",
     "country": "US"
   },
-  "total_vehicles": 83,
+  "total_vehicles": 84,
   "new_count": 28,
-  "used_count": 55,
-  "no_image_count": 16,
+  "used_count": 56,
+  "no_image_count": 15,
   "no_image_vins": [
     "3D7MX48CX6G233591",
     "2GC4KNEY3T1229837",
@@ -20,14 +20,13 @@
     "1GCPKWEK1TZ496867",
     "KL77LFEP3TC272914",
     "KL77LKEP9TC274546",
-    "1GKKRRKD9EJ161844",
     "KL79MPSL1RB128869",
     "19XFC1F35JE002389",
     "KL77LHEP8TC288067",
     "KL77LFEP3TC288594",
     "KNDJP3A51G7332252",
     "1GC4KME7XTF411707",
-    "2C4RC1GGXPR504773",
+    "1GNSCGKL0PR283870",
     "1GC4KME7XTF411691"
   ],
   "no_days_in_stock_count": 0,
@@ -358,12 +357,12 @@
       "days_in_stock": 213,
       "date_first_on_lot": "2026-03-03",
       "pricing": {
-        "msrp": 59990,
+        "msrp": 60195,
         "sales_event_discount": 5000,
         "net_price": null,
         "fikes_price": null
       },
-      "price": 59990,
+      "price": 60195,
       "images": [
         "https://vini.gm.com/realimages/2GC4KMEY4T1175281/f4c78c1.jpeg",
         "https://vini.gm.com/realimages/2GC4KMEY4T1175281/3837ba7.jpeg",
@@ -477,7 +476,7 @@
       "date_first_on_lot": "2026-03-13",
       "pricing": {
         "msrp": 54305,
-        "sales_event_discount": 4000,
+        "sales_event_discount": 4500,
         "net_price": null,
         "fikes_price": null
       },
@@ -1701,12 +1700,12 @@
       "days_in_stock": 202,
       "date_first_on_lot": "2026-03-14",
       "pricing": {
-        "msrp": 70730,
+        "msrp": 60195,
         "sales_event_discount": 4500,
         "net_price": null,
         "fikes_price": null
       },
-      "price": 70730,
+      "price": 60195,
       "images": [
         "https://vini.gm.com/realimages/2GC4KME77T1179896/3662249.jpeg",
         "https://vini.gm.com/realimages/2GC4KME77T1179896/2b4da07.jpeg",
@@ -2904,7 +2903,7 @@
       "date_first_on_lot": "2026-08-19",
       "pricing": {
         "msrp": 72460,
-        "sales_event_discount": null,
+        "sales_event_discount": 5000,
         "net_price": null,
         "fikes_price": null
       },
@@ -2933,7 +2932,7 @@
       "date_first_on_lot": "2026-08-14",
       "pricing": {
         "msrp": 54305,
-        "sales_event_discount": null,
+        "sales_event_discount": 4500,
         "net_price": null,
         "fikes_price": null
       },
@@ -2993,7 +2992,7 @@
       "date_first_on_lot": "2026-08-26",
       "pricing": {
         "msrp": 60420,
-        "sales_event_discount": null,
+        "sales_event_discount": 2700,
         "net_price": null,
         "fikes_price": null
       },
@@ -3147,7 +3146,7 @@
       "date_first_on_lot": "2026-08-28",
       "pricing": {
         "msrp": 26425,
-        "sales_event_discount": null,
+        "sales_event_discount": 600,
         "net_price": null,
         "fikes_price": null
       },
@@ -3684,7 +3683,7 @@
       "date_first_on_lot": "2026-07-08",
       "pricing": {
         "msrp": 60195,
-        "sales_event_discount": null,
+        "sales_event_discount": 4500,
         "net_price": null,
         "fikes_price": null
       },
@@ -3812,7 +3811,7 @@
       "date_first_on_lot": "2026-09-04",
       "pricing": {
         "msrp": 54305,
-        "sales_event_discount": null,
+        "sales_event_discount": 4500,
         "net_price": null,
         "fikes_price": null
       },
@@ -3841,7 +3840,7 @@
       "date_first_on_lot": "2026-09-03",
       "pricing": {
         "msrp": 54305,
-        "sales_event_discount": null,
+        "sales_event_discount": 4500,
         "net_price": null,
         "fikes_price": null
       },
@@ -4163,7 +4162,7 @@
       "date_first_on_lot": "2026-09-11",
       "pricing": {
         "msrp": 24925,
-        "sales_event_discount": null,
+        "sales_event_discount": 600,
         "net_price": null,
         "fikes_price": null
       },
@@ -4250,7 +4249,7 @@
       "date_first_on_lot": "2026-09-12",
       "pricing": {
         "msrp": 28030,
-        "sales_event_discount": null,
+        "sales_event_discount": 600,
         "net_price": null,
         "fikes_price": null
       },
@@ -4279,7 +4278,7 @@
       "date_first_on_lot": "2026-08-27",
       "pricing": {
         "msrp": 46530,
-        "sales_event_discount": null,
+        "sales_event_discount": 2700,
         "net_price": null,
         "fikes_price": null
       },
@@ -4350,7 +4349,46 @@
         "fikes_price": null
       },
       "price": null,
-      "images": []
+      "images": [
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/2d8c5c6.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/eb7e7c2.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/e4057af.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/b74bd3e.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/399c55e.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/e1ebff3.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/941c980.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/e76e520.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/6fe50b5.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/9e376c1.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/ecf6718.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/8d7dbca.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/e99e6d3.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/e45bac8.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/4a35e93.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/b272abb.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/f18bd04.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/10ba19f.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/975d04f.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/c8b0aca.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/de48b9e.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/4a8594b.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/30d7609.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/bd36a4a.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/a99743a.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/5a77411.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/026496a.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/97c341f.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/8daaa01.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/b2ba384.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/135a29c.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/cba1a3b.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/48354d8.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/c78626b.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/3156baf.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/f656440.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/16a47fd.jpeg",
+        "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/a054d51.jpeg"
+      ]
     },
     {
       "vin": "1GCGSBE33F1250567",
@@ -4558,7 +4596,7 @@
       "date_first_on_lot": "2026-09-29",
       "pricing": {
         "msrp": 26425,
-        "sales_event_discount": null,
+        "sales_event_discount": 600,
         "net_price": null,
         "fikes_price": null
       },
@@ -4587,7 +4625,7 @@
       "date_first_on_lot": "2026-09-30",
       "pricing": {
         "msrp": 24925,
-        "sales_event_discount": null,
+        "sales_event_discount": 600,
         "net_price": null,
         "fikes_price": null
       },
@@ -4645,11 +4683,40 @@
       "date_first_on_lot": "2026-09-30",
       "pricing": {
         "msrp": 57435,
-        "sales_event_discount": null,
+        "sales_event_discount": 4500,
         "net_price": null,
         "fikes_price": null
       },
       "price": 57435,
+      "images": []
+    },
+    {
+      "vin": "1GNSCGKL0PR283870",
+      "condition": "used",
+      "year": "2023",
+      "make": "Chevrolet",
+      "model": "Suburban",
+      "trim": "High Country Rear Wheel Drive SUV",
+      "title": "Pre-Owned 2023 Chevrolet Suburban High Country Rear Wheel Drive SUV",
+      "url": "https://www.fikeschevy.com/inventory/used-2023-chevrolet-suburban-high-country-rear-wheel-drive-suv-1gnscgkl0pr283870/",
+      "exterior_color": "RADIANT RED TINTCOAT",
+      "interior_color": "(Interior color has lighter/darker two-tone effect.)",
+      "drivetrain": "Rear Wheel Drive",
+      "transmission": "Automatic",
+      "engine": "6.2L V8 engine",
+      "mileage": 100583,
+      "fuel_type": null,
+      "body_style": "Sport Utility Vehicle",
+      "stock_number": "24921A",
+      "days_in_stock": 2,
+      "date_first_on_lot": "2026-09-30",
+      "pricing": {
+        "msrp": null,
+        "sales_event_discount": null,
+        "net_price": null,
+        "fikes_price": null
+      },
+      "price": null,
       "images": []
     },
     {
@@ -4662,16 +4729,16 @@
       "title": "Pre-Owned 2023 Chrysler Pacifica Limited FWD FWD Sports Van",
       "url": "https://www.fikeschevy.com/inventory/used-2023-chrysler-pacifica-limited-fwd-fwd-sports-van-2c4rc1ggxpr504773/",
       "exterior_color": "Black",
-      "interior_color": "Driver And Passenger Heated And Ventilated Front Seats",
+      "interior_color": "Black",
       "drivetrain": "FWD",
-      "transmission": null,
+      "transmission": "9 Speed Automatic",
       "engine": "3.6L V6 24V VVT UPG I w/ESS",
       "mileage": 17072,
       "fuel_type": null,
       "body_style": "Passenger Van",
       "stock_number": "24915",
-      "days_in_stock": 1,
-      "date_first_on_lot": "2026-10-01",
+      "days_in_stock": 0,
+      "date_first_on_lot": "2026-10-02",
       "pricing": {
         "msrp": null,
         "sales_event_discount": null,
@@ -4679,7 +4746,46 @@
         "fikes_price": 32194
       },
       "price": 32194,
-      "images": []
+      "images": [
+        "https://vehicle-images.carscommerce.inc/3fe2-110005974/2C4RC1GGXPR504773/thumbnails/large/28eb0324a82551a87f4c02d56164289d.webp",
+        "https://vehicle-images.carscommerce.inc/3fe2-110005974/2C4RC1GGXPR504773/28eb0324a82551a87f4c02d56164289d.webp",
+        "https://vehicle-images.carscommerce.inc/5cd8-110005974/2C4RC1GGXPR504773/adeae538e8ec24f8d81a953a8045b020.webp",
+        "https://vehicle-images.carscommerce.inc/7a07-110005974/2C4RC1GGXPR504773/36025b000bfe9d8edb21959e25f5d3be.webp",
+        "https://vehicle-images.carscommerce.inc/158e-110005974/2C4RC1GGXPR504773/4d3193d35f4644abe01c5236e905c5eb.webp",
+        "https://vehicle-images.carscommerce.inc/fc3e-110005974/2C4RC1GGXPR504773/4a1256e5a3a60f0f447f467df63785ad.webp",
+        "https://vehicle-images.carscommerce.inc/1379-110005974/2C4RC1GGXPR504773/72fee7dbd055faf54758fda854b754b1.webp",
+        "https://vehicle-images.carscommerce.inc/10f5-110005974/2C4RC1GGXPR504773/2c2173033ae037a109338b04d3e15e1a.webp",
+        "https://vehicle-images.carscommerce.inc/b7c8-110005974/2C4RC1GGXPR504773/50e36a867a2ff32b46d9c7ca4d815513.webp",
+        "https://vehicle-images.carscommerce.inc/52b9-110005974/2C4RC1GGXPR504773/52811db4edc2ca96f9cbc6aaacc15e72.webp",
+        "https://vehicle-images.carscommerce.inc/cdda-110005974/2C4RC1GGXPR504773/41ce3320a1a374822d2410b8e5e26bde.webp",
+        "https://vehicle-images.carscommerce.inc/a871-110005974/2C4RC1GGXPR504773/028abbcb9b490b6af5d136d5c175dc0a.webp",
+        "https://vehicle-images.carscommerce.inc/fb5f-110005974/2C4RC1GGXPR504773/900f7e347c159b400b78c9586d843fd8.webp",
+        "https://vehicle-images.carscommerce.inc/46de-110005974/2C4RC1GGXPR504773/d3758de4f9490f73a51d3910580fe64c.webp",
+        "https://vehicle-images.carscommerce.inc/cd5a-110005974/2C4RC1GGXPR504773/14d1976b55d3c72edf9056738e68ff59.webp",
+        "https://vehicle-images.carscommerce.inc/1399-110005974/2C4RC1GGXPR504773/067feb5e6cf7231916989f01f920ebb8.webp",
+        "https://vehicle-images.carscommerce.inc/9aca-110005974/2C4RC1GGXPR504773/4d17aa93f38a944881e29d3d876660ec.webp",
+        "https://vehicle-images.carscommerce.inc/8890-110005974/2C4RC1GGXPR504773/787b418cf3f818bbf67525db40f8d526.webp",
+        "https://vehicle-images.carscommerce.inc/964c-110005974/2C4RC1GGXPR504773/f71be073a92fac2af182424ee943da11.webp",
+        "https://vehicle-images.carscommerce.inc/935e-110005974/2C4RC1GGXPR504773/5482ebb97b6970b8d5ef3e95631798eb.webp",
+        "https://vehicle-images.carscommerce.inc/4452-110005974/2C4RC1GGXPR504773/9a15313e729c3914429962e0a8b0f78a.webp",
+        "https://vehicle-images.carscommerce.inc/5e68-110005974/2C4RC1GGXPR504773/0737008c6875b8701793bcc26101f9f1.webp",
+        "https://vehicle-images.carscommerce.inc/17ff-110005974/2C4RC1GGXPR504773/c464aaa14eda1849035f4bac8956a796.webp",
+        "https://vehicle-images.carscommerce.inc/2fb9-110005974/2C4RC1GGXPR504773/e7d2f26ddb26f8aed407b7131d0d8e62.webp",
+        "https://vehicle-images.carscommerce.inc/5da0-110005974/2C4RC1GGXPR504773/003e11541513eba92e995996ab765b59.webp",
+        "https://vehicle-images.carscommerce.inc/aa3e-110005974/2C4RC1GGXPR504773/6dd36db83a4b6467a74589dcf6fc1550.webp",
+        "https://vehicle-images.carscommerce.inc/f9a8-110005974/2C4RC1GGXPR504773/87d41e3aae530e2202ea7a1026e01c42.webp",
+        "https://vehicle-images.carscommerce.inc/aba6-110005974/2C4RC1GGXPR504773/1207ad657fa3c74f5d3865160821f1fb.webp",
+        "https://vehicle-images.carscommerce.inc/1fa8-110005974/2C4RC1GGXPR504773/13fb9a73ded97e31dbe3f3de13378de9.webp",
+        "https://vehicle-images.carscommerce.inc/1ed9-110005974/2C4RC1GGXPR504773/d5c12ff49acc55f2df5edd6b26a342c4.webp",
+        "https://vehicle-images.carscommerce.inc/fd1f-110005974/2C4RC1GGXPR504773/787b8fe2c24e6642b0a15d13d73c27e0.webp",
+        "https://vehicle-images.carscommerce.inc/3d05-110005974/2C4RC1GGXPR504773/8357a03a4a9fda15b336e9d902cb248c.webp",
+        "https://vehicle-images.carscommerce.inc/955c-110005974/2C4RC1GGXPR504773/9582c7d1973b4b003da2432bd41117a5.webp",
+        "https://vehicle-images.carscommerce.inc/11bc-110005974/2C4RC1GGXPR504773/e9a179ebf4cdd935cee7580222fb899c.webp",
+        "https://vehicle-images.carscommerce.inc/13fd-110005974/2C4RC1GGXPR504773/21486c2dbc31d3bf5f8b1f274b49ff6a.webp",
+        "https://vehicle-images.carscommerce.inc/93df-110005974/2C4RC1GGXPR504773/791bdfc5e2257532caed3e6c6be2bf9a.webp",
+        "https://vehicle-images.carscommerce.inc/d683-110005974/2C4RC1GGXPR504773/246dbfe7253b46ea99f25a253035aac9.webp",
+        "https://vehicle-images.carscommerce.inc/9e32-110005974/2C4RC1GGXPR504773/9017325279e81c45e17a7362030dbf86.webp"
+      ]
     },
     {
       "vin": "1GC4KME7XTF411691",
@@ -4703,7 +4809,7 @@
       "date_first_on_lot": "2026-09-30",
       "pricing": {
         "msrp": 57435,
-        "sales_event_discount": null,
+        "sales_event_discount": 4500,
         "net_price": null,
         "fikes_price": null
       },
@@ -4711,10 +4817,6 @@
       "images": []
     }
   ],
-  "sold_tracking_count": 3,
-  "sold_tracking_vins": [
-    "3GNAXKEG4RS127378",
-    "1GNS6SKD2TR476681",
-    "1GNERLKS3TJ346528"
-  ]
+  "sold_tracking_count": 0,
+  "sold_tracking_vins": []
 }

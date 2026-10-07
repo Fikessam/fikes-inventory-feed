@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:57:50.667Z",
+  "generated_at": "2026-10-07T18:40:10.827Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -57,14 +57,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 20194,
-        "fikes_price": 19995,
+        "net_price_with_dealer_fees": 19694,
+        "fikes_price": 19495,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 19995,
+      "price": 19495,
       "images": [
         "https://vini.gm.com/realimages/3GNAXMEV7NS200005/8fb210b.jpeg",
         "https://vini.gm.com/realimages/3GNAXMEV7NS200005/f96581f.jpeg",
@@ -197,14 +197,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 20494,
-        "fikes_price": 20295,
+        "net_price_with_dealer_fees": 19894,
+        "fikes_price": 19695,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 20295,
+      "price": 19695,
       "images": [
         "https://vini.gm.com/realimages/1GNERGKW0LJ290395/b1b6f9b.jpeg",
         "https://vini.gm.com/realimages/1GNERGKW0LJ290395/1cac42e.jpeg",
@@ -582,14 +582,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 17894,
-        "fikes_price": 17695,
+        "net_price_with_dealer_fees": 17694,
+        "fikes_price": 17495,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 17695,
+      "price": 17495,
       "images": [
         "https://vini.gm.com/realimages/3GNAXFEV5NS120942/ce16582.jpeg",
         "https://vini.gm.com/realimages/3GNAXFEV5NS120942/e45ae1b.jpeg",
@@ -714,14 +714,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 18694,
-        "fikes_price": 18495,
+        "net_price_with_dealer_fees": 18194,
+        "fikes_price": 17995,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 18495,
+      "price": 17995,
       "images": [
         "https://vini.gm.com/realimages/3GNAXHEV8NS207455/9b613c1.jpeg",
         "https://vini.gm.com/realimages/3GNAXHEV8NS207455/93a691e.jpeg",
@@ -925,14 +925,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 62894,
-        "fikes_price": 62695,
+        "net_price_with_dealer_fees": 62194,
+        "fikes_price": 61995,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 62695,
+      "price": 61995,
       "images": [
         "https://vini.gm.com/realimages/1GTUUGEL2TZ157210/0021793.jpeg",
         "https://vini.gm.com/realimages/1GTUUGEL2TZ157210/a7ea1c5.jpeg",
@@ -1282,14 +1282,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 48694,
-        "fikes_price": 48495,
+        "net_price_with_dealer_fees": 48194,
+        "fikes_price": 47995,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 48495,
+      "price": 47995,
       "images": [
         "https://vini.gm.com/realimages/1GTUUGE81RZ187285/5f7add2.jpeg",
         "https://vini.gm.com/realimages/1GTUUGE81RZ187285/f738d5a.jpeg",
@@ -1633,14 +1633,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 13194,
-        "fikes_price": 12995,
+        "net_price_with_dealer_fees": 14194,
+        "fikes_price": 13995,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 12995,
+      "price": 13995,
       "images": [
         "https://vini.gm.com/realimages/KL4CJASB2KB707939/35ba635.jpeg",
         "https://vini.gm.com/realimages/KL4CJASB2KB707939/b7595da.jpeg",
@@ -1772,14 +1772,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 29094,
-        "fikes_price": 28895,
+        "net_price_with_dealer_fees": 29494,
+        "fikes_price": 29295,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 28895,
+      "price": 29295,
       "images": [
         "https://vini.gm.com/realimages/1GTG5CEN3N1320176/1d0d6e6.jpeg",
         "https://vini.gm.com/realimages/1GTG5CEN3N1320176/15c2b40.jpeg",
@@ -2262,14 +2262,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 21694,
-        "fikes_price": 21495,
+        "net_price_with_dealer_fees": 21194,
+        "fikes_price": 20995,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 21495,
+      "price": 20995,
       "images": [
         "https://vini.gm.com/realimages/KL79MMS25RB177501/c33ca32.jpeg",
         "https://vini.gm.com/realimages/KL79MMS25RB177501/ba18331.jpeg",
@@ -2330,14 +2330,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 51194,
-        "fikes_price": 50995,
+        "net_price_with_dealer_fees": 50194,
+        "fikes_price": 49995,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 50995,
+      "price": 49995,
       "images": [
         "https://vini.gm.com/realimages/1GC4YPEY9RF148725/8da4737.jpeg",
         "https://vini.gm.com/realimages/1GC4YPEY9RF148725/453316c.jpeg",
@@ -2533,14 +2533,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 18694,
-        "fikes_price": 18495,
+        "net_price_with_dealer_fees": 19094,
+        "fikes_price": 18895,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 18495,
+      "price": 18895,
       "images": [
         "https://vini.gm.com/realimages/1GCHSBEA2F1153413/90a3ab1.jpeg",
         "https://vini.gm.com/realimages/1GCHSBEA2F1153413/15e70b7.jpeg",
@@ -2805,14 +2805,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 25494,
-        "fikes_price": 25295,
+        "net_price_with_dealer_fees": 25094,
+        "fikes_price": 24895,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 25295,
+      "price": 24895,
       "images": [
         "https://vini.gm.com/realimages/3GNAXNEG6RL134859/2126ad2.jpeg",
         "https://vini.gm.com/realimages/3GNAXNEG6RL134859/cd6cf3b.jpeg",
@@ -2873,14 +2873,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 22094,
-        "fikes_price": 21895,
+        "net_price_with_dealer_fees": 21794,
+        "fikes_price": 21595,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 21895,
+      "price": 21595,
       "images": [
         "https://vini.gm.com/realimages/KL79MPS27RB175945/11d78c5.jpeg",
         "https://vini.gm.com/realimages/KL79MPS27RB175945/8c869ce.jpeg",
@@ -3510,14 +3510,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 23194,
-        "fikes_price": 22795,
+        "net_price_with_dealer_fees": 22694,
+        "fikes_price": 22495,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 22795,
+      "price": 22495,
       "images": [
         "https://vini.gm.com/realimages/KL79MVSLXRB143780/9fd87e2.jpeg",
         "https://vini.gm.com/realimages/KL79MVSLXRB143780/eff2f86.jpeg",
@@ -3720,14 +3720,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 10194,
-        "fikes_price": 9995,
+        "net_price_with_dealer_fees": 11194,
+        "fikes_price": 10995,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 9995,
+      "price": 10995,
       "images": [
         "https://vini.gm.com/realimages/1G1RB6S58HU157253/f945e66.jpeg",
         "https://vini.gm.com/realimages/1G1RB6S58HU157253/7a99370.jpeg",
@@ -4305,14 +4305,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 25694,
-        "fikes_price": 25495,
+        "net_price_with_dealer_fees": 26094,
+        "fikes_price": 25895,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 25495,
+      "price": 25895,
       "images": [
         "https://vini.gm.com/realimages/1GCGSBEN1N1122781/fb515b5.jpeg",
         "https://vini.gm.com/realimages/1GCGSBEN1N1122781/8eb4a19.jpeg",
@@ -4372,13 +4372,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 34194,
-        "fikes_price": null,
+        "net_price_with_dealer_fees": 33194,
+        "fikes_price": 32995,
         "price_source": {
+          "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": null,
+      "price": 32995,
       "images": [
         "https://vini.gm.com/realimages/1GCGTEEN8M1269760/ee79dcf.jpeg",
         "https://vini.gm.com/realimages/1GCGTEEN8M1269760/9223a4d.jpeg",
@@ -4443,14 +4444,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 28894,
-        "fikes_price": 28695,
+        "net_price_with_dealer_fees": 28194,
+        "fikes_price": 27995,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 28695,
+      "price": 27995,
       "images": [
         "https://vini.gm.com/realimages/1GYKPAR48PZ175502/8a892df.jpeg",
         "https://vini.gm.com/realimages/1GYKPAR48PZ175502/c3f559c.jpeg",
@@ -4715,10 +4716,12 @@
         "sales_event_discount": null,
         "net_price": null,
         "net_price_with_dealer_fees": null,
-        "fikes_price": null,
-        "price_source": {}
+        "fikes_price": 7995,
+        "price_source": {
+          "fikesPrice": "dom"
+        }
       },
-      "price": null,
+      "price": 7995,
       "images": [
         "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/2d8c5c6.jpeg",
         "https://vini.gm.com/realimages/1GKKRRKD9EJ161844/eb7e7c2.jpeg",
@@ -4784,14 +4787,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 13994,
-        "fikes_price": 13795,
+        "net_price_with_dealer_fees": 14194,
+        "fikes_price": 13995,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 13795,
+      "price": 13995,
       "images": [
         "https://vini.gm.com/realimages/1GCGSBE33F1250567/095b94c.jpeg",
         "https://vini.gm.com/realimages/1GCGSBE33F1250567/0691ce3.jpeg",
@@ -4851,14 +4854,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 22894,
-        "fikes_price": 22695,
+        "net_price_with_dealer_fees": 22194,
+        "fikes_price": 21995,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 22695,
+      "price": 21995,
       "images": []
     },
     {
@@ -4954,14 +4957,14 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": 19194,
-        "fikes_price": 18995,
+        "net_price_with_dealer_fees": 18894,
+        "fikes_price": 18695,
         "price_source": {
           "fikesPrice": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 18995,
+      "price": 18695,
       "images": [
         "https://vini.gm.com/realimages/1G1ZD5ST6RF207723/4760a21.jpeg",
         "https://vini.gm.com/realimages/1G1ZD5ST6RF207723/b8d42c0.jpeg",
@@ -5371,16 +5374,17 @@
       "date_first_on_lot": "2026-10-02",
       "pricing": {
         "msrp": 47805,
-        "sales_event_discount": null,
+        "sales_event_discount": 2700,
         "net_price": null,
-        "net_price_with_dealer_fees": 48304,
+        "net_price_with_dealer_fees": 45604,
         "fikes_price": null,
         "price_source": {
           "msrp": "dom",
+          "salesEvent": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 48304,
+      "price": 45604,
       "images": []
     },
     {
@@ -5465,16 +5469,17 @@
       "date_first_on_lot": "2026-10-06",
       "pricing": {
         "msrp": 63265,
-        "sales_event_discount": null,
+        "sales_event_discount": 4500,
         "net_price": null,
-        "net_price_with_dealer_fees": 57764,
+        "net_price_with_dealer_fees": 53264,
         "fikes_price": null,
         "price_source": {
           "msrp": "dom",
+          "salesEvent": "dom",
           "netWithFees": "dom"
         }
       },
-      "price": 57764,
+      "price": 53264,
       "images": []
     }
   ],

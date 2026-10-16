@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T02:29:30.952Z",
+  "generated_at": "2026-10-16T13:21:23.873Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -8,10 +8,10 @@
     "zip": "35570",
     "country": "US"
   },
-  "total_vehicles": 82,
-  "new_count": 29,
+  "total_vehicles": 83,
+  "new_count": 30,
   "used_count": 53,
-  "no_image_count": 15,
+  "no_image_count": 16,
   "no_image_vins": [
     "3D7MX48CX6G233591",
     "2GC4KNEY3T1229837",
@@ -27,7 +27,8 @@
     "1GCUKDED7TZ528097",
     "1GCUKDED4TZ527859",
     "3N1CN8EV2LL912320",
-    "5TDAAAA65RS000287"
+    "5TDAAAA65RS000287",
+    "1GCPTDEK7T1341434"
   ],
   "no_days_in_stock_count": 0,
   "no_days_in_stock_vins": [],
@@ -515,7 +516,7 @@
         "msrp": 60420,
         "sales_event_discount": 4500,
         "net_price": null,
-        "net_price_with_dealer_fees": 50419,
+        "net_price_with_dealer_fees": 49919,
         "fikes_price": null,
         "price_source": {
           "msrp": "dom",
@@ -523,7 +524,7 @@
           "netWithFees": "dom"
         }
       },
-      "price": 50419,
+      "price": 49919,
       "images": [
         "https://vini.gm.com/realimages/3GCUKCEDXTG314473/9fb0e09.jpeg",
         "https://vini.gm.com/realimages/3GCUKCEDXTG314473/89ff69d.jpeg",
@@ -1478,7 +1479,7 @@
         "msrp": 72460,
         "sales_event_discount": 6000,
         "net_price": null,
-        "net_price_with_dealer_fees": 62709,
+        "net_price_with_dealer_fees": 61709,
         "fikes_price": null,
         "price_source": {
           "msrp": "dom",
@@ -1486,7 +1487,7 @@
           "netWithFees": "dom"
         }
       },
-      "price": 62709,
+      "price": 61709,
       "images": [
         "https://vini.gm.com/realimages/1GCUKEEL2TZ421150/981e335.jpeg",
         "https://vini.gm.com/realimages/1GCUKEEL2TZ421150/3bf58d5.jpeg",
@@ -2835,7 +2836,7 @@
         "msrp": 60420,
         "sales_event_discount": 4500,
         "net_price": null,
-        "net_price_with_dealer_fees": 50419,
+        "net_price_with_dealer_fees": 49919,
         "fikes_price": null,
         "price_source": {
           "msrp": "dom",
@@ -2843,7 +2844,7 @@
           "netWithFees": "dom"
         }
       },
-      "price": 50419,
+      "price": 49919,
       "images": [
         "https://vini.gm.com/realimages/3GCUKCED3TG487655/8421a93.jpeg",
         "https://vini.gm.com/realimages/3GCUKCED3TG487655/545549a.jpeg",
@@ -3547,7 +3548,7 @@
         "msrp": 54305,
         "sales_event_discount": 4500,
         "net_price": null,
-        "net_price_with_dealer_fees": 47304,
+        "net_price_with_dealer_fees": 46804,
         "fikes_price": null,
         "price_source": {
           "msrp": "dom",
@@ -3555,7 +3556,7 @@
           "netWithFees": "dom"
         }
       },
-      "price": 47304,
+      "price": 46804,
       "images": []
     },
     {
@@ -5019,7 +5020,7 @@
         "msrp": 63265,
         "sales_event_discount": 4500,
         "net_price": null,
-        "net_price_with_dealer_fees": 53264,
+        "net_price_with_dealer_fees": 52764,
         "fikes_price": null,
         "price_source": {
           "msrp": "dom",
@@ -5027,7 +5028,7 @@
           "netWithFees": "dom"
         }
       },
-      "price": 53264,
+      "price": 52764,
       "images": []
     },
     {
@@ -5054,7 +5055,7 @@
         "msrp": 63265,
         "sales_event_discount": 4500,
         "net_price": null,
-        "net_price_with_dealer_fees": 53264,
+        "net_price_with_dealer_fees": 52764,
         "fikes_price": null,
         "price_source": {
           "msrp": "dom",
@@ -5062,7 +5063,7 @@
           "netWithFees": "dom"
         }
       },
-      "price": 53264,
+      "price": 52764,
       "images": []
     },
     {
@@ -5128,13 +5129,44 @@
       },
       "price": 51194,
       "images": []
+    },
+    {
+      "vin": "1GCPTDEK7T1341434",
+      "condition": "new",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Colorado",
+      "trim": "Z71 Four Wheel Drive Crew Cab",
+      "title": "New 2026 Chevrolet Colorado Z71 Four Wheel Drive Crew Cab",
+      "url": "https://www.fikeschevy.com/inventory/new-2026-chevrolet-colorado-z71-four-wheel-drive-crew-cab-1gcptdek7t1341434/",
+      "exterior_color": "Black",
+      "interior_color": "Jet Black/Adrenaline Red, Perforated leather-appointed front seat trim",
+      "drivetrain": "Four Wheel Drive",
+      "transmission": "Automatic",
+      "engine": "TurboMax™ engine",
+      "mileage": null,
+      "fuel_type": null,
+      "body_style": null,
+      "stock_number": "Start Saving Vehicles Today!",
+      "days_in_stock": 2,
+      "date_first_on_lot": "2026-10-14",
+      "pricing": {
+        "msrp": 52470,
+        "sales_event_discount": null,
+        "net_price": null,
+        "net_price_with_dealer_fees": 51969,
+        "fikes_price": null,
+        "price_source": {
+          "msrp": "dom",
+          "netWithFees": "dom"
+        }
+      },
+      "price": 51969,
+      "images": []
     }
   ],
-  "sold_tracking_count": 6,
+  "sold_tracking_count": 3,
   "sold_tracking_vins": [
-    "1GTUUGE81RZ187285",
-    "1B7KC2368XJ643308",
-    "1GCGSBE33F1250567",
     "1C6JJTBGXLL117821",
     "19XFC1F35JE002389",
     "KL79MMSP8TB182629"

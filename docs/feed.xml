@@ -4,7 +4,7 @@
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
 <!-- 18 vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
-<!-- 1 vehicle(s) included below as availability=NOT_AVAILABLE -->
+<!-- 0 vehicle(s) included below as availability=NOT_AVAILABLE -->
 <!-- (dropped out of the live scrape within the last 3 runs; -->
 <!-- see docs/sold-tracking.json). -->
 <listings>
@@ -8743,122 +8743,6 @@
     </image>
     <image>
       <url>https://vini.gm.com/realimages/3GCUDHEL4NG601499/b6b67f3.jpeg</url>
-    </image>
-  </listing>
-  <listing>
-    <vehicle_id>2GC4KME77T1179896</vehicle_id>
-    <description>Sterling Gray Metallic exterior, Jet Black, Cloth seat trim interior, Automatic, 6.6L V8 Gas engine</description>
-    <url>https://www.fikeschevy.com/inventory/new-2026-chevrolet-silverado-2500-hd-custom-four-wheel-drive-crew-cab-2gc4kme77t1179896/</url>
-    <title>2026 Chevrolet Silverado 2500</title>
-    <body_style>PICKUP</body_style>
-    <price>55989 USD</price>
-    <address format="simple">
-      <component name="addr1">771 Military St N</component>
-      <component name="city">Hamilton</component>
-      <component name="region">AL</component>
-      <component name="postal_code">35570</component>
-      <component name="country">US</component>
-    </address>
-    <make>Chevrolet</make>
-    <model>Silverado 2500</model>
-    <year>2026</year>
-    <vin>2GC4KME77T1179896</vin>
-    <availability>NOT_AVAILABLE</availability>
-    <state_of_vehicle>NEW</state_of_vehicle>
-    <mileage>
-      <unit>MI</unit>
-      <value>158</value>
-    </mileage>
-    <transmission>AUTOMATIC</transmission>
-    <drivetrain>4X4</drivetrain>
-    <exterior_color>Sterling Gray Metallic</exterior_color>
-    <interior_color>Jet Black, Cloth seat trim</interior_color>
-    <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-03-14</date_first_on_lot>
-    <custom_number_0>219</custom_number_0>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/3662249.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/2b4da07.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/ef37daf.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/6ca135d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/2a9e02a.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/7fe2ae7.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/2a88d93.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/3d22ca0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/28f0ab9.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/705a177.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/87a3a98.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/3969ec0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/a248bb4.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/9253385.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/04cc434.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/4b13a9f.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/a601856.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/8f91b88.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/8cbd048.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/2bc07b4.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/7b10b58.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/41fd85d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/443bddc.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/177a9c6.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/022db0f.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/9247ffc.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/8698470.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/2GC4KME77T1179896/df9871e.jpeg</url>
     </image>
   </listing>
 </listings>

@@ -2,7 +2,7 @@
 <!-- Fikes Vehicles — Meta Commerce Manager automotive inventory feed -->
 <!-- Pixel ID 911722818604064 is associated with this catalog via Commerce -->
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
-<!-- 17 vehicle(s) excluded from this feed for having -->
+<!-- 18 vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
 <!-- 1 vehicle(s) included below as availability=NOT_AVAILABLE -->
 <!-- (dropped out of the live scrape within the last 3 runs; -->
@@ -39,7 +39,7 @@
     <interior_color>Jet Black, Perforated leather-appointed seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-23</date_first_on_lot>
-    <custom_number_0>212</custom_number_0>
+    <custom_number_0>213</custom_number_0>
     <custom_label_0>73,556 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$19,295</custom_label_2>
@@ -177,7 +177,7 @@
     <interior_color>Dark Galvanized with Ebony interior accents, Perforated Leather-appointed seats</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-07</date_first_on_lot>
-    <custom_number_0>197</custom_number_0>
+    <custom_number_0>198</custom_number_0>
     <custom_label_0>74,925 mi</custom_label_0>
     <custom_label_2>$21,795</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -320,7 +320,7 @@
     <interior_color>Jet Black, Premium cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-15</date_first_on_lot>
-    <custom_number_0>189</custom_number_0>
+    <custom_number_0>190</custom_number_0>
     <custom_label_0>65,623 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$19,695</custom_label_2>
@@ -461,7 +461,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-01-31</date_first_on_lot>
-    <custom_number_0>263</custom_number_0>
+    <custom_number_0>264</custom_number_0>
     <custom_label_0>260 mi</custom_label_0>
     <custom_label_2>$78,194</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -562,7 +562,7 @@
     <interior_color>Jet Black, Vinyl seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-02-17</date_first_on_lot>
-    <custom_number_0>246</custom_number_0>
+    <custom_number_0>247</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$61,737</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -678,7 +678,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-03</date_first_on_lot>
-    <custom_number_0>232</custom_number_0>
+    <custom_number_0>233</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$65,229</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -809,7 +809,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-10</date_first_on_lot>
-    <custom_number_0>225</custom_number_0>
+    <custom_number_0>226</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$66,647</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -922,7 +922,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-13</date_first_on_lot>
-    <custom_number_0>222</custom_number_0>
+    <custom_number_0>223</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$49,919</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -1047,7 +1047,7 @@
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-15</date_first_on_lot>
-    <custom_number_0>189</custom_number_0>
+    <custom_number_0>190</custom_number_0>
     <custom_label_0>65,991 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$17,495</custom_label_2>
@@ -1155,7 +1155,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2022-chevrolet-equinox-ls-front-wheel-drive-suv-3gnaxhev8ns207455/</url>
     <title>2022 Chevrolet Equinox</title>
     <body_style>SUV</body_style>
-    <price>17995 USD</price>
+    <price>17295 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -1179,10 +1179,10 @@
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-28</date_first_on_lot>
-    <custom_number_0>176</custom_number_0>
+    <custom_number_0>177</custom_number_0>
     <custom_label_0>49,284 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
-    <custom_label_2>$17,995</custom_label_2>
+    <custom_label_2>$17,295</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vini.gm.com/realimages/3GNAXHEV8NS207455/9b613c1.jpeg</url>
@@ -1314,7 +1314,7 @@
     <interior_color>Maple Sugar, Sueded Microfiber seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-18</date_first_on_lot>
-    <custom_number_0>186</custom_number_0>
+    <custom_number_0>187</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$37,134</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -1463,7 +1463,7 @@
     <interior_color>Jet Black/Gray with Blue accents, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-01</date_first_on_lot>
-    <custom_number_0>173</custom_number_0>
+    <custom_number_0>174</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$24,749</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -1597,7 +1597,7 @@
     <interior_color>Atmosphere/Brownstone, Forge perforated leather seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-27</date_first_on_lot>
-    <custom_number_0>147</custom_number_0>
+    <custom_number_0>148</custom_number_0>
     <custom_label_0>13,708 mi</custom_label_0>
     <custom_label_2>$60,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -1737,7 +1737,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-nissan-rogue-fwd-sv-fwd-wagon-4-dr-5n1bt3ba8rc697898/</url>
     <title>2024 Nissan Rogue</title>
     <body_style>SUV</body_style>
-    <price>22194 USD</price>
+    <price>21994 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -1761,9 +1761,9 @@
     <interior_color>Front Bucket Seats -inc: 8-way power driver seat w/2-way power lumbar support and 4-way manual passenger seat</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-28</date_first_on_lot>
-    <custom_number_0>146</custom_number_0>
+    <custom_number_0>147</custom_number_0>
     <custom_label_0>30,121 mi</custom_label_0>
-    <custom_label_2>$22,194</custom_label_2>
+    <custom_label_2>$21,994</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vehicle-images.carscommerce.inc/8362-110005974/5N1BT3BA8RC697898/thumbnails/large/cc3c324403084bd432989275e2cf2637.webp</url>
@@ -1892,7 +1892,7 @@
     <interior_color>Jet Black with Yellow accents, Cloth/Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-30</date_first_on_lot>
-    <custom_number_0>144</custom_number_0>
+    <custom_number_0>145</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$25,774</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -1999,7 +1999,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2023-chevrolet-traverse-lt-cloth-all-wheel-drive-suv-1gnevgkw8pj266749/</url>
     <title>2023 Chevrolet Traverse</title>
     <body_style>SUV</body_style>
-    <price>30795 USD</price>
+    <price>30295 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -2023,9 +2023,9 @@
     <interior_color>Jet Black, Premium cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-02</date_first_on_lot>
-    <custom_number_0>141</custom_number_0>
+    <custom_number_0>142</custom_number_0>
     <custom_label_0>26,052 mi</custom_label_0>
-    <custom_label_2>$30,795</custom_label_2>
+    <custom_label_2>$30,295</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vini.gm.com/realimages/1GNEVGKW8PJ266749/6ddd05f.jpeg</url>
@@ -2133,7 +2133,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2021-jeep-renegade-jeepster-4x4-4wd-wagon-4-dr-zacnjdab6mpn23935/</url>
     <title>2021 Jeep Renegade</title>
     <body_style>SUV</body_style>
-    <price>16194 USD</price>
+    <price>15994 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -2157,10 +2157,10 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-12</date_first_on_lot>
-    <custom_number_0>131</custom_number_0>
+    <custom_number_0>132</custom_number_0>
     <custom_label_0>54,805 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
-    <custom_label_2>$16,194</custom_label_2>
+    <custom_label_2>$15,994</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vehicle-images.carscommerce.inc/3c98-110005974/ZACNJDAB6MPN23935/thumbnails/large/ed147a8fdff21e089c3b0a26560cf319.webp</url>
@@ -2274,7 +2274,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcudfel3rg306887/</url>
     <title>2024 Chevrolet Silverado 1500</title>
     <body_style>PICKUP</body_style>
-    <price>47995 USD</price>
+    <price>47795 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -2298,9 +2298,9 @@
     <interior_color>Jet Black, Leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-19</date_first_on_lot>
-    <custom_number_0>124</custom_number_0>
+    <custom_number_0>125</custom_number_0>
     <custom_label_0>40,231 mi</custom_label_0>
-    <custom_label_2>$47,995</custom_label_2>
+    <custom_label_2>$47,795</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vini.gm.com/realimages/3GCUDFEL3RG306887/87a2e4c.jpeg</url>
@@ -2423,7 +2423,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2021-buick-encore-preferred-front-wheel-drive-suv-kl4cjasb2mb336607/</url>
     <title>2021 Buick Encore</title>
     <body_style>SUV</body_style>
-    <price>15995 USD</price>
+    <price>15795 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -2447,10 +2447,10 @@
     <interior_color>EBONY, CLOTH WITH LEATHERETTE SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-19</date_first_on_lot>
-    <custom_number_0>124</custom_number_0>
+    <custom_number_0>125</custom_number_0>
     <custom_label_0>46,087 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
-    <custom_label_2>$15,995</custom_label_2>
+    <custom_label_2>$15,795</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vini.gm.com/realimages/KL4CJASB2MB336607/40e2b7f.jpeg</url>
@@ -2549,7 +2549,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2020-bmw-x3-sdrive30i-sports-activity-vehicle-rwd-wagon-4-dr-5uxty3c05l9c09190/</url>
     <title>2020 BMW X3</title>
     <body_style>SUV</body_style>
-    <price>19994 USD</price>
+    <price>19694 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -2573,10 +2573,10 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-20</date_first_on_lot>
-    <custom_number_0>123</custom_number_0>
+    <custom_number_0>124</custom_number_0>
     <custom_label_0>70,939 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
-    <custom_label_2>$19,994</custom_label_2>
+    <custom_label_2>$19,694</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vehicle-images.carscommerce.inc/fd5f-110005974/5UXTY3C05L9C09190/thumbnails/large/82befecb95785e02770de664e5dbf1e8.webp</url>
@@ -2708,7 +2708,7 @@
     <interior_color>EBONY, CLOTH WITH LEATHERETTE SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-23</date_first_on_lot>
-    <custom_number_0>181</custom_number_0>
+    <custom_number_0>182</custom_number_0>
     <custom_label_0>50,708 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$13,995</custom_label_2>
@@ -2834,7 +2834,7 @@
     <interior_color>Jet Black, Leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-23</date_first_on_lot>
-    <custom_number_0>120</custom_number_0>
+    <custom_number_0>121</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$61,709</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -2983,7 +2983,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-23</date_first_on_lot>
-    <custom_number_0>120</custom_number_0>
+    <custom_number_0>121</custom_number_0>
     <custom_label_0>16,641 mi</custom_label_0>
     <custom_label_2>$29,295</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -3117,7 +3117,7 @@
     <interior_color>Jet Black with Blue accents, Cloth/Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-17</date_first_on_lot>
-    <custom_number_0>96</custom_number_0>
+    <custom_number_0>97</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$24,739</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -3224,7 +3224,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-toyota-corolla-le-cvt-natl-fwd-sedan-4-dr-5yfb4mde9rp133398/</url>
     <title>2024 Toyota Corolla</title>
     <body_style>SEDAN</body_style>
-    <price>19794 USD</price>
+    <price>19194 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -3248,10 +3248,10 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-22</date_first_on_lot>
-    <custom_number_0>91</custom_number_0>
+    <custom_number_0>92</custom_number_0>
     <custom_label_0>52,669 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
-    <custom_label_2>$19,794</custom_label_2>
+    <custom_label_2>$19,194</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vehicle-images.carscommerce.inc/5e52-110005974/5YFB4MDE9RP133398/thumbnails/large/ee6adefce77850e7f5b063cbfa2b1a47.webp</url>
@@ -3380,7 +3380,7 @@
     <interior_color>Jet Black, Perforated leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-23</date_first_on_lot>
-    <custom_number_0>90</custom_number_0>
+    <custom_number_0>91</custom_number_0>
     <custom_label_0>53,224 mi</custom_label_0>
     <custom_label_2>$41,495</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -3532,7 +3532,7 @@
     <interior_color>Charcoal</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-24</date_first_on_lot>
-    <custom_number_0>89</custom_number_0>
+    <custom_number_0>90</custom_number_0>
     <custom_label_0>14,782 mi</custom_label_0>
     <custom_label_2>$20,794</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -3666,7 +3666,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-25</date_first_on_lot>
-    <custom_number_0>88</custom_number_0>
+    <custom_number_0>89</custom_number_0>
     <custom_label_0>19,510 mi</custom_label_0>
     <custom_label_2>$20,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -3800,7 +3800,7 @@
     <interior_color>Jet Black, Perforated leather-appointed front outboard seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-01</date_first_on_lot>
-    <custom_number_0>112</custom_number_0>
+    <custom_number_0>113</custom_number_0>
     <custom_label_0>94,720 mi</custom_label_0>
     <custom_label_2>$49,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -3937,7 +3937,7 @@
     <interior_color>Gray</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-01</date_first_on_lot>
-    <custom_number_0>81</custom_number_0>
+    <custom_number_0>82</custom_number_0>
     <custom_label_0>90,590 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$8,194</custom_label_2>
@@ -4069,7 +4069,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-08</date_first_on_lot>
-    <custom_number_0>74</custom_number_0>
+    <custom_number_0>75</custom_number_0>
     <custom_label_0>62,788 mi</custom_label_0>
     <custom_label_2>$20,194</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -4182,7 +4182,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2015-chevrolet-colorado-2wd-lt-rear-wheel-drive-extended-cab-1gchsbea2f1153413/</url>
     <title>2015 Chevrolet Colorado</title>
     <body_style>PICKUP</body_style>
-    <price>18495 USD</price>
+    <price>15995 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -4206,10 +4206,10 @@
     <interior_color>JET BLACK/DARK ASH, CLOTH SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-06</date_first_on_lot>
-    <custom_number_0>76</custom_number_0>
+    <custom_number_0>77</custom_number_0>
     <custom_label_0>30,158 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
-    <custom_label_2>$18,495</custom_label_2>
+    <custom_label_2>$15,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vini.gm.com/realimages/1GCHSBEA2F1153413/90a3ab1.jpeg</url>
@@ -4338,7 +4338,7 @@
     <interior_color>Jet Black/Victory Red, Perforated leather seating surfaces</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-08</date_first_on_lot>
-    <custom_number_0>74</custom_number_0>
+    <custom_number_0>75</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$72,719</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -4493,7 +4493,7 @@
     <interior_color>Driver Seat</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-12</date_first_on_lot>
-    <custom_number_0>70</custom_number_0>
+    <custom_number_0>71</custom_number_0>
     <custom_label_0>243,494 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$7,994</custom_label_2>
@@ -4616,7 +4616,7 @@
     <interior_color>Jet Black, Perforated leather-appointed seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-14</date_first_on_lot>
-    <custom_number_0>68</custom_number_0>
+    <custom_number_0>69</custom_number_0>
     <custom_label_0>28,459 mi</custom_label_0>
     <custom_label_2>$24,895</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -4750,7 +4750,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-07</date_first_on_lot>
-    <custom_number_0>75</custom_number_0>
+    <custom_number_0>76</custom_number_0>
     <custom_label_0>26,798 mi</custom_label_0>
     <custom_label_2>$21,595</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -4875,7 +4875,7 @@
     <interior_color>JET BLACK, CLOTH SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-28</date_first_on_lot>
-    <custom_number_0>85</custom_number_0>
+    <custom_number_0>86</custom_number_0>
     <custom_label_0>90,284 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$10,995</custom_label_2>
@@ -5004,7 +5004,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-22</date_first_on_lot>
-    <custom_number_0>60</custom_number_0>
+    <custom_number_0>61</custom_number_0>
     <custom_label_0>57,441 mi</custom_label_0>
     <custom_label_2>$20,194</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -5135,7 +5135,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-14</date_first_on_lot>
-    <custom_number_0>68</custom_number_0>
+    <custom_number_0>69</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$49,919</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -5260,7 +5260,7 @@
     <interior_color>4-stage heated front bucket seats w/active head restraints</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-28</date_first_on_lot>
-    <custom_number_0>54</custom_number_0>
+    <custom_number_0>55</custom_number_0>
     <custom_label_0>228,352 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$4,194</custom_label_2>
@@ -5389,7 +5389,7 @@
     <interior_color>Jet Black with Artemis accents, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-28</date_first_on_lot>
-    <custom_number_0>54</custom_number_0>
+    <custom_number_0>55</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$27,429</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -5532,7 +5532,7 @@
     <interior_color>MEDIUM ASH GRAY, PREMIUM CLOTH SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-07</date_first_on_lot>
-    <custom_number_0>197</custom_number_0>
+    <custom_number_0>198</custom_number_0>
     <custom_label_0>60,170 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$18,695</custom_label_2>
@@ -5637,7 +5637,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-chevrolet-trailblazer-activ-front-wheel-drive-suv-kl79mvslxrb143780/</url>
     <title>2024 Chevrolet Trailblazer</title>
     <body_style>SUV</body_style>
-    <price>20995 USD</price>
+    <price>20795 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -5661,9 +5661,9 @@
     <interior_color>Jet Black with Yellow stitching, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-18</date_first_on_lot>
-    <custom_number_0>64</custom_number_0>
+    <custom_number_0>65</custom_number_0>
     <custom_label_0>45,923 mi</custom_label_0>
-    <custom_label_2>$20,995</custom_label_2>
+    <custom_label_2>$20,795</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vini.gm.com/realimages/KL79MVSLXRB143780/9fd87e2.jpeg</url>
@@ -5795,7 +5795,7 @@
     <interior_color>JET BLACK, CLOTH SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-02</date_first_on_lot>
-    <custom_number_0>49</custom_number_0>
+    <custom_number_0>50</custom_number_0>
     <custom_label_0>393,949 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$17,991</custom_label_2>
@@ -5927,7 +5927,7 @@
     <interior_color>JET BLACK/JET BLACK, LEATHER-APPOINTED SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-25</date_first_on_lot>
-    <custom_number_0>88</custom_number_0>
+    <custom_number_0>89</custom_number_0>
     <custom_label_0>108,985 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$10,995</custom_label_2>
@@ -6062,7 +6062,7 @@
     <interior_color>Charcoal</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-04</date_first_on_lot>
-    <custom_number_0>47</custom_number_0>
+    <custom_number_0>48</custom_number_0>
     <custom_label_0>125,999 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$12,194</custom_label_2>
@@ -6167,7 +6167,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2016-toyota-camry-4dr-sdn-i4-auto-le-natl-fwd-sedan-4-dr-4t1bf1fk8gu164956/</url>
     <title>2016 Toyota Camry</title>
     <body_style>SEDAN</body_style>
-    <price>8194 USD</price>
+    <price>7894 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -6191,10 +6191,10 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-26</date_first_on_lot>
-    <custom_number_0>87</custom_number_0>
+    <custom_number_0>88</custom_number_0>
     <custom_label_0>215,624 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
-    <custom_label_2>$8,194</custom_label_2>
+    <custom_label_2>$7,894</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vehicle-images.carscommerce.inc/9782-110005974/4T1BF1FK8GU164956/thumbnails/large/45bfe6f0d3179369cf1239edead3fd52.webp</url>
@@ -6299,7 +6299,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2007-gmc-sierra-3500-hd-drw-slt-four-wheel-drive-crew-cab-1gtjk33607f540990/</url>
     <title>2007 GMC Sierra 3500</title>
     <body_style>PICKUP</body_style>
-    <price>28995 USD</price>
+    <price>26995 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -6323,9 +6323,9 @@
     <interior_color>SEAT TRIM, ULTRASOFT LEATHER-APPOINTED</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-04</date_first_on_lot>
-    <custom_number_0>47</custom_number_0>
+    <custom_number_0>48</custom_number_0>
     <custom_label_0>150,532 mi</custom_label_0>
-    <custom_label_2>$28,995</custom_label_2>
+    <custom_label_2>$26,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vini.gm.com/realimages/1GTJK33607F540990/c541d54.jpeg</url>
@@ -6475,7 +6475,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-03</date_first_on_lot>
-    <custom_number_0>48</custom_number_0>
+    <custom_number_0>49</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$46,804</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -6594,7 +6594,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-hyundai-elantra-sel-ivt-fwd-sedan-4-dr-kmhlm4dg0ru828776/</url>
     <title>2024 Hyundai Elantra</title>
     <body_style>SEDAN</body_style>
-    <price>19894 USD</price>
+    <price>19094 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -6618,10 +6618,10 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-10</date_first_on_lot>
-    <custom_number_0>41</custom_number_0>
+    <custom_number_0>42</custom_number_0>
     <custom_label_0>38,936 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
-    <custom_label_2>$19,894</custom_label_2>
+    <custom_label_2>$19,094</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vehicle-images.carscommerce.inc/e370-110005974/KMHLM4DG0RU828776/thumbnails/large/b56192a779f7fcdac60ae30089056416.webp</url>
@@ -6747,7 +6747,7 @@
     <interior_color>JET BLACK, LEATHER-APPOINTED SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-10</date_first_on_lot>
-    <custom_number_0>41</custom_number_0>
+    <custom_number_0>42</custom_number_0>
     <custom_label_0>51,817 mi</custom_label_0>
     <custom_label_2>$32,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -6869,7 +6869,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2023-cadillac-xt6-fwd-luxury-front-wheel-drive-suv-1gykpar48pz175502/</url>
     <title>2023 Cadillac XT6</title>
     <body_style>SUV</body_style>
-    <price>27995 USD</price>
+    <price>27495 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -6893,9 +6893,9 @@
     <interior_color>(With Lunar Brushed aluminum trim.)</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-05</date_first_on_lot>
-    <custom_number_0>77</custom_number_0>
+    <custom_number_0>78</custom_number_0>
     <custom_label_0>58,707 mi</custom_label_0>
-    <custom_label_2>$27,995</custom_label_2>
+    <custom_label_2>$27,495</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vini.gm.com/realimages/1GYKPAR48PZ175502/8a892df.jpeg</url>
@@ -7024,7 +7024,7 @@
     <interior_color>Jet Black/Gray with Blue accents, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-11</date_first_on_lot>
-    <custom_number_0>40</custom_number_0>
+    <custom_number_0>41</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$24,824</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -7140,7 +7140,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2022-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpdced1ng667887/</url>
     <title>2022 Chevrolet Silverado 1500</title>
     <body_style>PICKUP</body_style>
-    <price>23495 USD</price>
+    <price>22495 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -7164,9 +7164,9 @@
     <interior_color>JET BLACK, CLOTH SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-11</date_first_on_lot>
-    <custom_number_0>40</custom_number_0>
+    <custom_number_0>41</custom_number_0>
     <custom_label_0>177,572 mi</custom_label_0>
-    <custom_label_2>$23,495</custom_label_2>
+    <custom_label_2>$22,495</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vini.gm.com/realimages/3GCPDCED1NG667887/04ccf32.jpeg</url>
@@ -7304,7 +7304,7 @@
     <interior_color>LT Jet Black, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-27</date_first_on_lot>
-    <custom_number_0>55</custom_number_0>
+    <custom_number_0>56</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$44,329</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -7419,7 +7419,7 @@
   </listing>
   <listing>
     <vehicle_id>1GKKRRKD9EJ161844</vehicle_id>
-    <description>153,534 miles, Summit White exterior, LIGHT TITANIUM, SEAT TRIM, LEATHER-APPOINTED SEATING interior, Automatic, Engine, 3.6L VVT DOHC V6 SIDI</description>
+    <description>153,626 miles, Summit White exterior, LIGHT TITANIUM, SEAT TRIM, LEATHER-APPOINTED SEATING interior, Automatic, Engine, 3.6L VVT DOHC V6 SIDI</description>
     <url>https://www.fikeschevy.com/inventory/used-2014-gmc-acadia-slt-front-wheel-drive-suv-1gkkrrkd9ej161844/</url>
     <title>2014 GMC Acadia</title>
     <body_style>SUV</body_style>
@@ -7439,7 +7439,7 @@
     <state_of_vehicle>USED</state_of_vehicle>
     <mileage>
       <unit>MI</unit>
-      <value>153534</value>
+      <value>153626</value>
     </mileage>
     <transmission>AUTOMATIC</transmission>
     <drivetrain>FWD</drivetrain>
@@ -7447,8 +7447,8 @@
     <interior_color>LIGHT TITANIUM, SEAT TRIM, LEATHER-APPOINTED SEATING</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-15</date_first_on_lot>
-    <custom_number_0>36</custom_number_0>
-    <custom_label_0>153,534 mi</custom_label_0>
+    <custom_number_0>37</custom_number_0>
+    <custom_label_0>153,626 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$7,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -7573,7 +7573,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-chevrolet-trailblazer-lt-front-wheel-drive-suv-kl79mpsl1rb128869/</url>
     <title>2024 Chevrolet Trailblazer</title>
     <body_style>SUV</body_style>
-    <price>21995 USD</price>
+    <price>21695 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -7597,9 +7597,9 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-24</date_first_on_lot>
-    <custom_number_0>27</custom_number_0>
+    <custom_number_0>28</custom_number_0>
     <custom_label_0>21,482 mi</custom_label_0>
-    <custom_label_2>$21,995</custom_label_2>
+    <custom_label_2>$21,695</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vini.gm.com/realimages/KL79MPSL1RB128869/806e919.jpeg</url>
@@ -7719,7 +7719,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2020-chevrolet-colorado-2wd-work-truck-rear-wheel-drive-crew-cab-1gcgsben1l1132546/</url>
     <title>2020 Chevrolet Colorado</title>
     <body_style>PICKUP</body_style>
-    <price>16395 USD</price>
+    <price>16995 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -7743,10 +7743,10 @@
     <interior_color>JET BLACK/DARK ASH, VINYL SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-04</date_first_on_lot>
-    <custom_number_0>78</custom_number_0>
+    <custom_number_0>79</custom_number_0>
     <custom_label_0>129,011 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
-    <custom_label_2>$16,395</custom_label_2>
+    <custom_label_2>$16,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vini.gm.com/realimages/1GCGSBEN1L1132546/23ffbb2.jpeg</url>
@@ -7857,7 +7857,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2024-chevrolet-malibu-1lt-front-wheel-drive-sedan-1g1zd5st6rf207723/</url>
     <title>2024 Chevrolet Malibu</title>
     <body_style>SEDAN</body_style>
-    <price>17695 USD</price>
+    <price>17395 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -7881,10 +7881,10 @@
     <interior_color>Jet Black, Premium cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-28</date_first_on_lot>
-    <custom_number_0>23</custom_number_0>
+    <custom_number_0>24</custom_number_0>
     <custom_label_0>58,424 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
-    <custom_label_2>$17,695</custom_label_2>
+    <custom_label_2>$17,395</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vini.gm.com/realimages/1G1ZD5ST6RF207723/4760a21.jpeg</url>
@@ -8025,7 +8025,7 @@
     <interior_color>(1st and 2nd rows only.)</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-30</date_first_on_lot>
-    <custom_number_0>21</custom_number_0>
+    <custom_number_0>22</custom_number_0>
     <custom_label_0>80,647 mi</custom_label_0>
     <custom_label_3>current</custom_label_3>
     <image>
@@ -8182,7 +8182,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2023-chrysler-pacifica-limited-fwd-fwd-sports-van-2c4rc1ggxpr504773/</url>
     <title>2023 Chrysler Pacifica</title>
     <body_style>VAN</body_style>
-    <price>31194 USD</price>
+    <price>30894 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -8206,9 +8206,9 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-02</date_first_on_lot>
-    <custom_number_0>19</custom_number_0>
+    <custom_number_0>20</custom_number_0>
     <custom_label_0>17,072 mi</custom_label_0>
-    <custom_label_2>$31,194</custom_label_2>
+    <custom_label_2>$30,894</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vehicle-images.carscommerce.inc/3fe2-110005974/2C4RC1GGXPR504773/thumbnails/large/28eb0324a82551a87f4c02d56164289d.webp</url>
@@ -8331,7 +8331,7 @@
     <url>https://www.fikeschevy.com/inventory/used-2020-hyundai-kona-se-auto-fwd-fwd-utility-body-km8k12aaxlu503665/</url>
     <title>2020 Hyundai Kona</title>
     <body_style>SUV</body_style>
-    <price>13994 USD</price>
+    <price>13694 USD</price>
     <address format="simple">
       <component name="addr1">771 Military St N</component>
       <component name="city">Hamilton</component>
@@ -8355,10 +8355,10 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-15</date_first_on_lot>
-    <custom_number_0>67</custom_number_0>
+    <custom_number_0>68</custom_number_0>
     <custom_label_0>76,157 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
-    <custom_label_2>$13,994</custom_label_2>
+    <custom_label_2>$13,694</custom_label_2>
     <custom_label_3>current</custom_label_3>
     <image>
       <url>https://vehicle-images.carscommerce.inc/c162-110005974/KM8K12AAXLU503665/thumbnails/large/75624eccb754651bdfd43fdd0f2e15bb.webp</url>
@@ -8505,7 +8505,7 @@
     <interior_color>LEATHER SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-06</date_first_on_lot>
-    <custom_number_0>15</custom_number_0>
+    <custom_number_0>16</custom_number_0>
     <custom_label_0>67,065 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$15,995</custom_label_2>
@@ -8616,7 +8616,7 @@
     <interior_color>JET BLACK/GRAYSTONE, PERFORATED LEATHER SEATING SURFACES</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-12</date_first_on_lot>
-    <custom_number_0>9</custom_number_0>
+    <custom_number_0>10</custom_number_0>
     <custom_label_0>71,557 mi</custom_label_0>
     <custom_label_1>Just Arrived</custom_label_1>
     <custom_label_2>$43,995</custom_label_2>

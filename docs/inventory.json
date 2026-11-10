@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T16:59:51.949Z",
+  "generated_at": "2026-11-10T17:27:30.824Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -4602,10 +4602,11 @@
         "msrp": null,
         "sales_event_discount": null,
         "net_price": null,
-        "net_price_with_dealer_fees": null,
+        "net_price_with_dealer_fees": 43694,
         "fikes_price": 43495,
         "price_source": {
-          "fikesPrice": "dom"
+          "fikesPrice": "dom",
+          "netWithFees": "dom"
         }
       },
       "price": 43495,

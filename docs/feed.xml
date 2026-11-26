@@ -4,7 +4,7 @@
 <!-- Manager > Settings > Event Sources, not via this feed file. -->
 <!-- 17 vehicle(s) excluded from this feed for having -->
 <!-- 0 real images (see inventory.json no_image_vins for the list). -->
-<!-- 3 vehicle(s) included below as availability=NOT_AVAILABLE -->
+<!-- 2 vehicle(s) included below as availability=NOT_AVAILABLE -->
 <!-- (dropped out of the live scrape within the last 3 runs; -->
 <!-- see docs/sold-tracking.json). -->
 <listings>
@@ -39,7 +39,7 @@
     <interior_color>Jet Black, Perforated leather-appointed seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-23</date_first_on_lot>
-    <custom_number_0>247</custom_number_0>
+    <custom_number_0>248</custom_number_0>
     <custom_label_0>73,556 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$18,995</custom_label_2>
@@ -177,7 +177,7 @@
     <interior_color>Jet Black, Premium cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-15</date_first_on_lot>
-    <custom_number_0>224</custom_number_0>
+    <custom_number_0>225</custom_number_0>
     <custom_label_0>65,623 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$19,995</custom_label_2>
@@ -318,7 +318,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-01-31</date_first_on_lot>
-    <custom_number_0>298</custom_number_0>
+    <custom_number_0>299</custom_number_0>
     <custom_label_0>260 mi</custom_label_0>
     <custom_label_2>$78,194</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -419,7 +419,7 @@
     <interior_color>Jet Black, Vinyl seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-02-17</date_first_on_lot>
-    <custom_number_0>281</custom_number_0>
+    <custom_number_0>282</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$61,737</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -535,7 +535,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-03-03</date_first_on_lot>
-    <custom_number_0>267</custom_number_0>
+    <custom_number_0>268</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$65,229</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -666,7 +666,7 @@
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-15</date_first_on_lot>
-    <custom_number_0>224</custom_number_0>
+    <custom_number_0>225</custom_number_0>
     <custom_label_0>65,991 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$17,495</custom_label_2>
@@ -798,7 +798,7 @@
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-28</date_first_on_lot>
-    <custom_number_0>211</custom_number_0>
+    <custom_number_0>212</custom_number_0>
     <custom_label_0>49,284 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$18,295</custom_label_2>
@@ -933,7 +933,7 @@
     <interior_color>Jet Black/Gray with Blue accents, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-01</date_first_on_lot>
-    <custom_number_0>208</custom_number_0>
+    <custom_number_0>209</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$24,749</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -1067,7 +1067,7 @@
     <interior_color>Atmosphere/Brownstone, Forge perforated leather seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-27</date_first_on_lot>
-    <custom_number_0>182</custom_number_0>
+    <custom_number_0>183</custom_number_0>
     <custom_label_0>13,708 mi</custom_label_0>
     <custom_label_2>$60,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -1231,7 +1231,7 @@
     <interior_color>Front Bucket Seats -inc: 8-way power driver seat w/2-way power lumbar support and 4-way manual passenger seat</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-28</date_first_on_lot>
-    <custom_number_0>181</custom_number_0>
+    <custom_number_0>182</custom_number_0>
     <custom_label_0>30,121 mi</custom_label_0>
     <custom_label_2>$21,694</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -1362,7 +1362,7 @@
     <interior_color>Jet Black with Yellow accents, Cloth/Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-05-30</date_first_on_lot>
-    <custom_number_0>179</custom_number_0>
+    <custom_number_0>180</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$25,524</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -1493,7 +1493,7 @@
     <interior_color>Jet Black, Premium cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-02</date_first_on_lot>
-    <custom_number_0>176</custom_number_0>
+    <custom_number_0>177</custom_number_0>
     <custom_label_0>26,052 mi</custom_label_0>
     <custom_label_2>$29,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -1627,7 +1627,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-12</date_first_on_lot>
-    <custom_number_0>166</custom_number_0>
+    <custom_number_0>167</custom_number_0>
     <custom_label_0>54,805 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$16,194</custom_label_2>
@@ -1768,7 +1768,7 @@
     <interior_color>Jet Black, Leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-19</date_first_on_lot>
-    <custom_number_0>159</custom_number_0>
+    <custom_number_0>160</custom_number_0>
     <custom_label_0>40,231 mi</custom_label_0>
     <custom_label_2>$47,395</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -1917,7 +1917,7 @@
     <interior_color>EBONY, CLOTH WITH LEATHERETTE SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-19</date_first_on_lot>
-    <custom_number_0>159</custom_number_0>
+    <custom_number_0>160</custom_number_0>
     <custom_label_0>46,087 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$15,495</custom_label_2>
@@ -2043,7 +2043,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-20</date_first_on_lot>
-    <custom_number_0>158</custom_number_0>
+    <custom_number_0>159</custom_number_0>
     <custom_label_0>70,939 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$19,194</custom_label_2>
@@ -2178,7 +2178,7 @@
     <interior_color>EBONY, CLOTH WITH LEATHERETTE SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-23</date_first_on_lot>
-    <custom_number_0>216</custom_number_0>
+    <custom_number_0>217</custom_number_0>
     <custom_label_0>50,708 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$14,295</custom_label_2>
@@ -2304,7 +2304,7 @@
     <interior_color>Jet Black, Leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-06-23</date_first_on_lot>
-    <custom_number_0>155</custom_number_0>
+    <custom_number_0>156</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$63,709</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -2453,7 +2453,7 @@
     <interior_color>Jet Black with Blue accents, Cloth/Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-17</date_first_on_lot>
-    <custom_number_0>131</custom_number_0>
+    <custom_number_0>132</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$24,489</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -2584,7 +2584,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-22</date_first_on_lot>
-    <custom_number_0>126</custom_number_0>
+    <custom_number_0>127</custom_number_0>
     <custom_label_0>52,669 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$19,194</custom_label_2>
@@ -2716,7 +2716,7 @@
     <interior_color>Jet Black, Perforated leather-appointed front outboard seating positions</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-23</date_first_on_lot>
-    <custom_number_0>125</custom_number_0>
+    <custom_number_0>126</custom_number_0>
     <custom_label_0>53,252 mi</custom_label_0>
     <custom_label_2>$40,495</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -2868,7 +2868,7 @@
     <interior_color>Charcoal</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-24</date_first_on_lot>
-    <custom_number_0>124</custom_number_0>
+    <custom_number_0>125</custom_number_0>
     <custom_label_0>14,782 mi</custom_label_0>
     <custom_label_2>$20,194</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -3002,7 +3002,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-25</date_first_on_lot>
-    <custom_number_0>123</custom_number_0>
+    <custom_number_0>124</custom_number_0>
     <custom_label_0>19,510 mi</custom_label_0>
     <custom_label_2>$20,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -3136,7 +3136,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-08</date_first_on_lot>
-    <custom_number_0>109</custom_number_0>
+    <custom_number_0>110</custom_number_0>
     <custom_label_0>62,788 mi</custom_label_0>
     <custom_label_2>$20,194</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -3273,7 +3273,7 @@
     <interior_color>Jet Black/Victory Red, Perforated leather seating surfaces</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-08</date_first_on_lot>
-    <custom_number_0>109</custom_number_0>
+    <custom_number_0>110</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$72,719</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -3428,7 +3428,7 @@
     <interior_color>Driver Seat</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-12</date_first_on_lot>
-    <custom_number_0>105</custom_number_0>
+    <custom_number_0>106</custom_number_0>
     <custom_label_0>243,494 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$7,994</custom_label_2>
@@ -3551,7 +3551,7 @@
     <interior_color>Jet Black, Perforated leather-appointed seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-14</date_first_on_lot>
-    <custom_number_0>103</custom_number_0>
+    <custom_number_0>104</custom_number_0>
     <custom_label_0>28,459 mi</custom_label_0>
     <custom_label_2>$24,495</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -3685,7 +3685,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-07</date_first_on_lot>
-    <custom_number_0>110</custom_number_0>
+    <custom_number_0>111</custom_number_0>
     <custom_label_0>26,798 mi</custom_label_0>
     <custom_label_2>$21,295</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -3810,7 +3810,7 @@
     <interior_color>JET BLACK, CLOTH SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-28</date_first_on_lot>
-    <custom_number_0>120</custom_number_0>
+    <custom_number_0>121</custom_number_0>
     <custom_label_0>90,284 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$10,995</custom_label_2>
@@ -3939,7 +3939,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-22</date_first_on_lot>
-    <custom_number_0>95</custom_number_0>
+    <custom_number_0>96</custom_number_0>
     <custom_label_0>57,441 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$19,194</custom_label_2>
@@ -4071,7 +4071,7 @@
     <interior_color>MEDIUM ASH GRAY, PREMIUM CLOTH SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-04-07</date_first_on_lot>
-    <custom_number_0>232</custom_number_0>
+    <custom_number_0>233</custom_number_0>
     <custom_label_0>60,170 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$18,695</custom_label_2>
@@ -4200,7 +4200,7 @@
     <interior_color>Jet Black with Yellow stitching, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-18</date_first_on_lot>
-    <custom_number_0>99</custom_number_0>
+    <custom_number_0>100</custom_number_0>
     <custom_label_0>45,923 mi</custom_label_0>
     <custom_label_2>$20,895</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -4334,7 +4334,7 @@
     <interior_color>JET BLACK/JET BLACK, LEATHER-APPOINTED SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-25</date_first_on_lot>
-    <custom_number_0>123</custom_number_0>
+    <custom_number_0>124</custom_number_0>
     <custom_label_0>109,397 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$10,895</custom_label_2>
@@ -4469,7 +4469,7 @@
     <interior_color>Charcoal</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-04</date_first_on_lot>
-    <custom_number_0>82</custom_number_0>
+    <custom_number_0>83</custom_number_0>
     <custom_label_0>125,999 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$12,194</custom_label_2>
@@ -4598,7 +4598,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-26</date_first_on_lot>
-    <custom_number_0>122</custom_number_0>
+    <custom_number_0>123</custom_number_0>
     <custom_label_0>215,624 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$7,694</custom_label_2>
@@ -4730,7 +4730,7 @@
     <interior_color>SEAT TRIM, ULTRASOFT LEATHER-APPOINTED</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-04</date_first_on_lot>
-    <custom_number_0>82</custom_number_0>
+    <custom_number_0>83</custom_number_0>
     <custom_label_0>150,532 mi</custom_label_0>
     <custom_label_2>$24,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -4882,7 +4882,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-04</date_first_on_lot>
-    <custom_number_0>82</custom_number_0>
+    <custom_number_0>83</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$46,554</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -5028,7 +5028,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-03</date_first_on_lot>
-    <custom_number_0>83</custom_number_0>
+    <custom_number_0>84</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$46,554</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -5171,7 +5171,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-10</date_first_on_lot>
-    <custom_number_0>76</custom_number_0>
+    <custom_number_0>77</custom_number_0>
     <custom_label_0>38,936 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$19,194</custom_label_2>
@@ -5300,7 +5300,7 @@
     <interior_color>JET BLACK, CLOTH SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-11</date_first_on_lot>
-    <custom_number_0>75</custom_number_0>
+    <custom_number_0>76</custom_number_0>
     <custom_label_0>177,572 mi</custom_label_0>
     <custom_label_2>$22,495</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -5440,7 +5440,7 @@
     <interior_color>Jet Black with Blue accents, Cloth/Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-14</date_first_on_lot>
-    <custom_number_0>42</custom_number_0>
+    <custom_number_0>43</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$24,144</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -5571,7 +5571,7 @@
     <interior_color>JET BLACK/DARK ASH, VINYL SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-08-04</date_first_on_lot>
-    <custom_number_0>113</custom_number_0>
+    <custom_number_0>114</custom_number_0>
     <custom_label_0>129,011 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$16,995</custom_label_2>
@@ -5709,7 +5709,7 @@
     <interior_color>Jet Black with Yellow accents, Cloth/Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-29</date_first_on_lot>
-    <custom_number_0>57</custom_number_0>
+    <custom_number_0>58</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$25,574</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -5846,7 +5846,7 @@
     <interior_color>Jet Black/Gray with Blue accents, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-30</date_first_on_lot>
-    <custom_number_0>56</custom_number_0>
+    <custom_number_0>57</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$24,824</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -5977,7 +5977,7 @@
     <interior_color>JET BLACK, PERFORATED LEATHER SEATING SURFACES</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-30</date_first_on_lot>
-    <custom_number_0>56</custom_number_0>
+    <custom_number_0>57</custom_number_0>
     <custom_label_0>80,647 mi</custom_label_0>
     <custom_label_2>$43,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -6159,7 +6159,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-30</date_first_on_lot>
-    <custom_number_0>56</custom_number_0>
+    <custom_number_0>57</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$53,434</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -6296,7 +6296,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-02</date_first_on_lot>
-    <custom_number_0>54</custom_number_0>
+    <custom_number_0>55</custom_number_0>
     <custom_label_0>17,072 mi</custom_label_0>
     <custom_label_2>$30,194</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -6445,7 +6445,7 @@
     <interior_color>Jet Black, Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-30</date_first_on_lot>
-    <custom_number_0>56</custom_number_0>
+    <custom_number_0>57</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$53,434</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -6582,7 +6582,7 @@
     <interior_color>LT Jet Black, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-02</date_first_on_lot>
-    <custom_number_0>54</custom_number_0>
+    <custom_number_0>55</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$44,604</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -6731,7 +6731,7 @@
     <interior_color>LEATHER SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-06</date_first_on_lot>
-    <custom_number_0>50</custom_number_0>
+    <custom_number_0>51</custom_number_0>
     <custom_label_0>67,065 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$15,995</custom_label_2>
@@ -6842,7 +6842,7 @@
     <interior_color>Jet Black/Adrenaline Red, Perforated leather-appointed front seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-14</date_first_on_lot>
-    <custom_number_0>42</custom_number_0>
+    <custom_number_0>43</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$49,969</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -6985,7 +6985,7 @@
     <interior_color>Medium Ash Gray, Premium Cloth seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-15</date_first_on_lot>
-    <custom_number_0>41</custom_number_0>
+    <custom_number_0>42</custom_number_0>
     <custom_label_0>36,264 mi</custom_label_0>
     <custom_label_2>$21,495</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -7125,7 +7125,7 @@
     <interior_color>JET BLACK/GRAYSTONE, PERFORATED LEATHER SEATING SURFACES</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-12</date_first_on_lot>
-    <custom_number_0>44</custom_number_0>
+    <custom_number_0>45</custom_number_0>
     <custom_label_0>71,557 mi</custom_label_0>
     <custom_label_2>$42,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -7283,7 +7283,7 @@
     <interior_color>Gray</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-25</date_first_on_lot>
-    <custom_number_0>31</custom_number_0>
+    <custom_number_0>32</custom_number_0>
     <custom_label_0>55,215 mi</custom_label_0>
     <custom_label_2>$40,194</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -7432,7 +7432,7 @@
     <interior_color>DARK GALVANIZED, PERFORATED LEATHER-APPOINTED SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-28</date_first_on_lot>
-    <custom_number_0>58</custom_number_0>
+    <custom_number_0>59</custom_number_0>
     <custom_label_0>100,809 mi</custom_label_0>
     <custom_label_3>current</custom_label_3>
     <image>
@@ -7577,7 +7577,7 @@
     <interior_color>JET BLACK/MOCHA, PERFORATED LEATHER SEATING SURFACES 1ST AND 2ND ROW</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-30</date_first_on_lot>
-    <custom_number_0>56</custom_number_0>
+    <custom_number_0>57</custom_number_0>
     <custom_label_0>100,583 mi</custom_label_0>
     <custom_label_2>$43,295</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -7738,7 +7738,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-27</date_first_on_lot>
-    <custom_number_0>29</custom_number_0>
+    <custom_number_0>30</custom_number_0>
     <custom_label_0>78,533 mi</custom_label_0>
     <custom_label_2>$28,197</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -7878,7 +7878,7 @@
     <interior_color>Gray</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-27</date_first_on_lot>
-    <custom_number_0>29</custom_number_0>
+    <custom_number_0>30</custom_number_0>
     <custom_label_0>67,174 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$18,594</custom_label_2>
@@ -8025,7 +8025,7 @@
     <interior_color></interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-27</date_first_on_lot>
-    <custom_number_0>29</custom_number_0>
+    <custom_number_0>30</custom_number_0>
     <custom_label_0>187,274 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$2,194</custom_label_2>
@@ -8115,7 +8115,7 @@
     <interior_color>JET BLACK, CLOTH SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-10-21</date_first_on_lot>
-    <custom_number_0>35</custom_number_0>
+    <custom_number_0>36</custom_number_0>
     <custom_label_0>50,509 mi</custom_label_0>
     <custom_label_2>$32,995</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -8255,7 +8255,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-11-03</date_first_on_lot>
-    <custom_number_0>22</custom_number_0>
+    <custom_number_0>23</custom_number_0>
     <custom_label_0>105,580 mi</custom_label_0>
     <custom_label_1>Under $20K</custom_label_1>
     <custom_label_2>$15,189</custom_label_2>
@@ -8402,7 +8402,7 @@
     <interior_color>JET BLACK, LEATHER-APPOINTED FRONT SEAT TRIM</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-07-03</date_first_on_lot>
-    <custom_number_0>145</custom_number_0>
+    <custom_number_0>146</custom_number_0>
     <custom_label_0>189,723 mi</custom_label_0>
     <custom_label_2>$29,895</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -8542,7 +8542,7 @@
     <interior_color>Black, Evotex seat trim</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-09-10</date_first_on_lot>
-    <custom_number_0>76</custom_number_0>
+    <custom_number_0>77</custom_number_0>
     <custom_label_0>New</custom_label_0>
     <custom_label_2>$34,028</custom_label_2>
     <custom_label_3>current</custom_label_3>
@@ -8700,7 +8700,7 @@
     <interior_color>Black</interior_color>
     <vehicle_type>car_truck</vehicle_type>
     <date_first_on_lot>2026-11-18</date_first_on_lot>
-    <custom_number_0>7</custom_number_0>
+    <custom_number_0>8</custom_number_0>
     <custom_label_0>133,933 mi</custom_label_0>
     <custom_label_1>Just Arrived</custom_label_1>
     <custom_label_2>$10,194</custom_label_2>
@@ -8782,134 +8782,6 @@
     </image>
     <image>
       <url>https://vehicle-images.carscommerce.inc/305c-110005974/4USBU53518LW93750/512f143d64701880aaf2adf435a85b96.webp</url>
-    </image>
-  </listing>
-  <listing>
-    <vehicle_id>3GCUKREC7FG224440</vehicle_id>
-    <description>139,349 miles, SILVER ICE METALLIC exterior, JET BLACK, CLOTH SEAT TRIM interior, Automatic, Engine: 5.3L, V-8, SIDI, Active Fuel Mgt</description>
-    <url>https://www.fikeschevy.com/inventory/used-2015-chevrolet-silverado-1500-lt-four-wheel-drive-crew-cab-3gcukrec7fg224440/</url>
-    <title>2015 Chevrolet Silverado 1500</title>
-    <body_style>PICKUP</body_style>
-    <price>17395 USD</price>
-    <address format="simple">
-      <component name="addr1">771 Military St N</component>
-      <component name="city">Hamilton</component>
-      <component name="region">AL</component>
-      <component name="postal_code">35570</component>
-      <component name="country">US</component>
-    </address>
-    <make>Chevrolet</make>
-    <model>Silverado 1500</model>
-    <year>2015</year>
-    <vin>3GCUKREC7FG224440</vin>
-    <availability>NOT_AVAILABLE</availability>
-    <state_of_vehicle>USED</state_of_vehicle>
-    <mileage>
-      <unit>MI</unit>
-      <value>139349</value>
-    </mileage>
-    <transmission>AUTOMATIC</transmission>
-    <drivetrain>4X4</drivetrain>
-    <exterior_color>SILVER ICE METALLIC</exterior_color>
-    <interior_color>JET BLACK, CLOTH SEAT TRIM</interior_color>
-    <vehicle_type>car_truck</vehicle_type>
-    <date_first_on_lot>2026-09-02</date_first_on_lot>
-    <custom_number_0>82</custom_number_0>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/5229827.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/0701ce5.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/19ae680.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/dada028.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/b5ea641.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/90e0880.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/7dc2268.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/45ca366.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/0a1930d.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/fd45704.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/47fb8e4.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/b4c9062.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/6f802b9.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/ea0a393.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/e402136.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/1026c5f.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/7f94f59.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/11d47af.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/a042828.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/aa057a6.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/0d1c8e8.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/d32ac96.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/9a463ee.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/c2dcb59.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/95cf960.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/39585f0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/69c1618.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/4a3c2b0.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/cb4fa9e.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/c9f8952.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/e98442b.jpeg</url>
-    </image>
-    <image>
-      <url>https://vini.gm.com/realimages/3GCUKREC7FG224440/42093ac.jpeg</url>
     </image>
   </listing>
   <listing>

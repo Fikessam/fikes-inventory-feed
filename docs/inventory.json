@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T16:25:01.536Z",
+  "generated_at": "2026-11-26T21:41:39.155Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -5012,9 +5012,8 @@
       "images": []
     }
   ],
-  "sold_tracking_count": 3,
+  "sold_tracking_count": 2,
   "sold_tracking_vins": [
-    "3GNAXKEGXTL495128",
     "KL77LHEP8TC287792",
     "3GNARHEGXVL234503"
   ]

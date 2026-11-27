@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T14:30:17.891Z",
+  "generated_at": "2026-11-27T23:32:11.662Z",
   "pixel_id": "911722818604064",
   "dealer_address": {
     "street": "771 Military St N",
@@ -8,10 +8,10 @@
     "zip": "35570",
     "country": "US"
   },
-  "total_vehicles": 79,
+  "total_vehicles": 80,
   "new_count": 28,
-  "used_count": 51,
-  "no_image_count": 14,
+  "used_count": 52,
+  "no_image_count": 15,
   "no_image_vins": [
     "3D7MX48CX6G233591",
     "2GC4KNEY3T1229837",
@@ -26,7 +26,8 @@
     "1GCPSBEE1V1120321",
     "1GNERGKS3VJ203296",
     "1GNS6PKD6VR185231",
-    "1G6DJ5RKXP0106274"
+    "1G6DJ5RKXP0106274",
+    "1GCCS198248132772"
   ],
   "no_days_in_stock_count": 0,
   "no_days_in_stock_vins": [],
@@ -4943,14 +4944,82 @@
       },
       "price": 24189,
       "images": [
-        "https://vehicle-images.carscommerce.inc/42fd-110005974/58ABZ1B19KU047229/thumbnails/large/67d8bf3c9f1100bc024ce70a1d84364f.webp",
-        "https://vehicle-images.carscommerce.inc/42fd-110005974/58ABZ1B19KU047229/67d8bf3c9f1100bc024ce70a1d84364f.webp"
+        "https://vehicle-images.carscommerce.inc/9856-110005974/58ABZ1B19KU047229/thumbnails/large/454a76aa3e4e07256089fa9bfe07c7a9.webp",
+        "https://vehicle-images.carscommerce.inc/9856-110005974/58ABZ1B19KU047229/454a76aa3e4e07256089fa9bfe07c7a9.webp",
+        "https://vehicle-images.carscommerce.inc/18a5-110005974/58ABZ1B19KU047229/f7408a9ae57dc840de9e9232612c2f8c.webp",
+        "https://vehicle-images.carscommerce.inc/36ec-110005974/58ABZ1B19KU047229/9ed3917084d2b79e9ef73b4ca0f515e6.webp",
+        "https://vehicle-images.carscommerce.inc/62e5-110005974/58ABZ1B19KU047229/95900b9ed35a1c7a15f51ba3d7d2782b.webp",
+        "https://vehicle-images.carscommerce.inc/55b9-110005974/58ABZ1B19KU047229/f34bd60e3c497af314dce652d57b1e96.webp",
+        "https://vehicle-images.carscommerce.inc/af3c-110005974/58ABZ1B19KU047229/b1846240ce3b61eae52f016c0de2c085.webp",
+        "https://vehicle-images.carscommerce.inc/199c-110005974/58ABZ1B19KU047229/2aea82b39610ca5ec494f0c52ce9e6b9.webp",
+        "https://vehicle-images.carscommerce.inc/64bb-110005974/58ABZ1B19KU047229/ef1c63764cc09d75e8c4db79b2d98847.webp",
+        "https://vehicle-images.carscommerce.inc/e2b6-110005974/58ABZ1B19KU047229/10587dde4e6a8a44a3e65c5b62096eee.webp",
+        "https://vehicle-images.carscommerce.inc/779f-110005974/58ABZ1B19KU047229/49a9e9422ab90a470182fc4670ad8ba3.webp",
+        "https://vehicle-images.carscommerce.inc/613b-110005974/58ABZ1B19KU047229/8e48d799e3449460e6dfae202ead938b.webp",
+        "https://vehicle-images.carscommerce.inc/fa4a-110005974/58ABZ1B19KU047229/fffefaf26f7feed65421f81582a9091c.webp",
+        "https://vehicle-images.carscommerce.inc/55a1-110005974/58ABZ1B19KU047229/37283e2d02d284c437f669f9ad6302f0.webp",
+        "https://vehicle-images.carscommerce.inc/f37e-110005974/58ABZ1B19KU047229/ca2d494b0040af39809b6465acdf744d.webp",
+        "https://vehicle-images.carscommerce.inc/34e3-110005974/58ABZ1B19KU047229/3c79c7713fe65ebb9141b4aa01ece63f.webp",
+        "https://vehicle-images.carscommerce.inc/c262-110005974/58ABZ1B19KU047229/babb8e57069ee437cec0a9a1e461bca7.webp",
+        "https://vehicle-images.carscommerce.inc/3105-110005974/58ABZ1B19KU047229/a9b3857429191ce969791a1520bd4717.webp",
+        "https://vehicle-images.carscommerce.inc/e1d3-110005974/58ABZ1B19KU047229/65de3bc964d35edc22261ea963d546a6.webp",
+        "https://vehicle-images.carscommerce.inc/136b-110005974/58ABZ1B19KU047229/82e3593949d8a1b39315013941b2bf51.webp",
+        "https://vehicle-images.carscommerce.inc/6cab-110005974/58ABZ1B19KU047229/e70247081777ec3263840be1f9579bea.webp",
+        "https://vehicle-images.carscommerce.inc/3bc2-110005974/58ABZ1B19KU047229/1aee5337d44a52f820334d7ba1c59f68.webp",
+        "https://vehicle-images.carscommerce.inc/ceb3-110005974/58ABZ1B19KU047229/192c3510a0691eea151bde17a6ead766.webp",
+        "https://vehicle-images.carscommerce.inc/7387-110005974/58ABZ1B19KU047229/e2ae9ac899911c97011b34b9b7197ddc.webp",
+        "https://vehicle-images.carscommerce.inc/c0f5-110005974/58ABZ1B19KU047229/e263bd256685ad5a7151ba08845d60bb.webp",
+        "https://vehicle-images.carscommerce.inc/dbfa-110005974/58ABZ1B19KU047229/0367439d6074ca26bede220f6e852f91.webp",
+        "https://vehicle-images.carscommerce.inc/15b1-110005974/58ABZ1B19KU047229/d13dcc55123ba26589e76224d3e38aaa.webp",
+        "https://vehicle-images.carscommerce.inc/67a9-110005974/58ABZ1B19KU047229/ed9223e753e8d48e2f5b8fb7d229fe3f.webp",
+        "https://vehicle-images.carscommerce.inc/e779-110005974/58ABZ1B19KU047229/4bfa22aaff9964e91c3b1128ff31d97d.webp",
+        "https://vehicle-images.carscommerce.inc/c8c7-110005974/58ABZ1B19KU047229/82c9da8330058f19fe4362c9b254bf18.webp",
+        "https://vehicle-images.carscommerce.inc/4fe3-110005974/58ABZ1B19KU047229/6641bfd87eeb09dd3f9994980d1ca028.webp",
+        "https://vehicle-images.carscommerce.inc/80cf-110005974/58ABZ1B19KU047229/3c1fed1087643fe2ebd875255873eea2.webp",
+        "https://vehicle-images.carscommerce.inc/ce9f-110005974/58ABZ1B19KU047229/97cc760415e98e27fa64a12ee0820fcf.webp",
+        "https://vehicle-images.carscommerce.inc/838a-110005974/58ABZ1B19KU047229/22aa90a36d6e5c5143c0c857e2662d63.webp",
+        "https://vehicle-images.carscommerce.inc/7ec3-110005974/58ABZ1B19KU047229/a62c5b9dd8e271db769b978d4415f84d.webp",
+        "https://vehicle-images.carscommerce.inc/9754-110005974/58ABZ1B19KU047229/6c48905789c319505e7eee517a2fec4f.webp",
+        "https://vehicle-images.carscommerce.inc/8800-110005974/58ABZ1B19KU047229/e292814fc362cb479c1eb694b47b51f5.webp",
+        "https://vehicle-images.carscommerce.inc/40fc-110005974/58ABZ1B19KU047229/adcec6addc4618211b2032df706d07fe.webp"
       ]
+    },
+    {
+      "vin": "1GCCS198248132772",
+      "condition": "used",
+      "year": "2004",
+      "make": "Chevrolet",
+      "model": "Colorado",
+      "trim": "Z85 Rear Wheel Drive Extended Cab",
+      "title": "Pre-Owned 2004 Chevrolet Colorado Z85 Rear Wheel Drive Extended Cab",
+      "url": "https://www.fikeschevy.com/inventory/used-2004-chevrolet-colorado-z85-rear-wheel-drive-extended-cab-1gccs198248132772/",
+      "exterior_color": "Dark Green Metallic",
+      "interior_color": "SEAT TRIM, BASE CLOTH",
+      "drivetrain": "Rear Wheel Drive",
+      "transmission": "Automatic",
+      "engine": "GAS, 4 CYL, 2.8L, MFI, L4, ALUM, DOHC, GM",
+      "mileage": null,
+      "fuel_type": null,
+      "body_style": "Extended Cab",
+      "stock_number": "25050",
+      "days_in_stock": 11,
+      "date_first_on_lot": "2026-11-16",
+      "pricing": {
+        "msrp": null,
+        "sales_event_discount": null,
+        "net_price": null,
+        "net_price_with_dealer_fees": 32194,
+        "fikes_price": null,
+        "price_source": {
+          "netWithFees": "dom"
+        }
+      },
+      "price": null,
+      "images": []
     }
   ],
-  "sold_tracking_count": 4,
+  "sold_tracking_count": 3,
   "sold_tracking_vins": [
-    "3GNARHEGXVL234503",
     "2FAFP74W0XX197637",
     "5FNYF5H26NB032447",
     "1N6ED1EJXNN691501"
